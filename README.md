@@ -1,12 +1,13 @@
 # OHD Internal Rewrite
 
-![Menu](https://i.imgur.com/pQK0fDg.png)
-![Menu2](https://i.imgur.com/YrYgKaz.png)
-![Menu3](https://i.imgur.com/r56lyfE.png)
+![Menu](https://i.imgur.com/9zJbEfN.png)
+![Menu2](https://i.imgur.com/uZQHeYt.png)
+![Menu3](https://i.imgur.com/udxspmO.png)
+![Menu4](https://i.imgur.com/DU2b3VI.png)
 
 ## Description
 
-Rewritten from the bottom up, except for UE4 Canvas Gui of course.
+Rewritten from the bottom up, except for ImGui & some of the aimbot functions.
 
 ## Getting Started
 
@@ -41,5 +42,4 @@ None, please just credit me a lil if you use this <3
 
 ## Acknowledgments
 
-* [ue4-canvas-gui](https://github.com/MaddyOff/ue4-canvas-gui)
 * [CheatGear SDK Generator](https://discord.gg/RgJhJHprQu)
