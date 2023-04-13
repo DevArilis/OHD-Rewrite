@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -40,7 +40,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FD440
+	 * 		RVA    -> 0x00901660
 	 * 		Name   -> Function EditableMesh.EditableMesh.WeldVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -67,7 +67,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FD310
+	 * 		RVA    -> 0x00901530
 	 * 		Name   -> Function EditableMesh.EditableMesh.TryToRemoveVertex
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -97,7 +97,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FD1E0
+	 * 		RVA    -> 0x00901400
 	 * 		Name   -> Function EditableMesh.EditableMesh.TryToRemovePolygonEdge
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -127,7 +127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FD0C0
+	 * 		RVA    -> 0x009012E0
 	 * 		Name   -> Function EditableMesh.EditableMesh.TriangulatePolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -154,7 +154,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FCF60
+	 * 		RVA    -> 0x00901180
 	 * 		Name   -> Function EditableMesh.EditableMesh.TessellatePolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -183,7 +183,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FCEA0
+	 * 		RVA    -> 0x009010C0
 	 * 		Name   -> Function EditableMesh.EditableMesh.StartModification
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -208,7 +208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FCD60
+	 * 		RVA    -> 0x00900F80
 	 * 		Name   -> Function EditableMesh.EditableMesh.SplitPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -235,7 +235,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FCB90
+	 * 		RVA    -> 0x00900DB0
 	 * 		Name   -> Function EditableMesh.EditableMesh.SplitPolygonalMesh
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -268,7 +268,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FCA30
+	 * 		RVA    -> 0x00900C50
 	 * 		Name   -> Function EditableMesh.EditableMesh.SplitEdge
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -297,7 +297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC910
+	 * 		RVA    -> 0x00900B30
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetVerticesCornerSharpness
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -322,7 +322,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC840
+	 * 		RVA    -> 0x00900A60
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetVerticesAttributes
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -345,7 +345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC770
+	 * 		RVA    -> 0x00900990
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetVertexInstancesAttributes
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -368,7 +368,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC6F0
+	 * 		RVA    -> 0x00900910
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetTextureCoordinateCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -391,7 +391,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC670
+	 * 		RVA    -> 0x00900890
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetSubdivisionCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -414,7 +414,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC4E0
+	 * 		RVA    -> 0x00900700
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetPolygonsVertexAttributes
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -437,7 +437,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC3E0
+	 * 		RVA    -> 0x00900600
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetEdgesHardnessAutomatically
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -462,7 +462,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC2C0
+	 * 		RVA    -> 0x009004E0
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetEdgesHardness
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -487,7 +487,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC1A0
+	 * 		RVA    -> 0x009003C0
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetEdgesCreaseSharpness
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -512,7 +512,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC0D0
+	 * 		RVA    -> 0x009002F0
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetEdgesAttributes
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -535,7 +535,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FC050
+	 * 		RVA    -> 0x00900270
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetAllowUndo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -558,7 +558,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FBFC0
+	 * 		RVA    -> 0x009001E0
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetAllowSpatialDatabase
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -581,7 +581,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FBF40
+	 * 		RVA    -> 0x00900160
 	 * 		Name   -> Function EditableMesh.EditableMesh.SetAllowCompact
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -604,7 +604,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FBE40
+	 * 		RVA    -> 0x00900060
 	 * 		Name   -> Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsPotentiallyIntersectingPlane
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -631,7 +631,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FBCF0
+	 * 		RVA    -> 0x008FFF10
 	 * 		Name   -> Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsPotentiallyIntersectingLineSegment
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -660,7 +660,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FBBD0
+	 * 		RVA    -> 0x008FFDF0
 	 * 		Name   -> Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsInVolume
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -687,7 +687,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FBBA0
+	 * 		RVA    -> 0x008FFDC0
 	 * 		Name   -> Function EditableMesh.EditableMesh.RevertInstance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -709,7 +709,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B70
+	 * 		RVA    -> 0x006C7310
 	 * 		Name   -> Function EditableMesh.EditableMesh.Revert
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -729,7 +729,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FBB80
+	 * 		RVA    -> 0x008FFDA0
 	 * 		Name   -> Function EditableMesh.EditableMesh.RebuildRenderMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -749,7 +749,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FBAD0
+	 * 		RVA    -> 0x008FFCF0
 	 * 		Name   -> Function EditableMesh.EditableMesh.QuadrangulateMesh
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -774,7 +774,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B70
+	 * 		RVA    -> 0x006C7310
 	 * 		Name   -> Function EditableMesh.EditableMesh.PropagateInstanceChanges
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -794,7 +794,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FBA20
+	 * 		RVA    -> 0x008FFC40
 	 * 		Name   -> Function EditableMesh.EditableMesh.MoveVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -817,7 +817,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB9A0
+	 * 		RVA    -> 0x008FFBC0
 	 * 		Name   -> Function EditableMesh.EditableMesh.MakeVertexID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -842,7 +842,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB9A0
+	 * 		RVA    -> 0x008FFBC0
 	 * 		Name   -> Function EditableMesh.EditableMesh.MakePolygonID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -867,7 +867,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB9A0
+	 * 		RVA    -> 0x008FFBC0
 	 * 		Name   -> Function EditableMesh.EditableMesh.MakePolygonGroupID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -892,7 +892,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB9A0
+	 * 		RVA    -> 0x008FFBC0
 	 * 		Name   -> Function EditableMesh.EditableMesh.MakeEdgeID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -917,7 +917,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB910
+	 * 		RVA    -> 0x008FFB30
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsValidVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -942,7 +942,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB880
+	 * 		RVA    -> 0x008FFAA0
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsValidPolygonGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -967,7 +967,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB7F0
+	 * 		RVA    -> 0x008FFA10
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsValidPolygon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -992,7 +992,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB760
+	 * 		RVA    -> 0x008FF980
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsValidEdge
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1017,7 +1017,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB740
+	 * 		RVA    -> 0x008FF960
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsUndoAllowed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1039,7 +1039,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB720
+	 * 		RVA    -> 0x008FF940
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsSpatialDatabaseAllowed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1061,7 +1061,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB6F0
+	 * 		RVA    -> 0x008FF910
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsPreviewingSubdivisions
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1083,7 +1083,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB660
+	 * 		RVA    -> 0x008FF880
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsOrphanedVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1108,7 +1108,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB640
+	 * 		RVA    -> 0x008FF860
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsCompactAllowed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1130,7 +1130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB610
+	 * 		RVA    -> 0x008FF830
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsCommittedAsInstance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1152,7 +1152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB5E0
+	 * 		RVA    -> 0x008FF800
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsCommitted
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1174,7 +1174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF7B0
+	 * 		RVA    -> 0x00703840
 	 * 		Name   -> Function EditableMesh.EditableMesh.IsBeingModified
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1196,7 +1196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB5C0
+	 * 		RVA    -> 0x008FF7E0
 	 * 		Name   -> Function EditableMesh.EditableMesh.InvalidVertexID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1218,7 +1218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB5A0
+	 * 		RVA    -> 0x008FF7C0
 	 * 		Name   -> Function EditableMesh.EditableMesh.InvalidPolygonID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1240,7 +1240,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB580
+	 * 		RVA    -> 0x008FF7A0
 	 * 		Name   -> Function EditableMesh.EditableMesh.InvalidPolygonGroupID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1262,7 +1262,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB560
+	 * 		RVA    -> 0x008FF780
 	 * 		Name   -> Function EditableMesh.EditableMesh.InvalidEdgeID
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -1284,7 +1284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB330
+	 * 		RVA    -> 0x008FF550
 	 * 		Name   -> Function EditableMesh.EditableMesh.InsetPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1320,7 +1320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB1D0
+	 * 		RVA    -> 0x008FF3F0
 	 * 		Name   -> Function EditableMesh.EditableMesh.InsertEdgeLoop
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1349,7 +1349,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB1B0
+	 * 		RVA    -> 0x008FF3D0
 	 * 		Name   -> Function EditableMesh.EditableMesh.InitializeAdapters
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1369,7 +1369,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FB080
+	 * 		RVA    -> 0x008FF2A0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexPairEdge
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1400,7 +1400,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FAFE0
+	 * 		RVA    -> 0x008FF200
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexInstanceVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1425,7 +1425,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FAFB0
+	 * 		RVA    -> 0x008FF1D0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexInstanceCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1447,7 +1447,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FAEC0
+	 * 		RVA    -> 0x008FF0E0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1474,7 +1474,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FAE30
+	 * 		RVA    -> 0x008FF050
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygonCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1499,7 +1499,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FAD60
+	 * 		RVA    -> 0x008FEF80
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1526,7 +1526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FAD30
+	 * 		RVA    -> 0x008FEF50
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1548,7 +1548,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FAC40
+	 * 		RVA    -> 0x008FEE60
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexConnectedPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1575,7 +1575,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FAB50
+	 * 		RVA    -> 0x008FED70
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexConnectedEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1602,7 +1602,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FAAC0
+	 * 		RVA    -> 0x008FECE0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexConnectedEdgeCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1627,7 +1627,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA9F0
+	 * 		RVA    -> 0x008FEC10
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexConnectedEdge
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1654,7 +1654,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA900
+	 * 		RVA    -> 0x008FEB20
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetVertexAdjacentVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1681,7 +1681,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA8D0
+	 * 		RVA    -> 0x008FEAF0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetTextureCoordinateCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1703,7 +1703,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA890
+	 * 		RVA    -> 0x008FEAB0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetSubdivisionLimitData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1725,7 +1725,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA860
+	 * 		RVA    -> 0x008FEA80
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetSubdivisionCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1747,7 +1747,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA7D0
+	 * 		RVA    -> 0x008FE9F0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonTriangulatedTriangleCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1772,7 +1772,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA700
+	 * 		RVA    -> 0x008FE920
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonTriangulatedTriangle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1799,7 +1799,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA610
+	 * 		RVA    -> 0x008FE830
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1826,7 +1826,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA520
+	 * 		RVA    -> 0x008FE740
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexInstances
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1853,7 +1853,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA450
+	 * 		RVA    -> 0x008FE670
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexInstance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1880,7 +1880,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA200
+	 * 		RVA    -> 0x008FE420
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1905,7 +1905,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA380
+	 * 		RVA    -> 0x008FE5A0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1932,7 +1932,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA290
+	 * 		RVA    -> 0x008FE4B0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1959,7 +1959,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA200
+	 * 		RVA    -> 0x008FE420
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterEdgeCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1984,7 +1984,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA0E0
+	 * 		RVA    -> 0x008FE300
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonPerimeterEdge
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2015,7 +2015,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008FA010
+	 * 		RVA    -> 0x008FE230
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonInGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2042,7 +2042,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9FE0
+	 * 		RVA    -> 0x008FE200
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonGroupCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2064,7 +2064,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9F50
+	 * 		RVA    -> 0x008FE170
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonCountInGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2089,7 +2089,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9F20
+	 * 		RVA    -> 0x008FE140
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2111,7 +2111,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9E30
+	 * 		RVA    -> 0x008FE050
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetPolygonAdjacentPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2138,7 +2138,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9D90
+	 * 		RVA    -> 0x008FDFB0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetGroupForPolygon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2163,7 +2163,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9D50
+	 * 		RVA    -> 0x008FDF70
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetFirstValidPolygonGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2185,7 +2185,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9C20
+	 * 		RVA    -> 0x008FDE40
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetEdgeVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2215,7 +2215,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9B50
+	 * 		RVA    -> 0x008FDD70
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetEdgeVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2242,7 +2242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9A80
+	 * 		RVA    -> 0x008FDCA0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetEdgeThatConnectsVertices
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2269,7 +2269,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9990
+	 * 		RVA    -> 0x008FDBB0
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetEdgeLoopElements
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2296,7 +2296,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9960
+	 * 		RVA    -> 0x008FDB80
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetEdgeCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2318,7 +2318,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9870
+	 * 		RVA    -> 0x008FDA90
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetEdgeConnectedPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2345,7 +2345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F97E0
+	 * 		RVA    -> 0x008FDA00
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetEdgeConnectedPolygonCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2370,7 +2370,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9710
+	 * 		RVA    -> 0x008FD930
 	 * 		Name   -> Function EditableMesh.EditableMesh.GetEdgeConnectedPolygon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2397,7 +2397,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9660
+	 * 		RVA    -> 0x008FD880
 	 * 		Name   -> Function EditableMesh.EditableMesh.GeneratePolygonTangentsAndNormals
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2420,7 +2420,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F95B0
+	 * 		RVA    -> 0x008FD7D0
 	 * 		Name   -> Function EditableMesh.EditableMesh.FlipPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2443,7 +2443,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F94E0
+	 * 		RVA    -> 0x008FD700
 	 * 		Name   -> Function EditableMesh.EditableMesh.FindPolygonPerimeterVertexNumberForVertex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2470,7 +2470,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F93D0
+	 * 		RVA    -> 0x008FD5F0
 	 * 		Name   -> Function EditableMesh.EditableMesh.FindPolygonPerimeterEdgeNumberForVertices
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2499,7 +2499,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F91B0
+	 * 		RVA    -> 0x008FD3D0
 	 * 		Name   -> Function EditableMesh.EditableMesh.FindPolygonLoop
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2535,7 +2535,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F9000
+	 * 		RVA    -> 0x008FD220
 	 * 		Name   -> Function EditableMesh.EditableMesh.ExtrudePolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2566,7 +2566,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F8E60
+	 * 		RVA    -> 0x008FD080
 	 * 		Name   -> Function EditableMesh.EditableMesh.ExtendVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2597,7 +2597,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F8D00
+	 * 		RVA    -> 0x008FCF20
 	 * 		Name   -> Function EditableMesh.EditableMesh.ExtendEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2626,7 +2626,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F8C70
+	 * 		RVA    -> 0x008FCE90
 	 * 		Name   -> Function EditableMesh.EditableMesh.EndModification
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2649,7 +2649,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F8B70
+	 * 		RVA    -> 0x008FCD90
 	 * 		Name   -> Function EditableMesh.EditableMesh.DeleteVertexInstances
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2674,7 +2674,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F89C0
+	 * 		RVA    -> 0x008FCBE0
 	 * 		Name   -> Function EditableMesh.EditableMesh.DeleteVertexAndConnectedEdgesAndPolygons
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2705,7 +2705,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F87D0
+	 * 		RVA    -> 0x008FC9F0
 	 * 		Name   -> Function EditableMesh.EditableMesh.DeletePolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2736,7 +2736,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F8720
+	 * 		RVA    -> 0x008FC940
 	 * 		Name   -> Function EditableMesh.EditableMesh.DeletePolygonGroups
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2759,7 +2759,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F8670
+	 * 		RVA    -> 0x008FC890
 	 * 		Name   -> Function EditableMesh.EditableMesh.DeleteOrphanVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2782,7 +2782,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F8570
+	 * 		RVA    -> 0x008FC790
 	 * 		Name   -> Function EditableMesh.EditableMesh.DeleteEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2807,7 +2807,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F83C0
+	 * 		RVA    -> 0x008FC5E0
 	 * 		Name   -> Function EditableMesh.EditableMesh.DeleteEdgeAndConnectedPolygons
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2838,7 +2838,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F8280
+	 * 		RVA    -> 0x008FC4A0
 	 * 		Name   -> Function EditableMesh.EditableMesh.CreateVertices
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2865,7 +2865,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F8140
+	 * 		RVA    -> 0x008FC360
 	 * 		Name   -> Function EditableMesh.EditableMesh.CreateVertexInstances
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2892,7 +2892,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F7F70
+	 * 		RVA    -> 0x008FC190
 	 * 		Name   -> Function EditableMesh.EditableMesh.CreatePolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2922,7 +2922,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F7E30
+	 * 		RVA    -> 0x008FC050
 	 * 		Name   -> Function EditableMesh.EditableMesh.CreatePolygonGroups
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2949,7 +2949,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F7D40
+	 * 		RVA    -> 0x008FBF60
 	 * 		Name   -> Function EditableMesh.EditableMesh.CreateMissingPolygonPerimeterEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2976,7 +2976,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F7C60
+	 * 		RVA    -> 0x008FBE80
 	 * 		Name   -> Function EditableMesh.EditableMesh.CreateEmptyVertexRange
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3003,7 +3003,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F7B20
+	 * 		RVA    -> 0x008FBD40
 	 * 		Name   -> Function EditableMesh.EditableMesh.CreateEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3030,7 +3030,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F7A00
+	 * 		RVA    -> 0x008FBC20
 	 * 		Name   -> Function EditableMesh.EditableMesh.ComputePolygonsSharedEdges
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3057,7 +3057,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F7960
+	 * 		RVA    -> 0x008FBB80
 	 * 		Name   -> Function EditableMesh.EditableMesh.ComputePolygonPlane
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3082,7 +3082,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F78C0
+	 * 		RVA    -> 0x008FBAE0
 	 * 		Name   -> Function EditableMesh.EditableMesh.ComputePolygonNormal
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3107,7 +3107,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F7820
+	 * 		RVA    -> 0x008FBA40
 	 * 		Name   -> Function EditableMesh.EditableMesh.ComputePolygonCenter
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3132,7 +3132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F77D0
+	 * 		RVA    -> 0x008FB9F0
 	 * 		Name   -> Function EditableMesh.EditableMesh.ComputeBoundingBoxAndSphere
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3154,7 +3154,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F7780
+	 * 		RVA    -> 0x008FB9A0
 	 * 		Name   -> Function EditableMesh.EditableMesh.ComputeBoundingBox
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3176,7 +3176,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F76F0
+	 * 		RVA    -> 0x008FB910
 	 * 		Name   -> Function EditableMesh.EditableMesh.CommitInstance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3201,7 +3201,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F76D0
+	 * 		RVA    -> 0x008FB8F0
 	 * 		Name   -> Function EditableMesh.EditableMesh.Commit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3221,7 +3221,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F75B0
+	 * 		RVA    -> 0x008FB7D0
 	 * 		Name   -> Function EditableMesh.EditableMesh.ChangePolygonsVertexInstances
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3244,7 +3244,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F73D0
+	 * 		RVA    -> 0x008FB5F0
 	 * 		Name   -> Function EditableMesh.EditableMesh.BevelPolygons
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3278,7 +3278,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F72D0
+	 * 		RVA    -> 0x008FB4F0
 	 * 		Name   -> Function EditableMesh.EditableMesh.AssignPolygonsToPolygonGroups
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3303,7 +3303,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008F72A0
+	 * 		RVA    -> 0x008FB4C0
 	 * 		Name   -> Function EditableMesh.EditableMesh.AnyChangesToUndo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3339,7 +3339,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x009008E0
+	 * 		RVA    -> 0x00904B00
 	 * 		Name   -> Function EditableMesh.EditableMeshFactory.MakeEditableMesh
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:

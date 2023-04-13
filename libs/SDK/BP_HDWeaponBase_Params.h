@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -42,6 +42,15 @@ namespace CG
 	};
 
 	/**
+	 * Function BP_HDWeaponBase.BP_HDWeaponBase_C.SetAmmoPercent
+	 */
+	struct ABP_HDWeaponBase_C_SetAmmoPercent_Params
+	{
+	public:
+		class ADFBaseAmmoClip*                                     FromAmmoClip;                                            // 0x0000(0x0008)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	};
+
+	/**
 	 * Function BP_HDWeaponBase.BP_HDWeaponBase_C.OnRep_AmmoPercent
 	 */
 	struct ABP_HDWeaponBase_C_OnRep_AmmoPercent_Params
@@ -53,7 +62,7 @@ namespace CG
 	struct ABP_HDWeaponBase_C_FindNextMagazine_Params
 	{
 	public:
-		class ADFBaseItem*                                         NextClip;                                                // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+		class ADFBaseAmmoClip*                                     NextClip;                                                // 0x0000(0x0008)  (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	};
 
 	/**
@@ -101,7 +110,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bFPP;                                                    // 0x0000(0x0001)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-		unsigned char                                              UnknownData_5JAN[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
+		unsigned char                                              UnknownData_4OZ7[0x7];                                   // 0x0001(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY) ()
 		TMap<class FName, class UAnimSequenceBase*>                ReturnValue;                                             // 0x0008(0x0050)  (Parm, OutParm, ReturnParm)
 	};
 
@@ -157,13 +166,16 @@ namespace CG
 	{	};
 
 	/**
-	 * Function BP_HDWeaponBase.BP_HDWeaponBase_C.ServerSetAmmoPercent
+	 * Function BP_HDWeaponBase.BP_HDWeaponBase_C.ReceiveReloadFinished
 	 */
-	struct ABP_HDWeaponBase_C_ServerSetAmmoPercent_Params
-	{
-	public:
-		float                                                      AmmoPercent;                                             // 0x0000(0x0004)  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	};
+	struct ABP_HDWeaponBase_C_ReceiveReloadFinished_Params
+	{	};
+
+	/**
+	 * Function BP_HDWeaponBase.BP_HDWeaponBase_C.ServerResetAmmoPercent
+	 */
+	struct ABP_HDWeaponBase_C_ServerResetAmmoPercent_Params
+	{	};
 
 	/**
 	 * Function BP_HDWeaponBase.BP_HDWeaponBase_C.ExecuteUbergraph_BP_HDWeaponBase

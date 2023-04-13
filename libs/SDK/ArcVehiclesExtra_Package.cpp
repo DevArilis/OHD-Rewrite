@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBF30
+	 * 		RVA    -> 0x006CF9F0
 	 * 		Name   -> Function ArcVehiclesExtra.ArcVehicleSpawner.SpawnVehicleTimerEnd
 	 * 		Flags  -> (Native, Public)
 	 */
@@ -46,7 +46,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00803070
+	 * 		RVA    -> 0x00807400
 	 * 		Name   -> Function ArcVehiclesExtra.ArcVehicleSpawner.OnVehicleDestroyed
 	 * 		Flags  -> (Native, Public)
 	 * Parameters:

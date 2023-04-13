@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -42,7 +42,7 @@ namespace CG
 	{
 	public:
 		struct FVector                                             SuspensionDirection;                                     // 0x00F0(0x000C) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_T95P[0x4];                                   // 0x00FC(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_9JIU[0x4];                                   // 0x00FC(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -83,7 +83,7 @@ namespace CG
 		TArray<float>                                              WheelAngles;                                             // 0x0398(0x0010) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      LeftTrackSpeed;                                          // 0x03A8(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		float                                                      RightTrackSpeed;                                         // 0x03AC(0x0004) BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_1JLI[0x8];                                   // 0x03B0(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_XHDI[0x8];                                   // 0x03B0(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void SetRightTrackThrottleInput(float InThrottle);

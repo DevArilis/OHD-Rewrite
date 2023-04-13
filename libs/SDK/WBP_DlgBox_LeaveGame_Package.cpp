@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_DlgBox_LeaveGame.WBP_DlgBox_LeaveGame_C.OnMouseButtonDown
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -38,7 +38,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_DlgBox_LeaveGame.WBP_DlgBox_LeaveGame_C.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -57,7 +57,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_DlgBox_LeaveGame.WBP_DlgBox_LeaveGame_C.BndEvt__YesBtn_K2Node_ComponentBoundEvent_2_ButtonClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -79,7 +79,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_DlgBox_LeaveGame.WBP_DlgBox_LeaveGame_C.BndEvt__NoBtn_K2Node_ComponentBoundEvent_3_ButtonClicked__DelegateSignature
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -101,7 +101,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_DlgBox_LeaveGame.WBP_DlgBox_LeaveGame_C.DummyInput
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -120,7 +120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_DlgBox_LeaveGame.WBP_DlgBox_LeaveGame_C.ExecuteUbergraph_WBP_DlgBox_LeaveGame
 	 * 		Flags  -> (Final)
 	 * Parameters:

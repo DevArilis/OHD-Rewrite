@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -22,7 +22,7 @@ namespace CG
 	{
 	public:
 		bool                                                       bUseStartupScreen : 1;                                   // 0x0038(0x0001) BIT_FIELD Edit, BlueprintVisible, BlueprintReadOnly, Config, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AWQ4[0x7];                                   // 0x0039(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_UUIT[0x7];                                   // 0x0039(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FLoadingScreenDescription                           StartupScreen;                                           // 0x0040(0x0038) Edit, BlueprintVisible, BlueprintReadOnly, Config, NativeAccessSpecifierPublic
 		struct FLoadingScreenDescription                           DefaultScreen;                                           // 0x0078(0x0038) Edit, BlueprintVisible, BlueprintReadOnly, Config, NativeAccessSpecifierPublic
 

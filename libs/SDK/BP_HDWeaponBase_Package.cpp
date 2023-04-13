@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.ShouldUseMirroredLowerBodyLoco
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.GetLocoTPPAnimSet
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
 	 * Parameters:
@@ -60,7 +60,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.GetLocoAnimSet
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
 	 * Parameters:
@@ -84,7 +84,29 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
+	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.SetAmmoPercent
+	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
+	 * Parameters:
+	 * 		class ADFBaseAmmoClip*                             FromAmmoClip                                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 */
+	void ABP_HDWeaponBase_C::SetAmmoPercent(class ADFBaseAmmoClip* FromAmmoClip)
+	{
+		static UFunction* fn = nullptr;
+		if (!fn)
+			fn = UObject::FindObject<UFunction>("Function BP_HDWeaponBase.BP_HDWeaponBase_C.SetAmmoPercent");
+		
+		ABP_HDWeaponBase_C_SetAmmoPercent_Params params {};
+		params.FromAmmoClip = FromAmmoClip;
+		
+		auto flags = fn->FunctionFlags;
+		UObject::ProcessEvent(fn, &params);
+		fn->FunctionFlags = flags;
+	}
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.OnRep_AmmoPercent
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -103,13 +125,13 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.FindNextMagazine
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
-	 * 		class ADFBaseItem*                                 NextClip                                                   (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 * 		class ADFBaseAmmoClip*                             NextClip                                                   (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 	 */
-	void ABP_HDWeaponBase_C::FindNextMagazine(class ADFBaseItem** NextClip)
+	void ABP_HDWeaponBase_C::FindNextMagazine(class ADFBaseAmmoClip** NextClip)
 	{
 		static UFunction* fn = nullptr;
 		if (!fn)
@@ -127,7 +149,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.CanFire
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */
@@ -148,7 +170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.InternalSetVisibilityForAttachment
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -172,7 +194,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.UpdateAttachmentVisibility
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -194,7 +216,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.RemoveLegacyLocomotionAnims
 	 * 		Flags  -> (Event, Protected, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -218,7 +240,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.GetLegacyLocomotionAnims
 	 * 		Flags  -> (Event, Protected, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, Const)
 	 * Parameters:
@@ -242,7 +264,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.UserConstructionScript
 	 * 		Flags  -> (Event, Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -261,7 +283,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.CycleSight
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -280,7 +302,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.SetCurrentSight
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -302,7 +324,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.ReceiveFire
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -321,7 +343,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.ReceiveVisibilityChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -343,7 +365,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.ReceiveOnEquip
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -365,7 +387,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.ResetBullets
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -384,20 +406,17 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
-	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.ServerSetAmmoPercent
-	 * 		Flags  -> (Net, NetServer, BlueprintCallable, BlueprintEvent)
-	 * Parameters:
-	 * 		float                                              AmmoPercent                                                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	 * 		RVA    -> 0x00EC54E0
+	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.ReceiveReloadFinished
+	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
-	void ABP_HDWeaponBase_C::ServerSetAmmoPercent(float AmmoPercent)
+	void ABP_HDWeaponBase_C::ReceiveReloadFinished()
 	{
 		static UFunction* fn = nullptr;
 		if (!fn)
-			fn = UObject::FindObject<UFunction>("Function BP_HDWeaponBase.BP_HDWeaponBase_C.ServerSetAmmoPercent");
+			fn = UObject::FindObject<UFunction>("Function BP_HDWeaponBase.BP_HDWeaponBase_C.ReceiveReloadFinished");
 		
-		ABP_HDWeaponBase_C_ServerSetAmmoPercent_Params params {};
-		params.AmmoPercent = AmmoPercent;
+		ABP_HDWeaponBase_C_ReceiveReloadFinished_Params params {};
 		
 		auto flags = fn->FunctionFlags;
 		UObject::ProcessEvent(fn, &params);
@@ -406,7 +425,26 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
+	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.ServerResetAmmoPercent
+	 * 		Flags  -> (Net, NetServer, BlueprintCallable, BlueprintEvent)
+	 */
+	void ABP_HDWeaponBase_C::ServerResetAmmoPercent()
+	{
+		static UFunction* fn = nullptr;
+		if (!fn)
+			fn = UObject::FindObject<UFunction>("Function BP_HDWeaponBase.BP_HDWeaponBase_C.ServerResetAmmoPercent");
+		
+		ABP_HDWeaponBase_C_ServerResetAmmoPercent_Params params {};
+		
+		auto flags = fn->FunctionFlags;
+		UObject::ProcessEvent(fn, &params);
+		fn->FunctionFlags = flags;
+	}
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.ExecuteUbergraph_BP_HDWeaponBase
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -428,7 +466,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.OnUpdateSights__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 */
@@ -447,7 +485,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDWeaponBase.BP_HDWeaponBase_C.OnUpdateAttachments__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 */

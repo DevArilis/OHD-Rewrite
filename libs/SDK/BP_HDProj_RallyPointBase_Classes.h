@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -16,7 +16,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * BlueprintGeneratedClass BP_HDProj_RallyPointBase.BP_HDProj_RallyPointBase_C
-	 * Size -> 0x0000 (FullSize[0x0420] - InheritedSize[0x0420])
+	 * Size -> 0x0000 (FullSize[0x0430] - InheritedSize[0x0430])
 	 */
 	class ABP_HDProj_RallyPointBase_C : public ABP_HDProj_SPDeployableBase_C
 	{

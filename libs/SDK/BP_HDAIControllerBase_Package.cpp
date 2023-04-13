@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.SetupVocalProfile
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -31,7 +31,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.ResetWeaponBase
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -53,7 +53,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.SetupWeaponBase
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -75,7 +75,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.ClearWeaponSavedValues
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 */
@@ -94,7 +94,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.RestorePreviousValuesForWeapon
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -116,7 +116,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.SaveAndApplyNewValuesToWeapon
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -138,7 +138,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.ResetRecoilHandler
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -160,7 +160,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.SetupRecoilHandler
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -182,7 +182,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.CharacterCleanup
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -204,7 +204,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.UnbindEventsFromCharacter
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -226,7 +226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.BindEventsToCharacter
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -248,7 +248,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.WarnOfNoRecoilHandler
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -270,7 +270,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.GetFactionSpecifiedSquadMemberKit
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */
@@ -291,7 +291,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.GetFactionSpecifiedSquadLeaderKit
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */
@@ -312,7 +312,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.OnOwnerPawnDeath
 	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -344,7 +344,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.OnOwnerPawnEquippedItemChange
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -370,7 +370,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.ReceivePossess
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -392,7 +392,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.SuppressionEvent
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -416,7 +416,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.HitDamageEvent
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -440,7 +440,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.ReceiveUnPossess
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -462,7 +462,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDAIControllerBase.BP_HDAIControllerBase_C.ExecuteUbergraph_BP_HDAIControllerBase
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

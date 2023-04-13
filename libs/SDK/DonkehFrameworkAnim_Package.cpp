@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00707710
+	 * 		RVA    -> 0x0070B7A0
 	 * 		Name   -> Function DonkehFrameworkAnim.AnimNotify_PlayFootstepFX.SetFootstepNotifyProps
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, Const)
 	 * Parameters:
@@ -35,7 +35,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00707480
+	 * 		RVA    -> 0x0070B510
 	 * 		Name   -> Function DonkehFrameworkAnim.AnimNotify_PlayFootstepFX.GetFootstepNotifyProps
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -57,7 +57,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00707090
+	 * 		RVA    -> 0x0070B120
 	 * 		Name   -> Function DonkehFrameworkAnim.AnimNotify_PlayFootstepFX.EqualProps
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -98,7 +98,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00707820
+	 * 		RVA    -> 0x0070B8B0
 	 * 		Name   -> Function DonkehFrameworkAnim.DFCharacterAnimInstance.TryGetOwnerWeapon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -120,7 +120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007077F0
+	 * 		RVA    -> 0x0070B880
 	 * 		Name   -> Function DonkehFrameworkAnim.DFCharacterAnimInstance.TryGetControllerOwner
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -142,7 +142,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00707380
+	 * 		RVA    -> 0x0070B410
 	 * 		Name   -> Function DonkehFrameworkAnim.DFCharacterAnimInstance.EquippedWeaponChanged
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -169,7 +169,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkAnim.DFCharacterAnimInstance.BlueprintUpdatePawnOwnerRefs
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -191,7 +191,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkAnim.DFCharacterAnimInstance.BlueprintUpdateEquippedWeaponRefs
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -213,7 +213,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkAnim.DFCharacterAnimInstance.BlueprintUpdateControllerOwnerRefs
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -249,7 +249,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00707850
+	 * 		RVA    -> 0x0070B8E0
 	 * 		Name   -> Function DonkehFrameworkAnim.DFWeaponAnimInstance.TryGetWeaponOwner
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -271,7 +271,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkAnim.DFWeaponAnimInstance.BlueprintUpdateWeaponOwnerRefs
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:

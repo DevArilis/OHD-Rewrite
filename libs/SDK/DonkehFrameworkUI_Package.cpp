@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF490
+	 * 		RVA    -> 0x00703520
 	 * 		Name   -> Function DonkehFrameworkUI.DFBaseMenu.RemoveFromMenuStack
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -32,7 +32,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFBaseMenu.ReceiveOnMenuUncovered
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -51,7 +51,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFBaseMenu.ReceiveOnMenuPush
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -70,7 +70,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFBaseMenu.ReceiveOnMenuPop
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -89,7 +89,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFBaseMenu.ReceiveOnMenuCovered
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -108,7 +108,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEFE0
+	 * 		RVA    -> 0x00703070
 	 * 		Name   -> Function DonkehFrameworkUI.DFBaseMenu.IsTopOfMenuStack
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -144,7 +144,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FFAB0
+	 * 		RVA    -> 0x00703B40
 	 * 		Name   -> Function DonkehFrameworkUI.DFContextualWidgetBase.TestPrerequisites
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -169,7 +169,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF300
+	 * 		RVA    -> 0x00703390
 	 * 		Name   -> Function DonkehFrameworkUI.DFContextualWidgetBase.PrerequisitesMet
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 */
@@ -189,7 +189,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF270
+	 * 		RVA    -> 0x00703300
 	 * 		Name   -> Function DonkehFrameworkUI.DFContextualWidgetBase.PrerequisiteNotMet
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -226,7 +226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FFA30
+	 * 		RVA    -> 0x00703AC0
 	 * 		Name   -> Function DonkehFrameworkUI.DFContextualWidgetPrerequisiteBase.TestPrerequisite
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -248,7 +248,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF7B0
+	 * 		RVA    -> 0x00703840
 	 * 		Name   -> Function DonkehFrameworkUI.DFContextualWidgetPrerequisiteBase.SatisfiesPrerequisite
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent, Const)
 	 */
@@ -270,7 +270,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEBE0
+	 * 		RVA    -> 0x00702C70
 	 * 		Name   -> Function DonkehFrameworkUI.DFContextualWidgetPrerequisiteBase.GetWidgetOuter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -306,7 +306,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FFB40
+	 * 		RVA    -> 0x00703BD0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMenuManager.Top
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -328,7 +328,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF4B0
+	 * 		RVA    -> 0x00703540
 	 * 		Name   -> Function DonkehFrameworkUI.DFMenuManager.RemoveMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -351,7 +351,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF250
+	 * 		RVA    -> 0x007032E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMenuManager.PopMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -371,7 +371,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE2C0
+	 * 		RVA    -> 0x00702350
 	 * 		Name   -> Function DonkehFrameworkUI.DFMenuManager.ClearMenuStack
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -391,7 +391,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE0A0
+	 * 		RVA    -> 0x00702130
 	 * 		Name   -> Function DonkehFrameworkUI.DFMenuManager.ActivateMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -434,7 +434,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE990
+	 * 		RVA    -> 0x00702A20
 	 * 		Name   -> Function DonkehFrameworkUI.DFMenuManagerBlueprintFunctions.GetMenuManager
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -459,7 +459,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE3E0
+	 * 		RVA    -> 0x00702470
 	 * 		Name   -> Function DonkehFrameworkUI.DFMenuManagerBlueprintFunctions.CreateAndActivate
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -508,7 +508,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FFC60
+	 * 		RVA    -> 0x00703CF0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.UpdateZoomValue
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -531,7 +531,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FFB90
+	 * 		RVA    -> 0x00703C20
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.UpdateMapPos
 	 * 		Flags  -> (Native, Protected, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -554,7 +554,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF980
+	 * 		RVA    -> 0x00703A10
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.SetMapDirty
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -574,7 +574,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF700
+	 * 		RVA    -> 0x00703790
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.RemovePOIByActorClass
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -599,7 +599,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF660
+	 * 		RVA    -> 0x007036F0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.RemovePOIByActor
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -624,7 +624,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF5D0
+	 * 		RVA    -> 0x00703660
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.RemovePOIAt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -649,7 +649,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF530
+	 * 		RVA    -> 0x007035C0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.RemovePOI
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -674,7 +674,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.ReceiveOnPOISelectionStateChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -698,7 +698,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF320
+	 * 		RVA    -> 0x007033B0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.ProjectWorldLocationToMap
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -727,7 +727,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF180
+	 * 		RVA    -> 0x00703210
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.OnPOISelectionStateChanged
 	 * 		Flags  -> (Native, Public)
 	 * Parameters:
@@ -752,7 +752,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEC60
+	 * 		RVA    -> 0x00702CF0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.HasPOI
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -777,7 +777,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEC00
+	 * 		RVA    -> 0x00702C90
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.HasAnyPOIs
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -799,7 +799,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEB10
+	 * 		RVA    -> 0x00702BA0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.GetPOIIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -824,7 +824,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEAE0
+	 * 		RVA    -> 0x00702B70
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.GetPOICount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -846,7 +846,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEA50
+	 * 		RVA    -> 0x00702AE0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.GetPOIAt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -871,7 +871,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE950
+	 * 		RVA    -> 0x007029E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.GetMapSizeLocal
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -893,7 +893,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE8F0
+	 * 		RVA    -> 0x00702980
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.GetMapSizeAbsolute
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -915,7 +915,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE690
+	 * 		RVA    -> 0x00702720
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.FindPOIByActor
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -944,7 +944,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE590
+	 * 		RVA    -> 0x00702620
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.DeprojectMapLocationToWorld
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -973,7 +973,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE310
+	 * 		RVA    -> 0x007023A0
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.ConvertMapLocationToLocalWidgetLocation
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1002,7 +1002,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE2E0
+	 * 		RVA    -> 0x00702370
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.ClearPOIs
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1024,7 +1024,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE1F0
+	 * 		RVA    -> 0x00702280
 	 * 		Name   -> Function DonkehFrameworkUI.DFMinimap.AddNewPOI
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1063,7 +1063,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FFB70
+	 * 		RVA    -> 0x00703C00
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIComponent.UnregisterPOI
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1083,7 +1083,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF410
+	 * 		RVA    -> 0x007034A0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIComponent.RegisterPOI
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1106,7 +1106,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF010
+	 * 		RVA    -> 0x007030A0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIComponent.OnMinimapLateInit
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -1129,7 +1129,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEF80
+	 * 		RVA    -> 0x00703010
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIComponent.IsPOIRegistered
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1151,7 +1151,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEBA0
+	 * 		RVA    -> 0x00702C30
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIComponent.GetPOIWidget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1173,7 +1173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEA10
+	 * 		RVA    -> 0x00702AA0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIComponent.GetMinimap
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1209,7 +1209,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FFC40
+	 * 		RVA    -> 0x00703CD0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.UpdateRotation
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1229,7 +1229,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FFC20
+	 * 		RVA    -> 0x00703CB0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.UpdatePosition
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1249,7 +1249,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF9A0
+	 * 		RVA    -> 0x00703A30
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.SetPOISelectionState
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -1272,7 +1272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF7E0
+	 * 		RVA    -> 0x00703870
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.SelectPOI
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1292,7 +1292,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.ReceivePOISelected
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -1311,7 +1311,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.ReceivePOIInitialized
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -1330,7 +1330,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.ReceivePOIDeselected
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -1349,7 +1349,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.ReceiveOnPOIActorEndPlay
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -1373,7 +1373,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.ReceiveCanSelect
 	 * 		Flags  -> (Event, Protected, BlueprintEvent, Const)
 	 */
@@ -1394,7 +1394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF0B0
+	 * 		RVA    -> 0x00703140
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.OnPOIActorEndPlay
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -1419,7 +1419,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF090
+	 * 		RVA    -> 0x00703120
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.OnOwningMapDirty
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -1439,7 +1439,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEFB0
+	 * 		RVA    -> 0x00703040
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.IsSelectable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1461,7 +1461,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEF10
+	 * 		RVA    -> 0x00702FA0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.IsPOIActorValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1483,7 +1483,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEED0
+	 * 		RVA    -> 0x00702F60
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.IsInitialized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1505,7 +1505,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEEA0
+	 * 		RVA    -> 0x00702F30
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.IsDynamic
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1527,7 +1527,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FECF0
+	 * 		RVA    -> 0x00702D80
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.InitPOI
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1556,7 +1556,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FEC30
+	 * 		RVA    -> 0x00702CC0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.HasFixedRotation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1578,7 +1578,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE760
+	 * 		RVA    -> 0x007027F0
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.GetDefaultIconBrush
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1600,7 +1600,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE670
+	 * 		RVA    -> 0x00702700
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.DeselectPOI
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1620,7 +1620,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE290
+	 * 		RVA    -> 0x00702320
 	 * 		Name   -> Function DonkehFrameworkUI.DFPOIWidget.CanSelect
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1656,7 +1656,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF800
+	 * 		RVA    -> 0x00703890
 	 * 		Name   -> Function DonkehFrameworkUI.POIWidgetSlotInterface.SetIconBrush
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1679,7 +1679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE8C0
+	 * 		RVA    -> 0x00702950
 	 * 		Name   -> Function DonkehFrameworkUI.POIWidgetSlotInterface.GetIconSlot
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */
@@ -1701,7 +1701,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FE810
+	 * 		RVA    -> 0x007028A0
 	 * 		Name   -> Function DonkehFrameworkUI.POIWidgetSlotInterface.GetIconBrush
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */

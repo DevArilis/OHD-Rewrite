@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00847120
+	 * 		RVA    -> 0x0084B340
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemBuildTool.SetActivePrefab
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -49,7 +49,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846D90
+	 * 		RVA    -> 0x0084AFB0
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemBuildTool.HandleInput_RotateCursorStep
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -72,7 +72,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846D50
+	 * 		RVA    -> 0x0084AF70
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemBuildTool.HandleInput_CursorMovePrev
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -92,7 +92,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846D30
+	 * 		RVA    -> 0x0084AF50
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemBuildTool.HandleInput_CursorMoveNext
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -112,7 +112,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846D10
+	 * 		RVA    -> 0x0084AF30
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemBuildTool.HandleInput_ConstructAtCursor
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -146,7 +146,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00847240
+	 * 		RVA    -> 0x0084B460
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemComponent.ToggleConstructionSystem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -166,7 +166,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00847220
+	 * 		RVA    -> 0x0084B440
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemComponent.ShowBuildMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -186,7 +186,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008471A0
+	 * 		RVA    -> 0x0084B3C0
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemComponent.SetActiveTool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -209,7 +209,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846E10
+	 * 		RVA    -> 0x0084B030
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemComponent.HideBuildMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -229,7 +229,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846C10
+	 * 		RVA    -> 0x0084AE30
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemComponent.GetTool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -254,7 +254,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846BF0
+	 * 		RVA    -> 0x0084AE10
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemComponent.GetActiveToolType
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -276,7 +276,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846BC0
+	 * 		RVA    -> 0x0084ADE0
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemComponent.GetActiveTool
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -298,7 +298,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846B40
+	 * 		RVA    -> 0x0084AD60
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemComponent.EnableConstructionSystem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -321,7 +321,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846B20
+	 * 		RVA    -> 0x0084AD40
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemComponent.DisableConstructionSystem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -383,7 +383,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846D70
+	 * 		RVA    -> 0x0084AF90
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemRemoveTool.HandleInput_RemoveAtCursor
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -431,7 +431,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846FD0
+	 * 		RVA    -> 0x0084B1F0
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemSaveSystem.SaveConstructionSystemLevel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -460,7 +460,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846E30
+	 * 		RVA    -> 0x0084B050
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemSaveSystem.LoadConstructionSystemLevel
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -491,7 +491,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00846CA0
+	 * 		RVA    -> 0x0084AEC0
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemSaveSystem.HandleConstructionSystemLevelLoad
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -556,7 +556,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemBuildUI.SetUIAsset
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -578,7 +578,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ConstructionSystemRuntime.ConstructionSystemBuildUI.SetConstructionSystem
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

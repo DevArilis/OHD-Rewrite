@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -37,7 +37,7 @@ namespace CG
 		struct FButtonStyle                                        BtnStyle;                                                // 0x0338(0x0278) Edit, BlueprintVisible, DisableEditOnInstance
 		struct FSlateFontInfo                                      TextFont;                                                // 0x05B0(0x0050) Edit, BlueprintVisible, ExposeOnSpawn, HasGetValueTypeHash
 		bool                                                       bUppercaseText;                                          // 0x0600(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn
-		unsigned char                                              UnknownData_GFEW[0x7];                                   // 0x0601(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_0UJ1[0x7];                                   // 0x0601(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FSlateColor                                         TextColorCustom;                                         // 0x0608(0x0028) Edit, BlueprintVisible, ExposeOnSpawn
 		bool                                                       bUseCustomTextColor;                                     // 0x0630(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn
 

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0084E600
+	 * 		RVA    -> 0x00852820
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveActor.Apply
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -69,7 +69,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0084E900
+	 * 		RVA    -> 0x00852B20
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveComponent.Apply
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -126,7 +126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00850910
+	 * 		RVA    -> 0x00854B30
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.WorldToScreenConversionRotator
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 */
@@ -148,7 +148,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008508C0
+	 * 		RVA    -> 0x00854AE0
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.WorldToScreenConversionMatrix
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 */
@@ -170,7 +170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00850760
+	 * 		RVA    -> 0x00854980
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.SetTransformSettings
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -197,7 +197,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008505C0
+	 * 		RVA    -> 0x008547E0
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.SetFrustumSettings
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -224,7 +224,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008504A0
+	 * 		RVA    -> 0x008546C0
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.SetDebugSettings
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -251,7 +251,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00850470
+	 * 		RVA    -> 0x00854690
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.ScreenToWorldConversionRotator
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 */
@@ -273,7 +273,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00850420
+	 * 		RVA    -> 0x00854640
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.ScreenToWorldConversionMatrix
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 */
@@ -295,7 +295,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00850390
+	 * 		RVA    -> 0x008545B0
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.ResetSettings
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -320,7 +320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00850370
+	 * 		RVA    -> 0x00854590
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.ResetCache
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -340,7 +340,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00850230
+	 * 		RVA    -> 0x00854450
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.GetTransformSettings
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -365,7 +365,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008500F0
+	 * 		RVA    -> 0x00854310
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.GetFrustumSettings
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -390,7 +390,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0084FFC0
+	 * 		RVA    -> 0x008541E0
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.GetDebugSettings
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -415,7 +415,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0084FC80
+	 * 		RVA    -> 0x00853EA0
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.DrawDebugPositionedFrustum
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -456,7 +456,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0084FA30
+	 * 		RVA    -> 0x00853C50
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.ApplyTransformEffects
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -490,7 +490,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0084F8C0
+	 * 		RVA    -> 0x00853AE0
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.ApplyToSceneCapture2D
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -519,7 +519,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0084F550
+	 * 		RVA    -> 0x00853770
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.ApplySettingsAndDrawDebug
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -560,7 +560,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0084F220
+	 * 		RVA    -> 0x00853440
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.ApplySettings
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -599,7 +599,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0084EF60
+	 * 		RVA    -> 0x00853180
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.ApplyPointsBasing
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -636,7 +636,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0084EC00
+	 * 		RVA    -> 0x00852E20
 	 * 		Name   -> Function FantasticPerspectivePlugin.FantasticPerspectiveFunctions.ApplyFrustumEffects
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:

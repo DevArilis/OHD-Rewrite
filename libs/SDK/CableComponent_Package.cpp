@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00B3FA20
+	 * 		RVA    -> 0x00B43C40
 	 * 		Name   -> Function CableComponent.CableComponent.SetAttachEndToComponent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -51,7 +51,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00B3F920
+	 * 		RVA    -> 0x00B43B40
 	 * 		Name   -> Function CableComponent.CableComponent.SetAttachEndTo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -78,7 +78,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00B3F870
+	 * 		RVA    -> 0x00B43A90
 	 * 		Name   -> Function CableComponent.CableComponent.GetCableParticleLocations
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -103,7 +103,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00B3F840
+	 * 		RVA    -> 0x00B43A60
 	 * 		Name   -> Function CableComponent.CableComponent.GetAttachedComponent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -125,7 +125,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00B3F810
+	 * 		RVA    -> 0x00B43A30
 	 * 		Name   -> Function CableComponent.CableComponent.GetAttachedActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */

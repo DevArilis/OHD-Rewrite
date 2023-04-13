@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -21,10 +21,10 @@ namespace CG
 	class UAudioCurveSourceComponent : public UAudioComponent
 	{
 	public:
-		unsigned char                                              UnknownData_QWWT[0x8];                                   // 0x07D0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_D27X[0x8];                                   // 0x07D0(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FName                                                CurveSourceBindingName;                                  // 0x07D8(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		float                                                      CurveSyncOffset;                                         // 0x07E0(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_FBLX[0x2C];                                  // 0x07E4(0x002C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1QFE[0x2C];                                  // 0x07E4(0x002C) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

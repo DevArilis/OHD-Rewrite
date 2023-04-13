@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -33,7 +33,7 @@ namespace CG
 		struct FFSelectionItemTextStyle                            ItemTextStyle;                                           // 0x07F8(0x0130) Edit, BlueprintVisible, ExposeOnSpawn, HasGetValueTypeHash
 		struct FFSelectionItemTextStyle                            ItemSubTextStyle;                                        // 0x0928(0x0130) Edit, BlueprintVisible, ExposeOnSpawn, HasGetValueTypeHash
 		int32_t                                                    ItemMinWidth;                                            // 0x0A58(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash
-		unsigned char                                              UnknownData_ZIJ0[0x4];                                   // 0x0A5C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_SAX6[0x4];                                   // 0x0A5C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FText                                                Text;                                                    // 0x0A60(0x0018) Edit, BlueprintVisible, ExposeOnSpawn
 		class FText                                                SubText;                                                 // 0x0A78(0x0018) Edit, BlueprintVisible, ExposeOnSpawn
 		int32_t                                                    ItemMinHeight;                                           // 0x0A90(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn, HasGetValueTypeHash

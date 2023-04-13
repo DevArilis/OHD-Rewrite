@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -110,7 +110,7 @@ namespace CG
 		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_8;                           // 0x24C8(0x0028)
 		struct FAnimNode_UseCachedPose                             AnimGraphNode_UseCachedPose_7;                           // 0x24F0(0x0028)
 		struct FAnimNode_ConvertLocalToComponentSpace              AnimGraphNode_LocalToComponentSpace_5;                   // 0x2518(0x0020)
-		unsigned char                                              UnknownData_U7IF[0x8];                                   // 0x2538(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JNKZ[0x8];                                   // 0x2538(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FAnimNode_TwoBoneIK                                 AnimGraphNode_TwoBoneIK_2;                               // 0x2540(0x01E0)
 		struct FAnimNode_TwoBoneIK                                 AnimGraphNode_TwoBoneIK;                                 // 0x2720(0x01E0)
 		struct FAnimNode_ModifyBone                                AnimGraphNode_ModifyBone_11;                             // 0x2900(0x0108)
@@ -179,7 +179,7 @@ namespace CG
 		bool                                                       bPrefiring;                                              // 0x4540(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		bool                                                       bReadyToThrow;                                           // 0x4541(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		bool                                                       bFiring;                                                 // 0x4542(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor
-		unsigned char                                              UnknownData_L832[0x5];                                   // 0x4543(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_A6QT[0x5];                                   // 0x4543(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UAnimSequenceBase*                                   ThrowReadyBasePose;                                      // 0x4548(0x0008) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		class UAnimSequenceBase*                                   ThrowAnim;                                               // 0x4550(0x0008) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		float                                                      IdleAnimPlayRateToUse;                                   // 0x4558(0x0004) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -223,7 +223,7 @@ namespace CG
 		struct FRotator                                            GripRotation;                                            // 0x465C(0x000C) Edit, BlueprintVisible, ZeroConstructor, Transient, IsPlainOldData, NoDestructor
 		float                                                      GripAlpha;                                               // 0x4668(0x0004) Edit, BlueprintVisible, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       bHasGrip;                                                // 0x466C(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, IsPlainOldData, NoDestructor
-		unsigned char                                              UnknownData_Y5DE[0x3];                                   // 0x466D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BEPJ[0x3];                                   // 0x466D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FVector                                             CorrectiveShoulderOffset;                                // 0x4670(0x000C) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		float                                                      MovementAmount;                                          // 0x467C(0x0004) Edit, BlueprintVisible, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		float                                                      SmoothMovementAmount;                                    // 0x4680(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
@@ -235,13 +235,13 @@ namespace CG
 		struct FVector                                             BracedAimPosition;                                       // 0x46B8(0x000C) Edit, BlueprintVisible, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		float                                                      KickRotationAmount;                                      // 0x46C4(0x0004) Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       bHasBipod;                                               // 0x46C8(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, IsPlainOldData, NoDestructor
-		unsigned char                                              UnknownData_O2DK[0x7];                                   // 0x46C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_TFN2[0x7];                                   // 0x46C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FCharacterAnimCollection                            WeapArmsFPPAnims;                                        // 0x46D0(0x0128) Edit, BlueprintVisible, Transient, DisableEditOnInstance, NoDestructor
 		struct FRotator                                            LowReadyRotationOffset;                                  // 0x47F8(0x000C) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		struct FVector                                             LowReadyPositionOffset;                                  // 0x4804(0x000C) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		float                                                      LowReadyAlpha;                                           // 0x4810(0x0004) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       bVaulting;                                               // 0x4814(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor
-		unsigned char                                              UnknownData_5U5C[0x3];                                   // 0x4815(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_DD4V[0x3];                                   // 0x4815(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      VaultLeftHandOffsetAlpha;                                // 0x4818(0x0004) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 
 	public:

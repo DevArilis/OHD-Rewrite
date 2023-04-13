@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04D60
+	 * 		RVA    -> 0x01E090E0
 	 * 		Name   -> Function UMG.Widget.SetVisibility
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -49,7 +49,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04B40
+	 * 		RVA    -> 0x01E08EC0
 	 * 		Name   -> Function UMG.Widget.SetUserFocus
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -72,7 +72,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04A70
+	 * 		RVA    -> 0x01E08DF0
 	 * 		Name   -> Function UMG.Widget.SetToolTipText
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -95,7 +95,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E049F0
+	 * 		RVA    -> 0x01E08D70
 	 * 		Name   -> Function UMG.Widget.SetToolTip
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -118,7 +118,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E048E0
+	 * 		RVA    -> 0x01E08C60
 	 * 		Name   -> Function UMG.Widget.SetRenderTranslation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -141,7 +141,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04860
+	 * 		RVA    -> 0x01E08BE0
 	 * 		Name   -> Function UMG.Widget.SetRenderTransformPivot
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -164,7 +164,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E047E0
+	 * 		RVA    -> 0x01E08B60
 	 * 		Name   -> Function UMG.Widget.SetRenderTransformAngle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -187,7 +187,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04700
+	 * 		RVA    -> 0x01E08A80
 	 * 		Name   -> Function UMG.Widget.SetRenderTransform
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -210,7 +210,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04680
+	 * 		RVA    -> 0x01E08A00
 	 * 		Name   -> Function UMG.Widget.SetRenderShear
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -233,7 +233,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04600
+	 * 		RVA    -> 0x01E08980
 	 * 		Name   -> Function UMG.Widget.SetRenderScale
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -256,7 +256,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04580
+	 * 		RVA    -> 0x01E08900
 	 * 		Name   -> Function UMG.Widget.SetRenderOpacity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -279,7 +279,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04430
+	 * 		RVA    -> 0x01E087B0
 	 * 		Name   -> Function UMG.Widget.SetNavigationRuleExplicit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -304,7 +304,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04350
+	 * 		RVA    -> 0x01E086D0
 	 * 		Name   -> Function UMG.Widget.SetNavigationRuleCustomBoundary
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -329,7 +329,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04270
+	 * 		RVA    -> 0x01E085F0
 	 * 		Name   -> Function UMG.Widget.SetNavigationRuleCustom
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -354,7 +354,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E041B0
+	 * 		RVA    -> 0x01E08530
 	 * 		Name   -> Function UMG.Widget.SetNavigationRuleBase
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -379,7 +379,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E040A0
+	 * 		RVA    -> 0x01E08420
 	 * 		Name   -> Function UMG.Widget.SetNavigationRule
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -406,7 +406,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04080
+	 * 		RVA    -> 0x01E08400
 	 * 		Name   -> Function UMG.Widget.SetKeyboardFocus
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -426,7 +426,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03FF0
+	 * 		RVA    -> 0x01E08370
 	 * 		Name   -> Function UMG.Widget.SetIsEnabled
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -449,7 +449,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03F50
+	 * 		RVA    -> 0x01E082D0
 	 * 		Name   -> Function UMG.Widget.SetFocus
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -469,7 +469,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03ED0
+	 * 		RVA    -> 0x01E08250
 	 * 		Name   -> Function UMG.Widget.SetCursor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -492,7 +492,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03E50
+	 * 		RVA    -> 0x01E081D0
 	 * 		Name   -> Function UMG.Widget.SetClipping
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -515,7 +515,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03D90
+	 * 		RVA    -> 0x01E08110
 	 * 		Name   -> Function UMG.Widget.SetAllNavigationRules
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -540,7 +540,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03D70
+	 * 		RVA    -> 0x01E080F0
 	 * 		Name   -> Function UMG.Widget.ResetCursor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -560,7 +560,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008015C0
+	 * 		RVA    -> 0x00805950
 	 * 		Name   -> Function UMG.Widget.RemoveFromParent
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -580,7 +580,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.OnReply__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -601,7 +601,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.OnPointerEvent__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -627,7 +627,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03D40
+	 * 		RVA    -> 0x01E080C0
 	 * 		Name   -> Function UMG.Widget.IsVisible
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -649,7 +649,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801F20
+	 * 		RVA    -> 0x008062B0
 	 * 		Name   -> Function UMG.Widget.IsHovered
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -671,7 +671,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03D20
+	 * 		RVA    -> 0x01E080A0
 	 * 		Name   -> Function UMG.Widget.InvalidateLayoutAndVolatility
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -691,7 +691,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03C90
+	 * 		RVA    -> 0x01E08010
 	 * 		Name   -> Function UMG.Widget.HasUserFocusedDescendants
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -716,7 +716,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03C00
+	 * 		RVA    -> 0x01E07F80
 	 * 		Name   -> Function UMG.Widget.HasUserFocus
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -741,7 +741,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03B40
+	 * 		RVA    -> 0x01E07EC0
 	 * 		Name   -> Function UMG.Widget.HasMouseCaptureByUser
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -768,7 +768,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03B10
+	 * 		RVA    -> 0x01E07E90
 	 * 		Name   -> Function UMG.Widget.HasMouseCapture
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -790,7 +790,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03AE0
+	 * 		RVA    -> 0x01E07E60
 	 * 		Name   -> Function UMG.Widget.HasKeyboardFocus
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -812,7 +812,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03AB0
+	 * 		RVA    -> 0x01E07E30
 	 * 		Name   -> Function UMG.Widget.HasFocusedDescendants
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -834,7 +834,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03A80
+	 * 		RVA    -> 0x01E07E00
 	 * 		Name   -> Function UMG.Widget.HasAnyUserFocus
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -856,7 +856,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetWidget__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -877,7 +877,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03A50
+	 * 		RVA    -> 0x01E07DD0
 	 * 		Name   -> Function UMG.Widget.GetVisibility
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -899,7 +899,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03930
+	 * 		RVA    -> 0x01E07CB0
 	 * 		Name   -> Function UMG.Widget.GetTickSpaceGeometry
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -921,7 +921,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetText__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -942,7 +942,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetSlateVisibility__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -963,7 +963,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetSlateColor__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -984,7 +984,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetSlateBrush__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -1005,7 +1005,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E038D0
+	 * 		RVA    -> 0x01E07C50
 	 * 		Name   -> Function UMG.Widget.GetRenderTransformAngle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1027,7 +1027,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E038A0
+	 * 		RVA    -> 0x01E07C20
 	 * 		Name   -> Function UMG.Widget.GetRenderOpacity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1049,7 +1049,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03870
+	 * 		RVA    -> 0x01E07BF0
 	 * 		Name   -> Function UMG.Widget.GetParent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1071,7 +1071,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03830
+	 * 		RVA    -> 0x01E07BB0
 	 * 		Name   -> Function UMG.Widget.GetPaintSpaceGeometry
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1093,7 +1093,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03800
+	 * 		RVA    -> 0x01E07B80
 	 * 		Name   -> Function UMG.Widget.GetOwningPlayer
 	 * 		Flags  -> (BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1115,7 +1115,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E037D0
+	 * 		RVA    -> 0x01E07B50
 	 * 		Name   -> Function UMG.Widget.GetOwningLocalPlayer
 	 * 		Flags  -> (BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1137,7 +1137,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetMouseCursor__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -1158,7 +1158,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetLinearColor__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, HasDefaults)
 	 */
@@ -1179,7 +1179,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E037A0
+	 * 		RVA    -> 0x01E07B20
 	 * 		Name   -> Function UMG.Widget.GetIsEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1201,7 +1201,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetInt32__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -1222,7 +1222,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03770
+	 * 		RVA    -> 0x01E07AF0
 	 * 		Name   -> Function UMG.Widget.GetGameInstance
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1244,7 +1244,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetFloat__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -1265,7 +1265,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03700
+	 * 		RVA    -> 0x01E07A80
 	 * 		Name   -> Function UMG.Widget.GetDesiredSize
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1287,7 +1287,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E036D0
+	 * 		RVA    -> 0x01E07A50
 	 * 		Name   -> Function UMG.Widget.GetClipping
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1309,7 +1309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetCheckBoxState__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -1330,7 +1330,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03690
+	 * 		RVA    -> 0x01E07A10
 	 * 		Name   -> Function UMG.Widget.GetCachedGeometry
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1352,7 +1352,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GetBool__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -1373,7 +1373,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GenerateWidgetForString__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 * Parameters:
@@ -1397,7 +1397,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.Widget.GenerateWidgetForObject__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 * Parameters:
@@ -1421,7 +1421,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03600
+	 * 		RVA    -> 0x01E07980
 	 * 		Name   -> Function UMG.Widget.ForceVolatile
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1444,7 +1444,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E035E0
+	 * 		RVA    -> 0x01E07960
 	 * 		Name   -> Function UMG.Widget.ForceLayoutPrepass
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1478,7 +1478,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E01730
+	 * 		RVA    -> 0x01E05AB0
 	 * 		Name   -> Function UMG.UserWidget.UnregisterInputComponent
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1498,7 +1498,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E01650
+	 * 		RVA    -> 0x01E059D0
 	 * 		Name   -> Function UMG.UserWidget.UnbindFromAnimationStarted
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1523,7 +1523,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E01570
+	 * 		RVA    -> 0x01E058F0
 	 * 		Name   -> Function UMG.UserWidget.UnbindFromAnimationFinished
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1548,7 +1548,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E014F0
+	 * 		RVA    -> 0x01E05870
 	 * 		Name   -> Function UMG.UserWidget.UnbindAllFromAnimationStarted
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1571,7 +1571,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E01470
+	 * 		RVA    -> 0x01E057F0
 	 * 		Name   -> Function UMG.UserWidget.UnbindAllFromAnimationFinished
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1594,7 +1594,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.Tick
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -1618,7 +1618,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E013B0
+	 * 		RVA    -> 0x01E05730
 	 * 		Name   -> Function UMG.UserWidget.StopListeningForInputAction
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -1643,7 +1643,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E01390
+	 * 		RVA    -> 0x01E05710
 	 * 		Name   -> Function UMG.UserWidget.StopListeningForAllInputActions
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1663,7 +1663,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E01370
+	 * 		RVA    -> 0x01E056F0
 	 * 		Name   -> Function UMG.UserWidget.StopAnimationsAndLatentActions
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1683,7 +1683,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E012F0
+	 * 		RVA    -> 0x01E05670
 	 * 		Name   -> Function UMG.UserWidget.StopAnimation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1706,7 +1706,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E012D0
+	 * 		RVA    -> 0x01E05650
 	 * 		Name   -> Function UMG.UserWidget.StopAllAnimations
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1726,7 +1726,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E01000
+	 * 		RVA    -> 0x01E05380
 	 * 		Name   -> Function UMG.UserWidget.SetPositionInViewport
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1751,7 +1751,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00F30
+	 * 		RVA    -> 0x01E052B0
 	 * 		Name   -> Function UMG.UserWidget.SetPlaybackSpeed
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1776,7 +1776,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00EA0
+	 * 		RVA    -> 0x01E05220
 	 * 		Name   -> Function UMG.UserWidget.SetPadding
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1799,7 +1799,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00E20
+	 * 		RVA    -> 0x01E051A0
 	 * 		Name   -> Function UMG.UserWidget.SetOwningPlayer
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1822,7 +1822,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00D60
+	 * 		RVA    -> 0x01E050E0
 	 * 		Name   -> Function UMG.UserWidget.SetNumLoopsToPlay
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1847,7 +1847,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00BE0
+	 * 		RVA    -> 0x01E04F60
 	 * 		Name   -> Function UMG.UserWidget.SetInputActionPriority
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -1870,7 +1870,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00B50
+	 * 		RVA    -> 0x01E04ED0
 	 * 		Name   -> Function UMG.UserWidget.SetInputActionBlocking
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -1893,7 +1893,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E009E0
+	 * 		RVA    -> 0x01E04D60
 	 * 		Name   -> Function UMG.UserWidget.SetForegroundColor
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1916,7 +1916,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00960
+	 * 		RVA    -> 0x01E04CE0
 	 * 		Name   -> Function UMG.UserWidget.SetDesiredSizeInViewport
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1939,7 +1939,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00860
+	 * 		RVA    -> 0x01E04BE0
 	 * 		Name   -> Function UMG.UserWidget.SetColorAndOpacity
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1962,7 +1962,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E007D0
+	 * 		RVA    -> 0x01E04B50
 	 * 		Name   -> Function UMG.UserWidget.SetAnchorsInViewport
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1985,7 +1985,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00750
+	 * 		RVA    -> 0x01E04AD0
 	 * 		Name   -> Function UMG.UserWidget.SetAlignmentInViewport
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2008,7 +2008,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E006D0
+	 * 		RVA    -> 0x01E04A50
 	 * 		Name   -> Function UMG.UserWidget.ReverseAnimation
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2031,7 +2031,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E006B0
+	 * 		RVA    -> 0x01E04A30
 	 * 		Name   -> Function UMG.UserWidget.RemoveFromViewport
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 */
@@ -2051,7 +2051,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00690
+	 * 		RVA    -> 0x01E04A10
 	 * 		Name   -> Function UMG.UserWidget.RegisterInputComponent
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -2071,7 +2071,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.PreConstruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2093,7 +2093,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00610
+	 * 		RVA    -> 0x01E04990
 	 * 		Name   -> Function UMG.UserWidget.PlaySound
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2116,7 +2116,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00420
+	 * 		RVA    -> 0x01E047A0
 	 * 		Name   -> Function UMG.UserWidget.PlayAnimationTimeRange
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2153,7 +2153,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00310
+	 * 		RVA    -> 0x01E04690
 	 * 		Name   -> Function UMG.UserWidget.PlayAnimationReverse
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2182,7 +2182,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00200
+	 * 		RVA    -> 0x01E04580
 	 * 		Name   -> Function UMG.UserWidget.PlayAnimationForward
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2211,7 +2211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00040
+	 * 		RVA    -> 0x01E043C0
 	 * 		Name   -> Function UMG.UserWidget.PlayAnimation
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2246,7 +2246,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFFA0
+	 * 		RVA    -> 0x01E04320
 	 * 		Name   -> Function UMG.UserWidget.PauseAnimation
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2271,7 +2271,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnTouchStarted
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2297,7 +2297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnTouchMoved
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2323,7 +2323,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnTouchGesture
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2349,7 +2349,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnTouchForceChanged
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2375,7 +2375,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnTouchEnded
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2401,7 +2401,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnRemovedFromFocusPath
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2423,7 +2423,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnPreviewMouseButtonDown
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2449,7 +2449,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnPreviewKeyDown
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2475,7 +2475,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnPaint
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent, Const)
 	 * Parameters:
@@ -2499,7 +2499,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnMouseWheel
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2525,7 +2525,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnMouseMove
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2551,7 +2551,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnMouseLeave
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2573,7 +2573,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnMouseEnter
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2597,7 +2597,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnMouseCaptureLost
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -2616,7 +2616,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnMouseButtonUp
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2642,7 +2642,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnMouseButtonDown
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2668,7 +2668,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnMouseButtonDoubleClick
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2694,7 +2694,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnMotionDetected
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2720,7 +2720,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnKeyUp
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2746,7 +2746,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnKeyDown
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2772,7 +2772,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnKeyChar
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2798,7 +2798,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnInitialized
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -2817,7 +2817,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnFocusReceived
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2843,7 +2843,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnFocusLost
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2865,7 +2865,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnDrop
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2893,7 +2893,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnDragOver
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2921,7 +2921,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnDragLeave
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2945,7 +2945,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnDragEnter
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2971,7 +2971,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnDragDetected
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2999,7 +2999,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnDragCancelled
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -3023,7 +3023,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFF10
+	 * 		RVA    -> 0x01E04290
 	 * 		Name   -> Function UMG.UserWidget.OnAnimationStarted
 	 * 		Flags  -> (BlueprintCosmetic, Native, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -3046,7 +3046,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFE80
+	 * 		RVA    -> 0x01E04200
 	 * 		Name   -> Function UMG.UserWidget.OnAnimationFinished
 	 * 		Flags  -> (BlueprintCosmetic, Native, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -3069,7 +3069,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnAnalogValueChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -3095,7 +3095,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.OnAddedToFocusPath
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -3117,7 +3117,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFD00
+	 * 		RVA    -> 0x01E04080
 	 * 		Name   -> Function UMG.UserWidget.ListenForInputAction
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -3146,7 +3146,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFCD0
+	 * 		RVA    -> 0x01E04050
 	 * 		Name   -> Function UMG.UserWidget.IsPlayingAnimation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3168,7 +3168,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFC40
+	 * 		RVA    -> 0x01E03FC0
 	 * 		Name   -> Function UMG.UserWidget.IsListeningForInputAction
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3193,7 +3193,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFA70
+	 * 		RVA    -> 0x01E03DF0
 	 * 		Name   -> Function UMG.UserWidget.IsInViewport
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3215,7 +3215,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.IsInteractable
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent, Const)
 	 */
@@ -3236,7 +3236,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFC10
+	 * 		RVA    -> 0x01E03F90
 	 * 		Name   -> Function UMG.UserWidget.IsAnyAnimationPlaying
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3258,7 +3258,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFB80
+	 * 		RVA    -> 0x01E03F00
 	 * 		Name   -> Function UMG.UserWidget.IsAnimationPlayingForward
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3283,7 +3283,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFAF0
+	 * 		RVA    -> 0x01E03E70
 	 * 		Name   -> Function UMG.UserWidget.IsAnimationPlaying
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3308,7 +3308,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFAA0
+	 * 		RVA    -> 0x01E03E20
 	 * 		Name   -> Function UMG.UserWidget.GetOwningPlayerPawn
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3330,7 +3330,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFA70
+	 * 		RVA    -> 0x01E03DF0
 	 * 		Name   -> Function UMG.UserWidget.GetIsVisible
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3352,7 +3352,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFF9D0
+	 * 		RVA    -> 0x01E03D50
 	 * 		Name   -> Function UMG.UserWidget.GetAnimationCurrentTime
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3377,7 +3377,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFF990
+	 * 		RVA    -> 0x01E03D10
 	 * 		Name   -> Function UMG.UserWidget.GetAnchorsInViewport
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3399,7 +3399,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFF950
+	 * 		RVA    -> 0x01E03CD0
 	 * 		Name   -> Function UMG.UserWidget.GetAlignmentInViewport
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3421,7 +3421,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.Destruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -3440,7 +3440,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserWidget.Construct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 */
@@ -3459,7 +3459,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFF930
+	 * 		RVA    -> 0x01E03CB0
 	 * 		Name   -> Function UMG.UserWidget.CancelLatentActions
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3479,7 +3479,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFF850
+	 * 		RVA    -> 0x01E03BD0
 	 * 		Name   -> Function UMG.UserWidget.BindToAnimationStarted
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3504,7 +3504,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFF770
+	 * 		RVA    -> 0x01E03AF0
 	 * 		Name   -> Function UMG.UserWidget.BindToAnimationFinished
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3529,7 +3529,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFF600
+	 * 		RVA    -> 0x01E03980
 	 * 		Name   -> Function UMG.UserWidget.BindToAnimationEvent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3558,7 +3558,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFF580
+	 * 		RVA    -> 0x01E03900
 	 * 		Name   -> Function UMG.UserWidget.AddToViewport
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3581,7 +3581,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFF4F0
+	 * 		RVA    -> 0x01E03870
 	 * 		Name   -> Function UMG.UserWidget.AddToPlayerScreen
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3620,7 +3620,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEDBC0
+	 * 		RVA    -> 0x01DF1F40
 	 * 		Name   -> Function UMG.ListViewBase.SetWheelScrollMultiplier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3643,7 +3643,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED740
+	 * 		RVA    -> 0x01DF1AC0
 	 * 		Name   -> Function UMG.ListViewBase.SetScrollOffset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3666,7 +3666,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED7C0
+	 * 		RVA    -> 0x01DF1B40
 	 * 		Name   -> Function UMG.ListViewBase.SetScrollbarVisibility
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3689,7 +3689,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC6B0
+	 * 		RVA    -> 0x01DF0A30
 	 * 		Name   -> Function UMG.ListViewBase.ScrollToTop
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3709,7 +3709,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC690
+	 * 		RVA    -> 0x01DF0A10
 	 * 		Name   -> Function UMG.ListViewBase.ScrollToBottom
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3729,7 +3729,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC5F0
+	 * 		RVA    -> 0x01DF0970
 	 * 		Name   -> Function UMG.ListViewBase.RequestRefresh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3749,7 +3749,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC550
+	 * 		RVA    -> 0x01DF08D0
 	 * 		Name   -> Function UMG.ListViewBase.RegenerateAllEntries
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3769,7 +3769,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBE50
+	 * 		RVA    -> 0x01DF01D0
 	 * 		Name   -> Function UMG.ListViewBase.GetDisplayedEntryWidgets
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3805,7 +3805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED9B0
+	 * 		RVA    -> 0x01DF1D30
 	 * 		Name   -> Function UMG.ListView.SetSelectionMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3828,7 +3828,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED840
+	 * 		RVA    -> 0x01DF1BC0
 	 * 		Name   -> Function UMG.ListView.SetSelectedIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3851,7 +3851,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC610
+	 * 		RVA    -> 0x01DF0990
 	 * 		Name   -> Function UMG.ListView.ScrollIndexIntoView
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3874,7 +3874,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC570
+	 * 		RVA    -> 0x01DF08F0
 	 * 		Name   -> Function UMG.ListView.RemoveItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3897,7 +3897,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC440
+	 * 		RVA    -> 0x01DF07C0
 	 * 		Name   -> Function UMG.ListView.NavigateToIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3920,7 +3920,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC410
+	 * 		RVA    -> 0x01DF0790
 	 * 		Name   -> Function UMG.ListView.IsRefreshPending
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3942,7 +3942,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC170
+	 * 		RVA    -> 0x01DF04F0
 	 * 		Name   -> Function UMG.ListView.GetNumItems
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3964,7 +3964,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC100
+	 * 		RVA    -> 0x01DF0480
 	 * 		Name   -> Function UMG.ListView.GetListItems
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3986,7 +3986,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBFD0
+	 * 		RVA    -> 0x01DF0350
 	 * 		Name   -> Function UMG.ListView.GetItemAt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4011,7 +4011,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBF10
+	 * 		RVA    -> 0x01DF0290
 	 * 		Name   -> Function UMG.ListView.GetIndexForItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4036,7 +4036,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBD50
+	 * 		RVA    -> 0x01DF00D0
 	 * 		Name   -> Function UMG.ListView.ClearListItems
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -4056,7 +4056,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBCD0
+	 * 		RVA    -> 0x01DF0050
 	 * 		Name   -> Function UMG.ListView.BP_SetSelectedItem
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -4079,7 +4079,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBC20
+	 * 		RVA    -> 0x01DEFFA0
 	 * 		Name   -> Function UMG.ListView.BP_SetListItems
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4102,7 +4102,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBB50
+	 * 		RVA    -> 0x01DEFED0
 	 * 		Name   -> Function UMG.ListView.BP_SetItemSelection
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -4127,7 +4127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBAD0
+	 * 		RVA    -> 0x01DEFE50
 	 * 		Name   -> Function UMG.ListView.BP_ScrollItemIntoView
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -4150,7 +4150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBA50
+	 * 		RVA    -> 0x01DEFDD0
 	 * 		Name   -> Function UMG.ListView.BP_NavigateToItem
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -4173,7 +4173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEB9C0
+	 * 		RVA    -> 0x01DEFD40
 	 * 		Name   -> Function UMG.ListView.BP_IsItemVisible
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4198,7 +4198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEB900
+	 * 		RVA    -> 0x01DEFC80
 	 * 		Name   -> Function UMG.ListView.BP_GetSelectedItems
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable, Const)
 	 * Parameters:
@@ -4225,7 +4225,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEB8D0
+	 * 		RVA    -> 0x01DEFC50
 	 * 		Name   -> Function UMG.ListView.BP_GetSelectedItem
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4247,7 +4247,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEB8A0
+	 * 		RVA    -> 0x01DEFC20
 	 * 		Name   -> Function UMG.ListView.BP_GetNumItemsSelected
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4269,7 +4269,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEB880
+	 * 		RVA    -> 0x01DEFC00
 	 * 		Name   -> Function UMG.ListView.BP_ClearSelection
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 */
@@ -4289,7 +4289,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEB860
+	 * 		RVA    -> 0x01DEFBE0
 	 * 		Name   -> Function UMG.ListView.BP_CancelScrollIntoView
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 */
@@ -4309,7 +4309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEB7E0
+	 * 		RVA    -> 0x01DEFB60
 	 * 		Name   -> Function UMG.ListView.AddItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4346,7 +4346,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1820
+	 * 		RVA    -> 0x01DF5BA0
 	 * 		Name   -> Function UMG.PanelWidget.RemoveChildAt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4371,7 +4371,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1790
+	 * 		RVA    -> 0x01DF5B10
 	 * 		Name   -> Function UMG.PanelWidget.RemoveChild
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4396,7 +4396,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1700
+	 * 		RVA    -> 0x01DF5A80
 	 * 		Name   -> Function UMG.PanelWidget.HasChild
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4421,7 +4421,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF16D0
+	 * 		RVA    -> 0x01DF5A50
 	 * 		Name   -> Function UMG.PanelWidget.HasAnyChildren
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4443,7 +4443,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1290
+	 * 		RVA    -> 0x01DF5610
 	 * 		Name   -> Function UMG.PanelWidget.GetChildrenCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4465,7 +4465,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1200
+	 * 		RVA    -> 0x01DF5580
 	 * 		Name   -> Function UMG.PanelWidget.GetChildIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4490,7 +4490,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1170
+	 * 		RVA    -> 0x01DF54F0
 	 * 		Name   -> Function UMG.PanelWidget.GetChildAt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4515,7 +4515,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF10F0
+	 * 		RVA    -> 0x01DF5470
 	 * 		Name   -> Function UMG.PanelWidget.GetAllChildren
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4537,7 +4537,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBD00
+	 * 		RVA    -> 0x006DFDA0
 	 * 		Name   -> Function UMG.PanelWidget.ClearChildren
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -4557,7 +4557,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF0FB0
+	 * 		RVA    -> 0x01DF5330
 	 * 		Name   -> Function UMG.PanelWidget.AddChild
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4596,7 +4596,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8420
+	 * 		RVA    -> 0x01DEC7A0
 	 * 		Name   -> Function UMG.ContentWidget.SetContent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4621,7 +4621,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7C60
+	 * 		RVA    -> 0x01DEBFE0
 	 * 		Name   -> Function UMG.ContentWidget.GetContentSlot
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4643,7 +4643,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7C30
+	 * 		RVA    -> 0x01DEBFB0
 	 * 		Name   -> Function UMG.ContentWidget.GetContent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4679,7 +4679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE5070
+	 * 		RVA    -> 0x01DE93F0
 	 * 		Name   -> Function UMG.Button.SetTouchMethod
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4702,7 +4702,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4F90
+	 * 		RVA    -> 0x01DE9310
 	 * 		Name   -> Function UMG.Button.SetStyle
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4725,7 +4725,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4E10
+	 * 		RVA    -> 0x01DE9190
 	 * 		Name   -> Function UMG.Button.SetPressMethod
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4748,7 +4748,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4180
+	 * 		RVA    -> 0x01DE8500
 	 * 		Name   -> Function UMG.Button.SetColorAndOpacity
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4771,7 +4771,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4100
+	 * 		RVA    -> 0x01DE8480
 	 * 		Name   -> Function UMG.Button.SetClickMethod
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4794,7 +4794,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3B80
+	 * 		RVA    -> 0x01DE7F00
 	 * 		Name   -> Function UMG.Button.SetBackgroundColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4817,7 +4817,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE38F0
+	 * 		RVA    -> 0x01DE7C70
 	 * 		Name   -> Function UMG.Button.IsPressed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4853,7 +4853,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFB120
+	 * 		RVA    -> 0x01DFF4A0
 	 * 		Name   -> Function UMG.Slider.SetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4876,7 +4876,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFAD90
+	 * 		RVA    -> 0x01DFF110
 	 * 		Name   -> Function UMG.Slider.SetStepSize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4899,7 +4899,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFAD10
+	 * 		RVA    -> 0x01DFF090
 	 * 		Name   -> Function UMG.Slider.SetSliderHandleColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4922,7 +4922,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFAC90
+	 * 		RVA    -> 0x01DFF010
 	 * 		Name   -> Function UMG.Slider.SetSliderBarColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -4945,7 +4945,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA910
+	 * 		RVA    -> 0x01DFEC90
 	 * 		Name   -> Function UMG.Slider.SetMinValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4968,7 +4968,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA690
+	 * 		RVA    -> 0x01DFEA10
 	 * 		Name   -> Function UMG.Slider.SetMaxValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4991,7 +4991,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA500
+	 * 		RVA    -> 0x01DFE880
 	 * 		Name   -> Function UMG.Slider.SetLocked
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5014,7 +5014,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA320
+	 * 		RVA    -> 0x01DFE6A0
 	 * 		Name   -> Function UMG.Slider.SetIndentHandle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5037,7 +5037,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9B60
+	 * 		RVA    -> 0x01DFDEE0
 	 * 		Name   -> Function UMG.Slider.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5059,7 +5059,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9970
+	 * 		RVA    -> 0x01DFDCF0
 	 * 		Name   -> Function UMG.Slider.GetNormalizedValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5095,7 +5095,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE32F0
+	 * 		RVA    -> 0x01DE7670
 	 * 		Name   -> Function UMG.AsyncTaskDownloadImage.DownloadImage
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -5134,7 +5134,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE50F0
+	 * 		RVA    -> 0x01DE9470
 	 * 		Name   -> Function UMG.BackgroundBlur.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5157,7 +5157,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4A40
+	 * 		RVA    -> 0x01DE8DC0
 	 * 		Name   -> Function UMG.BackgroundBlur.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5180,7 +5180,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE46B0
+	 * 		RVA    -> 0x01DE8A30
 	 * 		Name   -> Function UMG.BackgroundBlur.SetLowQualityFallbackBrush
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5203,7 +5203,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4300
+	 * 		RVA    -> 0x01DE8680
 	 * 		Name   -> Function UMG.BackgroundBlur.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5226,7 +5226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3C80
+	 * 		RVA    -> 0x01DE8000
 	 * 		Name   -> Function UMG.BackgroundBlur.SetBlurStrength
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5249,7 +5249,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3C00
+	 * 		RVA    -> 0x01DE7F80
 	 * 		Name   -> Function UMG.BackgroundBlur.SetBlurRadius
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5272,7 +5272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3A60
+	 * 		RVA    -> 0x01DE7DE0
 	 * 		Name   -> Function UMG.BackgroundBlur.SetApplyAlphaToBlur
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5323,7 +5323,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE5170
+	 * 		RVA    -> 0x01DE94F0
 	 * 		Name   -> Function UMG.BackgroundBlurSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5346,7 +5346,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4AD0
+	 * 		RVA    -> 0x01DE8E50
 	 * 		Name   -> Function UMG.BackgroundBlurSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5369,7 +5369,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4380
+	 * 		RVA    -> 0x01DE8700
 	 * 		Name   -> Function UMG.BackgroundBlurSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5420,7 +5420,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE36A0
+	 * 		RVA    -> 0x01DE7A20
 	 * 		Name   -> Function UMG.BoolBinding.GetValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -5456,7 +5456,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE51F0
+	 * 		RVA    -> 0x01DE9570
 	 * 		Name   -> Function UMG.Border.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5479,7 +5479,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4B60
+	 * 		RVA    -> 0x01DE8EE0
 	 * 		Name   -> Function UMG.Border.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5502,7 +5502,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4400
+	 * 		RVA    -> 0x01DE8780
 	 * 		Name   -> Function UMG.Border.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5525,7 +5525,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4280
+	 * 		RVA    -> 0x01DE8600
 	 * 		Name   -> Function UMG.Border.SetDesiredSizeScale
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5548,7 +5548,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4200
+	 * 		RVA    -> 0x01DE8580
 	 * 		Name   -> Function UMG.Border.SetContentColorAndOpacity
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5571,7 +5571,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4000
+	 * 		RVA    -> 0x01DE8380
 	 * 		Name   -> Function UMG.Border.SetBrushFromTexture
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5594,7 +5594,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3F80
+	 * 		RVA    -> 0x01DE8300
 	 * 		Name   -> Function UMG.Border.SetBrushFromMaterial
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5617,7 +5617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3F00
+	 * 		RVA    -> 0x01DE8280
 	 * 		Name   -> Function UMG.Border.SetBrushFromAsset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5640,7 +5640,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3E80
+	 * 		RVA    -> 0x01DE8200
 	 * 		Name   -> Function UMG.Border.SetBrushColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -5663,7 +5663,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3D00
+	 * 		RVA    -> 0x01DE8080
 	 * 		Name   -> Function UMG.Border.SetBrush
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5686,7 +5686,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE34B0
+	 * 		RVA    -> 0x01DE7830
 	 * 		Name   -> Function UMG.Border.GetDynamicMaterial
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -5722,7 +5722,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE5270
+	 * 		RVA    -> 0x01DE95F0
 	 * 		Name   -> Function UMG.BorderSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5745,7 +5745,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4BF0
+	 * 		RVA    -> 0x01DE8F70
 	 * 		Name   -> Function UMG.BorderSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5768,7 +5768,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4480
+	 * 		RVA    -> 0x01DE8800
 	 * 		Name   -> Function UMG.BorderSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5805,7 +5805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE36D0
+	 * 		RVA    -> 0x01DE7A50
 	 * 		Name   -> Function UMG.BrushBinding.GetValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -5841,7 +5841,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE52F0
+	 * 		RVA    -> 0x01DE9670
 	 * 		Name   -> Function UMG.ButtonSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5864,7 +5864,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4C80
+	 * 		RVA    -> 0x01DE9000
 	 * 		Name   -> Function UMG.ButtonSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5887,7 +5887,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4500
+	 * 		RVA    -> 0x01DE8880
 	 * 		Name   -> Function UMG.ButtonSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5924,7 +5924,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3260
+	 * 		RVA    -> 0x01DE75E0
 	 * 		Name   -> Function UMG.CanvasPanel.AddChildToCanvas
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5963,7 +5963,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE5370
+	 * 		RVA    -> 0x01DE96F0
 	 * 		Name   -> Function UMG.CanvasPanelSlot.SetZOrder
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5986,7 +5986,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4F10
+	 * 		RVA    -> 0x01DE9290
 	 * 		Name   -> Function UMG.CanvasPanelSlot.SetSize
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6009,7 +6009,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4D90
+	 * 		RVA    -> 0x01DE9110
 	 * 		Name   -> Function UMG.CanvasPanelSlot.SetPosition
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6032,7 +6032,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE49B0
+	 * 		RVA    -> 0x01DE8D30
 	 * 		Name   -> Function UMG.CanvasPanelSlot.SetOffsets
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6055,7 +6055,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE48B0
+	 * 		RVA    -> 0x01DE8C30
 	 * 		Name   -> Function UMG.CanvasPanelSlot.SetMinimum
 	 * 		Flags  -> (Final, Native, Public, HasDefaults)
 	 * Parameters:
@@ -6078,7 +6078,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4830
+	 * 		RVA    -> 0x01DE8BB0
 	 * 		Name   -> Function UMG.CanvasPanelSlot.SetMaximum
 	 * 		Flags  -> (Final, Native, Public, HasDefaults)
 	 * Parameters:
@@ -6101,7 +6101,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4610
+	 * 		RVA    -> 0x01DE8990
 	 * 		Name   -> Function UMG.CanvasPanelSlot.SetLayout
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6124,7 +6124,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3AF0
+	 * 		RVA    -> 0x01DE7E70
 	 * 		Name   -> Function UMG.CanvasPanelSlot.SetAutoSize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6147,7 +6147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE39D0
+	 * 		RVA    -> 0x01DE7D50
 	 * 		Name   -> Function UMG.CanvasPanelSlot.SetAnchors
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6170,7 +6170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3950
+	 * 		RVA    -> 0x01DE7CD0
 	 * 		Name   -> Function UMG.CanvasPanelSlot.SetAlignment
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -6193,7 +6193,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3890
+	 * 		RVA    -> 0x01DE7C10
 	 * 		Name   -> Function UMG.CanvasPanelSlot.GetZOrder
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6215,7 +6215,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE35F0
+	 * 		RVA    -> 0x01DE7970
 	 * 		Name   -> Function UMG.CanvasPanelSlot.GetSize
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6237,7 +6237,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE35B0
+	 * 		RVA    -> 0x01DE7930
 	 * 		Name   -> Function UMG.CanvasPanelSlot.GetPosition
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6259,7 +6259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3570
+	 * 		RVA    -> 0x01DE78F0
 	 * 		Name   -> Function UMG.CanvasPanelSlot.GetOffsets
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6281,7 +6281,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE34E0
+	 * 		RVA    -> 0x01DE7860
 	 * 		Name   -> Function UMG.CanvasPanelSlot.GetLayout
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6303,7 +6303,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3450
+	 * 		RVA    -> 0x01DE77D0
 	 * 		Name   -> Function UMG.CanvasPanelSlot.GetAutoSize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6325,7 +6325,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3410
+	 * 		RVA    -> 0x01DE7790
 	 * 		Name   -> Function UMG.CanvasPanelSlot.GetAnchors
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6347,7 +6347,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE33D0
+	 * 		RVA    -> 0x01DE7750
 	 * 		Name   -> Function UMG.CanvasPanelSlot.GetAlignment
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6383,7 +6383,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4580
+	 * 		RVA    -> 0x01DE8900
 	 * 		Name   -> Function UMG.CheckBox.SetIsChecked
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6406,7 +6406,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4080
+	 * 		RVA    -> 0x01DE8400
 	 * 		Name   -> Function UMG.CheckBox.SetCheckedState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6429,7 +6429,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3920
+	 * 		RVA    -> 0x01DE7CA0
 	 * 		Name   -> Function UMG.CheckBox.IsPressed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6451,7 +6451,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE38C0
+	 * 		RVA    -> 0x01DE7C40
 	 * 		Name   -> Function UMG.CheckBox.IsChecked
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6473,7 +6473,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3480
+	 * 		RVA    -> 0x01DE7800
 	 * 		Name   -> Function UMG.CheckBox.GetCheckedState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6509,7 +6509,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3860
+	 * 		RVA    -> 0x01DE7BE0
 	 * 		Name   -> Function UMG.CheckedStateBinding.GetValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -6545,7 +6545,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4E90
+	 * 		RVA    -> 0x01DE9210
 	 * 		Name   -> Function UMG.CircularThrobber.SetRadius
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6568,7 +6568,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4D10
+	 * 		RVA    -> 0x01DE9090
 	 * 		Name   -> Function UMG.CircularThrobber.SetPeriod
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6591,7 +6591,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4930
+	 * 		RVA    -> 0x01DE8CB0
 	 * 		Name   -> Function UMG.CircularThrobber.SetNumberOfPieces
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6628,7 +6628,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3630
+	 * 		RVA    -> 0x01DE79B0
 	 * 		Name   -> Function UMG.ColorBinding.GetSlateValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -6650,7 +6650,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE3530
+	 * 		RVA    -> 0x01DE78B0
 	 * 		Name   -> Function UMG.ColorBinding.GetLinearValue
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, Const)
 	 */
@@ -6700,7 +6700,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE90A0
+	 * 		RVA    -> 0x01DED420
 	 * 		Name   -> Function UMG.ComboBoxString.SetSelectedOption
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6723,7 +6723,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE9020
+	 * 		RVA    -> 0x01DED3A0
 	 * 		Name   -> Function UMG.ComboBoxString.SetSelectedIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6746,7 +6746,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8110
+	 * 		RVA    -> 0x01DEC490
 	 * 		Name   -> Function UMG.ComboBoxString.RemoveOption
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6771,7 +6771,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8070
+	 * 		RVA    -> 0x01DEC3F0
 	 * 		Name   -> Function UMG.ComboBoxString.RefreshOptions
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -6791,7 +6791,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.ComboBoxString.OnSelectionChangedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 * Parameters:
@@ -6815,7 +6815,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.ComboBoxString.OnOpeningEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 */
@@ -6834,7 +6834,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8040
+	 * 		RVA    -> 0x01DEC3C0
 	 * 		Name   -> Function UMG.ComboBoxString.IsOpen
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6856,7 +6856,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7E20
+	 * 		RVA    -> 0x01DEC1A0
 	 * 		Name   -> Function UMG.ComboBoxString.GetSelectedOption
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6878,7 +6878,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7DF0
+	 * 		RVA    -> 0x01DEC170
 	 * 		Name   -> Function UMG.ComboBoxString.GetSelectedIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6900,7 +6900,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7DC0
+	 * 		RVA    -> 0x01DEC140
 	 * 		Name   -> Function UMG.ComboBoxString.GetOptionCount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6922,7 +6922,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7CF0
+	 * 		RVA    -> 0x01DEC070
 	 * 		Name   -> Function UMG.ComboBoxString.GetOptionAtIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6947,7 +6947,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7AF0
+	 * 		RVA    -> 0x01DEBE70
 	 * 		Name   -> Function UMG.ComboBoxString.FindOptionIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6972,7 +6972,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7740
+	 * 		RVA    -> 0x01DEBAC0
 	 * 		Name   -> Function UMG.ComboBoxString.ClearSelection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -6992,7 +6992,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7720
+	 * 		RVA    -> 0x01DEBAA0
 	 * 		Name   -> Function UMG.ComboBoxString.ClearOptions
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -7012,7 +7012,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE75A0
+	 * 		RVA    -> 0x01DEB920
 	 * 		Name   -> Function UMG.ComboBoxString.AddOption
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7049,7 +7049,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE79C0
+	 * 		RVA    -> 0x01DEBD40
 	 * 		Name   -> Function UMG.DragDropOperation.Drop
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -7072,7 +7072,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7890
+	 * 		RVA    -> 0x01DEBC10
 	 * 		Name   -> Function UMG.DragDropOperation.Dragged
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -7095,7 +7095,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7760
+	 * 		RVA    -> 0x01DEBAE0
 	 * 		Name   -> Function UMG.DragDropOperation.DragCancelled
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -7132,7 +7132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE84B0
+	 * 		RVA    -> 0x01DEC830
 	 * 		Name   -> Function UMG.DynamicEntryBoxBase.SetEntrySpacing
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -7155,7 +7155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7CC0
+	 * 		RVA    -> 0x01DEC040
 	 * 		Name   -> Function UMG.DynamicEntryBoxBase.GetNumEntries
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7177,7 +7177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7BA0
+	 * 		RVA    -> 0x01DEBF20
 	 * 		Name   -> Function UMG.DynamicEntryBoxBase.GetAllEntries
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7213,7 +7213,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE81C0
+	 * 		RVA    -> 0x01DEC540
 	 * 		Name   -> Function UMG.DynamicEntryBox.Reset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7236,7 +7236,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8090
+	 * 		RVA    -> 0x01DEC410
 	 * 		Name   -> Function UMG.DynamicEntryBox.RemoveEntry
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7259,7 +7259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7670
+	 * 		RVA    -> 0x01DEB9F0
 	 * 		Name   -> Function UMG.DynamicEntryBox.BP_CreateEntryOfClass
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -7284,7 +7284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7640
+	 * 		RVA    -> 0x01DEB9C0
 	 * 		Name   -> Function UMG.DynamicEntryBox.BP_CreateEntry
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 */
@@ -7320,7 +7320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE9180
+	 * 		RVA    -> 0x01DED500
 	 * 		Name   -> Function UMG.EditableText.SetText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7343,7 +7343,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8BC0
+	 * 		RVA    -> 0x01DECF40
 	 * 		Name   -> Function UMG.EditableText.SetJustification
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7366,7 +7366,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8AA0
+	 * 		RVA    -> 0x01DECE20
 	 * 		Name   -> Function UMG.EditableText.SetIsReadOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7389,7 +7389,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8980
+	 * 		RVA    -> 0x01DECD00
 	 * 		Name   -> Function UMG.EditableText.SetIsPassword
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7412,7 +7412,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8620
+	 * 		RVA    -> 0x01DEC9A0
 	 * 		Name   -> Function UMG.EditableText.SetHintText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7435,7 +7435,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.EditableText.OnEditableTextCommittedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -7459,7 +7459,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.EditableText.OnEditableTextChangedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -7481,7 +7481,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7EA0
+	 * 		RVA    -> 0x01DEC220
 	 * 		Name   -> Function UMG.EditableText.GetText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7517,7 +7517,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE9260
+	 * 		RVA    -> 0x01DED5E0
 	 * 		Name   -> Function UMG.EditableTextBox.SetText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7540,7 +7540,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8C40
+	 * 		RVA    -> 0x01DECFC0
 	 * 		Name   -> Function UMG.EditableTextBox.SetJustification
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7563,7 +7563,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8B30
+	 * 		RVA    -> 0x01DECEB0
 	 * 		Name   -> Function UMG.EditableTextBox.SetIsReadOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7586,7 +7586,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8A10
+	 * 		RVA    -> 0x01DECD90
 	 * 		Name   -> Function UMG.EditableTextBox.SetIsPassword
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7609,7 +7609,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8700
+	 * 		RVA    -> 0x01DECA80
 	 * 		Name   -> Function UMG.EditableTextBox.SetHintText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7632,7 +7632,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8540
+	 * 		RVA    -> 0x01DEC8C0
 	 * 		Name   -> Function UMG.EditableTextBox.SetError
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7655,7 +7655,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.EditableTextBox.OnEditableTextBoxCommittedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -7679,7 +7679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.EditableTextBox.OnEditableTextBoxChangedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -7701,7 +7701,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8010
+	 * 		RVA    -> 0x01DEC390
 	 * 		Name   -> Function UMG.EditableTextBox.HasError
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7723,7 +7723,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7F40
+	 * 		RVA    -> 0x01DEC2C0
 	 * 		Name   -> Function UMG.EditableTextBox.GetText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7745,7 +7745,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7700
+	 * 		RVA    -> 0x01DEBA80
 	 * 		Name   -> Function UMG.EditableTextBox.ClearError
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -7779,7 +7779,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE88F0
+	 * 		RVA    -> 0x01DECC70
 	 * 		Name   -> Function UMG.ExpandableArea.SetIsExpanded_Animated
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7802,7 +7802,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8860
+	 * 		RVA    -> 0x01DECBE0
 	 * 		Name   -> Function UMG.ExpandableArea.SetIsExpanded
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7825,7 +7825,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7C90
+	 * 		RVA    -> 0x01DEC010
 	 * 		Name   -> Function UMG.ExpandableArea.GetIsExpanded
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7861,7 +7861,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE7FE0
+	 * 		RVA    -> 0x01DEC360
 	 * 		Name   -> Function UMG.FloatBinding.GetValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -7897,7 +7897,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8ED0
+	 * 		RVA    -> 0x01DED250
 	 * 		Name   -> Function UMG.GridPanel.SetRowFill
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7922,7 +7922,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE82D0
+	 * 		RVA    -> 0x01DEC650
 	 * 		Name   -> Function UMG.GridPanel.SetColumnFill
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7947,7 +7947,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE74A0
+	 * 		RVA    -> 0x01DEB820
 	 * 		Name   -> Function UMG.GridPanel.AddChildToGrid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7990,7 +7990,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE9340
+	 * 		RVA    -> 0x01DED6C0
 	 * 		Name   -> Function UMG.GridSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8013,7 +8013,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8FA0
+	 * 		RVA    -> 0x01DED320
 	 * 		Name   -> Function UMG.GridSlot.SetRowSpan
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8036,7 +8036,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8E50
+	 * 		RVA    -> 0x01DED1D0
 	 * 		Name   -> Function UMG.GridSlot.SetRow
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8059,7 +8059,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8DC0
+	 * 		RVA    -> 0x01DED140
 	 * 		Name   -> Function UMG.GridSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8082,7 +8082,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8D40
+	 * 		RVA    -> 0x01DED0C0
 	 * 		Name   -> Function UMG.GridSlot.SetNudge
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -8105,7 +8105,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8CC0
+	 * 		RVA    -> 0x01DED040
 	 * 		Name   -> Function UMG.GridSlot.SetLayer
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8128,7 +8128,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE87E0
+	 * 		RVA    -> 0x01DECB60
 	 * 		Name   -> Function UMG.GridSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8151,7 +8151,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE83A0
+	 * 		RVA    -> 0x01DEC720
 	 * 		Name   -> Function UMG.GridSlot.SetColumnSpan
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8174,7 +8174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE8250
+	 * 		RVA    -> 0x01DEC5D0
 	 * 		Name   -> Function UMG.GridSlot.SetColumn
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8211,7 +8211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEB750
+	 * 		RVA    -> 0x01DEFAD0
 	 * 		Name   -> Function UMG.HorizontalBox.AddChildToHorizontalBox
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8250,7 +8250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEDB40
+	 * 		RVA    -> 0x01DF1EC0
 	 * 		Name   -> Function UMG.HorizontalBoxSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8273,7 +8273,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEDA30
+	 * 		RVA    -> 0x01DF1DB0
 	 * 		Name   -> Function UMG.HorizontalBoxSlot.SetSize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8296,7 +8296,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED630
+	 * 		RVA    -> 0x01DF19B0
 	 * 		Name   -> Function UMG.HorizontalBoxSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8319,7 +8319,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED370
+	 * 		RVA    -> 0x01DF16F0
 	 * 		Name   -> Function UMG.HorizontalBoxSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8356,7 +8356,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED5B0
+	 * 		RVA    -> 0x01DF1930
 	 * 		Name   -> Function UMG.Image.SetOpacity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8379,7 +8379,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED200
+	 * 		RVA    -> 0x01DF1580
 	 * 		Name   -> Function UMG.Image.SetColorAndOpacity
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -8402,7 +8402,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED080
+	 * 		RVA    -> 0x01DF1400
 	 * 		Name   -> Function UMG.Image.SetBrushTintColor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8425,7 +8425,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED000
+	 * 		RVA    -> 0x01DF1380
 	 * 		Name   -> Function UMG.Image.SetBrushSize
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -8448,7 +8448,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DECF80
+	 * 		RVA    -> 0x01DF1300
 	 * 		Name   -> Function UMG.Image.SetBrushResourceObject
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8471,7 +8471,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DECEB0
+	 * 		RVA    -> 0x01DF1230
 	 * 		Name   -> Function UMG.Image.SetBrushFromTextureDynamic
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8496,7 +8496,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DECDE0
+	 * 		RVA    -> 0x01DF1160
 	 * 		Name   -> Function UMG.Image.SetBrushFromTexture
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8521,7 +8521,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DECC90
+	 * 		RVA    -> 0x01DF1010
 	 * 		Name   -> Function UMG.Image.SetBrushFromSoftTexture
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8544,7 +8544,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DECB80
+	 * 		RVA    -> 0x01DF0F00
 	 * 		Name   -> Function UMG.Image.SetBrushFromSoftMaterial
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -8564,7 +8564,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DECAF0
+	 * 		RVA    -> 0x01DF0E70
 	 * 		Name   -> Function UMG.Image.SetBrushFromMaterial
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8587,7 +8587,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DECA00
+	 * 		RVA    -> 0x01DF0D80
 	 * 		Name   -> Function UMG.Image.SetBrushFromAtlasInterface
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8610,7 +8610,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC970
+	 * 		RVA    -> 0x01DF0CF0
 	 * 		Name   -> Function UMG.Image.SetBrushFromAsset
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8633,7 +8633,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC7F0
+	 * 		RVA    -> 0x01DF0B70
 	 * 		Name   -> Function UMG.Image.SetBrush
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8656,7 +8656,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBEE0
+	 * 		RVA    -> 0x01DF0260
 	 * 		Name   -> Function UMG.Image.GetDynamicMaterial
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -8692,7 +8692,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEDAC0
+	 * 		RVA    -> 0x01DF1E40
 	 * 		Name   -> Function UMG.InputKeySelector.SetTextBlockVisibility
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8715,7 +8715,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED8C0
+	 * 		RVA    -> 0x01DF1C40
 	 * 		Name   -> Function UMG.InputKeySelector.SetSelectedKey
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8738,7 +8738,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED4D0
+	 * 		RVA    -> 0x01DF1850
 	 * 		Name   -> Function UMG.InputKeySelector.SetNoKeySpecifiedText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8761,7 +8761,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED3F0
+	 * 		RVA    -> 0x01DF1770
 	 * 		Name   -> Function UMG.InputKeySelector.SetKeySelectionText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8784,7 +8784,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED280
+	 * 		RVA    -> 0x01DF1600
 	 * 		Name   -> Function UMG.InputKeySelector.SetEscapeKeys
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -8807,7 +8807,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC760
+	 * 		RVA    -> 0x01DF0AE0
 	 * 		Name   -> Function UMG.InputKeySelector.SetAllowModifierKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8830,7 +8830,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC6D0
+	 * 		RVA    -> 0x01DF0A50
 	 * 		Name   -> Function UMG.InputKeySelector.SetAllowGamepadKeys
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8853,7 +8853,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.InputKeySelector.OnKeySelected__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 * Parameters:
@@ -8875,7 +8875,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.InputKeySelector.OnIsSelectingKeyChanged__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 */
@@ -8894,7 +8894,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBFA0
+	 * 		RVA    -> 0x01DF0320
 	 * 		Name   -> Function UMG.InputKeySelector.GetIsSelectingKey
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8930,7 +8930,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC240
+	 * 		RVA    -> 0x01DF05C0
 	 * 		Name   -> Function UMG.Int32Binding.GetValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -8966,7 +8966,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED170
+	 * 		RVA    -> 0x01DF14F0
 	 * 		Name   -> Function UMG.InvalidationBox.SetCanCache
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8989,7 +8989,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B70
+	 * 		RVA    -> 0x006C7310
 	 * 		Name   -> Function UMG.InvalidationBox.InvalidateCache
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -9009,7 +9009,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBE20
+	 * 		RVA    -> 0x01DF01A0
 	 * 		Name   -> Function UMG.InvalidationBox.GetCanCache
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9045,7 +9045,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserListEntry.BP_OnItemSelectionChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9067,7 +9067,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserListEntry.BP_OnItemExpansionChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9089,7 +9089,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserListEntry.BP_OnEntryReleased
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -9122,7 +9122,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC340
+	 * 		RVA    -> 0x01DF06C0
 	 * 		Name   -> Function UMG.UserListEntryLibrary.IsListItemSelected
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -9144,7 +9144,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC2A0
+	 * 		RVA    -> 0x01DF0620
 	 * 		Name   -> Function UMG.UserListEntryLibrary.IsListItemExpanded
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -9166,7 +9166,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC1A0
+	 * 		RVA    -> 0x01DF0520
 	 * 		Name   -> Function UMG.UserListEntryLibrary.GetOwningListView
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -9202,7 +9202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function UMG.UserObjectListEntry.OnListItemObjectSet
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9238,7 +9238,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC060
+	 * 		RVA    -> 0x01DF03E0
 	 * 		Name   -> Function UMG.UserObjectListEntryLibrary.GetListItemObject
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -9288,7 +9288,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEDC70
+	 * 		RVA    -> 0x01DF1FF0
 	 * 		Name   -> Function UMG.MenuAnchor.ToggleOpen
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9311,7 +9311,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEDC40
+	 * 		RVA    -> 0x01DF1FC0
 	 * 		Name   -> Function UMG.MenuAnchor.ShouldOpenDueToClick
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9333,7 +9333,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DED6C0
+	 * 		RVA    -> 0x01DF1A40
 	 * 		Name   -> Function UMG.MenuAnchor.SetPlacement
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9356,7 +9356,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC4C0
+	 * 		RVA    -> 0x01DF0840
 	 * 		Name   -> Function UMG.MenuAnchor.Open
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9379,7 +9379,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC3E0
+	 * 		RVA    -> 0x01DF0760
 	 * 		Name   -> Function UMG.MenuAnchor.IsOpen
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9401,7 +9401,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC270
+	 * 		RVA    -> 0x01DF05F0
 	 * 		Name   -> Function UMG.MenuAnchor.HasOpenSubMenus
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9423,7 +9423,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEC130
+	 * 		RVA    -> 0x01DF04B0
 	 * 		Name   -> Function UMG.MenuAnchor.GetMenuPosition
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9445,7 +9445,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBD90
+	 * 		RVA    -> 0x01DF0110
 	 * 		Name   -> Function UMG.MenuAnchor.FitInWindow
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9468,7 +9468,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DEBD70
+	 * 		RVA    -> 0x01DF00F0
 	 * 		Name   -> Function UMG.MenuAnchor.Close
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -9502,7 +9502,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF16A0
+	 * 		RVA    -> 0x01DF5A20
 	 * 		Name   -> Function UMG.MouseCursorBinding.GetValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -9608,7 +9608,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA480
+	 * 		RVA    -> 0x01DFE800
 	 * 		Name   -> Function UMG.TextLayoutWidget.SetJustification
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9645,7 +9645,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2B90
+	 * 		RVA    -> 0x01DF6F10
 	 * 		Name   -> Function UMG.MultiLineEditableText.SetWidgetStyle
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -9668,7 +9668,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF26D0
+	 * 		RVA    -> 0x01DF6A50
 	 * 		Name   -> Function UMG.MultiLineEditableText.SetText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9691,7 +9691,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2360
+	 * 		RVA    -> 0x01DF66E0
 	 * 		Name   -> Function UMG.MultiLineEditableText.SetIsReadOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9714,7 +9714,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2090
+	 * 		RVA    -> 0x01DF6410
 	 * 		Name   -> Function UMG.MultiLineEditableText.SetHintText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9737,7 +9737,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.MultiLineEditableText.OnMultiLineEditableTextCommittedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -9761,7 +9761,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.MultiLineEditableText.OnMultiLineEditableTextChangedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -9783,7 +9783,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF14C0
+	 * 		RVA    -> 0x01DF5840
 	 * 		Name   -> Function UMG.MultiLineEditableText.GetText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9805,7 +9805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1380
+	 * 		RVA    -> 0x01DF5700
 	 * 		Name   -> Function UMG.MultiLineEditableText.GetHintText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9841,7 +9841,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2960
+	 * 		RVA    -> 0x01DF6CE0
 	 * 		Name   -> Function UMG.MultiLineEditableTextBox.SetTextStyle
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -9864,7 +9864,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF27B0
+	 * 		RVA    -> 0x01DF6B30
 	 * 		Name   -> Function UMG.MultiLineEditableTextBox.SetText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9887,7 +9887,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF23F0
+	 * 		RVA    -> 0x01DF6770
 	 * 		Name   -> Function UMG.MultiLineEditableTextBox.SetIsReadOnly
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9910,7 +9910,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2170
+	 * 		RVA    -> 0x01DF64F0
 	 * 		Name   -> Function UMG.MultiLineEditableTextBox.SetHintText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9933,7 +9933,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1F30
+	 * 		RVA    -> 0x01DF62B0
 	 * 		Name   -> Function UMG.MultiLineEditableTextBox.SetError
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9956,7 +9956,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.MultiLineEditableTextBox.OnMultiLineEditableTextBoxCommittedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -9980,7 +9980,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.MultiLineEditableTextBox.OnMultiLineEditableTextBoxChangedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -10002,7 +10002,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1560
+	 * 		RVA    -> 0x01DF58E0
 	 * 		Name   -> Function UMG.MultiLineEditableTextBox.GetText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10024,7 +10024,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1420
+	 * 		RVA    -> 0x01DF57A0
 	 * 		Name   -> Function UMG.MultiLineEditableTextBox.GetHintText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10102,7 +10102,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1040
+	 * 		RVA    -> 0x01DF53C0
 	 * 		Name   -> Function UMG.Overlay.AddChildToOverlay
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10141,7 +10141,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2B10
+	 * 		RVA    -> 0x01DF6E90
 	 * 		Name   -> Function UMG.OverlaySlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10164,7 +10164,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2500
+	 * 		RVA    -> 0x01DF6880
 	 * 		Name   -> Function UMG.OverlaySlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10187,7 +10187,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2250
+	 * 		RVA    -> 0x01DF65D0
 	 * 		Name   -> Function UMG.OverlaySlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10224,7 +10224,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2590
+	 * 		RVA    -> 0x01DF6910
 	 * 		Name   -> Function UMG.ProgressBar.SetPercent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10247,7 +10247,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF22D0
+	 * 		RVA    -> 0x01DF6650
 	 * 		Name   -> Function UMG.ProgressBar.SetIsMarquee
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10270,7 +10270,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2010
+	 * 		RVA    -> 0x01DF6390
 	 * 		Name   -> Function UMG.ProgressBar.SetFillColorAndOpacity
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10307,7 +10307,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2A90
+	 * 		RVA    -> 0x01DF6E10
 	 * 		Name   -> Function UMG.RetainerBox.SetTextureParameter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10330,7 +10330,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2610
+	 * 		RVA    -> 0x01DF6990
 	 * 		Name   -> Function UMG.RetainerBox.SetRenderingPhase
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10355,7 +10355,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1EB0
+	 * 		RVA    -> 0x01DF6230
 	 * 		Name   -> Function UMG.RetainerBox.SetEffectMaterial
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10378,7 +10378,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF18B0
+	 * 		RVA    -> 0x01DF5C30
 	 * 		Name   -> Function UMG.RetainerBox.RequestRender
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -10398,7 +10398,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1350
+	 * 		RVA    -> 0x01DF56D0
 	 * 		Name   -> Function UMG.RetainerBox.GetEffectMaterial
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10434,7 +10434,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2A10
+	 * 		RVA    -> 0x01DF6D90
 	 * 		Name   -> Function UMG.RichTextBlock.SetTextStyleSet
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10457,7 +10457,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2890
+	 * 		RVA    -> 0x01DF6C10
 	 * 		Name   -> Function UMG.RichTextBlock.SetText
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10480,7 +10480,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF2480
+	 * 		RVA    -> 0x01DF6800
 	 * 		Name   -> Function UMG.RichTextBlock.SetMinDesiredWidth
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10503,7 +10503,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1E00
+	 * 		RVA    -> 0x01DF6180
 	 * 		Name   -> Function UMG.RichTextBlock.SetDefaultTextStyle
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10526,7 +10526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1C80
+	 * 		RVA    -> 0x01DF6000
 	 * 		Name   -> Function UMG.RichTextBlock.SetDefaultStrikeBrush
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10551,7 +10551,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1C00
+	 * 		RVA    -> 0x01DF5F80
 	 * 		Name   -> Function UMG.RichTextBlock.SetDefaultShadowOffset
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10574,7 +10574,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1B80
+	 * 		RVA    -> 0x01DF5F00
 	 * 		Name   -> Function UMG.RichTextBlock.SetDefaultShadowColorAndOpacity
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -10597,7 +10597,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1A50
+	 * 		RVA    -> 0x01DF5DD0
 	 * 		Name   -> Function UMG.RichTextBlock.SetDefaultFont
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10620,7 +10620,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1960
+	 * 		RVA    -> 0x01DF5CE0
 	 * 		Name   -> Function UMG.RichTextBlock.SetDefaultColorAndOpacity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10643,7 +10643,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF18D0
+	 * 		RVA    -> 0x01DF5C50
 	 * 		Name   -> Function UMG.RichTextBlock.SetAutoWrapText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10666,7 +10666,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF1600
+	 * 		RVA    -> 0x01DF5980
 	 * 		Name   -> Function UMG.RichTextBlock.GetText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10688,7 +10688,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF12C0
+	 * 		RVA    -> 0x01DF5640
 	 * 		Name   -> Function UMG.RichTextBlock.GetDecoratorByClass
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10713,7 +10713,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF10D0
+	 * 		RVA    -> 0x01DF5450
 	 * 		Name   -> Function UMG.RichTextBlock.ClearAllDefaultStyleOverrides
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -10775,7 +10775,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6B30
+	 * 		RVA    -> 0x01DFAEB0
 	 * 		Name   -> Function UMG.SafeZone.SetSidesToPad
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10832,7 +10832,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6E60
+	 * 		RVA    -> 0x01DFB1E0
 	 * 		Name   -> Function UMG.ScaleBox.SetUserSpecifiedScale
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10855,7 +10855,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6DE0
+	 * 		RVA    -> 0x01DFB160
 	 * 		Name   -> Function UMG.ScaleBox.SetStretchDirection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10878,7 +10878,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6D60
+	 * 		RVA    -> 0x01DFB0E0
 	 * 		Name   -> Function UMG.ScaleBox.SetStretch
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10901,7 +10901,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6340
+	 * 		RVA    -> 0x01DFA6C0
 	 * 		Name   -> Function UMG.ScaleBox.SetIgnoreInheritedScale
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10938,7 +10938,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE52F0
+	 * 		RVA    -> 0x01DE9670
 	 * 		Name   -> Function UMG.ScaleBoxSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10961,7 +10961,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6750
+	 * 		RVA    -> 0x01DFAAD0
 	 * 		Name   -> Function UMG.ScaleBoxSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10984,7 +10984,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DE4500
+	 * 		RVA    -> 0x01DE8880
 	 * 		Name   -> Function UMG.ScaleBoxSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11021,7 +11021,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6CA0
+	 * 		RVA    -> 0x01DFB020
 	 * 		Name   -> Function UMG.ScrollBar.SetState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11060,7 +11060,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6FE0
+	 * 		RVA    -> 0x01DFB360
 	 * 		Name   -> Function UMG.ScrollBox.SetWheelScrollMultiplier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11083,7 +11083,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6980
+	 * 		RVA    -> 0x01DFAD00
 	 * 		Name   -> Function UMG.ScrollBox.SetScrollOffset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11106,7 +11106,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6900
+	 * 		RVA    -> 0x01DFAC80
 	 * 		Name   -> Function UMG.ScrollBox.SetScrollbarVisibility
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11129,7 +11129,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6AA0
+	 * 		RVA    -> 0x01DFAE20
 	 * 		Name   -> Function UMG.ScrollBox.SetScrollbarThickness
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -11152,7 +11152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6A00
+	 * 		RVA    -> 0x01DFAD80
 	 * 		Name   -> Function UMG.ScrollBox.SetScrollbarPadding
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -11175,7 +11175,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF66D0
+	 * 		RVA    -> 0x01DFAA50
 	 * 		Name   -> Function UMG.ScrollBox.SetOrientation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11198,7 +11198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6140
+	 * 		RVA    -> 0x01DFA4C0
 	 * 		Name   -> Function UMG.ScrollBox.SetConsumeMouseWheel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11221,7 +11221,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF60B0
+	 * 		RVA    -> 0x01DFA430
 	 * 		Name   -> Function UMG.ScrollBox.SetAnimateWheelScrolling
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11244,7 +11244,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6020
+	 * 		RVA    -> 0x01DFA3A0
 	 * 		Name   -> Function UMG.ScrollBox.SetAlwaysShowScrollbar
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11267,7 +11267,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5F90
+	 * 		RVA    -> 0x01DFA310
 	 * 		Name   -> Function UMG.ScrollBox.SetAllowOverscroll
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11290,7 +11290,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5E40
+	 * 		RVA    -> 0x01DFA1C0
 	 * 		Name   -> Function UMG.ScrollBox.ScrollWidgetIntoView
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11319,7 +11319,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5E20
+	 * 		RVA    -> 0x01DFA1A0
 	 * 		Name   -> Function UMG.ScrollBox.ScrollToStart
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11339,7 +11339,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5E00
+	 * 		RVA    -> 0x01DFA180
 	 * 		Name   -> Function UMG.ScrollBox.ScrollToEnd
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11359,7 +11359,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF55D0
+	 * 		RVA    -> 0x01DF9950
 	 * 		Name   -> Function UMG.ScrollBox.GetViewOffsetFraction
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -11381,7 +11381,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF55A0
+	 * 		RVA    -> 0x01DF9920
 	 * 		Name   -> Function UMG.ScrollBox.GetScrollOffsetOfEnd
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -11403,7 +11403,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5570
+	 * 		RVA    -> 0x01DF98F0
 	 * 		Name   -> Function UMG.ScrollBox.GetScrollOffset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -11425,7 +11425,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5060
+	 * 		RVA    -> 0x01DF93E0
 	 * 		Name   -> Function UMG.ScrollBox.EndInertialScrolling
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11459,7 +11459,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6EE0
+	 * 		RVA    -> 0x01DFB260
 	 * 		Name   -> Function UMG.ScrollBoxSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11482,7 +11482,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF67E0
+	 * 		RVA    -> 0x01DFAB60
 	 * 		Name   -> Function UMG.ScrollBoxSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11505,7 +11505,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6240
+	 * 		RVA    -> 0x01DFA5C0
 	 * 		Name   -> Function UMG.ScrollBoxSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11542,7 +11542,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF7060
+	 * 		RVA    -> 0x01DFB3E0
 	 * 		Name   -> Function UMG.SizeBox.SetWidthOverride
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11565,7 +11565,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6650
+	 * 		RVA    -> 0x01DFA9D0
 	 * 		Name   -> Function UMG.SizeBox.SetMinDesiredWidth
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11588,7 +11588,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF65D0
+	 * 		RVA    -> 0x01DFA950
 	 * 		Name   -> Function UMG.SizeBox.SetMinDesiredHeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11611,7 +11611,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6550
+	 * 		RVA    -> 0x01DFA8D0
 	 * 		Name   -> Function UMG.SizeBox.SetMinAspectRatio
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11634,7 +11634,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF64D0
+	 * 		RVA    -> 0x01DFA850
 	 * 		Name   -> Function UMG.SizeBox.SetMaxDesiredWidth
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11657,7 +11657,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6450
+	 * 		RVA    -> 0x01DFA7D0
 	 * 		Name   -> Function UMG.SizeBox.SetMaxDesiredHeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11680,7 +11680,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF63D0
+	 * 		RVA    -> 0x01DFA750
 	 * 		Name   -> Function UMG.SizeBox.SetMaxAspectRatio
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11703,7 +11703,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF61C0
+	 * 		RVA    -> 0x01DFA540
 	 * 		Name   -> Function UMG.SizeBox.SetHeightOverride
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11726,7 +11726,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5040
+	 * 		RVA    -> 0x01DF93C0
 	 * 		Name   -> Function UMG.SizeBox.ClearWidthOverride
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11746,7 +11746,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5020
+	 * 		RVA    -> 0x01DF93A0
 	 * 		Name   -> Function UMG.SizeBox.ClearMinDesiredWidth
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11766,7 +11766,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5000
+	 * 		RVA    -> 0x01DF9380
 	 * 		Name   -> Function UMG.SizeBox.ClearMinDesiredHeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11786,7 +11786,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF4FE0
+	 * 		RVA    -> 0x01DF9360
 	 * 		Name   -> Function UMG.SizeBox.ClearMinAspectRatio
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11806,7 +11806,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF4FC0
+	 * 		RVA    -> 0x01DF9340
 	 * 		Name   -> Function UMG.SizeBox.ClearMaxDesiredWidth
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11826,7 +11826,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF4FA0
+	 * 		RVA    -> 0x01DF9320
 	 * 		Name   -> Function UMG.SizeBox.ClearMaxDesiredHeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11846,7 +11846,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF4F80
+	 * 		RVA    -> 0x01DF9300
 	 * 		Name   -> Function UMG.SizeBox.ClearMaxAspectRatio
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11866,7 +11866,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF4F60
+	 * 		RVA    -> 0x01DF92E0
 	 * 		Name   -> Function UMG.SizeBox.ClearHeightOverride
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -11900,7 +11900,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6F60
+	 * 		RVA    -> 0x01DFB2E0
 	 * 		Name   -> Function UMG.SizeBoxSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11923,7 +11923,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF6870
+	 * 		RVA    -> 0x01DFABF0
 	 * 		Name   -> Function UMG.SizeBoxSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11946,7 +11946,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF62C0
+	 * 		RVA    -> 0x01DFA640
 	 * 		Name   -> Function UMG.SizeBoxSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -11983,7 +11983,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF73E0
+	 * 		RVA    -> 0x01DFB760
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.TransformVectorLocalToAbsolute
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12010,7 +12010,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF72E0
+	 * 		RVA    -> 0x01DFB660
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.TransformVectorAbsoluteToLocal
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12037,7 +12037,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF71E0
+	 * 		RVA    -> 0x01DFB560
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.TransformScalarLocalToAbsolute
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12064,7 +12064,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF70E0
+	 * 		RVA    -> 0x01DFB460
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.TransformScalarAbsoluteToLocal
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12091,7 +12091,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5C30
+	 * 		RVA    -> 0x01DF9FB0
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.ScreenToWidgetLocal
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults)
 	 * Parameters:
@@ -12124,7 +12124,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5AE0
+	 * 		RVA    -> 0x01DF9E60
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.ScreenToWidgetAbsolute
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults)
 	 * Parameters:
@@ -12155,7 +12155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF59E0
+	 * 		RVA    -> 0x01DF9D60
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.ScreenToViewport
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults)
 	 * Parameters:
@@ -12184,7 +12184,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5800
+	 * 		RVA    -> 0x01DF9B80
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.LocalToViewport
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12218,7 +12218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5700
+	 * 		RVA    -> 0x01DF9A80
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.LocalToAbsolute
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12245,7 +12245,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5600
+	 * 		RVA    -> 0x01DF9980
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.IsUnderLocation
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12272,7 +12272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF54B0
+	 * 		RVA    -> 0x01DF9830
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.GetLocalTopLeft
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12297,7 +12297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF53F0
+	 * 		RVA    -> 0x01DF9770
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.GetLocalSize
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12322,7 +12322,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5330
+	 * 		RVA    -> 0x01DF96B0
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.GetAbsoluteSize
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12347,7 +12347,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF5080
+	 * 		RVA    -> 0x01DF9400
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.EqualEqual_SlateBrush
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12374,7 +12374,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF4E10
+	 * 		RVA    -> 0x01DF9190
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.AbsoluteToViewport
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12406,7 +12406,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF4D10
+	 * 		RVA    -> 0x01DF9090
 	 * 		Name   -> Function UMG.SlateBlueprintLibrary.AbsoluteToLocal
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12475,7 +12475,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFAC10
+	 * 		RVA    -> 0x01DFEF90
 	 * 		Name   -> Function UMG.Spacer.SetSize
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -12512,7 +12512,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFB1A0
+	 * 		RVA    -> 0x01DFF520
 	 * 		Name   -> Function UMG.SpinBox.SetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12535,7 +12535,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA990
+	 * 		RVA    -> 0x01DFED10
 	 * 		Name   -> Function UMG.SpinBox.SetMinValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12558,7 +12558,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA890
+	 * 		RVA    -> 0x01DFEC10
 	 * 		Name   -> Function UMG.SpinBox.SetMinSliderValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12581,7 +12581,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA810
+	 * 		RVA    -> 0x01DFEB90
 	 * 		Name   -> Function UMG.SpinBox.SetMinFractionalDigits
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12604,7 +12604,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA710
+	 * 		RVA    -> 0x01DFEA90
 	 * 		Name   -> Function UMG.SpinBox.SetMaxValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12627,7 +12627,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA610
+	 * 		RVA    -> 0x01DFE990
 	 * 		Name   -> Function UMG.SpinBox.SetMaxSliderValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12650,7 +12650,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA590
+	 * 		RVA    -> 0x01DFE910
 	 * 		Name   -> Function UMG.SpinBox.SetMaxFractionalDigits
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12673,7 +12673,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA230
+	 * 		RVA    -> 0x01DFE5B0
 	 * 		Name   -> Function UMG.SpinBox.SetForegroundColor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12696,7 +12696,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9F80
+	 * 		RVA    -> 0x01DFE300
 	 * 		Name   -> Function UMG.SpinBox.SetDelta
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12719,7 +12719,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9BC0
+	 * 		RVA    -> 0x01DFDF40
 	 * 		Name   -> Function UMG.SpinBox.SetAlwaysUsesDeltaSnap
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12742,7 +12742,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.SpinBox.OnSpinBoxValueCommittedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 * Parameters:
@@ -12766,7 +12766,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.SpinBox.OnSpinBoxValueChangedEvent__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 * Parameters:
@@ -12788,7 +12788,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.SpinBox.OnSpinBoxBeginSliderMovement__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 */
@@ -12807,7 +12807,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9B90
+	 * 		RVA    -> 0x01DFDF10
 	 * 		Name   -> Function UMG.SpinBox.GetValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12829,7 +12829,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9940
+	 * 		RVA    -> 0x01DFDCC0
 	 * 		Name   -> Function UMG.SpinBox.GetMinValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12851,7 +12851,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9910
+	 * 		RVA    -> 0x01DFDC90
 	 * 		Name   -> Function UMG.SpinBox.GetMinSliderValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12873,7 +12873,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF98E0
+	 * 		RVA    -> 0x01DFDC60
 	 * 		Name   -> Function UMG.SpinBox.GetMinFractionalDigits
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12895,7 +12895,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF98B0
+	 * 		RVA    -> 0x01DFDC30
 	 * 		Name   -> Function UMG.SpinBox.GetMaxValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12917,7 +12917,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9880
+	 * 		RVA    -> 0x01DFDC00
 	 * 		Name   -> Function UMG.SpinBox.GetMaxSliderValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12939,7 +12939,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9850
+	 * 		RVA    -> 0x01DFDBD0
 	 * 		Name   -> Function UMG.SpinBox.GetMaxFractionalDigits
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12961,7 +12961,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF97C0
+	 * 		RVA    -> 0x01DFDB40
 	 * 		Name   -> Function UMG.SpinBox.GetDelta
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12983,7 +12983,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9790
+	 * 		RVA    -> 0x01DFDB10
 	 * 		Name   -> Function UMG.SpinBox.GetAlwaysUsesDeltaSnap
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13005,7 +13005,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9730
+	 * 		RVA    -> 0x01DFDAB0
 	 * 		Name   -> Function UMG.SpinBox.ClearMinValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -13025,7 +13025,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9710
+	 * 		RVA    -> 0x01DFDA90
 	 * 		Name   -> Function UMG.SpinBox.ClearMinSliderValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -13045,7 +13045,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF96F0
+	 * 		RVA    -> 0x01DFDA70
 	 * 		Name   -> Function UMG.SpinBox.ClearMaxValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -13065,7 +13065,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF96D0
+	 * 		RVA    -> 0x01DFDA50
 	 * 		Name   -> Function UMG.SpinBox.ClearMaxSliderValue
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -13099,7 +13099,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9AC0
+	 * 		RVA    -> 0x01DFDE40
 	 * 		Name   -> Function UMG.TextBinding.GetTextValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -13121,7 +13121,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF99A0
+	 * 		RVA    -> 0x01DFDD20
 	 * 		Name   -> Function UMG.TextBinding.GetStringValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -13157,7 +13157,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFB040
+	 * 		RVA    -> 0x01DFF3C0
 	 * 		Name   -> Function UMG.TextBlock.SetText
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13180,7 +13180,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFAE10
+	 * 		RVA    -> 0x01DFF190
 	 * 		Name   -> Function UMG.TextBlock.SetStrikeBrush
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13203,7 +13203,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFAB90
+	 * 		RVA    -> 0x01DFEF10
 	 * 		Name   -> Function UMG.TextBlock.SetShadowOffset
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -13226,7 +13226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFAB10
+	 * 		RVA    -> 0x01DFEE90
 	 * 		Name   -> Function UMG.TextBlock.SetShadowColorAndOpacity
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -13249,7 +13249,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFAA90
+	 * 		RVA    -> 0x01DFEE10
 	 * 		Name   -> Function UMG.TextBlock.SetOpacity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13272,7 +13272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA790
+	 * 		RVA    -> 0x01DFEB10
 	 * 		Name   -> Function UMG.TextBlock.SetMinDesiredWidth
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13295,7 +13295,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA100
+	 * 		RVA    -> 0x01DFE480
 	 * 		Name   -> Function UMG.TextBlock.SetFont
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13318,7 +13318,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9E90
+	 * 		RVA    -> 0x01DFE210
 	 * 		Name   -> Function UMG.TextBlock.SetColorAndOpacity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13341,7 +13341,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9E00
+	 * 		RVA    -> 0x01DFE180
 	 * 		Name   -> Function UMG.TextBlock.SetAutoWrapText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13364,7 +13364,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9A20
+	 * 		RVA    -> 0x01DFDDA0
 	 * 		Name   -> Function UMG.TextBlock.GetText
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13386,7 +13386,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9820
+	 * 		RVA    -> 0x01DFDBA0
 	 * 		Name   -> Function UMG.TextBlock.GetDynamicOutlineMaterial
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -13408,7 +13408,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF97F0
+	 * 		RVA    -> 0x01DFDB70
 	 * 		Name   -> Function UMG.TextBlock.GetDynamicFontMaterial
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -13444,7 +13444,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFAA10
+	 * 		RVA    -> 0x01DFED90
 	 * 		Name   -> Function UMG.Throbber.SetNumberOfPieces
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13467,7 +13467,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9D70
+	 * 		RVA    -> 0x01DFE0F0
 	 * 		Name   -> Function UMG.Throbber.SetAnimateVertically
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13490,7 +13490,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9CE0
+	 * 		RVA    -> 0x01DFE060
 	 * 		Name   -> Function UMG.Throbber.SetAnimateOpacity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13513,7 +13513,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9C50
+	 * 		RVA    -> 0x01DFDFD0
 	 * 		Name   -> Function UMG.Throbber.SetAnimateHorizontally
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13550,7 +13550,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA080
+	 * 		RVA    -> 0x01DFE400
 	 * 		Name   -> Function UMG.TileView.SetEntryWidth
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13573,7 +13573,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA000
+	 * 		RVA    -> 0x01DFE380
 	 * 		Name   -> Function UMG.TileView.SetEntryHeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13610,7 +13610,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFA3B0
+	 * 		RVA    -> 0x01DFE730
 	 * 		Name   -> Function UMG.TreeView.SetItemExpansion
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13635,7 +13635,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9770
+	 * 		RVA    -> 0x01DFDAF0
 	 * 		Name   -> Function UMG.TreeView.ExpandAll
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -13655,7 +13655,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DF9750
+	 * 		RVA    -> 0x01DFDAD0
 	 * 		Name   -> Function UMG.TreeView.CollapseAll
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -13689,7 +13689,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E011D0
+	 * 		RVA    -> 0x01E05550
 	 * 		Name   -> Function UMG.UMGSequencePlayer.SetUserTag
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13712,7 +13712,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFFAD0
+	 * 		RVA    -> 0x01E03E50
 	 * 		Name   -> Function UMG.UMGSequencePlayer.GetUserTag
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13748,7 +13748,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E01140
+	 * 		RVA    -> 0x01E054C0
 	 * 		Name   -> Function UMG.UniformGridPanel.SetSlotPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13771,7 +13771,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00CE0
+	 * 		RVA    -> 0x01E05060
 	 * 		Name   -> Function UMG.UniformGridPanel.SetMinDesiredSlotWidth
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13794,7 +13794,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00C60
+	 * 		RVA    -> 0x01E04FE0
 	 * 		Name   -> Function UMG.UniformGridPanel.SetMinDesiredSlotHeight
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13817,7 +13817,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DFF3F0
+	 * 		RVA    -> 0x01E03770
 	 * 		Name   -> Function UMG.UniformGridPanel.AddChildToUniformGrid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13860,7 +13860,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E01250
+	 * 		RVA    -> 0x01E055D0
 	 * 		Name   -> Function UMG.UniformGridSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13883,7 +13883,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E010C0
+	 * 		RVA    -> 0x01E05440
 	 * 		Name   -> Function UMG.UniformGridSlot.SetRow
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13906,7 +13906,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E00AD0
+	 * 		RVA    -> 0x01E04E50
 	 * 		Name   -> Function UMG.UniformGridSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13929,7 +13929,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E008E0
+	 * 		RVA    -> 0x01E04C60
 	 * 		Name   -> Function UMG.UniformGridSlot.SetColumn
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -13966,7 +13966,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03390
+	 * 		RVA    -> 0x01E07710
 	 * 		Name   -> Function UMG.VerticalBox.AddChildToVerticalBox
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14005,7 +14005,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04BC0
+	 * 		RVA    -> 0x01E08F40
 	 * 		Name   -> Function UMG.VerticalBoxSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14028,7 +14028,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04960
+	 * 		RVA    -> 0x01E08CE0
 	 * 		Name   -> Function UMG.VerticalBoxSlot.SetSize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14051,7 +14051,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E044F0
+	 * 		RVA    -> 0x01E08870
 	 * 		Name   -> Function UMG.VerticalBoxSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14074,7 +14074,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03F70
+	 * 		RVA    -> 0x01E082F0
 	 * 		Name   -> Function UMG.VerticalBoxSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14111,7 +14111,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04DE0
+	 * 		RVA    -> 0x01E09160
 	 * 		Name   -> Function UMG.Viewport.Spawn
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14136,7 +14136,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04CD0
+	 * 		RVA    -> 0x01E09050
 	 * 		Name   -> Function UMG.Viewport.SetViewRotation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -14159,7 +14159,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04C40
+	 * 		RVA    -> 0x01E08FC0
 	 * 		Name   -> Function UMG.Viewport.SetViewLocation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -14182,7 +14182,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E039E0
+	 * 		RVA    -> 0x01E07D60
 	 * 		Name   -> Function UMG.Viewport.GetViewRotation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14204,7 +14204,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03A20
+	 * 		RVA    -> 0x01E07DA0
 	 * 		Name   -> Function UMG.Viewport.GetViewportWorld
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14226,7 +14226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E039A0
+	 * 		RVA    -> 0x01E07D20
 	 * 		Name   -> Function UMG.Viewport.GetViewLocation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14262,7 +14262,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03970
+	 * 		RVA    -> 0x01E07CF0
 	 * 		Name   -> Function UMG.VisibilityBinding.GetValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -14298,7 +14298,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E05050
+	 * 		RVA    -> 0x01E093D0
 	 * 		Name   -> Function UMG.WidgetAnimation.UnbindFromAnimationStarted
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14323,7 +14323,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04F70
+	 * 		RVA    -> 0x01E092F0
 	 * 		Name   -> Function UMG.WidgetAnimation.UnbindFromAnimationFinished
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14348,7 +14348,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04EF0
+	 * 		RVA    -> 0x01E09270
 	 * 		Name   -> Function UMG.WidgetAnimation.UnbindAllFromAnimationStarted
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14371,7 +14371,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E04E70
+	 * 		RVA    -> 0x01E091F0
 	 * 		Name   -> Function UMG.WidgetAnimation.UnbindAllFromAnimationFinished
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14394,7 +14394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03900
+	 * 		RVA    -> 0x01E07C80
 	 * 		Name   -> Function UMG.WidgetAnimation.GetStartTime
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14416,7 +14416,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03740
+	 * 		RVA    -> 0x01E07AC0
 	 * 		Name   -> Function UMG.WidgetAnimation.GetEndTime
 	 * 		Flags  -> (Final, RequiredAPI, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14438,7 +14438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03500
+	 * 		RVA    -> 0x01E07880
 	 * 		Name   -> Function UMG.WidgetAnimation.BindToAnimationStarted
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14463,7 +14463,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E03420
+	 * 		RVA    -> 0x01E077A0
 	 * 		Name   -> Function UMG.WidgetAnimation.BindToAnimationFinished
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14516,7 +14516,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E06EF0
+	 * 		RVA    -> 0x01E0B270
 	 * 		Name   -> Function UMG.WidgetAnimationPlayCallbackProxy.CreatePlayAnimationTimeRangeProxyObject
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -14557,7 +14557,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E06CF0
+	 * 		RVA    -> 0x01E0B070
 	 * 		Name   -> Function UMG.WidgetAnimationPlayCallbackProxy.CreatePlayAnimationProxyObject
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -14610,7 +14610,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08FD0
+	 * 		RVA    -> 0x01E0D350
 	 * 		Name   -> Function UMG.WidgetBinding.GetValue
 	 * 		Flags  -> (Final, Native, Public, Const)
 	 */
@@ -14660,7 +14660,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0A520
+	 * 		RVA    -> 0x01E0E8A0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.UnlockMouse
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -14687,7 +14687,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0A4B0
+	 * 		RVA    -> 0x01E0E830
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.Unhandled
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -14709,7 +14709,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0A320
+	 * 		RVA    -> 0x01E0E6A0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarState
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -14740,7 +14740,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0A290
+	 * 		RVA    -> 0x01E0E610
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarOnCloseClickedDelegate
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -14763,7 +14763,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0A210
+	 * 		RVA    -> 0x01E0E590
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarCloseButtonActive
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -14786,7 +14786,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E067B0
+	 * 		RVA    -> 0x01E0AB30
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetUserFocus
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -14817,7 +14817,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0A0F0
+	 * 		RVA    -> 0x01E0E470
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetMousePosition
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -14846,7 +14846,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0A000
+	 * 		RVA    -> 0x01E0E380
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetInputMode_UIOnlyEx
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -14873,7 +14873,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09F00
+	 * 		RVA    -> 0x01E0E280
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetInputMode_UIOnly
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -14900,7 +14900,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09E90
+	 * 		RVA    -> 0x01E0E210
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetInputMode_GameOnly
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -14923,7 +14923,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09D50
+	 * 		RVA    -> 0x01E0E0D0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetInputMode_GameAndUIEx
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -14952,7 +14952,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09C10
+	 * 		RVA    -> 0x01E0DF90
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetInputMode_GameAndUI
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -14981,7 +14981,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09AE0
+	 * 		RVA    -> 0x01E0DE60
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetHardwareCursor
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -15012,7 +15012,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09AC0
+	 * 		RVA    -> 0x01E0DE40
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetFocusToGameViewport
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 */
@@ -15032,7 +15032,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09970
+	 * 		RVA    -> 0x01E0DCF0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetColorVisionDeficiencyType
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -15061,7 +15061,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E097C0
+	 * 		RVA    -> 0x01E0DB40
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetBrushResourceToTexture
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -15088,7 +15088,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E097C0
+	 * 		RVA    -> 0x01E0DB40
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.SetBrushResourceToMaterial
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -15115,7 +15115,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E097A0
+	 * 		RVA    -> 0x01E0DB20
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.RestorePreviousWindowTitleBarState
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -15135,7 +15135,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E096B0
+	 * 		RVA    -> 0x01E0DA30
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.ReleaseMouseCapture
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15162,7 +15162,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E06A50
+	 * 		RVA    -> 0x01E0ADD0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.ReleaseJoystickCapture
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15191,7 +15191,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction UMG.WidgetBlueprintLibrary.OnGameWindowCloseButtonClickedDelegate__DelegateSignature
 	 * 		Flags  -> (Public, Delegate)
 	 */
@@ -15210,7 +15210,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09600
+	 * 		RVA    -> 0x01E0D980
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.NoResourceBrush
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -15232,7 +15232,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09470
+	 * 		RVA    -> 0x01E0D7F0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.MakeBrushFromTexture
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15261,7 +15261,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E092E0
+	 * 		RVA    -> 0x01E0D660
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.MakeBrushFromMaterial
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15290,7 +15290,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E091D0
+	 * 		RVA    -> 0x01E0D550
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.MakeBrushFromAsset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15315,7 +15315,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E090A0
+	 * 		RVA    -> 0x01E0D420
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.LockMouse
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15344,7 +15344,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09070
+	 * 		RVA    -> 0x01E0D3F0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.IsDragDropping
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -15366,7 +15366,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E09000
+	 * 		RVA    -> 0x01E0D380
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.Handled
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -15388,7 +15388,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08E60
+	 * 		RVA    -> 0x01E0D1E0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetSafeZonePadding
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -15421,7 +15421,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08CE0
+	 * 		RVA    -> 0x01E0D060
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetKeyEventFromAnalogInputEvent
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15446,7 +15446,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08B90
+	 * 		RVA    -> 0x01E0CF10
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetInputEventFromPointerEvent
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15471,7 +15471,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08AB0
+	 * 		RVA    -> 0x01E0CE30
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetInputEventFromNavigationEvent
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15496,7 +15496,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08990
+	 * 		RVA    -> 0x01E0CD10
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetInputEventFromKeyEvent
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15521,7 +15521,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E088B0
+	 * 		RVA    -> 0x01E0CC30
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetInputEventFromCharacterEvent
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15546,7 +15546,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08730
+	 * 		RVA    -> 0x01E0CAB0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetDynamicMaterial
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15573,7 +15573,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08700
+	 * 		RVA    -> 0x01E0CA80
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetDragDroppingContent
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -15595,7 +15595,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08580
+	 * 		RVA    -> 0x01E0C900
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetBrushResourceAsTexture2D
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15620,7 +15620,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08400
+	 * 		RVA    -> 0x01E0C780
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetBrushResourceAsMaterial
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15645,7 +15645,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08280
+	 * 		RVA    -> 0x01E0C600
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetBrushResource
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15670,7 +15670,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E08120
+	 * 		RVA    -> 0x01E0C4A0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetAllWidgetsWithInterface
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -15701,7 +15701,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E07FC0
+	 * 		RVA    -> 0x01E0C340
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.GetAllWidgetsOfClass
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -15732,7 +15732,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E07ED0
+	 * 		RVA    -> 0x01E0C250
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.EndDragDrop
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15759,7 +15759,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E07C70
+	 * 		RVA    -> 0x01E0BFF0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.DrawTextFormatted
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -15796,7 +15796,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E07AF0
+	 * 		RVA    -> 0x01E0BE70
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.DrawText
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -15827,7 +15827,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E07920
+	 * 		RVA    -> 0x01E0BCA0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.DrawLines
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -15860,7 +15860,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E07720
+	 * 		RVA    -> 0x01E0BAA0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.DrawLine
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -15895,7 +15895,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E07570
+	 * 		RVA    -> 0x01E0B8F0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.DrawBox
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -15928,7 +15928,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E07550
+	 * 		RVA    -> 0x01E0B8D0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.DismissAllMenus
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 */
@@ -15948,7 +15948,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E07300
+	 * 		RVA    -> 0x01E0B680
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.DetectDragIfPressed
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -15977,7 +15977,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E07130
+	 * 		RVA    -> 0x01E0B4B0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.DetectDrag
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16008,7 +16008,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E06C70
+	 * 		RVA    -> 0x01E0AFF0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.CreateDragDropOperation
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -16033,7 +16033,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E06B80
+	 * 		RVA    -> 0x01E0AF00
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.Create
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -16062,7 +16062,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E06A50
+	 * 		RVA    -> 0x01E0ADD0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.ClearUserFocus
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16091,7 +16091,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E06920
+	 * 		RVA    -> 0x01E0ACA0
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.CaptureMouse
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16120,7 +16120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E067B0
+	 * 		RVA    -> 0x01E0AB30
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.CaptureJoystick
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16151,7 +16151,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E06790
+	 * 		RVA    -> 0x01E0AB10
 	 * 		Name   -> Function UMG.WidgetBlueprintLibrary.CancelDragDrop
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -16185,7 +16185,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D890
+	 * 		RVA    -> 0x01E11C10
 	 * 		Name   -> Function UMG.WidgetComponent.SetWindowVisibility
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16208,7 +16208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D800
+	 * 		RVA    -> 0x01E11B80
 	 * 		Name   -> Function UMG.WidgetComponent.SetWindowFocusable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16231,7 +16231,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D780
+	 * 		RVA    -> 0x01E11B00
 	 * 		Name   -> Function UMG.WidgetComponent.SetWidgetSpace
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16254,7 +16254,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C05D0
+	 * 		RVA    -> 0x006C3D70
 	 * 		Name   -> Function UMG.WidgetComponent.SetWidget
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16277,7 +16277,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D6F0
+	 * 		RVA    -> 0x01E11A70
 	 * 		Name   -> Function UMG.WidgetComponent.SetTwoSided
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16300,7 +16300,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D670
+	 * 		RVA    -> 0x01E119F0
 	 * 		Name   -> Function UMG.WidgetComponent.SetTintColorAndOpacity
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -16323,7 +16323,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D5F0
+	 * 		RVA    -> 0x01E11970
 	 * 		Name   -> Function UMG.WidgetComponent.SetTickWhenOffscreen
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16346,7 +16346,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D570
+	 * 		RVA    -> 0x01E118F0
 	 * 		Name   -> Function UMG.WidgetComponent.SetRedrawTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16369,7 +16369,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D4E0
+	 * 		RVA    -> 0x01E11860
 	 * 		Name   -> Function UMG.WidgetComponent.SetPivot
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -16392,7 +16392,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D460
+	 * 		RVA    -> 0x01E117E0
 	 * 		Name   -> Function UMG.WidgetComponent.SetOwnerPlayer
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16415,7 +16415,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D3D0
+	 * 		RVA    -> 0x01E11750
 	 * 		Name   -> Function UMG.WidgetComponent.SetManuallyRedraw
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16438,7 +16438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D350
+	 * 		RVA    -> 0x01E116D0
 	 * 		Name   -> Function UMG.WidgetComponent.SetGeometryMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16461,7 +16461,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D250
+	 * 		RVA    -> 0x01E115D0
 	 * 		Name   -> Function UMG.WidgetComponent.SetDrawSize
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -16484,7 +16484,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D1D0
+	 * 		RVA    -> 0x01E11550
 	 * 		Name   -> Function UMG.WidgetComponent.SetDrawAtDesiredSize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16507,7 +16507,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D150
+	 * 		RVA    -> 0x01E114D0
 	 * 		Name   -> Function UMG.WidgetComponent.SetCylinderArcAngle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16530,7 +16530,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0CFF0
+	 * 		RVA    -> 0x01E11370
 	 * 		Name   -> Function UMG.WidgetComponent.SetBackgroundColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -16553,7 +16553,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0CE10
+	 * 		RVA    -> 0x01E11190
 	 * 		Name   -> Function UMG.WidgetComponent.RequestRedraw
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -16573,7 +16573,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C690
+	 * 		RVA    -> 0x01E10A10
 	 * 		Name   -> Function UMG.WidgetComponent.GetWindowVisiblility
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16595,7 +16595,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C670
+	 * 		RVA    -> 0x01E109F0
 	 * 		Name   -> Function UMG.WidgetComponent.GetWindowFocusable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16617,7 +16617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C650
+	 * 		RVA    -> 0x01E109D0
 	 * 		Name   -> Function UMG.WidgetComponent.GetWidgetSpace
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16639,7 +16639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C450
+	 * 		RVA    -> 0x01E107D0
 	 * 		Name   -> Function UMG.WidgetComponent.GetUserWidgetObject
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16661,7 +16661,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C430
+	 * 		RVA    -> 0x01E107B0
 	 * 		Name   -> Function UMG.WidgetComponent.GetTwoSided
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16683,7 +16683,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C410
+	 * 		RVA    -> 0x01E10790
 	 * 		Name   -> Function UMG.WidgetComponent.GetTickWhenOffscreen
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16705,7 +16705,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C3E0
+	 * 		RVA    -> 0x01E10760
 	 * 		Name   -> Function UMG.WidgetComponent.GetRenderTarget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16727,7 +16727,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C3C0
+	 * 		RVA    -> 0x01E10740
 	 * 		Name   -> Function UMG.WidgetComponent.GetRedrawTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16749,7 +16749,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C2E0
+	 * 		RVA    -> 0x01E10660
 	 * 		Name   -> Function UMG.WidgetComponent.GetPivot
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16771,7 +16771,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C2B0
+	 * 		RVA    -> 0x01E10630
 	 * 		Name   -> Function UMG.WidgetComponent.GetOwnerPlayer
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16793,7 +16793,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C090
+	 * 		RVA    -> 0x01E10410
 	 * 		Name   -> Function UMG.WidgetComponent.GetMaterialInstance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16815,7 +16815,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x019A3440
+	 * 		RVA    -> 0x019A77C0
 	 * 		Name   -> Function UMG.WidgetComponent.GetManuallyRedraw
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16837,7 +16837,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0BFC0
+	 * 		RVA    -> 0x01E10340
 	 * 		Name   -> Function UMG.WidgetComponent.GetGeometryMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16859,7 +16859,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0BF80
+	 * 		RVA    -> 0x01E10300
 	 * 		Name   -> Function UMG.WidgetComponent.GetDrawSize
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16881,7 +16881,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0BF60
+	 * 		RVA    -> 0x01E102E0
 	 * 		Name   -> Function UMG.WidgetComponent.GetDrawAtDesiredSize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16903,7 +16903,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0BF40
+	 * 		RVA    -> 0x01E102C0
 	 * 		Name   -> Function UMG.WidgetComponent.GetCylinderArcAngle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16925,7 +16925,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0BF00
+	 * 		RVA    -> 0x01E10280
 	 * 		Name   -> Function UMG.WidgetComponent.GetCurrentDrawSize
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -16961,7 +16961,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D2D0
+	 * 		RVA    -> 0x01E11650
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.SetFocus
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16984,7 +16984,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D070
+	 * 		RVA    -> 0x01E113F0
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.SetCustomHitResult
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -17007,7 +17007,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0CEB0
+	 * 		RVA    -> 0x01E11230
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.SendKeyChar
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -17034,7 +17034,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0CE30
+	 * 		RVA    -> 0x01E111B0
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.ScrollWheel
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -17057,7 +17057,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0CCC0
+	 * 		RVA    -> 0x01E11040
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.ReleasePointerKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -17080,7 +17080,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0CBC0
+	 * 		RVA    -> 0x01E10F40
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.ReleaseKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -17105,7 +17105,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C980
+	 * 		RVA    -> 0x01E10D00
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.PressPointerKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -17128,7 +17128,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C840
+	 * 		RVA    -> 0x01E10BC0
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.PressKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -17155,7 +17155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C740
+	 * 		RVA    -> 0x01E10AC0
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.PressAndReleaseKey
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -17180,7 +17180,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C710
+	 * 		RVA    -> 0x01E10A90
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.IsOverInteractableWidget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -17202,7 +17202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C6E0
+	 * 		RVA    -> 0x01E10A60
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.IsOverHitTestVisibleWidget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -17224,7 +17224,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C6B0
+	 * 		RVA    -> 0x01E10A30
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.IsOverFocusableWidget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -17246,7 +17246,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C010
+	 * 		RVA    -> 0x01E10390
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.GetLastHitResult
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -17268,7 +17268,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0BFE0
+	 * 		RVA    -> 0x01E10360
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.GetHoveredWidgetComponent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -17290,7 +17290,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0BEC0
+	 * 		RVA    -> 0x01E10240
 	 * 		Name   -> Function UMG.WidgetInteractionComponent.Get2DHitLocation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -17326,7 +17326,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DF10
+	 * 		RVA    -> 0x01E12290
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsWrapBoxSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17351,7 +17351,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DE90
+	 * 		RVA    -> 0x01E12210
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsWidgetSwitcherSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17376,7 +17376,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DE10
+	 * 		RVA    -> 0x01E12190
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsVerticalBoxSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17401,7 +17401,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DD90
+	 * 		RVA    -> 0x01E12110
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsUniformGridSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17426,7 +17426,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DD10
+	 * 		RVA    -> 0x01E12090
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsSizeBoxSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17451,7 +17451,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DC90
+	 * 		RVA    -> 0x01E12010
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsScrollBoxSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17476,7 +17476,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DC10
+	 * 		RVA    -> 0x01E11F90
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsScaleBoxSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17501,7 +17501,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DB90
+	 * 		RVA    -> 0x01E11F10
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsSafeBoxSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17526,7 +17526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DB10
+	 * 		RVA    -> 0x01E11E90
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsOverlaySlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17551,7 +17551,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DA90
+	 * 		RVA    -> 0x01E11E10
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsHorizontalBoxSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17576,7 +17576,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0DA10
+	 * 		RVA    -> 0x01E11D90
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsGridSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17601,7 +17601,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D990
+	 * 		RVA    -> 0x01E11D10
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsCanvasSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17626,7 +17626,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0D910
+	 * 		RVA    -> 0x01E11C90
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.SlotAsBorderSlot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17651,7 +17651,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0CDA0
+	 * 		RVA    -> 0x01E11120
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.RemoveAllWidgets
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -17674,7 +17674,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0CA60
+	 * 		RVA    -> 0x01E10DE0
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.ProjectWorldLocationToWidgetPosition
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17707,7 +17707,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C5A0
+	 * 		RVA    -> 0x01E10920
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.GetViewportWidgetGeometry
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -17732,7 +17732,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C510
+	 * 		RVA    -> 0x01E10890
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.GetViewportSize
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17757,7 +17757,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C480
+	 * 		RVA    -> 0x01E10800
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.GetViewportScale
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17782,7 +17782,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C310
+	 * 		RVA    -> 0x01E10690
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.GetPlayerScreenWidgetGeometry
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -17807,7 +17807,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C190
+	 * 		RVA    -> 0x01E10510
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.GetMousePositionScaledByDPI
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -17839,7 +17839,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C100
+	 * 		RVA    -> 0x01E10480
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.GetMousePositionOnViewport
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -17864,7 +17864,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0C0C0
+	 * 		RVA    -> 0x01E10440
 	 * 		Name   -> Function UMG.WidgetLayoutLibrary.GetMousePositionOnPlatform
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable)
 	 */
@@ -17914,7 +17914,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F230
+	 * 		RVA    -> 0x01E135B0
 	 * 		Name   -> Function UMG.WidgetSwitcher.SetActiveWidgetIndex
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -17937,7 +17937,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01DECAF0
+	 * 		RVA    -> 0x01DF0E70
 	 * 		Name   -> Function UMG.WidgetSwitcher.SetActiveWidget
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -17960,7 +17960,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F1A0
+	 * 		RVA    -> 0x01E13520
 	 * 		Name   -> Function UMG.WidgetSwitcher.GetWidgetAtIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -17985,7 +17985,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F170
+	 * 		RVA    -> 0x01E134F0
 	 * 		Name   -> Function UMG.WidgetSwitcher.GetNumWidgets
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -18007,7 +18007,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F140
+	 * 		RVA    -> 0x01E134C0
 	 * 		Name   -> Function UMG.WidgetSwitcher.GetActiveWidgetIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -18029,7 +18029,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F110
+	 * 		RVA    -> 0x01E13490
 	 * 		Name   -> Function UMG.WidgetSwitcher.GetActiveWidget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -18065,7 +18065,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F890
+	 * 		RVA    -> 0x01E13C10
 	 * 		Name   -> Function UMG.WidgetSwitcherSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18088,7 +18088,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F650
+	 * 		RVA    -> 0x01E139D0
 	 * 		Name   -> Function UMG.WidgetSwitcherSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18111,7 +18111,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F3D0
+	 * 		RVA    -> 0x01E13750
 	 * 		Name   -> Function UMG.WidgetSwitcherSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18162,7 +18162,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F910
+	 * 		RVA    -> 0x01E13C90
 	 * 		Name   -> Function UMG.WindowTitleBarArea.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18185,7 +18185,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F6E0
+	 * 		RVA    -> 0x01E13A60
 	 * 		Name   -> Function UMG.WindowTitleBarArea.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18208,7 +18208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F450
+	 * 		RVA    -> 0x01E137D0
 	 * 		Name   -> Function UMG.WindowTitleBarArea.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18245,7 +18245,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F990
+	 * 		RVA    -> 0x01E13D10
 	 * 		Name   -> Function UMG.WindowTitleBarAreaSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18268,7 +18268,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F770
+	 * 		RVA    -> 0x01E13AF0
 	 * 		Name   -> Function UMG.WindowTitleBarAreaSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18291,7 +18291,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F4D0
+	 * 		RVA    -> 0x01E13850
 	 * 		Name   -> Function UMG.WindowTitleBarAreaSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18328,7 +18328,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F5D0
+	 * 		RVA    -> 0x01E13950
 	 * 		Name   -> Function UMG.WrapBox.SetInnerSlotPadding
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -18351,7 +18351,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F080
+	 * 		RVA    -> 0x01E13400
 	 * 		Name   -> Function UMG.WrapBox.AddChildToWrapBox
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18390,7 +18390,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0FA10
+	 * 		RVA    -> 0x01E13D90
 	 * 		Name   -> Function UMG.WrapBoxSlot.SetVerticalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18413,7 +18413,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F800
+	 * 		RVA    -> 0x01E13B80
 	 * 		Name   -> Function UMG.WrapBoxSlot.SetPadding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18436,7 +18436,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F550
+	 * 		RVA    -> 0x01E138D0
 	 * 		Name   -> Function UMG.WrapBoxSlot.SetHorizontalAlignment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18459,7 +18459,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F350
+	 * 		RVA    -> 0x01E136D0
 	 * 		Name   -> Function UMG.WrapBoxSlot.SetFillSpanWhenLessThan
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -18482,7 +18482,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x01E0F2C0
+	 * 		RVA    -> 0x01E13640
 	 * 		Name   -> Function UMG.WrapBoxSlot.SetFillEmptySpace
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

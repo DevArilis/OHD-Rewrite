@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_HUDElement_VOIPIndicator.WBP_HUDElement_VOIPIndicator_C.ContainsTalkerListing
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -38,7 +38,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_HUDElement_VOIPIndicator.WBP_HUDElement_VOIPIndicator_C.FindTalkerListing
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -67,7 +67,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_HUDElement_VOIPIndicator.WBP_HUDElement_VOIPIndicator_C.PlayerStoppedTalking
 	 * 		Flags  -> (Private, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -89,7 +89,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_HUDElement_VOIPIndicator.WBP_HUDElement_VOIPIndicator_C.PlayerStartedTalking
 	 * 		Flags  -> (Private, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -111,7 +111,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_HUDElement_VOIPIndicator.WBP_HUDElement_VOIPIndicator_C.OnPlayerStartTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -133,7 +133,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_HUDElement_VOIPIndicator.WBP_HUDElement_VOIPIndicator_C.OnPlayerStopTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -155,7 +155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_HUDElement_VOIPIndicator.WBP_HUDElement_VOIPIndicator_C.OnOwningPlayerStartTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -177,7 +177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_HUDElement_VOIPIndicator.WBP_HUDElement_VOIPIndicator_C.OnOwningPlayerStopTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -199,7 +199,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_HUDElement_VOIPIndicator.WBP_HUDElement_VOIPIndicator_C.PreConstruct
 	 * 		Flags  -> (BlueprintCosmetic, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -221,7 +221,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function WBP_HUDElement_VOIPIndicator.WBP_HUDElement_VOIPIndicator_C.ExecuteUbergraph_WBP_HUDElement_VOIPIndicator
 	 * 		Flags  -> (Final)
 	 * Parameters:

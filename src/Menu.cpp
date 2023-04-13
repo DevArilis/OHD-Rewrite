@@ -175,29 +175,6 @@ namespace DX11_Base {
             ImGui::ColorEdit3("Visible Color", g_Menu->ESPVisibleColor, ImGuiColorEditFlags_NoInputs);
         };
        
-        void TABWeapon() {
-            float winWidth = ImGui::GetContentRegionAvail().x;
-            float winHeight = ImGui::GetContentRegionAvail().y;
-            ImGui::TextColored(TextColor, "Mods");
-            ImGui::Checkbox((char*)"Infinite Ammo", &g_Menu->InfiniteAmmo);
-            ImGui::SameLine();
-            ImGui::Checkbox((char*)"Full Auto", &g_Menu->FullAuto);
-            ImGui::SameLine();
-            ImGui::Checkbox((char*)"No Recoil", &g_Menu->NoRecoil);
-            ImGui::SameLine();
-            ImGui::Checkbox((char*)"Insane Fire Rate", &g_Menu->FireRate);
-            ImGui::PushItemWidth(330);
-            ImGui::SliderInt((char*)"Shots Per Burst", &g_Menu->ShotsPerBurst, 3, 32, (char*)"%1.0");
-            ImGui::PopItemWidth();
-            ImGui::Separator();
-            ImGui::TextColored(TextColor, "Nuker");
-            ImGui::Hotkey((char*)"Nuker Key", g_Menu->NukerKey, NULL, ImVec2(300, 18));
-            ImGui::SameLine();
-            ImGui::Checkbox((char*)"Target Team", &g_Menu->NukerTargetTeam);
-            ImGui::SameLine();
-            ImGui::Checkbox((char*)"Visible Only", &g_Menu->NukerVisibleOnly);
-            
-        };
         void TABMisc()
         {
             float winWidth = ImGui::GetContentRegionAvail().x;
@@ -207,7 +184,6 @@ namespace DX11_Base {
             ImGui::SameLine();
             ImGui::Checkbox((char*)"Desync", &g_Menu->Desync);
             ImGui::SliderFloat((char*)"FOV", &g_Menu->CameraFOV, 70.f, 160.f, (char*)"%.0f");
-            ImGui::SliderFloat((char*)"Speed", &g_Menu->Speed, 1.f, 5.f, (char*)"%.0f");
             if (ImGui::Button("UNHOOK DLL", ImVec2(ImGui::GetWindowContentRegionWidth() - 3, 20))) {
 #if DEBUG
                 g_Console->printdbg("\n\n[+] UNHOOK INITIALIZED [+]\n\n", g_Console->color.red);
@@ -261,12 +237,6 @@ namespace DX11_Base {
             if (ImGui::BeginTabItem("ESP"))
             {
                 Tabs::TABESP();
-                ImGui::EndTabItem();
-            }
-
-            if (ImGui::BeginTabItem("Weapon"))
-            {
-                Tabs::TABWeapon();
                 ImGui::EndTabItem();
             }
 

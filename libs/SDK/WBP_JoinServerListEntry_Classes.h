@@ -67,7 +67,7 @@ namespace CG
 		void PreConstruct(bool IsDesignTime);
 		void BndEvt__ItemCheckBox_K2Node_ComponentBoundEvent_0_OnCheckBoxComponentStateChanged__DelegateSignature(bool bIsChecked);
 		void BP_OnItemSelectionChanged(bool bIsSelected);
-		//void OnSelectionStateChanged(bool bSelected);
+		
 		void OnListItemObjectSet(class UObject* ListItemObject);
 		void OnServerItemDataSet(bool bIsDesignTime);
 		void BP_OnEntryReleased();

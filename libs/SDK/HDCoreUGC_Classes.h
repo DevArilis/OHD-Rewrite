@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -51,9 +51,9 @@ namespace CG
 	class UHDCoreUGCPluginStateMachine : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_YGAG[0x20];                                  // 0x0028(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1678[0x20];                                  // 0x0028(0x0020) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FHDCoreUGCPluginStateMachineProperties              StateProperties;                                         // 0x0048(0x00E8) Transient, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_BCUI[0xD8];                                  // 0x0130(0x00D8) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_DRFN[0xD8];                                  // 0x0130(0x00D8) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -66,11 +66,11 @@ namespace CG
 	class UHDCoreUGCSubsystem : public UEngineSubsystem
 	{
 	public:
-		unsigned char                                              UnknownData_JX53[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_1J3B[0x30];                                  // 0x0030(0x0030) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<class FString, class UHDCoreUGCPluginStateMachine*>   UGCPluginStateMachines;                                  // 0x0060(0x0050) Transient, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_K80L[0x50];                                  // 0x00B0(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_MB1R[0x50];                                  // 0x00B0(0x0050) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UHDCoreUGCProjectPolicies*                           GameSpecificPolicies;                                    // 0x0100(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_HORY[0x8];                                   // 0x0108(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_12EK[0x8];                                   // 0x0108(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -86,7 +86,7 @@ namespace CG
 		struct FSoftClassPath                                      UGCManagerClassName;                                     // 0x0038(0x0018) Edit, ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<class FString>                                      DisabledPlugins;                                         // 0x0050(0x0010) Edit, ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<class FString>                                      AdditionalPluginMetadataKeys;                            // 0x0060(0x0010) Edit, ZeroConstructor, Config, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BNBS[0x10];                                  // 0x0070(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_19AB[0x10];                                  // 0x0070(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

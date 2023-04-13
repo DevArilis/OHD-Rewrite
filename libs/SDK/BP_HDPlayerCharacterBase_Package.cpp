@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.EventGetFocalPoint
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
 	 */
@@ -33,7 +33,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.IsSameSquad
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -59,7 +59,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetVaultCameraCurveForBehavior
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -85,7 +85,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.RestorePCViewRotationYawLimits
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -104,7 +104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SetPCViewRotationYawLimits
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -130,7 +130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.UpdateCharMesh
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -154,7 +154,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SetSuppressionCompIsActive
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -178,7 +178,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SetSuppressionActive
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -200,7 +200,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.CalcOutpostEnemiesNearbyRestriction
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -224,7 +224,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.CalcRallypointEnemiesNearbyRestriction
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -248,7 +248,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.IsOutpostNumberLimitReached
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -272,7 +272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.IsRallypointNumberLimitReached
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -296,7 +296,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.CalcOutpostDistanceRestriction
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -320,7 +320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.CalcRallypointDistanceRestriction
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -344,7 +344,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetIsSpawnedRallypointValid
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -368,7 +368,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetIsSpawnedOutpostValid
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -392,7 +392,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetProneMountPosition
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -429,7 +429,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.AlignSights
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -451,7 +451,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetMountPosition
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -491,7 +491,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.OnRep_bSpatializedVOIPTalker
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -510,7 +510,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.HasSquadLeaderKit
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -536,7 +536,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.IsSquadLeader
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -560,7 +560,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetSquadState
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -584,7 +584,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.CanSelectAnyRadialMenuOption
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -608,7 +608,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.RadialMenuCanSelectOutpost
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -632,7 +632,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.RadialMenuCanSelectRallypoint
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -656,7 +656,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.RadialMenuCanSelectSpot
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -680,7 +680,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.RadialMenuSelectOutpost
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -699,7 +699,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.RadialMenuSelectRallypoint
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -718,7 +718,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.RadialMenuSelectSpot
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -737,7 +737,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SelectRadialMenuItem
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -761,7 +761,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SpawnAndInitDeployableSPAtPawn
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -789,7 +789,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.LeanDebug
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 */
@@ -808,7 +808,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.IsMatchingTeam
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -834,7 +834,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetPlayerFactionInfoClass
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -860,7 +860,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ClearHealthRegenTimer
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 */
@@ -879,7 +879,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SetHealthRegenTimerIfInvalid
 	 * 		Flags  -> (Private, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -901,7 +901,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.HealthRegenTimerElapsed
 	 * 		Flags  -> (Private, BlueprintCallable, BlueprintEvent)
 	 */
@@ -920,7 +920,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.CleanupVOIPTalker
 	 * 		Flags  -> (Protected, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -944,7 +944,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SetupVOIPTalker
 	 * 		Flags  -> (Protected, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -963,7 +963,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.EquipSelectedItemFromInventory
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -985,7 +985,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetMostValidLoadout
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -1009,7 +1009,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetMostValidTeamFactionInfo
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -1033,7 +1033,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetMostValidTeamState
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -1057,7 +1057,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetMostValidPlayerState
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -1081,7 +1081,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveGetDefaultPawnMesh1P
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintCallable, BlueprintEvent, Const)
 	 */
@@ -1102,7 +1102,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.UpdateEquipmentItems
 	 * 		Flags  -> (Protected, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1121,7 +1121,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.UpdatePOIState
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1140,7 +1140,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GetMinimapWidget
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -1166,7 +1166,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ApplyCharacterVariation
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1190,7 +1190,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.UpdateCharMeshes
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1214,7 +1214,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.UpdateCharMeshesFromFaction
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1233,7 +1233,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SelectEquipmentBySlotNum
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1259,7 +1259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SetEquipmentTimer
 	 * 		Flags  -> (Protected, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1278,7 +1278,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.StartEquipmentTimer
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1297,7 +1297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.FreeAiming
 	 * 		Flags  -> (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1316,7 +1316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.UserConstructionScript
 	 * 		Flags  -> (Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -1335,7 +1335,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SuppressionTimeline__FinishedFunc
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -1354,7 +1354,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SuppressionTimeline__UpdateFunc
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -1373,7 +1373,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.DamageEffectTimeline__FinishedFunc
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -1392,7 +1392,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.DamageEffectTimeline__UpdateFunc
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -1411,7 +1411,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.LerpTimeline__FinishedFunc
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -1430,7 +1430,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.LerpTimeline__UpdateFunc
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -1449,7 +1449,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.VaultCameraTimeline__FinishedFunc
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -1468,7 +1468,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.VaultCameraTimeline__UpdateFunc
 	 * 		Flags  -> (BlueprintEvent)
 	 */
@@ -1487,7 +1487,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_NextItem_K2Node_InputActionEvent_17
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1509,7 +1509,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_PreviousItem_K2Node_InputActionEvent_16
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1531,7 +1531,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_CameraToggle_K2Node_InputActionEvent_15
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1553,7 +1553,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_EqpSlot0_K2Node_InputActionEvent_14
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1575,7 +1575,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_EqpSlot1_K2Node_InputActionEvent_13
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1597,7 +1597,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_EqpSlot2_K2Node_InputActionEvent_12
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1619,7 +1619,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_EqpSlot3_K2Node_InputActionEvent_11
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1641,7 +1641,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_EqpSlot4_K2Node_InputActionEvent_10
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1663,7 +1663,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_EqpSlot5_K2Node_InputActionEvent_9
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1685,7 +1685,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_EqpSlot6_K2Node_InputActionEvent_8
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1707,7 +1707,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_EqpSlot7_K2Node_InputActionEvent_7
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1729,7 +1729,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_EqpSlot8_K2Node_InputActionEvent_6
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1751,7 +1751,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_EqpSlot9_K2Node_InputActionEvent_5
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1773,7 +1773,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_RadialMenu_K2Node_InputActionEvent_4
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1795,7 +1795,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_RadialMenu_K2Node_InputActionEvent_3
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1817,7 +1817,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_CycleWeaponSights_K2Node_InputActionEvent_2
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1839,7 +1839,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.InpActEvt_PointAimToggle_K2Node_InputActionEvent_1
 	 * 		Flags  -> (BlueprintEvent)
 	 * Parameters:
@@ -1861,7 +1861,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.BndEvt__Suppression_L_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature
 	 * 		Flags  -> (HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -1893,7 +1893,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.BndEvt__Suppression_A_K2Node_ComponentBoundEvent_2_ComponentBeginOverlapSignature__DelegateSignature
 	 * 		Flags  -> (HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -1925,7 +1925,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.BndEvt__Suppression_B_K2Node_ComponentBoundEvent_3_ComponentBeginOverlapSignature__DelegateSignature
 	 * 		Flags  -> (HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -1957,7 +1957,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.EventResetHealthEffect
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1976,7 +1976,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.GenericDamageFeedback
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1995,7 +1995,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveTick
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2017,7 +2017,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.OnDeath
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2045,7 +2045,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.OnEquipmentTimerElapsed
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -2064,7 +2064,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveCurrentLoadout
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2083,7 +2083,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.RetryLoadout
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -2102,7 +2102,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceivePossessed
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2124,7 +2124,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.OnPCFirePressed
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -2143,7 +2143,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.OnLanded
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2165,7 +2165,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveRestart
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2184,7 +2184,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveDestroyed
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -2203,7 +2203,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceivePawnTeamNumUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -2227,7 +2227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveFreeAim
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -2249,7 +2249,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.NotifyPlayerStateChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2273,7 +2273,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveBeginPlay
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2292,7 +2292,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.FirstPersonToggled
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2314,7 +2314,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.OnPCFireReleased
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -2333,7 +2333,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.PlayerNameChanged
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2357,7 +2357,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveEndPlay
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -2379,7 +2379,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveUnpossessed
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2401,7 +2401,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveAnyDamage
 	 * 		Flags  -> (BlueprintAuthorityOnly, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2429,7 +2429,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceivePawnTeamStateUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -2455,7 +2455,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.K2_OnMovementModeChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2483,7 +2483,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.Hit Damage
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2507,7 +2507,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ServerRadialMenuSelectOutpost
 	 * 		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 	 */
@@ -2526,7 +2526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ServerRadialMenuSelectRallypoint
 	 * 		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 	 */
@@ -2545,7 +2545,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ServerRadialMenuSelectSpot
 	 * 		Flags  -> (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 	 */
@@ -2564,7 +2564,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveVoipTalkerMsgReceived
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -2590,7 +2590,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.BndEvt__Suppression_R_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
 	 * 		Flags  -> (HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2622,7 +2622,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveOnStartAim
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2641,7 +2641,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveOnEndAim
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2660,7 +2660,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.EnterRadialMenu
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -2679,7 +2679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ExitRadialMenu
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -2698,7 +2698,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SubmenuCommited
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2722,7 +2722,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveEquippedItemChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -2746,7 +2746,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceivePlayHit
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2776,7 +2776,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveVariationDataChanged
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2800,7 +2800,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveHealthChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2824,7 +2824,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveOnStartVault
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2843,7 +2843,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ReceiveOnEndVault
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2862,7 +2862,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.SuppressionEffect
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2888,7 +2888,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.ExecuteUbergraph_BP_HDPlayerCharacterBase
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:
@@ -2910,7 +2910,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.OnHitDamage__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -2934,7 +2934,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function BP_HDPlayerCharacterBase.BP_HDPlayerCharacterBase_C.OnSuppression__DelegateSignature
 	 * 		Flags  -> (Public, Delegate, BlueprintCallable, BlueprintEvent)
 	 * Parameters:

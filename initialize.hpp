@@ -6,6 +6,7 @@
 #include "include/Hooking.hpp"
 #include "./includes.h"
 
+
 using namespace DX11_Base;
 
 #define KeyPressed( k ) ( GetAsyncKeyState(k) & 0x8000 )
@@ -39,21 +40,21 @@ FVector BoneToLocation(AHDPlayerCharacter * Player, int BoneId) {
     return BoneLocation;
 }
 
-FVector2D BoneToScreenLocation(APlayerController * Controller, AHDPlayerCharacter * Player, int BoneId) {
-    FVector2D NULLReturn = { 0,0 };
-    
-    if (!Controller) return NULLReturn;
-    if (!Player) return NULLReturn;
+FVector2D BoneToScreenLocation(APlayerController* Controller, AHDPlayerCharacter* Player, int BoneId)
+{
+
+    if (!Controller || !Player || !Player->Mesh)
+        return { 0, 0 };
 
     USkeletalMeshComponent* Mesh = Player->Mesh;
-    if (!Mesh) return NULLReturn;
 
     FVector BoneLocation = Mesh->GetSocketLocation(Mesh->GetBoneName(BoneId));
     FVector2D BoneScreenLocation;
-    if (Controller->ProjectWorldLocationToScreen(BoneLocation, &BoneScreenLocation, false)) {
+
+    if (Controller->ProjectWorldLocationToScreen(BoneLocation, &BoneScreenLocation, false))
         return BoneScreenLocation;
-    } 
-    else return NULLReturn;
+
+    return { 0, 0 };
 }
 
 
@@ -227,52 +228,6 @@ void NullcheckWeapon(AHDPlayerCharacter* character, AHDBaseWeapon* weapon) {
     // useless but makes me thing i save time.
 }
 
-void Nuke() {
-    UWorld** p_uworld = reinterpret_cast<UWorld**>(UWorld::GWorld);
-    Nullcheck(p_uworld);
-    Nullcheck(*p_uworld);
-    UGameInstance* OwningGameInstance = (*p_uworld)->OwningGameInstance;
-    Nullcheck(OwningGameInstance);
-    auto GameState = (*p_uworld)->GameState;
-    Nullcheck(GameState);
-    UWorld* gworld = UWorld::GWorld[0];
-    Nullcheck(gworld);
-    ULocalPlayer* localplayer = gworld->OwningGameInstance->LocalPlayers[0];
-    Nullcheck(localplayer);
-
-    auto pArray = GameState->PlayerArray;
-    if (pArray.Count() > 1) {
-        for (USHORT i = 0; i < pArray.Count(); i++) {
-            auto& ent = pArray[i];
-            if (ent != localplayer->PlayerController->PlayerState) {
-                if (ent->PawnPrivate == nullptr) continue;
-                auto PlayerCharacter = static_cast<AHDPlayerCharacter*>(ent->PawnPrivate);
-                NullcheckC(PlayerCharacter);
-                if (PlayerCharacter->Health <= 0) continue;
-                AHDPlayerCharacter* SelfPlayerCharacter = static_cast<AHDPlayerCharacter*>(localplayer->PlayerController->AcknowledgedPawn);
-                NullcheckC(SelfPlayerCharacter);
-
-                if (!PlayerCharacter->PlayerState) continue;
-
-                if (PlayerCharacter->PlayerState == SelfPlayerCharacter->PlayerState) continue;
-
-                if (!PlayerCharacter->RootComponent) continue;
-
-                if (g_Menu->NukerTargetTeam && PlayerCharacter->TeamState != SelfPlayerCharacter->TeamState) continue;
-                if (!g_Menu->AimbotTargetTeam && PlayerCharacter->TeamState == SelfPlayerCharacter->TeamState) continue;
-
-                bool EntityVisible = localplayer->PlayerController->LineOfSightTo(PlayerCharacter, { 0.f,0.f,0.f }, false);
-                if (g_Menu->NukerVisibleOnly && !EntityVisible) continue;
-
-                auto Location = PlayerCharacter->ReplicatedMovement.Location;
-                auto BaseWeapon = reinterpret_cast<AHDBaseWeapon*>(SelfPlayerCharacter->EquippedItem);
-                NullcheckC(BaseWeapon);
-                BaseWeapon->ServerFireProjectile(Location, {});
-            }
-        }
-    }
-}
-
 
 typedef void(__thiscall* post_render_type)(UGameViewportClient*, UCanvas*);
 post_render_type original_post_render = nullptr;
@@ -309,8 +264,8 @@ void Hook(UGameViewportClient* vp_client, UCanvas* canvas)
 
         if (canvas && g_Menu->AimbotShowFOV) {
             if (g_Menu->AimbotFOVRaycasting) {
-                if (SelfBaseCharacter->GetEquippedItem()->IsA(ADFBaseGun::StaticClass())) {
-                    auto Weapon = (ADFBaseGun*)(SelfBaseCharacter->EquippedItem);
+                if (SelfBaseCharacter->GetEquippedItem()->IsA(AHDBaseWeapon::StaticClass())) {
+                    auto Weapon = (AHDBaseWeapon*)(SelfBaseCharacter->EquippedItem);
                     FVector BarrelLocation = Weapon->GetMuzzleLocation(true);
                     FVector2D BarrelEnd;
                     if (PlayerController->ProjectWorldLocationToScreen(BarrelLocation, &BarrelEnd, true)) {
@@ -425,8 +380,8 @@ void Hook(UGameViewportClient* vp_client, UCanvas* canvas)
                 if (HeadScreenLocation.X == 0 && HeadScreenLocation.Y == 0) continue;
 
                 if (g_Menu->AimbotFOVRaycasting) {
-                    if (SelfBaseCharacter->GetEquippedItem()->IsA(ADFBaseGun::StaticClass())) {
-                        auto Weapon = (ADFBaseGun*)(SelfBaseCharacter->EquippedItem);
+                    if (SelfBaseCharacter->GetEquippedItem()->IsA(AHDBaseWeapon::StaticClass())) {
+                        auto Weapon = (AHDBaseWeapon*)(SelfBaseCharacter->EquippedItem);
                         FVector BarrelLocation = Weapon->GetMuzzleLocation(true);
                         FVector2D BarrelEnd;
                         if (PlayerController->ProjectWorldLocationToScreen(BarrelLocation, &BarrelEnd, true)) {
@@ -454,58 +409,7 @@ void Hook(UGameViewportClient* vp_client, UCanvas* canvas)
             }
         }
 
-        Nullcheck(SelfPlayerCharacter->EquippedItem);
-        auto Weapon = (AHDBaseWeapon*)(SelfPlayerCharacter->EquippedItem);
-
-        // Weapon
-        if (g_Menu->FullAuto) {
-            NullcheckWeapon(SelfPlayerCharacter, Weapon);
-            auto Mode = EFireMode::Auto;
-            if (Weapon->SelectedFireMode != Mode) {
-                Weapon->SelectedFireMode = Mode;
-            }
-        }
-
-        if (g_Menu->InfiniteAmmo) {
-            NullcheckWeapon(SelfPlayerCharacter, Weapon);
-            Weapon->bUsesAmmo = false;
-            g_Menu->infAmmoCheck = true;
-        }
-        else {
-            if (g_Menu->infAmmoCheck && !g_Menu->InfiniteAmmo) {
-                NullcheckWeapon(SelfPlayerCharacter, Weapon);
-                Weapon->bUsesAmmo = true;
-                g_Menu->infAmmoCheck = true;
-            }
-        }
-
-        if (g_Menu->NoRecoil) {
-            NullcheckWeapon(SelfPlayerCharacter, Weapon);
-            if (Weapon->bNoRecoil != g_Menu->NoRecoil) {
-                Weapon->bNoRecoil = true;
-            }
-        }
-
-        if (g_Menu->FireRate) {
-            NullcheckWeapon(SelfPlayerCharacter, Weapon);
-            if (Weapon->FireRate != 0.0001f) {
-                Weapon->FireRate = 0.0001f;
-            }
-        }
-
-        if (g_Menu->ShotsPerBurst > 3.0f) {
-            NullcheckWeapon(SelfPlayerCharacter, Weapon);
-            Weapon->ShotsPerBurst = g_Menu->ShotsPerBurst;
-        }
-
-        if (KeyPressed(g_Menu->NukerKey)) {
-            Nuke();
-        }
-
-        if (g_Menu->AutoNuke) {
-            Nuke();
-        }
-
+      
         if (g_Menu->Fly && g_Menu->Desync) {
             g_Menu->Desync = false;
         }
@@ -542,7 +446,6 @@ void Hook(UGameViewportClient* vp_client, UCanvas* canvas)
         Nullcheck(PlayerController->PlayerCameraManager);
         PlayerController->PlayerCameraManager->DefaultFOV = g_Menu->CameraFOV;
         
-        SelfPlayerCharacter->CustomTimeDilation = g_Menu->Speed;
     }
     catch (std::exception& e)
     {

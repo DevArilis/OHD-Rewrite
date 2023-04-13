@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.PlayEquipMontage
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -36,7 +36,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.PlayFireMontage
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -64,7 +64,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.PlayReloadMontage
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -90,7 +90,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.PlayUnEquipMontage
 	 * 		Flags  -> (Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -114,7 +114,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.WeaponUpperBody
 	 * 		Flags  -> (HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -140,7 +140,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.WeaponAdditive
 	 * 		Flags  -> (HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -164,7 +164,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.Move
 	 * 		Flags  -> (HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -190,7 +190,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.WeaponJumpLoop
 	 * 		Flags  -> (HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -216,7 +216,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.VehicleFullBody
 	 * 		Flags  -> (HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -242,7 +242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.VehicleLowerBody
 	 * 		Flags  -> (HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -268,7 +268,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.LayeredLoco
 	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -298,7 +298,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OverlayLocoLayer
 	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -322,7 +322,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.BaseLocoLayer
 	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -346,7 +346,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AnimGraph
 	 * 		Flags  -> (HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -370,7 +370,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.IKFootTraceSetup
 	 * 		Flags  -> (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -399,7 +399,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.GetCapsuleQuarterHeight
 	 * 		Flags  -> (Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -421,7 +421,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.UpdateIKTraceDataForFoot
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -443,7 +443,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.PerformFootIKTrace
 	 * 		Flags  -> (Protected, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -472,7 +472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.UpdateFootIKTraceData
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 */
@@ -491,7 +491,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.SetupFootIK
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -513,7 +513,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.ShouldUseHandIK
 	 * 		Flags  -> (Protected, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -537,7 +537,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.PlayCharacterTPPMontage
 	 * 		Flags  -> (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -565,7 +565,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AssignLegacyWeaponTPPLocomotionAnims
 	 * 		Flags  -> (Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -587,7 +587,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AssignWeaponTPPLocomotionAnims
 	 * 		Flags  -> (Protected, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -613,7 +613,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.GetDefaultRightHandIKTransformByItemType
 	 * 		Flags  -> (Protected, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -639,7 +639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.GetDefaultLeftHandIKTransformByItemType
 	 * 		Flags  -> (Protected, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -665,7 +665,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OnNotifyEnd_03E0282943B466F95A9987B1825BCF44
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -687,7 +687,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OnNotifyBegin_03E0282943B466F95A9987B1825BCF44
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -709,7 +709,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OnInterrupted_03E0282943B466F95A9987B1825BCF44
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -731,7 +731,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OnBlendOut_03E0282943B466F95A9987B1825BCF44
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -753,7 +753,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OnCompleted_03E0282943B466F95A9987B1825BCF44
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -775,7 +775,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OnNotifyEnd_ED2EB33C4A118243E7441F82017EFA1B
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -797,7 +797,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OnNotifyBegin_ED2EB33C4A118243E7441F82017EFA1B
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -819,7 +819,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OnInterrupted_ED2EB33C4A118243E7441F82017EFA1B
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -841,7 +841,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OnBlendOut_ED2EB33C4A118243E7441F82017EFA1B
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -863,7 +863,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.OnCompleted_ED2EB33C4A118243E7441F82017EFA1B
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -885,7 +885,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AnimNotify_LeftCrouchState
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -904,7 +904,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AnimNotify_FullyCrouchedState
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -923,7 +923,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AnimNotify_FullyStandingState
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -942,7 +942,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AnimNotify_LeftStandState
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -961,7 +961,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AnimNotify_FullyProneState
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -980,7 +980,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AnimNotify_LeftProneState
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -999,7 +999,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AnimNotify_EnterVaultState
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1018,7 +1018,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.AnimNotify_LeftVaultState
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 */
@@ -1037,7 +1037,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.BlueprintUpdateAnimation
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -1059,7 +1059,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.BlueprintInitializeAnimation
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 */
@@ -1078,7 +1078,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.EquippedItemChanged
 	 * 		Flags  -> (BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -1104,7 +1104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.BlueprintUpdatePawnOwnerRefs
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -1126,7 +1126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.BlueprintUpdateControllerOwnerRefs
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -1148,7 +1148,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.BlueprintUpdateEquippedWeaponRefs
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -1170,7 +1170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ABP_HDPlayerCharacter_TP.ABP_HDPlayerCharacter_TP_C.ExecuteUbergraph_ABP_HDPlayerCharacter_TP
 	 * 		Flags  -> (Final, HasDefaults)
 	 * Parameters:

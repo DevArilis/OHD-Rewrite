@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -36,9 +36,9 @@ namespace CG
 	struct FHDCoreUGCPluginStateMachineProperties
 	{
 	public:
-		unsigned char                                              UnknownData_EZHQ[0x90];                                  // 0x0000(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_WJ15[0x90];                                  // 0x0000(0x0090) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UHDCoreUGCData*                                      UGCData;                                                 // 0x0090(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_DLSH[0x50];                                  // 0x0098(0x0050) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_F8E9[0x50];                                  // 0x0098(0x0050) MISSED OFFSET (PADDING)
 	};
 
 	/**

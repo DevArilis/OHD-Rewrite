@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -68,7 +68,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00816840
+	 * 		RVA    -> 0x0081AB50
 	 * 		Name   -> Function OWIEnhancedVehicleMovement.WheeledVehicleMovementComponentTank.SetRightTrackThrottleInput
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -91,7 +91,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008167C0
+	 * 		RVA    -> 0x0081AAD0
 	 * 		Name   -> Function OWIEnhancedVehicleMovement.WheeledVehicleMovementComponentTank.SetLeftTrackThrottleInput
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -114,7 +114,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00816740
+	 * 		RVA    -> 0x0081AA50
 	 * 		Name   -> Function OWIEnhancedVehicleMovement.WheeledVehicleMovementComponentTank.SetBothTracksThrottleInput
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -137,7 +137,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00816700
+	 * 		RVA    -> 0x0081AA10
 	 * 		Name   -> Function OWIEnhancedVehicleMovement.WheeledVehicleMovementComponentTank.GetRightTrackSpeed
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -159,7 +159,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008166C0
+	 * 		RVA    -> 0x0081A9D0
 	 * 		Name   -> Function OWIEnhancedVehicleMovement.WheeledVehicleMovementComponentTank.GetLeftTrackSpeed
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */

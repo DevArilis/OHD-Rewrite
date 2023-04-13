@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -22,10 +22,10 @@ namespace CG
 	{
 	public:
 		class FScriptMulticastDelegate                             OnDoubleClicked;                                         // 0x0428(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_6KIP[0x10];                                  // 0x0438(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
-		bool                                                       UnknownData_KQV2 : 2;                                    // 0x0448(0x0001) BIT_FIELD (PADDING)
+		unsigned char                                              UnknownData_POR3[0x10];                                  // 0x0438(0x0010) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		bool                                                       UnknownData_UNOI : 2;                                    // 0x0448(0x0001) BIT_FIELD (PADDING)
 		bool                                                       bStopDoubleClickPropagation : 1;                         // 0x0448(0x0001) BIT_FIELD Transient, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
-		unsigned char                                              UnknownData_481S[0x17];                                  // 0x0449(0x0017) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FVAZ[0x17];                                  // 0x0449(0x0017) MISSED OFFSET (PADDING)
 
 	public:
 		void StopDoubleClickPropagation();

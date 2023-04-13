@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -26,13 +26,13 @@ namespace CG
 		bool                                                       bInitialSpawn;                                           // 0x06B0(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		bool                                                       bWantsToOpenDeployMenu;                                  // 0x06B1(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor
 		bool                                                       bDeployMenuShown;                                        // 0x06B2(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor
-		unsigned char                                              UnknownData_HSJ0[0x5];                                   // 0x06B3(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_00XT[0x5];                                   // 0x06B3(0x0005) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class FScriptMulticastDelegate                             OnRepPlayerState;                                        // 0x06B8(0x0010) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, BlueprintAssignable, BlueprintCallable
 		bool                                                       bOpenDeployMenuOnBeginPlay;                              // 0x06C8(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor
-		unsigned char                                              UnknownData_65SX[0x7];                                   // 0x06C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_PT4V[0x7];                                   // 0x06C9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UUserWidget*                                         DeathScreen;                                             // 0x06D0(0x0008) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		bool                                                       bDeathScreenShown;                                       // 0x06D8(0x0001) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, IsPlainOldData, NoDestructor
-		unsigned char                                              UnknownData_OV2N[0x7];                                   // 0x06D9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_R4K8[0x7];                                   // 0x06D9(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UUserWidget*                                         WatermarkWidget;                                         // 0x06E0(0x0008) Edit, BlueprintVisible, ZeroConstructor, Transient, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash
 		unsigned char                                              WatermarkWidgetClass[0x28];                              // 0x06E8(0x0028) UNKNOWN PROPERTY: SoftClassProperty
 
@@ -68,7 +68,6 @@ namespace CG
 		void UnloadDeployMenu();
 		void LoadDeployMenu();
 		void LoadAndActivateDeployMenu();
-		void InpActEvt_F8_K2Node_InputKeyEvent_5(const struct FKey& Key);
 		void InpActEvt_Fire_K2Node_InputActionEvent_5(const struct FKey& Key);
 		void InpActEvt_Fire_K2Node_InputActionEvent_4(const struct FKey& Key);
 		void InpActEvt_DeployMenu_K2Node_InputActionEvent_3(const struct FKey& Key);

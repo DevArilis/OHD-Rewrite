@@ -141,6 +141,7 @@ namespace CG
 		void SetMeshVisibility(bool bFirstPerson);
 		void ServerStopFire();
 		void ServerStartFire();
+		void SServerStartFire();
 		bool RemoveLegacyLocomotionAnims(bool bFPP);
 		void ReceiveVisibilityChanged(bool bFirstPerson);
 		void ReceiveStopFire();

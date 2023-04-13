@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -54,7 +54,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007901A0
+	 * 		RVA    -> 0x00794670
 	 * 		Name   -> Function HDMain.DeployMenu_PlatoonSquadListBase.SquadPreRemoveFromPlatoon
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -79,7 +79,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FD60
+	 * 		RVA    -> 0x00794230
 	 * 		Name   -> Function HDMain.DeployMenu_PlatoonSquadListBase.SquadAddedToPlatoon
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -104,7 +104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FBB0
+	 * 		RVA    -> 0x00794080
 	 * 		Name   -> Function HDMain.DeployMenu_PlatoonSquadListBase.SetupPlatoon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -127,7 +127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FA50
+	 * 		RVA    -> 0x00793F20
 	 * 		Name   -> Function HDMain.DeployMenu_PlatoonSquadListBase.RepopulatePlatoon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -147,7 +147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_PlatoonSquadListBase.OnPlatoonSet
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -166,7 +166,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F320
+	 * 		RVA    -> 0x007937F0
 	 * 		Name   -> Function HDMain.DeployMenu_PlatoonSquadListBase.GetPlatoonStateFromData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -188,7 +188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_PlatoonSquadListBase.GenerateSquad
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -210,7 +210,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_PlatoonSquadListBase.DeconstructSquad
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -276,7 +276,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FFF0
+	 * 		RVA    -> 0x007944C0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.SquadNameChanged
 	 * 		Flags  -> (Final, Native, Private, HasOutParms)
 	 * Parameters:
@@ -303,7 +303,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FF20
+	 * 		RVA    -> 0x007943F0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.SquadLockStateUpdated
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -328,7 +328,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FE20
+	 * 		RVA    -> 0x007942F0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.SquadLeaderChanged
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -355,7 +355,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FC30
+	 * 		RVA    -> 0x00794100
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.SetupSquad
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -378,7 +378,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FA70
+	 * 		RVA    -> 0x00793F40
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.RepopulateSquad
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -398,7 +398,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.OnSquadSet
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -417,7 +417,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.OnSquadNameUpdated
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -441,7 +441,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.OnSquadLockStateUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -463,7 +463,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.OnSquadLeaderUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -487,7 +487,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F870
+	 * 		RVA    -> 0x00793D40
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.OnListRefresh
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -507,7 +507,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F750
+	 * 		RVA    -> 0x00793C20
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.MemberSquadInfoUpdated
 	 * 		Flags  -> (Final, Native, Private, HasOutParms)
 	 * Parameters:
@@ -534,7 +534,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F690
+	 * 		RVA    -> 0x00793B60
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.MemberPreRemoveFromSquad
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -559,7 +559,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F4B0
+	 * 		RVA    -> 0x00793980
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.MemberAddedToSquad
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -584,7 +584,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F320
+	 * 		RVA    -> 0x007937F0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.GetSquadStateFromData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -606,7 +606,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F280
+	 * 		RVA    -> 0x00793750
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.GetParentPlatoonStateFromData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -628,7 +628,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.GenerateSquadMember
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -650,7 +650,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadListBase.DeconstructSquadMember
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -686,7 +686,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FB30
+	 * 		RVA    -> 0x00794000
 	 * 		Name   -> Function HDMain.DeployMenu_SquadMemberListingBase.SetupMember
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -709,7 +709,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadMemberListingBase.OnMemberSet
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -728,7 +728,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadMemberListingBase.OnMemberPlayerNameUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -750,7 +750,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F570
+	 * 		RVA    -> 0x00793A40
 	 * 		Name   -> Function HDMain.DeployMenu_SquadMemberListingBase.MemberPlayerNameChanged
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -775,7 +775,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F320
+	 * 		RVA    -> 0x007937F0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadMemberListingBase.GetPlayerStateFromData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -797,7 +797,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F2D0
+	 * 		RVA    -> 0x007937A0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadMemberListingBase.GetParentSquadStateFromData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -819,7 +819,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F280
+	 * 		RVA    -> 0x00793750
 	 * 		Name   -> Function HDMain.DeployMenu_SquadMemberListingBase.GetParentPlatoonStateFromData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -855,7 +855,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FCB0
+	 * 		RVA    -> 0x00794180
 	 * 		Name   -> Function HDMain.DeployMenu_SquadSelectionWidgetBase.SetupSquadSelection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -878,7 +878,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FA90
+	 * 		RVA    -> 0x00793F60
 	 * 		Name   -> Function HDMain.DeployMenu_SquadSelectionWidgetBase.RepopulateSquadSelection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -898,7 +898,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F950
+	 * 		RVA    -> 0x00793E20
 	 * 		Name   -> Function HDMain.DeployMenu_SquadSelectionWidgetBase.PlatoonPreRemoveFromTeam
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -923,7 +923,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F890
+	 * 		RVA    -> 0x00793D60
 	 * 		Name   -> Function HDMain.DeployMenu_SquadSelectionWidgetBase.PlatoonAddedToTeam
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -948,7 +948,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadSelectionWidgetBase.OnSquadSelectionSet
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -967,7 +967,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadSelectionWidgetBase.GeneratePlatoon
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -989,7 +989,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.DeployMenu_SquadSelectionWidgetBase.DeconstructPlatoon
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -1041,7 +1041,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007902E0
+	 * 		RVA    -> 0x007947B0
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.SuggestProjectileVelocity
 	 * 		Flags  -> (Final, Native, Protected, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -1074,7 +1074,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FD30
+	 * 		RVA    -> 0x00794200
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.ShouldChangeNoEnemyFocalPoint
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure)
 	 */
@@ -1096,7 +1096,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FAB0
+	 * 		RVA    -> 0x00793F80
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.SetEnableNoEnemyLookAround
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1119,7 +1119,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F490
+	 * 		RVA    -> 0x00793960
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.MakeNoEnemyFocalPoint
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1139,7 +1139,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F400
+	 * 		RVA    -> 0x007938D0
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.IsCandidateTarget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1164,7 +1164,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F3D0
+	 * 		RVA    -> 0x007938A0
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.IsAimingAtTarget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1186,7 +1186,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F250
+	 * 		RVA    -> 0x00793720
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.GetNoEnemyFocalPoint
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1208,7 +1208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F150
+	 * 		RVA    -> 0x00793620
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.GetIsNewTargetMoreRelevant
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1235,7 +1235,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F100
+	 * 		RVA    -> 0x007935D0
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.GetEnableNoEnemyLookAround
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1257,7 +1257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078EF90
+	 * 		RVA    -> 0x00793460
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.GetActorStimulusData
 	 * 		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1290,7 +1290,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078EF00
+	 * 		RVA    -> 0x007933D0
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.EstablishNewTargetFromPerception
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1313,7 +1313,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078ED60
+	 * 		RVA    -> 0x00793230
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.CheckForTarget
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1340,7 +1340,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078ED20
+	 * 		RVA    -> 0x007931F0
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.CalcAimingDirection
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1360,7 +1360,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078ED00
+	 * 		RVA    -> 0x007931D0
 	 * 		Name   -> Function HDMain.HDAIAimingHandler.AimAtCurrentTarget
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1394,7 +1394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007902C0
+	 * 		RVA    -> 0x00794790
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.StartSafeBehavior
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1414,7 +1414,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007902A0
+	 * 		RVA    -> 0x00794770
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.StartDangerBehavior
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1434,7 +1434,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00790280
+	 * 		RVA    -> 0x00794750
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.StartCombatBehavior
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1454,7 +1454,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00790260
+	 * 		RVA    -> 0x00794730
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.StartAwareBehavior
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1474,7 +1474,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FA30
+	 * 		RVA    -> 0x00793F00
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.ReceiveSuppression
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1494,7 +1494,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078FA10
+	 * 		RVA    -> 0x00793EE0
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.ReceiveHitDamage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1514,7 +1514,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F3B0
+	 * 		RVA    -> 0x00793880
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.HandleSafeBehavior
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1534,7 +1534,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F390
+	 * 		RVA    -> 0x00793860
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.HandleDangerBehavior
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1554,7 +1554,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F370
+	 * 		RVA    -> 0x00793840
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.HandleCombatBehavior
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1574,7 +1574,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F350
+	 * 		RVA    -> 0x00793820
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.HandleBehaviorStates
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1594,7 +1594,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B70
+	 * 		RVA    -> 0x006C7310
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.HandleAwareBehavior
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1614,7 +1614,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F220
+	 * 		RVA    -> 0x007936F0
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.GetIsUnderSuppression
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1636,7 +1636,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078F120
+	 * 		RVA    -> 0x007935F0
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.GetIsBeingHit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1658,7 +1658,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078EEE0
+	 * 		RVA    -> 0x007933B0
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.DetermineThreatLevel
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1678,7 +1678,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0078ED40
+	 * 		RVA    -> 0x00793210
 	 * 		Name   -> Function HDMain.HDAIBehaviorHandler.CalcThreatLevels
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1712,7 +1712,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792F90
+	 * 		RVA    -> 0x00797460
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.ShouldEstablishNewControlPoint
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1734,7 +1734,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792B70
+	 * 		RVA    -> 0x00797040
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.SetCurrentCP
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1757,7 +1757,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792BF0
+	 * 		RVA    -> 0x007970C0
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.SetCurrentCaptureMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1780,7 +1780,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792350
+	 * 		RVA    -> 0x00796820
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.GetStartSpotClosestToControlPoint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1805,7 +1805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792220
+	 * 		RVA    -> 0x007966F0
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.GetCurrentCPLocation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 */
@@ -1827,7 +1827,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792150
+	 * 		RVA    -> 0x00796620
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.FindControlPointToCapture
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1854,7 +1854,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792090
+	 * 		RVA    -> 0x00796560
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.FindControlPointRandom
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1879,7 +1879,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00791FD0
+	 * 		RVA    -> 0x007964A0
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.FindControlPointClosestToPawn
 	 * 		Flags  -> (Final, Native, Private, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1904,7 +1904,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00791F00
+	 * 		RVA    -> 0x007963D0
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.FindAvailableControlPointsOfTypeV3
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1929,7 +1929,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00791E30
+	 * 		RVA    -> 0x00796300
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.FindAvailableControlPointsOfTypeV2
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1954,7 +1954,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00791D60
+	 * 		RVA    -> 0x00796230
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.FindAvailableControlPointsOfTypeV1
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1979,7 +1979,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00791C90
+	 * 		RVA    -> 0x00796160
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.FindAvailableControlPointsOfType
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2004,7 +2004,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00791C60
+	 * 		RVA    -> 0x00796130
 	 * 		Name   -> Function HDMain.HDAICaptureHandler.EstablishNewControlPoint
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -2040,7 +2040,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007930D0
+	 * 		RVA    -> 0x007975A0
 	 * 		Name   -> Function HDMain.HDAICombatHandler.UpdateEquipmentHandling
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2060,7 +2060,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007930B0
+	 * 		RVA    -> 0x00797580
 	 * 		Name   -> Function HDMain.HDAICombatHandler.UpdateAttackParameters
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2080,7 +2080,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00793090
+	 * 		RVA    -> 0x00797560
 	 * 		Name   -> Function HDMain.HDAICombatHandler.StopUsingSpecialtyItem
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -2100,7 +2100,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00793050
+	 * 		RVA    -> 0x00797520
 	 * 		Name   -> Function HDMain.HDAICombatHandler.StopAttack
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2120,7 +2120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792FF0
+	 * 		RVA    -> 0x007974C0
 	 * 		Name   -> Function HDMain.HDAICombatHandler.StartAttack
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2140,7 +2140,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792EC0
+	 * 		RVA    -> 0x00797390
 	 * 		Name   -> Function HDMain.HDAICombatHandler.SetWeaponMovementFireEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2163,7 +2163,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792E30
+	 * 		RVA    -> 0x00797300
 	 * 		Name   -> Function HDMain.HDAICombatHandler.SetWeaponAutoReloadEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2186,7 +2186,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792F50
+	 * 		RVA    -> 0x00797420
 	 * 		Name   -> Function HDMain.HDAICombatHandler.SetupEquipmentReferences
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2206,7 +2206,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792DF0
+	 * 		RVA    -> 0x007972C0
 	 * 		Name   -> Function HDMain.HDAICombatHandler.SetNextAttackTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2226,7 +2226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792D10
+	 * 		RVA    -> 0x007971E0
 	 * 		Name   -> Function HDMain.HDAICombatHandler.SetItemAttackParameters
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2249,7 +2249,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792C90
+	 * 		RVA    -> 0x00797160
 	 * 		Name   -> Function HDMain.HDAICombatHandler.SetEnemy
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2272,7 +2272,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC070
+	 * 		RVA    -> 0x006E0110
 	 * 		Name   -> Function HDMain.HDAICombatHandler.Reload
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2295,7 +2295,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792A80
+	 * 		RVA    -> 0x00796F50
 	 * 		Name   -> Function HDMain.HDAICombatHandler.ReceiveSuppression
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2320,7 +2320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007929C0
+	 * 		RVA    -> 0x00796E90
 	 * 		Name   -> Function HDMain.HDAICombatHandler.ReceiveHitDamage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2345,7 +2345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792850
+	 * 		RVA    -> 0x00796D20
 	 * 		Name   -> Function HDMain.HDAICombatHandler.PauseAttack
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2365,7 +2365,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007924C0
+	 * 		RVA    -> 0x00796990
 	 * 		Name   -> Function HDMain.HDAICombatHandler.IsFiring
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2387,7 +2387,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792430
+	 * 		RVA    -> 0x00796900
 	 * 		Name   -> Function HDMain.HDAICombatHandler.HasValidEnemy
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2412,7 +2412,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792400
+	 * 		RVA    -> 0x007968D0
 	 * 		Name   -> Function HDMain.HDAICombatHandler.HasAmmoLoaded
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2434,7 +2434,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00791B80
+	 * 		RVA    -> 0x00796050
 	 * 		Name   -> Function HDMain.HDAICombatHandler.CanAttackEnemy
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2475,7 +2475,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792520
+	 * 		RVA    -> 0x007969F0
 	 * 		Name   -> Function HDMain.HDAIController.JoinOrCreateSquad
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2497,7 +2497,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792310
+	 * 		RVA    -> 0x007967E0
 	 * 		Name   -> Function HDMain.HDAIController.GetStartPawnClass
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2519,7 +2519,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792290
+	 * 		RVA    -> 0x00796760
 	 * 		Name   -> Function HDMain.HDAIController.GetFactionSpecifiedSquadMemberKit
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */
@@ -2541,7 +2541,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792260
+	 * 		RVA    -> 0x00796730
 	 * 		Name   -> Function HDMain.HDAIController.GetFactionSpecifiedSquadLeaderKit
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */
@@ -2577,7 +2577,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00793070
+	 * 		RVA    -> 0x00797540
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.StopRetreat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2597,7 +2597,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00793030
+	 * 		RVA    -> 0x00797500
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.StartRetreat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2617,7 +2617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00793010
+	 * 		RVA    -> 0x007974E0
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.StartGroupWaitTime
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2637,7 +2637,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792FC0
+	 * 		RVA    -> 0x00797490
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.ShouldRetreat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2659,7 +2659,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792F70
+	 * 		RVA    -> 0x00797440
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.SetupGroupData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2679,7 +2679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792E10
+	 * 		RVA    -> 0x007972E0
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.SetSquadParams
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2699,7 +2699,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792C70
+	 * 		RVA    -> 0x00797140
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.SetCurrentDestination
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2719,7 +2719,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792B40
+	 * 		RVA    -> 0x00797010
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.RequestGroupDataSync
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2741,7 +2741,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792870
+	 * 		RVA    -> 0x00796D40
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.PointsAreEqualXY
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2770,7 +2770,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792670
+	 * 		RVA    -> 0x00796B40
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.OnOwnerDeath
 	 * 		Flags  -> (Final, Native, Private, HasOutParms)
 	 * Parameters:
@@ -2803,7 +2803,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792650
+	 * 		RVA    -> 0x00796B20
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.OnMoveToFailed
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 */
@@ -2823,7 +2823,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792570
+	 * 		RVA    -> 0x00796A40
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.MakeNewMasterNavPath
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -2848,7 +2848,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792550
+	 * 		RVA    -> 0x00796A20
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.MakeNavPathSegment
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2868,7 +2868,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007924F0
+	 * 		RVA    -> 0x007969C0
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.IsGroupWaitTimeOver
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2890,7 +2890,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007923E0
+	 * 		RVA    -> 0x007968B0
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.HandleMoveToFailed
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 */
@@ -2910,7 +2910,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007922C0
+	 * 		RVA    -> 0x00796790
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.GetGroupData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2932,7 +2932,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792200
+	 * 		RVA    -> 0x007966D0
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.FollowHumanLeader
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 */
@@ -2952,7 +2952,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00791B60
+	 * 		RVA    -> 0x00796030
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.BroadcastGroupData
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2972,7 +2972,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00791B30
+	 * 		RVA    -> 0x00796000
 	 * 		Name   -> Function HDMain.HDAIGroupBehaviorHandler.AllGroupMembersAreOnPoint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3008,7 +3008,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795C40
+	 * 		RVA    -> 0x0079A110
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.SetupRVOAvoidance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3028,7 +3028,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795C20
+	 * 		RVA    -> 0x0079A0F0
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.SetupNextTargetNavPoint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3048,7 +3048,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795A90
+	 * 		RVA    -> 0x00799F60
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.SetDesiredLocation
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -3071,7 +3071,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795370
+	 * 		RVA    -> 0x00799840
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.MoveToLocationFailed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3091,7 +3091,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795340
+	 * 		RVA    -> 0x00799810
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.MakePathToDesiredLocation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3113,7 +3113,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795310
+	 * 		RVA    -> 0x007997E0
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.IsPawnAtDestination
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3135,7 +3135,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007952E0
+	 * 		RVA    -> 0x007997B0
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.IsNavigationPossible
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3157,7 +3157,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007952B0
+	 * 		RVA    -> 0x00799780
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.IsNavDataValidForAllControlPoints
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3179,7 +3179,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00794F00
+	 * 		RVA    -> 0x007993D0
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.FixVectorValuesNaN
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3206,7 +3206,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00794E50
+	 * 		RVA    -> 0x00799320
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.FindNewControlPointNavLocation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3231,7 +3231,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00794D70
+	 * 		RVA    -> 0x00799240
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.FindNavLocationInsideControlPoint
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3260,7 +3260,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00794CA0
+	 * 		RVA    -> 0x00799170
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.CheckPawnStuckStatus
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure)
 	 */
@@ -3282,7 +3282,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007948F0
+	 * 		RVA    -> 0x00798DC0
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.CalcSeparationVector
 	 * 		Flags  -> (Final, Native, Private, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3304,7 +3304,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007948B0
+	 * 		RVA    -> 0x00798D80
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.CalcObstacleAvoidanceVector
 	 * 		Flags  -> (Final, Native, Private, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3326,7 +3326,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00794870
+	 * 		RVA    -> 0x00798D40
 	 * 		Name   -> Function HDMain.HDAINavigationHandler.CalcCohesionVector
 	 * 		Flags  -> (Final, Native, Private, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3362,7 +3362,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007949C0
+	 * 		RVA    -> 0x00798E90
 	 * 		Name   -> Function HDMain.HDAIPerceptionComponent.CanBeSeenFrom
 	 * 		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3399,7 +3399,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00794930
+	 * 		RVA    -> 0x00798E00
 	 * 		Name   -> Function HDMain.HDAIPerceptionComponent.CalcSightStrength
 	 * 		Flags  -> (Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3438,7 +3438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795DB0
+	 * 		RVA    -> 0x0079A280
 	 * 		Name   -> Function HDMain.HDAIVocalHandler.VocalizeSuppression
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3458,7 +3458,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795D90
+	 * 		RVA    -> 0x0079A260
 	 * 		Name   -> Function HDMain.HDAIVocalHandler.VocalizeReload
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3478,7 +3478,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795D00
+	 * 		RVA    -> 0x0079A1D0
 	 * 		Name   -> Function HDMain.HDAIVocalHandler.VocalizeContact
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3501,7 +3501,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795CE0
+	 * 		RVA    -> 0x0079A1B0
 	 * 		Name   -> Function HDMain.HDAIVocalHandler.VocalizeBeenHit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3521,7 +3521,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795C60
+	 * 		RVA    -> 0x0079A130
 	 * 		Name   -> Function HDMain.HDAIVocalHandler.Vocalize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3544,7 +3544,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795BA0
+	 * 		RVA    -> 0x0079A070
 	 * 		Name   -> Function HDMain.HDAIVocalHandler.SetTimeLimit
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -3567,7 +3567,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795B20
+	 * 		RVA    -> 0x00799FF0
 	 * 		Name   -> Function HDMain.HDAIVocalHandler.SetPitchMultiplier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3590,7 +3590,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795950
+	 * 		RVA    -> 0x00799E20
 	 * 		Name   -> Function HDMain.HDAIVocalHandler.RandomizePitchMultiplier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3610,7 +3610,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007958D0
+	 * 		RVA    -> 0x00799DA0
 	 * 		Name   -> Function HDMain.HDAIVocalHandler.PlayVocalSound
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -3633,7 +3633,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795390
+	 * 		RVA    -> 0x00799860
 	 * 		Name   -> Function HDMain.HDAIVocalHandler.NotifySurroundingCharacters
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -3684,7 +3684,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC130
+	 * 		RVA    -> 0x006CFBF0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.Unlock
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -3704,7 +3704,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795A00
+	 * 		RVA    -> 0x00799ED0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.SetActiveRoute
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3727,7 +3727,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795970
+	 * 		RVA    -> 0x00799E40
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.SetActive
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3750,7 +3750,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.ReceiveOnTeamCaptureStatusUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -3769,7 +3769,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.ReceiveOnOwningTeamUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -3791,7 +3791,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.ReceiveOnLocked
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -3813,7 +3813,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.ReceiveOnCaptureProgress
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -3835,7 +3835,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.ReceiveOnActive
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -3857,7 +3857,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795850
+	 * 		RVA    -> 0x00799D20
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.OnRep_OwningTeam
 	 * 		Flags  -> (Final, Native, Protected)
 	 * Parameters:
@@ -3880,7 +3880,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795830
+	 * 		RVA    -> 0x00799D00
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.OnRep_Locked
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -3900,7 +3900,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795810
+	 * 		RVA    -> 0x00799CE0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.OnRep_Contested
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -3920,7 +3920,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795810
+	 * 		RVA    -> 0x00799CE0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.OnRep_CaptureProgress
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -3940,7 +3940,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007957F0
+	 * 		RVA    -> 0x00799CC0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.OnRep_CapturableByTeam
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -3960,7 +3960,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007957D0
+	 * 		RVA    -> 0x00799CA0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.OnRep_Active
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -3980,7 +3980,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795750
+	 * 		RVA    -> 0x00799C20
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.OnOwningTeamUpdated
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -4003,7 +4003,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795610
+	 * 		RVA    -> 0x00799AE0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.OnEndOverlap
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -4032,7 +4032,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795410
+	 * 		RVA    -> 0x007998E0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.OnBeginOverlap
 	 * 		Flags  -> (Native, Protected, HasOutParms)
 	 * Parameters:
@@ -4065,7 +4065,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBFE0
+	 * 		RVA    -> 0x006CFAA0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.Lock
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -4085,7 +4085,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795220
+	 * 		RVA    -> 0x007996F0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.IsCapturableByTeam
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4110,7 +4110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795100
+	 * 		RVA    -> 0x007995D0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.GetOverlappingCharactersByTeam
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4138,7 +4138,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00795070
+	 * 		RVA    -> 0x00799540
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.GetObjectiveTypeForTeam
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4163,7 +4163,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00794FE0
+	 * 		RVA    -> 0x007994B0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.GetMinPlayersRequiredForCaptureTeam
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4188,7 +4188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00794CD0
+	 * 		RVA    -> 0x007991A0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.ChoosePlayerStart
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -4213,7 +4213,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00794C00
+	 * 		RVA    -> 0x007990D0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.CanRestartPlayer
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4238,7 +4238,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00794BD0
+	 * 		RVA    -> 0x007990A0
 	 * 		Name   -> Function HDMain.HDBaseCapturePoint.CanCapture
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4274,7 +4274,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A120
+	 * 		RVA    -> 0x0079E610
 	 * 		Name   -> Function HDMain.HDBaseGameMode.RemoveOpforBots
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4297,7 +4297,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A090
+	 * 		RVA    -> 0x0079E580
 	 * 		Name   -> Function HDMain.HDBaseGameMode.RemoveBluforBots
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4320,7 +4320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799F80
+	 * 		RVA    -> 0x0079E470
 	 * 		Name   -> Function HDMain.HDBaseGameMode.PlayerCanRestartAtPlayerStart
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -4349,7 +4349,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799570
+	 * 		RVA    -> 0x0079DA40
 	 * 		Name   -> Function HDMain.HDBaseGameMode.AddOpforBots
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4372,7 +4372,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007994E0
+	 * 		RVA    -> 0x0079D9B0
 	 * 		Name   -> Function HDMain.HDBaseGameMode.AddBluforBots
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4437,7 +4437,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799CA0
+	 * 		RVA    -> 0x0079E190
 	 * 		Name   -> Function HDMain.HDBaseWeapon.IsSelectableEquipment
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4473,7 +4473,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3710
+	 * 		RVA    -> 0x007A7C00
 	 * 		Name   -> Function HDMain.HDPlayerController.UnloadVictoryMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -4493,7 +4493,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A36F0
+	 * 		RVA    -> 0x007A7BE0
 	 * 		Name   -> Function HDMain.HDPlayerController.TeamTalk
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -4513,7 +4513,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A36D0
+	 * 		RVA    -> 0x007A7BC0
 	 * 		Name   -> Function HDMain.HDPlayerController.Talk
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -4533,7 +4533,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3620
+	 * 		RVA    -> 0x007A7B10
 	 * 		Name   -> Function HDMain.HDPlayerController.StopTalkingOverChannelIfActive
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -4556,7 +4556,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3590
+	 * 		RVA    -> 0x007A7A80
 	 * 		Name   -> Function HDMain.HDPlayerController.StopTalkingOverChannelGroupIfActive
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -4579,7 +4579,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3570
+	 * 		RVA    -> 0x007A7A60
 	 * 		Name   -> Function HDMain.HDPlayerController.StopTalkingOnActiveChannels
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -4599,7 +4599,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A34E0
+	 * 		RVA    -> 0x007A79D0
 	 * 		Name   -> Function HDMain.HDPlayerController.StartTalkingOverChannelGroup
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -4622,7 +4622,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3450
+	 * 		RVA    -> 0x007A7940
 	 * 		Name   -> Function HDMain.HDPlayerController.StartTalkingOverChannel
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -4645,7 +4645,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3400
+	 * 		RVA    -> 0x007A78F0
 	 * 		Name   -> Function HDMain.HDPlayerController.ServerSwitchTeam
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 */
@@ -4665,7 +4665,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A33B0
+	 * 		RVA    -> 0x007A78A0
 	 * 		Name   -> Function HDMain.HDPlayerController.ServerSpawnVehicle
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 */
@@ -4685,7 +4685,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A32B0
+	 * 		RVA    -> 0x007A77A0
 	 * 		Name   -> Function HDMain.HDPlayerController.ServerRestartPlayerAtStartSpot
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, BlueprintCallable, NetValidate)
 	 * Parameters:
@@ -4710,7 +4710,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3200
+	 * 		RVA    -> 0x007A76F0
 	 * 		Name   -> Function HDMain.HDPlayerController.ServerPickTeam
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 * Parameters:
@@ -4733,7 +4733,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3140
+	 * 		RVA    -> 0x007A7630
 	 * 		Name   -> Function HDMain.HDPlayerController.ServerCheatSetAllowIdleSway
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, BlueprintCallable, NetValidate)
 	 * Parameters:
@@ -4756,7 +4756,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDPlayerController.ReceiveVoipTalkerMsgReceived
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -4782,7 +4782,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2F00
+	 * 		RVA    -> 0x007A73F0
 	 * 		Name   -> Function HDMain.HDPlayerController.OnShowScoreboardReleased
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -4802,7 +4802,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2EE0
+	 * 		RVA    -> 0x007A73D0
 	 * 		Name   -> Function HDMain.HDPlayerController.OnShowScoreboardPressed
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -4822,7 +4822,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDPlayerController.OnPlayerSpawnTimerElapsed
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -4841,7 +4841,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2D60
+	 * 		RVA    -> 0x007A7250
 	 * 		Name   -> Function HDMain.HDPlayerController.OnPauseMenu
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -4861,7 +4861,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2C70
+	 * 		RVA    -> 0x007A7160
 	 * 		Name   -> Function HDMain.HDPlayerController.LoadVictoryMenu
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4886,7 +4886,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2BE0
+	 * 		RVA    -> 0x007A70D0
 	 * 		Name   -> Function HDMain.HDPlayerController.IsTalkingOverChannelName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4911,7 +4911,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2B50
+	 * 		RVA    -> 0x007A7040
 	 * 		Name   -> Function HDMain.HDPlayerController.IsTalkingOverChannelGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4936,7 +4936,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2AC0
+	 * 		RVA    -> 0x007A6FB0
 	 * 		Name   -> Function HDMain.HDPlayerController.IsTalkingOverChannel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -4961,7 +4961,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2A30
+	 * 		RVA    -> 0x007A6F20
 	 * 		Name   -> Function HDMain.HDPlayerController.IsTalking
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4986,7 +4986,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2A00
+	 * 		RVA    -> 0x007A6EF0
 	 * 		Name   -> Function HDMain.HDPlayerController.IsInVehicle
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5008,7 +5008,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A29D0
+	 * 		RVA    -> 0x007A6EC0
 	 * 		Name   -> Function HDMain.HDPlayerController.IsIdleSwayAllowed
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5030,7 +5030,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2900
+	 * 		RVA    -> 0x007A6DF0
 	 * 		Name   -> Function HDMain.HDPlayerController.GetTalkChannel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -5052,7 +5052,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A28D0
+	 * 		RVA    -> 0x007A6DC0
 	 * 		Name   -> Function HDMain.HDPlayerController.GetPlayerCommsComponent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -5074,7 +5074,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2460
+	 * 		RVA    -> 0x007A6950
 	 * 		Name   -> Function HDMain.HDPlayerController.ClientRoundEnd
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 	 * Parameters:
@@ -5099,7 +5099,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A23A0
+	 * 		RVA    -> 0x007A6890
 	 * 		Name   -> Function HDMain.HDPlayerController.ClientLoadTeamData
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 	 * Parameters:
@@ -5122,7 +5122,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2310
+	 * 		RVA    -> 0x007A6800
 	 * 		Name   -> Function HDMain.HDPlayerController.ClientCheatSetAllowIdleSway
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetClient)
 	 * Parameters:
@@ -5145,7 +5145,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2270
+	 * 		RVA    -> 0x007A6760
 	 * 		Name   -> Function HDMain.HDPlayerController.CanTalkOverChannel
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5170,7 +5170,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2250
+	 * 		RVA    -> 0x007A6740
 	 * 		Name   -> Function HDMain.HDPlayerController.Auth_SpawnVehicle
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -5204,7 +5204,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079AB90
+	 * 		RVA    -> 0x0079F080
 	 * 		Name   -> Function HDMain.HDCheatManager.ToggleIdleSway
 	 * 		Flags  -> (Final, Exec, Native, Public)
 	 */
@@ -5224,7 +5224,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079AB70
+	 * 		RVA    -> 0x0079F060
 	 * 		Name   -> Function HDMain.HDCheatManager.ToggleFreeAimADS
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 */
@@ -5244,7 +5244,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079AB50
+	 * 		RVA    -> 0x0079F040
 	 * 		Name   -> Function HDMain.HDCheatManager.ToggleFreeAim
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 */
@@ -5264,7 +5264,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B70
+	 * 		RVA    -> 0x006C7310
 	 * 		Name   -> Function HDMain.HDCheatManager.SpawnVehicle
 	 * 		Flags  -> (Final, Exec, Native, Public, BlueprintCallable)
 	 */
@@ -5284,7 +5284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A890
+	 * 		RVA    -> 0x0079ED80
 	 * 		Name   -> Function HDMain.HDCheatManager.SetMaxFreeAimYawADS
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 * Parameters:
@@ -5307,7 +5307,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A810
+	 * 		RVA    -> 0x0079ED00
 	 * 		Name   -> Function HDMain.HDCheatManager.SetMaxFreeAimYaw
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 * Parameters:
@@ -5330,7 +5330,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A790
+	 * 		RVA    -> 0x0079EC80
 	 * 		Name   -> Function HDMain.HDCheatManager.SetMaxFreeAimPitchADS
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 * Parameters:
@@ -5353,7 +5353,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A710
+	 * 		RVA    -> 0x0079EC00
 	 * 		Name   -> Function HDMain.HDCheatManager.SetMaxFreeAimPitch
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 * Parameters:
@@ -5376,7 +5376,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A3F0
+	 * 		RVA    -> 0x0079E8E0
 	 * 		Name   -> Function HDMain.HDCheatManager.SetFreeAimReturnToCenterInterpSpeed
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 * Parameters:
@@ -5399,7 +5399,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A370
+	 * 		RVA    -> 0x0079E860
 	 * 		Name   -> Function HDMain.HDCheatManager.SetFreeAimDeadzoneCameraSpeedFactor
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 * Parameters:
@@ -5450,7 +5450,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799740
+	 * 		RVA    -> 0x0079DC30
 	 * 		Name   -> Function HDMain.HDGame_AdvanceAndSecure.GetCurrentRedCaptureTier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5472,7 +5472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799720
+	 * 		RVA    -> 0x0079DC10
 	 * 		Name   -> Function HDMain.HDGame_AdvanceAndSecure.GetCurrentBlueCaptureTier
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5536,7 +5536,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079ABB0
+	 * 		RVA    -> 0x0079F0A0
 	 * 		Name   -> Function HDMain.HDGameInstance.UnloadScoreboardMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -5556,7 +5556,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799F00
+	 * 		RVA    -> 0x0079E3F0
 	 * 		Name   -> Function HDMain.HDGameInstance.OwnsAppBP
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5581,7 +5581,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799E20
+	 * 		RVA    -> 0x0079E310
 	 * 		Name   -> Function HDMain.HDGameInstance.LoadScoreboardMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -5601,7 +5601,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799B20
+	 * 		RVA    -> 0x0079E010
 	 * 		Name   -> Function HDMain.HDGameInstance.HasModsLoaded
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -5623,7 +5623,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799AA0
+	 * 		RVA    -> 0x0079DF90
 	 * 		Name   -> Function HDMain.HDGameInstance.HasDLCBP
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -5690,7 +5690,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799BB0
+	 * 		RVA    -> 0x0079E0A0
 	 * 		Name   -> Function HDMain.HDGameProjectBuildSettings.IsDemoBuild
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -5726,7 +5726,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A2B0
+	 * 		RVA    -> 0x0079E7A0
 	 * 		Name   -> Function HDMain.HDGameRulesetBase.RevokeTicketsFromTeam
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -5751,7 +5751,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007999E0
+	 * 		RVA    -> 0x0079DED0
 	 * 		Name   -> Function HDMain.HDGameRulesetBase.GiveTicketsToTeam
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -5776,7 +5776,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799850
+	 * 		RVA    -> 0x0079DD40
 	 * 		Name   -> Function HDMain.HDGameRulesetBase.GetHDGameState
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5798,7 +5798,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799820
+	 * 		RVA    -> 0x0079DD10
 	 * 		Name   -> Function HDMain.HDGameRulesetBase.GetHDGameMode
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5848,7 +5848,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A1E0
+	 * 		RVA    -> 0x0079E6D0
 	 * 		Name   -> Function HDMain.HDGameState.RevokeTicketsFromTeam
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5873,7 +5873,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799C70
+	 * 		RVA    -> 0x0079E160
 	 * 		Name   -> Function HDMain.HDGameState.IsGameUsingTickets
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5895,7 +5895,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799BE0
+	 * 		RVA    -> 0x0079E0D0
 	 * 		Name   -> Function HDMain.HDGameState.IsGameUsingPlayerSpawnKitRestrictions
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -5920,7 +5920,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799910
+	 * 		RVA    -> 0x0079DE00
 	 * 		Name   -> Function HDMain.HDGameState.GiveTicketsToTeam
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5945,7 +5945,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799880
+	 * 		RVA    -> 0x0079DD70
 	 * 		Name   -> Function HDMain.HDGameState.GetNumPlayersOnTeam
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -5970,7 +5970,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFCE0
+	 * 		RVA    -> 0x0079DAD0
 	 * 		Name   -> Function HDMain.HDGameState.ClearTickets
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -6116,7 +6116,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A9D0
+	 * 		RVA    -> 0x0079EEC0
 	 * 		Name   -> Function HDMain.HDGOAPComponent.TargetPerceptionUpdated
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -6141,7 +6141,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A1B0
+	 * 		RVA    -> 0x0079E6A0
 	 * 		Name   -> Function HDMain.HDGOAPComponent.ResetPlanningTimer
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -6161,7 +6161,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799B80
+	 * 		RVA    -> 0x0079E070
 	 * 		Name   -> Function HDMain.HDGOAPComponent.IsAIActiveInWorld
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6183,7 +6183,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799B50
+	 * 		RVA    -> 0x0079E040
 	 * 		Name   -> Function HDMain.HDGOAPComponent.IsAIActive
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6205,7 +6205,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799690
+	 * 		RVA    -> 0x0079DB80
 	 * 		Name   -> Function HDMain.HDGOAPComponent.GetAIHandler
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6300,7 +6300,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A910
+	 * 		RVA    -> 0x0079EE00
 	 * 		Name   -> Function HDMain.HDServerListView.SortListItems
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6325,7 +6325,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A690
+	 * 		RVA    -> 0x0079EB80
 	 * 		Name   -> Function HDMain.HDServerListView.SetItemSortBy
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6348,7 +6348,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A600
+	 * 		RVA    -> 0x0079EAF0
 	 * 		Name   -> Function HDMain.HDServerListView.SetItemSortAscending
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6371,7 +6371,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079A470
+	 * 		RVA    -> 0x0079E960
 	 * 		Name   -> Function HDMain.HDServerListView.SetItemFilterRules
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6394,7 +6394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799800
+	 * 		RVA    -> 0x0079DCF0
 	 * 		Name   -> Function HDMain.HDServerListView.GetEntrySpacing
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6416,7 +6416,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799760
+	 * 		RVA    -> 0x0079DC50
 	 * 		Name   -> Function HDMain.HDServerListView.GetDesiredEntryPaddingForItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6441,7 +6441,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799600
+	 * 		RVA    -> 0x0079DAF0
 	 * 		Name   -> Function HDMain.HDServerListView.DoesFilterExcludeListItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6480,7 +6480,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDJoinGameMenu.ReceiveOnRefreshStart
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -6499,7 +6499,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDJoinGameMenu.ReceiveOnRefreshComplete
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -6523,7 +6523,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799E40
+	 * 		RVA    -> 0x0079E330
 	 * 		Name   -> Function HDMain.HDJoinGameMenu.OnRefresh
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -6548,7 +6548,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799D40
+	 * 		RVA    -> 0x0079E230
 	 * 		Name   -> Function HDMain.HDJoinGameMenu.JoinGame
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6573,7 +6573,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00799CD0
+	 * 		RVA    -> 0x0079E1C0
 	 * 		Name   -> Function HDMain.HDJoinGameMenu.IsUsingDebugServerListings
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6609,7 +6609,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079EA40
+	 * 		RVA    -> 0x007A2F30
 	 * 		Name   -> Function HDMain.HDKit.RandomCharacterVariationDataFromKit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6631,7 +6631,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E920
+	 * 		RVA    -> 0x007A2E10
 	 * 		Name   -> Function HDMain.HDKit.PlayerCanStartWithKit
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6660,7 +6660,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E560
+	 * 		RVA    -> 0x007A2A50
 	 * 		Name   -> Function HDMain.HDKit.HasKitRequirements
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6682,7 +6682,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E400
+	 * 		RVA    -> 0x007A28F0
 	 * 		Name   -> Function HDMain.HDKit.GetPrimaryItemEntryDisplayIcon
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6709,7 +6709,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E350
+	 * 		RVA    -> 0x007A2840
 	 * 		Name   -> Function HDMain.HDKit.GetPrimaryItemEntry
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6736,7 +6736,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E250
+	 * 		RVA    -> 0x007A2740
 	 * 		Name   -> Function HDMain.HDKit.GetPlayersUsingKit
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6765,7 +6765,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E0F0
+	 * 		RVA    -> 0x007A25E0
 	 * 		Name   -> Function HDMain.HDKit.GetNumPlayersUsingKit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6790,7 +6790,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079DF20
+	 * 		RVA    -> 0x007A2410
 	 * 		Name   -> Function HDMain.HDKit.GetItemEntryDisplayIcon
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6819,7 +6819,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079DE30
+	 * 		RVA    -> 0x007A2320
 	 * 		Name   -> Function HDMain.HDKit.GetItemEntryDisplayEquipmentSymbol
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -6848,7 +6848,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079DD50
+	 * 		RVA    -> 0x007A2240
 	 * 		Name   -> Function HDMain.HDKit.GetItemEntryBySlotNum
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7017,7 +7017,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079DA90
+	 * 		RVA    -> 0x007A1F80
 	 * 		Name   -> Function HDMain.HDModData.DoesModPluginUseLegacyMapScanning
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7126,7 +7126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079EC10
+	 * 		RVA    -> 0x007A3100
 	 * 		Name   -> Function HDMain.HDPlatoonCreationRuleBase.SatisfiesRule
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent, Const)
 	 * Parameters:
@@ -7165,7 +7165,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079F290
+	 * 		RVA    -> 0x007A3780
 	 * 		Name   -> Function HDMain.HDPlatoonInfo.ShouldCreateForTeam
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7218,7 +7218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079F320
+	 * 		RVA    -> 0x007A3810
 	 * 		Name   -> Function HDMain.HDPlatoonState.SquadExists
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7245,7 +7245,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079EB90
+	 * 		RVA    -> 0x007A3080
 	 * 		Name   -> Function HDMain.HDPlatoonState.RemoveSquadAt
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7268,7 +7268,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079EB10
+	 * 		RVA    -> 0x007A3000
 	 * 		Name   -> Function HDMain.HDPlatoonState.RemoveSquad
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7291,7 +7291,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBF30
+	 * 		RVA    -> 0x006CF9F0
 	 * 		Name   -> Function HDMain.HDPlatoonState.RemoveFromOwner
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 */
@@ -7311,7 +7311,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDPlatoonState.ReceiveSquadPreRemove
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -7333,7 +7333,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDPlatoonState.ReceiveSquadAdded
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -7355,7 +7355,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E600
+	 * 		RVA    -> 0x007A2AF0
 	 * 		Name   -> Function HDMain.HDPlatoonState.IsSquadPendingRemovalFromPlatoon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7380,7 +7380,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E580
+	 * 		RVA    -> 0x007A2A70
 	 * 		Name   -> Function HDMain.HDPlatoonState.HasReachedMaxSquadLimit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7402,7 +7402,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E4A0
+	 * 		RVA    -> 0x007A2990
 	 * 		Name   -> Function HDMain.HDPlatoonState.GetSquadAt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7429,7 +7429,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E180
+	 * 		RVA    -> 0x007A2670
 	 * 		Name   -> Function HDMain.HDPlatoonState.GetNumSquads
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7454,7 +7454,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E0C0
+	 * 		RVA    -> 0x007A25B0
 	 * 		Name   -> Function HDMain.HDPlatoonState.GetMaxSquadLimit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7476,7 +7476,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079DBA0
+	 * 		RVA    -> 0x007A2090
 	 * 		Name   -> Function HDMain.HDPlatoonState.FindSquadByName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -7505,7 +7505,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079DB50
+	 * 		RVA    -> 0x007A2040
 	 * 		Name   -> Function HDMain.HDPlatoonState.DumpSquadState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 */
@@ -7525,7 +7525,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079D930
+	 * 		RVA    -> 0x007A1E20
 	 * 		Name   -> Function HDMain.HDPlatoonState.AddSquad
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -7582,7 +7582,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079F3E0
+	 * 		RVA    -> 0x007A38D0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.VariationDataChangedInternal
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -7605,7 +7605,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079F1A0
+	 * 		RVA    -> 0x007A3690
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.SetVariationHandle
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7628,7 +7628,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079F120
+	 * 		RVA    -> 0x007A3610
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.SetMaxFreeAimYawADS
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7651,7 +7651,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079F0A0
+	 * 		RVA    -> 0x007A3590
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.SetMaxFreeAimYaw
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7674,7 +7674,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079F020
+	 * 		RVA    -> 0x007A3510
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.SetMaxFreeAimPitchADS
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7697,7 +7697,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079EFA0
+	 * 		RVA    -> 0x007A3490
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.SetMaxFreeAimPitch
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7720,7 +7720,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079EF20
+	 * 		RVA    -> 0x007A3410
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.SetFreeAimReturnToCenterInterpSpeed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7743,7 +7743,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079EEA0
+	 * 		RVA    -> 0x007A3390
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.SetFreeAimDeadzoneCameraSpeedFactor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7766,7 +7766,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079EE10
+	 * 		RVA    -> 0x007A3300
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.SetAllowFreeAimADS
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7789,7 +7789,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079ED80
+	 * 		RVA    -> 0x007A3270
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.SetAllowFreeAim
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7812,7 +7812,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079ECB0
+	 * 		RVA    -> 0x007A31A0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.SetAimStyle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7837,7 +7837,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.ReceiveVoipTalkerMsgReceived
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -7863,7 +7863,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.ReceiveVariationDataChanged
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -7887,7 +7887,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.ReceiveFreeAim
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -7909,7 +7909,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.ReceiveCurrentLoadout
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -7928,7 +7928,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.ReceiveAimStyleChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -7954,7 +7954,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E810
+	 * 		RVA    -> 0x007A2D00
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.PlayVocalSoundAI
 	 * 		Flags  -> (Net, Native, Event, NetMulticast, Public)
 	 * Parameters:
@@ -7981,7 +7981,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E7F0
+	 * 		RVA    -> 0x007A2CE0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.OnRep_CurrentLoadout
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -8001,7 +8001,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E760
+	 * 		RVA    -> 0x007A2C50
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.OnPickupKit
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8024,7 +8024,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E690
+	 * 		RVA    -> 0x007A2B80
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.NotifyPlayerStateChanged
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -8049,7 +8049,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E5D0
+	 * 		RVA    -> 0x007A2AC0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.IsInVehicle
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8071,7 +8071,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E5B0
+	 * 		RVA    -> 0x007A2AA0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.HeadBob
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -8091,7 +8091,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E220
+	 * 		RVA    -> 0x007A2710
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.GetPlayerComponent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8113,7 +8113,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E080
+	 * 		RVA    -> 0x007A2570
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.GetMaxFreeAimYawToUse
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8135,7 +8135,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E040
+	 * 		RVA    -> 0x007A2530
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.GetMaxFreeAimPitchToUse
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8157,7 +8157,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079E010
+	 * 		RVA    -> 0x007A2500
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.GetKitClassToUse
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8179,7 +8179,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079DCD0
+	 * 		RVA    -> 0x007A21C0
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.FreeAim
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -8202,7 +8202,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079DB70
+	 * 		RVA    -> 0x007A2060
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.EquipPrimaryItem
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -8224,7 +8224,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079DB30
+	 * 		RVA    -> 0x007A2020
 	 * 		Name   -> Function HDMain.HDPlayerCharacter.DropKit
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Protected, BlueprintCallable)
 	 */
@@ -8300,7 +8300,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A36B0
+	 * 		RVA    -> 0x007A7BA0
 	 * 		Name   -> Function HDMain.HDPlayerComponent.SwitchTeam
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 */
@@ -8320,7 +8320,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3070
+	 * 		RVA    -> 0x007A7560
 	 * 		Name   -> Function HDMain.HDPlayerComponent.RestartPlayerAtStartSpot
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8345,7 +8345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2F20
+	 * 		RVA    -> 0x007A7410
 	 * 		Name   -> Function HDMain.HDPlayerComponent.PickTeam
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8382,7 +8382,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB3A0
+	 * 		RVA    -> 0x006CEE30
 	 * 		Name   -> Function HDMain.HDPlayerStart.K2_GetCapsuleComponent
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8418,7 +8418,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3730
+	 * 		RVA    -> 0x007A7C20
 	 * 		Name   -> Function HDMain.HDPlayerState.UnregisterFromSquad
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 */
@@ -8438,7 +8438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2EC0
+	 * 		RVA    -> 0x007A73B0
 	 * 		Name   -> Function HDMain.HDPlayerState.OnRep_SquadInfo
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -8458,7 +8458,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2E30
+	 * 		RVA    -> 0x007A7320
 	 * 		Name   -> Function HDMain.HDPlayerState.OnRep_SpawnLoadout
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -8481,7 +8481,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2D80
+	 * 		RVA    -> 0x007A7270
 	 * 		Name   -> Function HDMain.HDPlayerState.OnRep_CurrentLoadout
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -8504,7 +8504,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A21C0
+	 * 		RVA    -> 0x007A66B0
 	 * 		Name   -> Function HDMain.HDPlayerState.AssignSpawnLoadout
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8527,7 +8527,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2130
+	 * 		RVA    -> 0x007A6620
 	 * 		Name   -> Function HDMain.HDPlayerState.AssignCurrentLoadout
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -8592,7 +8592,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2E10
+	 * 		RVA    -> 0x007A7300
 	 * 		Name   -> Function HDMain.HDProj_Grenade.OnRep_PayloadServerActivationTime
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -8668,7 +8668,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2790
+	 * 		RVA    -> 0x007A6C80
 	 * 		Name   -> Function HDMain.HDRuleset_ControlPoint.GetControlPointSettingsForTeam
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -8693,7 +8693,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2650
+	 * 		RVA    -> 0x007A6B40
 	 * 		Name   -> Function HDMain.HDRuleset_ControlPoint.ControlPointTeamUpdated
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -8722,7 +8722,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2540
+	 * 		RVA    -> 0x007A6A30
 	 * 		Name   -> Function HDMain.HDRuleset_ControlPoint.ControlPointCaptureProgressUpdated
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -8763,7 +8763,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2FA0
+	 * 		RVA    -> 0x007A7490
 	 * 		Name   -> Function HDMain.HDRuleset_KillDeath.PlayerTeamKilled
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -8788,7 +8788,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2830
+	 * 		RVA    -> 0x007A6D20
 	 * 		Name   -> Function HDMain.HDRuleset_KillDeath.GetKillDeathSettingsForTeam
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -8841,7 +8841,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A3750
+	 * 		RVA    -> 0x007A7C40
 	 * 		Name   -> Function HDMain.HDRuleset_TicketBleed.UpdateTicketBleedState
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -8861,7 +8861,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2930
+	 * 		RVA    -> 0x007A6E20
 	 * 		Name   -> Function HDMain.HDRuleset_TicketBleed.GetTicketBleedSettingsForTeam
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -8886,7 +8886,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2650
+	 * 		RVA    -> 0x007A6B40
 	 * 		Name   -> Function HDMain.HDRuleset_TicketBleed.ControlPointTeamUpdated
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -8915,7 +8915,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A2030
+	 * 		RVA    -> 0x007A6520
 	 * 		Name   -> Function HDMain.HDRuleset_TicketBleed.ApplyTicketBleed
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -8956,7 +8956,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDScoreboardBase.ReceiveScoreboardListRowAdded
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -8992,7 +8992,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7680
+	 * 		RVA    -> 0x007ABB50
 	 * 		Name   -> Function HDMain.HDScoreboardListingRowBase.SetVoiceStateIcon
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -9015,7 +9015,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006FF300
+	 * 		RVA    -> 0x00703390
 	 * 		Name   -> Function HDMain.HDScoreboardListingRowBase.RefreshListing
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -9035,7 +9035,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDScoreboardListingRowBase.ReceivePlayerVoiceStateChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9057,7 +9057,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7150
+	 * 		RVA    -> 0x007AB620
 	 * 		Name   -> Function HDMain.HDScoreboardListingRowBase.OnMutePlayer
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -9077,7 +9077,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6CF0
+	 * 		RVA    -> 0x007AB1C0
 	 * 		Name   -> Function HDMain.HDScoreboardListingRowBase.Init
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9104,7 +9104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6BF0
+	 * 		RVA    -> 0x007AB0C0
 	 * 		Name   -> Function HDMain.HDScoreboardListingRowBase.HasInitialized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9126,7 +9126,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A67C0
+	 * 		RVA    -> 0x007AAC90
 	 * 		Name   -> Function HDMain.HDScoreboardListingRowBase.GetIconForVoiceState
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -9149,7 +9149,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6790
+	 * 		RVA    -> 0x007AAC60
 	 * 		Name   -> Function HDMain.HDScoreboardListingRowBase.GetCurrentPing
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9185,7 +9185,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0079EC10
+	 * 		RVA    -> 0x007A3100
 	 * 		Name   -> Function HDMain.HDServerListFilterRule.MatchesServer
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent, Const)
 	 * Parameters:
@@ -9322,7 +9322,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7700
+	 * 		RVA    -> 0x007ABBD0
 	 * 		Name   -> Function HDMain.HDServerListing.SetupListing
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9345,7 +9345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDServerListing.OnServerItemDataSet
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9381,7 +9381,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7780
+	 * 		RVA    -> 0x007ABC50
 	 * 		Name   -> Function HDMain.HDSQCommChannelState.SetupSQChannelState
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9404,7 +9404,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6670
+	 * 		RVA    -> 0x007AAB40
 	 * 		Name   -> Function HDMain.HDSQCommChannelState.GetChannelNameForSquad
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -9471,7 +9471,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7BE0
+	 * 		RVA    -> 0x007AC0B0
 	 * 		Name   -> Function HDMain.HDSquadState.UnregisterSquadMemberAt
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9496,7 +9496,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7B50
+	 * 		RVA    -> 0x007AC020
 	 * 		Name   -> Function HDMain.HDSquadState.UnregisterSquadMember
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9521,7 +9521,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7AC0
+	 * 		RVA    -> 0x007ABF90
 	 * 		Name   -> Function HDMain.HDSquadState.UnregisterPlayerSquadMember
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9546,7 +9546,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7AA0
+	 * 		RVA    -> 0x007ABF70
 	 * 		Name   -> Function HDMain.HDSquadState.UnlockSquad
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 */
@@ -9566,7 +9566,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A79A0
+	 * 		RVA    -> 0x007ABE70
 	 * 		Name   -> Function HDMain.HDSquadState.SquadMemberPSTeamUpdated
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -9593,7 +9593,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A78C0
+	 * 		RVA    -> 0x007ABD90
 	 * 		Name   -> Function HDMain.HDSquadState.SquadMemberPSSquadUpdated
 	 * 		Flags  -> (Final, Native, Private, HasOutParms)
 	 * Parameters:
@@ -9618,7 +9618,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7800
+	 * 		RVA    -> 0x007ABCD0
 	 * 		Name   -> Function HDMain.HDSquadState.SquadMemberPSEndPlay
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -9643,7 +9643,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A75B0
+	 * 		RVA    -> 0x007ABA80
 	 * 		Name   -> Function HDMain.HDSquadState.RenameSquad
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -9666,7 +9666,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFC80
+	 * 		RVA    -> 0x006D3A50
 	 * 		Name   -> Function HDMain.HDSquadState.RemoveFromOwner
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 */
@@ -9686,7 +9686,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7420
+	 * 		RVA    -> 0x007AB8F0
 	 * 		Name   -> Function HDMain.HDSquadState.RegisterSquadMember
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9711,7 +9711,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7390
+	 * 		RVA    -> 0x007AB860
 	 * 		Name   -> Function HDMain.HDSquadState.RegisterPlayerSquadMember
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9736,7 +9736,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDSquadState.ReceiveSquadUnlocked
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -9755,7 +9755,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDSquadState.ReceiveSquadRenamed
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -9779,7 +9779,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDSquadState.ReceiveSquadMemberRegistered
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9801,7 +9801,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDSquadState.ReceiveSquadMemberPreUnregister
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9823,7 +9823,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDSquadState.ReceiveSquadLocked
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -9842,7 +9842,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDSquadState.ReceiveSquadLeaderAssigned
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9866,7 +9866,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDSquadState.ReceiveInit
 	 * 		Flags  -> (BlueprintAuthorityOnly, Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -9888,7 +9888,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7240
+	 * 		RVA    -> 0x007AB710
 	 * 		Name   -> Function HDMain.HDSquadState.OnRep_SquadLeader
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -9911,7 +9911,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBE90
+	 * 		RVA    -> 0x006CF950
 	 * 		Name   -> Function HDMain.HDSquadState.OnRep_SquadHiddenState
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -9931,7 +9931,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7170
+	 * 		RVA    -> 0x007AB640
 	 * 		Name   -> Function HDMain.HDSquadState.OnRep_DisplayName
 	 * 		Flags  -> (Native, Protected, HasOutParms)
 	 * Parameters:
@@ -9954,7 +9954,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC130
+	 * 		RVA    -> 0x006CFBF0
 	 * 		Name   -> Function HDMain.HDSquadState.OnRep_bLocked
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -9974,7 +9974,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7130
+	 * 		RVA    -> 0x007AB600
 	 * 		Name   -> Function HDMain.HDSquadState.LockSquad
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 */
@@ -9994,7 +9994,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7070
+	 * 		RVA    -> 0x007AB540
 	 * 		Name   -> Function HDMain.HDSquadState.IsRegisteredSquadMember
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10021,7 +10021,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6FB0
+	 * 		RVA    -> 0x007AB480
 	 * 		Name   -> Function HDMain.HDSquadState.IsPlayerRegisteredSquadMember
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10048,7 +10048,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6F20
+	 * 		RVA    -> 0x007AB3F0
 	 * 		Name   -> Function HDMain.HDSquadState.IsPlayerPendingRemovalFromSquad
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10073,7 +10073,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6E00
+	 * 		RVA    -> 0x007AB2D0
 	 * 		Name   -> Function HDMain.HDSquadState.IsPendingRemovalFromSquad
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10098,7 +10098,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6C90
+	 * 		RVA    -> 0x007AB160
 	 * 		Name   -> Function HDMain.HDSquadState.HasReachedMaxSquadMemberLimit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10120,7 +10120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6B10
+	 * 		RVA    -> 0x007AAFE0
 	 * 		Name   -> Function HDMain.HDSquadState.GetSquadMemberAt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10147,7 +10147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A69C0
+	 * 		RVA    -> 0x007AAE90
 	 * 		Name   -> Function HDMain.HDSquadState.GetNumSquadMembersBots
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10172,7 +10172,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6920
+	 * 		RVA    -> 0x007AADF0
 	 * 		Name   -> Function HDMain.HDSquadState.GetNumSquadMembers
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10197,7 +10197,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A63C0
+	 * 		RVA    -> 0x007AA890
 	 * 		Name   -> Function HDMain.HDSquadState.DumpSquadMemberState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 */
@@ -10217,7 +10217,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6300
+	 * 		RVA    -> 0x007AA7D0
 	 * 		Name   -> Function HDMain.HDSquadState.CanRegisterSquadMember
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10242,7 +10242,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6270
+	 * 		RVA    -> 0x007AA740
 	 * 		Name   -> Function HDMain.HDSquadState.CanRegisterPlayerSquadMember
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10267,7 +10267,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A61E0
+	 * 		RVA    -> 0x007AA6B0
 	 * 		Name   -> Function HDMain.HDSquadState.AssignSquadLeader
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10306,7 +10306,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7780
+	 * 		RVA    -> 0x007ABC50
 	 * 		Name   -> Function HDMain.HDTeamCommChannelState.SetupTeamChannelState
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10329,7 +10329,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6700
+	 * 		RVA    -> 0x007AABD0
 	 * 		Name   -> Function HDMain.HDTeamCommChannelState.GetChannelNameForTeam
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10354,7 +10354,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A65E0
+	 * 		RVA    -> 0x007AAAB0
 	 * 		Name   -> Function HDMain.HDTeamCommChannelState.GetChannelNameForCommand
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10407,7 +10407,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A7530
+	 * 		RVA    -> 0x007ABA00
 	 * 		Name   -> Function HDMain.HDTeamState.RemovePlatoonAt
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10430,7 +10430,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A74B0
+	 * 		RVA    -> 0x007AB980
 	 * 		Name   -> Function HDMain.HDTeamState.RemovePlatoon
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10453,7 +10453,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDTeamState.ReceivePlatoonPreRemove
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -10475,7 +10475,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDTeamState.ReceivePlatoonAdded
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -10497,7 +10497,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A72D0
+	 * 		RVA    -> 0x007AB7A0
 	 * 		Name   -> Function HDMain.HDTeamState.PlatoonExists
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10524,7 +10524,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6E90
+	 * 		RVA    -> 0x007AB360
 	 * 		Name   -> Function HDMain.HDTeamState.IsPlatoonPendingRemovalFromTeam
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10549,7 +10549,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6C30
+	 * 		RVA    -> 0x007AB100
 	 * 		Name   -> Function HDMain.HDTeamState.HasReachedMaxPlatoonLimit
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10571,7 +10571,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6BD0
+	 * 		RVA    -> 0x007AB0A0
 	 * 		Name   -> Function HDMain.HDTeamState.GetTeam
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10593,7 +10593,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6A50
+	 * 		RVA    -> 0x007AAF20
 	 * 		Name   -> Function HDMain.HDTeamState.GetPlatoonAt
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10620,7 +10620,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6880
+	 * 		RVA    -> 0x007AAD50
 	 * 		Name   -> Function HDMain.HDTeamState.GetNumPlatoons
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10645,7 +10645,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A64B0
+	 * 		RVA    -> 0x007AA980
 	 * 		Name   -> Function HDMain.HDTeamState.FindPlatoonByName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10674,7 +10674,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A63E0
+	 * 		RVA    -> 0x007AA8B0
 	 * 		Name   -> Function HDMain.HDTeamState.FindPlatoonByDefinition
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10703,7 +10703,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A63A0
+	 * 		RVA    -> 0x007AA870
 	 * 		Name   -> Function HDMain.HDTeamState.DumpPlatoonState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, Const)
 	 */
@@ -10723,7 +10723,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007A6150
+	 * 		RVA    -> 0x007AA620
 	 * 		Name   -> Function HDMain.HDTeamState.AddPlatoon
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10762,7 +10762,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC5F0
+	 * 		RVA    -> 0x007B0AC0
 	 * 		Name   -> Function HDMain.HDTextChatInputWidgetBase.SubmitChatMessage
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -10785,7 +10785,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC5D0
+	 * 		RVA    -> 0x007B0AA0
 	 * 		Name   -> Function HDMain.HDTextChatInputWidgetBase.StopTalkingOnCurrentChannel
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 */
@@ -10805,7 +10805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDTextChatInputWidgetBase.StopTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -10827,7 +10827,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC550
+	 * 		RVA    -> 0x007B0A20
 	 * 		Name   -> Function HDMain.HDTextChatInputWidgetBase.StartTalkingOnChannel
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10850,7 +10850,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDTextChatInputWidgetBase.StartTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -10872,7 +10872,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDTextChatInputWidgetBase.OnChatMessageSubmitted
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -10922,7 +10922,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDTextChatWidgetBase.StopTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 */
@@ -10941,7 +10941,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDTextChatWidgetBase.StartTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -10963,7 +10963,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC4D0
+	 * 		RVA    -> 0x007B09A0
 	 * 		Name   -> Function HDMain.HDTextChatWidgetBase.SetMaxChatMsgsToCache
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -10986,7 +10986,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC4B0
+	 * 		RVA    -> 0x007B0980
 	 * 		Name   -> Function HDMain.HDTextChatWidgetBase.SayTeamActionPressed
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -11006,7 +11006,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC490
+	 * 		RVA    -> 0x007B0960
 	 * 		Name   -> Function HDMain.HDTextChatWidgetBase.SaySquadActionPressed
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -11026,7 +11026,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC470
+	 * 		RVA    -> 0x007B0940
 	 * 		Name   -> Function HDMain.HDTextChatWidgetBase.SayAllActionPressed
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -11046,7 +11046,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB690
+	 * 		RVA    -> 0x007AFB60
 	 * 		Name   -> Function HDMain.HDTextChatWidgetBase.GetNumCachedChatMsgs
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -11068,7 +11068,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB3C0
+	 * 		RVA    -> 0x007AF890
 	 * 		Name   -> Function HDMain.HDTextChatWidgetBase.GetCachedChatMsgAt
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Protected, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -11097,7 +11097,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDTextChatWidgetBase.DisplayChatMessage
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -11133,7 +11133,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB6B0
+	 * 		RVA    -> 0x007AFB80
 	 * 		Name   -> Function HDMain.HDURLStatics.GetNumTicketsOptionName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11158,7 +11158,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB5D0
+	 * 		RVA    -> 0x007AFAA0
 	 * 		Name   -> Function HDMain.HDURLStatics.GetNumBotsOptionName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11183,7 +11183,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB510
+	 * 		RVA    -> 0x007AF9E0
 	 * 		Name   -> Function HDMain.HDURLStatics.GetFactionOptionName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11208,7 +11208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB490
+	 * 		RVA    -> 0x007AF960
 	 * 		Name   -> Function HDMain.HDURLStatics.GetDisableKitRestrictionsOptionName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -11244,7 +11244,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007ABB50
+	 * 		RVA    -> 0x007B0020
 	 * 		Name   -> Function HDMain.HDUIStatics.GetServerPort
 	 * 		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11269,7 +11269,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB9F0
+	 * 		RVA    -> 0x007AFEC0
 	 * 		Name   -> Function HDMain.HDUIStatics.GetServerIpPort
 	 * 		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11294,7 +11294,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB890
+	 * 		RVA    -> 0x007AFD60
 	 * 		Name   -> Function HDMain.HDUIStatics.GetServerIp
 	 * 		Flags  -> (Final, Native, Static, Private, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11333,7 +11333,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC3F0
+	 * 		RVA    -> 0x007B08C0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.OwnerUnpossessPawn
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -11356,7 +11356,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC2A0
+	 * 		RVA    -> 0x007B0770
 	 * 		Name   -> Function HDMain.HDUIUserWidget.OwnerPossessPawn
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -11379,7 +11379,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC0A0
+	 * 		RVA    -> 0x007B0570
 	 * 		Name   -> Function HDMain.HDUIUserWidget.OwnerEquippedItemChanged
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -11406,7 +11406,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007ABE00
+	 * 		RVA    -> 0x007B02D0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.OwnerDeath
 	 * 		Flags  -> (Final, Native, Private, HasOutParms)
 	 * Parameters:
@@ -11439,7 +11439,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB860
+	 * 		RVA    -> 0x007AFD30
 	 * 		Name   -> Function HDMain.HDUIUserWidget.GetOwningPlayerHUD
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -11461,7 +11461,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB830
+	 * 		RVA    -> 0x007AFD00
 	 * 		Name   -> Function HDMain.HDUIUserWidget.GetOwningHDPlayerHUD
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -11483,7 +11483,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB800
+	 * 		RVA    -> 0x007AFCD0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.GetOwningHDPlayerCharacterMovement
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -11505,7 +11505,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB7D0
+	 * 		RVA    -> 0x007AFCA0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.GetOwningHDPlayerCharacter
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -11527,7 +11527,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB7A0
+	 * 		RVA    -> 0x007AFC70
 	 * 		Name   -> Function HDMain.HDUIUserWidget.GetOwningHDPlayer
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -11549,7 +11549,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB770
+	 * 		RVA    -> 0x007AFC40
 	 * 		Name   -> Function HDMain.HDUIUserWidget.GetOwnerEquippedWeapon
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -11571,7 +11571,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.BPOwnerWeaponChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -11595,7 +11595,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.BPOwnerUnpossessPawn
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -11617,7 +11617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.BPOwnerPossessPawn
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -11639,7 +11639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.BPOwnerDeath
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -11671,7 +11671,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.BPInitializeForOwnerWeapon
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -11693,7 +11693,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.BPInitializeForOwnerPlayerCharacter
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -11715,7 +11715,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.BPDeinitializeFromOwnerWeapon
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -11737,7 +11737,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUserWidget.BPDeinitializeFromOwnerPlayerCharacter
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -11773,7 +11773,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWCaptureStatus.OwnerTouchingControlPoint
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -11797,7 +11797,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWCaptureStatus.OwnerNoControlPoint
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -11816,7 +11816,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007ABFE0
+	 * 		RVA    -> 0x007B04B0
 	 * 		Name   -> Function HDMain.HDUIUWCaptureStatus.OwnerEndOverlap
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -11841,7 +11841,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007ABD40
+	 * 		RVA    -> 0x007B0210
 	 * 		Name   -> Function HDMain.HDUIUWCaptureStatus.OwnerBeginOverlap
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -11866,7 +11866,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB1B0
+	 * 		RVA    -> 0x007AF680
 	 * 		Name   -> Function HDMain.HDUIUWCaptureStatus.CPOwnershipUpdate
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -11895,7 +11895,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AB030
+	 * 		RVA    -> 0x007AF500
 	 * 		Name   -> Function HDMain.HDUIUWCaptureStatus.CPCaptureProgressUpdate
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -11922,7 +11922,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AAF70
+	 * 		RVA    -> 0x007AF440
 	 * 		Name   -> Function HDMain.HDUIUWCaptureStatus.CPBeginEndOverlap
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -11947,7 +11947,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWCaptureStatus.ControlPointSetOwnershipState
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -11975,7 +11975,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWCaptureStatus.ControlPointSetGarrisonedPlayerCount
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12003,7 +12003,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWCaptureStatus.ControlPointSetCaptureProgress
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12059,7 +12059,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerUpdateStamina
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12085,7 +12085,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerStartSprint
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -12104,7 +12104,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerStartAim
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -12123,7 +12123,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC320
+	 * 		RVA    -> 0x007B07F0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerSprintTransitionUpdate
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -12146,7 +12146,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerSetStanceState
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12172,7 +12172,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerSetStance
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12198,7 +12198,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerSetSprintStamina
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12224,7 +12224,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerSetJumpStamina
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12250,7 +12250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerSetHealth
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12276,7 +12276,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AC1A0
+	 * 		RVA    -> 0x007B0670
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerHealthUpdate
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -12303,7 +12303,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerEndSprint
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -12322,7 +12322,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerEndAim
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -12341,7 +12341,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007ABC70
+	 * 		RVA    -> 0x007B0140
 	 * 		Name   -> Function HDMain.HDUIUWPlayerStatus.OwnerAimTransitionUpdate
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -12378,7 +12378,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AE130
+	 * 		RVA    -> 0x007B2600
 	 * 		Name   -> Function HDMain.HDUIUWWeaponStatus.OwnerWeaponFireModeChanged
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -12407,7 +12407,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWWeaponStatus.OwnerSetAimStyle
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12433,7 +12433,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007ADFE0
+	 * 		RVA    -> 0x007B24B0
 	 * 		Name   -> Function HDMain.HDUIUWWeaponStatus.OwnerAimStyleChanged
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -12462,7 +12462,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWWeaponStatus.BPOwnerWeaponSetFireMode
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12488,7 +12488,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDUIUWWeaponStatus.BPOwnerWeaponAmmoUpdated
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -12558,7 +12558,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007AE280
+	 * 		RVA    -> 0x007B2750
 	 * 		Name   -> Function HDMain.HDVoipIndicatorListingWidgetBase.SetupVoiceListing
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12581,7 +12581,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDVoipIndicatorListingWidgetBase.OnVoiceMsgInfoSet
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12617,7 +12617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDVoipIndicatorWidgetBase.OnPlayerStopTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12639,7 +12639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDVoipIndicatorWidgetBase.OnPlayerStartTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12661,7 +12661,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDVoipIndicatorWidgetBase.OnOwningPlayerStopTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12683,7 +12683,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.HDVoipIndicatorWidgetBase.OnOwningPlayerStartTalking
 	 * 		Flags  -> (BlueprintCosmetic, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12775,7 +12775,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007ADE90
+	 * 		RVA    -> 0x007B2360
 	 * 		Name   -> Function HDMain.SquadListEntry.GetParentPlatoonState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12811,7 +12811,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007ADEC0
+	 * 		RVA    -> 0x007B2390
 	 * 		Name   -> Function HDMain.SquadMemberInfo.GetParentSquadState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12833,7 +12833,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007ADE90
+	 * 		RVA    -> 0x007B2360
 	 * 		Name   -> Function HDMain.SquadMemberInfo.GetParentPlatoonState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12869,7 +12869,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function HDMain.VictoryMenu.OnVictoryInit
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -12888,7 +12888,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007ADEF0
+	 * 		RVA    -> 0x007B23C0
 	 * 		Name   -> Function HDMain.VictoryMenu.Init
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

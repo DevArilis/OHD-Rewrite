@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -39,7 +39,7 @@ namespace CG
 		class FString                                              AssetClassName;                                          // 0x0018(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class FName                                                AssetObjectPath;                                         // 0x0028(0x0008) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseQuotes;                                              // 0x0030(0x0001) ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_3IXP[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_L48E[0x7];                                   // 0x0031(0x0007) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -67,7 +67,7 @@ namespace CG
 		struct FSoftClassPath                                      ClassPathRef;                                            // 0x0050(0x0018) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<class UPrefabricatorProperty*>                      Properties;                                              // 0x0068(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TArray<struct FPrefabricatorComponentData>                 Components;                                              // 0x0078(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_KJMT[0x8];                                   // 0x0088(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_HBS6[0x8];                                   // 0x0088(0x0008) MISSED OFFSET (PADDING)
 	};
 
 	/**
@@ -79,7 +79,7 @@ namespace CG
 	public:
 		unsigned char                                              PrefabAsset[0x28];                                       // 0x0000(0x0028) UNKNOWN PROPERTY: SoftObjectProperty
 		float                                                      Weight;                                                  // 0x0028(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_E8VE[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_E66L[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
 	};
 
 }

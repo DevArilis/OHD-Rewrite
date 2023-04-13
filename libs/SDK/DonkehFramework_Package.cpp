@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -96,7 +96,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BD1C0
+	 * 		RVA    -> 0x006C0930
 	 * 		Name   -> Function DonkehFramework.DFBaseAIController.CanRestartPlayer
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -132,7 +132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC940
+	 * 		RVA    -> 0x006D05D0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.StopFire
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -152,7 +152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00643BA0
+	 * 		RVA    -> 0x00643D90
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.StartFire
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -172,7 +172,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC8B0
+	 * 		RVA    -> 0x006D0540
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.SetOwningPawn
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -195,7 +195,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC790
+	 * 		RVA    -> 0x006D0420
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.SetMeshVisibility
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -218,7 +218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC630
+	 * 		RVA    -> 0x006D02C0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ServerStopFire
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 */
@@ -238,27 +238,21 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC5E0
+	 * 		RVA    -> 0x006D00F0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ServerStartFire
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
+	 * Parameters:
+	 * 		struct FVector_NetQuantize                         Origin                                                     (ConstParm, Parm, ReferenceParm, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	 * 		struct FVector_NetQuantizeNormal                   ShootDir                                                   (ConstParm, Parm, ReferenceParm, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	 * 		int32_t                                            RandomSeed                                                 (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	 * 		float                                              Timestamp                                                  (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	 * 		int32_t                                            ShotID                                                     (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	 */
-	void ADFBaseItem::ServerStartFire()
-	{
-		static UFunction* fn = nullptr;
-		if (!fn)
-			fn = UObject::FindObject<UFunction>("Function DonkehFramework.DFBaseItem.ServerStartFire");
-		
-		ADFBaseItem_ServerStartFire_Params params {};
-		
-		auto flags = fn->FunctionFlags;
-		fn->FunctionFlags |= 0x00000400;
-		UObject::ProcessEvent(fn, &params);
-		fn->FunctionFlags = flags;
-	}
+	
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.RemoveLegacyLocomotionAnims
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -282,7 +276,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ReceiveVisibilityChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -304,7 +298,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ReceiveStopFire
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -323,7 +317,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ReceiveStartFire
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -342,7 +336,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ReceiveOnUnEquipFinished
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -364,7 +358,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ReceiveOnUnEquip
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -388,7 +382,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ReceiveOnTurnOff
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -407,7 +401,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ReceiveOnLeaveInventory
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -429,7 +423,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ReceiveOnEquipFinished
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -448,7 +442,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ReceiveOnEquip
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -470,7 +464,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.ReceiveOnEnterInventory
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -494,7 +488,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC100
+	 * 		RVA    -> 0x006CFBC0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.OwnerIsSprinting
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -516,7 +510,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC0D0
+	 * 		RVA    -> 0x006CFB90
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.OwnerIsAiming
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -538,7 +532,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC000
+	 * 		RVA    -> 0x006CFAC0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.OnUnEquip
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -563,7 +557,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBFE0
+	 * 		RVA    -> 0x006CFAA0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.OnTurnOff
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -583,7 +577,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBEB0
+	 * 		RVA    -> 0x006CF970
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.OnRep_PawnOwner
 	 * 		Flags  -> (Final, Native, Protected)
 	 * Parameters:
@@ -606,7 +600,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBDE0
+	 * 		RVA    -> 0x006CF8A0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.OnLeaveInventory
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -629,7 +623,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBCD0
+	 * 		RVA    -> 0x006CF790
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.OnEquip
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -652,7 +646,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBC00
+	 * 		RVA    -> 0x006CF6C0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.OnEnterInventory
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -677,7 +671,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB980
+	 * 		RVA    -> 0x006CF440
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.IsUnEquipping
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -699,7 +693,15 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB820
+	 * 		RVA    -> 0x006CF3B0
+	 * 		Name   -> Function DonkehFramework.DFBaseItem.IsLocallyControlled
+	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+	 */
+	
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x006CF2B0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.IsEquipping
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -721,7 +723,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB7F0
+	 * 		RVA    -> 0x006CF280
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.IsEquipped
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -743,7 +745,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB7C0
+	 * 		RVA    -> 0x006CF250
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.IsClientSimulated
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -765,7 +767,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB6F0
+	 * 		RVA    -> 0x006CF180
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetSpecificItemType
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -787,7 +789,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB6D0
+	 * 		RVA    -> 0x006CF160
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetPawnOwner
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -809,7 +811,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB6A0
+	 * 		RVA    -> 0x006CF130
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetPawnInventory
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -831,7 +833,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB620
+	 * 		RVA    -> 0x006CF0B0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetOwnerViewRotation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -853,7 +855,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB520
+	 * 		RVA    -> 0x006CEFB0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetOwnerViewPoint
 	 * 		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -883,7 +885,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB4A0
+	 * 		RVA    -> 0x006CEF30
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetOwnerViewLocation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -905,7 +907,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetLegacyLocomotionAnims
 	 * 		Flags  -> (Event, Protected, BlueprintEvent, Const)
 	 * Parameters:
@@ -929,7 +931,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB460
+	 * 		RVA    -> 0x006CEEF0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetItemType
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -951,7 +953,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB3C0
+	 * 		RVA    -> 0x006CEE50
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetItemMeshToUse
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -976,7 +978,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB380
+	 * 		RVA    -> 0x006CEE10
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetItemMesh1P
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -998,7 +1000,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB3A0
+	 * 		RVA    -> 0x006CEE30
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetItemMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1020,7 +1022,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB290
+	 * 		RVA    -> 0x006CED20
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.GetAdjustedAimDirection
 	 * 		Flags  -> (Native, Event, Public, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */
@@ -1042,7 +1044,22 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB240
+	 * 		RVA    -> 0x006CED00
+	 * 		Name   -> Function DonkehFramework.DFBaseItem.ForceStopFiring
+	 * 		Flags  -> (Native, Public, BlueprintCallable)
+	 */
+	
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x006CEC80
+	 * 		Name   -> Function DonkehFramework.DFBaseItem.CanStartFire
+	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+	 */
+	
+	/**
+	 * Function:
+	 * 		RVA    -> 0x006CEC50
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.CanSprintWhileEquipped
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1064,7 +1081,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB210
+	 * 		RVA    -> 0x006CEC20
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.CanFire
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 */
@@ -1086,7 +1103,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB1E0
+	 * 		RVA    -> 0x006CEBF0
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.CanEquip
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1108,7 +1125,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB110
+	 * 		RVA    -> 0x006CEB20
 	 * 		Name   -> Function DonkehFramework.DFBaseItem.CanAimWhileEquipped
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1144,7 +1161,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C07D0
+	 * 		RVA    -> 0x006C3F70
 	 * 		Name   -> Function DonkehFramework.DFBaseAmmoClip.StoreAmmoInInventory
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1173,7 +1190,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0740
+	 * 		RVA    -> 0x006C3EE0
 	 * 		Name   -> Function DonkehFramework.DFBaseAmmoClip.StoreAmmo
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1196,7 +1213,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0250
+	 * 		RVA    -> 0x006C39F0
 	 * 		Name   -> Function DonkehFramework.DFBaseAmmoClip.SetOwningGun
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1219,7 +1236,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BED00
+	 * 		RVA    -> 0x006C2470
 	 * 		Name   -> Function DonkehFramework.DFBaseAmmoClip.IsLoaded
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1241,7 +1258,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEA60
+	 * 		RVA    -> 0x006C21D0
 	 * 		Name   -> Function DonkehFramework.DFBaseAmmoClip.GetStartingClipAmmo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1263,7 +1280,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE820
+	 * 		RVA    -> 0x006C1F90
 	 * 		Name   -> Function DonkehFramework.DFBaseAmmoClip.GetMaxClipAmmo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1285,7 +1302,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE7A0
+	 * 		RVA    -> 0x006C1F10
 	 * 		Name   -> Function DonkehFramework.DFBaseAmmoClip.GetGunOwner
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1307,7 +1324,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE670
+	 * 		RVA    -> 0x006C1DE0
 	 * 		Name   -> Function DonkehFramework.DFBaseAmmoClip.GetCurrentClipAmmo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1329,7 +1346,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE010
+	 * 		RVA    -> 0x006C1780
 	 * 		Name   -> Function DonkehFramework.DFBaseAmmoClip.ConsumeAmmo
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1366,7 +1383,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0AE0
+	 * 		RVA    -> 0x006C4280
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.Vault
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -1386,7 +1403,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0A50
+	 * 		RVA    -> 0x006C41F0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.UnSprint
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1409,7 +1426,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0980
+	 * 		RVA    -> 0x006C4120
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.UnLean
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1434,7 +1451,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C08F0
+	 * 		RVA    -> 0x006C4090
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.UnAim
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1457,7 +1474,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C08D0
+	 * 		RVA    -> 0x006C4070
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.Suicide
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 */
@@ -1477,7 +1494,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0720
+	 * 		RVA    -> 0x006C3EC0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.StopVaulting
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -1497,7 +1514,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0700
+	 * 		RVA    -> 0x006C3EA0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.StopFire
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1517,7 +1534,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0660
+	 * 		RVA    -> 0x006C3E00
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.StopCharacterPerspectiveAnimation
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1540,7 +1557,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C05D0
+	 * 		RVA    -> 0x006C3D70
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.StopCharacterMontage
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1563,7 +1580,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0540
+	 * 		RVA    -> 0x006C3CE0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.StopAllAnimMontages
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1586,7 +1603,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0520
+	 * 		RVA    -> 0x006C3CC0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.StartFire
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1606,7 +1623,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0500
+	 * 		RVA    -> 0x006C3CA0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.SprintToggle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1626,7 +1643,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0470
+	 * 		RVA    -> 0x006C3C10
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.Sprint
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1649,7 +1666,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0300
+	 * 		RVA    -> 0x006C3AA0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.SpawnHitImpactFX
 	 * 		Flags  -> (Final, BlueprintCosmetic, Native, Protected, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1678,7 +1695,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C02E0
+	 * 		RVA    -> 0x006C3A80
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.SetRagdollPhysics
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -1698,7 +1715,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C01D0
+	 * 		RVA    -> 0x006C3970
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.SetItemEnabledMode
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1721,7 +1738,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0150
+	 * 		RVA    -> 0x006C38F0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.SetHealth
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1744,7 +1761,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0100
+	 * 		RVA    -> 0x006C38A0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ServerSuicide
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 */
@@ -1764,7 +1781,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C0040
+	 * 		RVA    -> 0x006C37E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ServerEquipItem
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -1787,7 +1804,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BFF80
+	 * 		RVA    -> 0x006C3720
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ServerDoVault
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 * Parameters:
@@ -1810,7 +1827,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BFF60
+	 * 		RVA    -> 0x006C3700
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.Reload
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1830,7 +1847,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveRestart
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -1849,7 +1866,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceivePlayHit
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -1879,7 +1896,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceivePawnTeamStateUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -1905,7 +1922,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceivePawnTeamNumUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -1929,7 +1946,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnStartVault
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -1948,7 +1965,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnStartSprint
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -1967,7 +1984,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnStartProne
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -1991,7 +2008,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnStartLean
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2010,7 +2027,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnStartAim
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2029,7 +2046,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnRepPlayerState
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2048,7 +2065,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnEndVault
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2067,7 +2084,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnEndSprint
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2086,7 +2103,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnEndProne
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -2110,7 +2127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnEndLean
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2129,7 +2146,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveOnEndAim
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -2148,7 +2165,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveHealthChanged
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -2172,7 +2189,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ReceiveEquippedItemChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -2196,7 +2213,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BFF40
+	 * 		RVA    -> 0x006C36E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ProneToggle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -2216,7 +2233,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BFEA0
+	 * 		RVA    -> 0x006C3640
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterUnEquipMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2241,7 +2258,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BFE00
+	 * 		RVA    -> 0x006C35A0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterThrowUnderhandMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2266,7 +2283,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BFD60
+	 * 		RVA    -> 0x006C3500
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterThrowOverhandMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2291,7 +2308,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BFC90
+	 * 		RVA    -> 0x006C3430
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterStartReloadMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2318,7 +2335,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BFBE0
+	 * 		RVA    -> 0x006C3380
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterSound
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2343,7 +2360,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BFB40
+	 * 		RVA    -> 0x006C32E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterReloadMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2368,7 +2385,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BFA50
+	 * 		RVA    -> 0x006C31F0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterPerspectiveAnimation
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -2395,7 +2412,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF980
+	 * 		RVA    -> 0x006C3120
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2422,7 +2439,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF870
+	 * 		RVA    -> 0x006C3010
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterFireMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2451,7 +2468,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF7D0
+	 * 		RVA    -> 0x006C2F70
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterEquipMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2476,7 +2493,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF700
+	 * 		RVA    -> 0x006C2EA0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterEndReloadMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2503,7 +2520,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF660
+	 * 		RVA    -> 0x006C2E00
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterDeathMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2528,7 +2545,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF5C0
+	 * 		RVA    -> 0x006C2D60
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterCockMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2553,7 +2570,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF520
+	 * 		RVA    -> 0x006C2CC0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.PlayCharacterActionMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2578,7 +2595,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF460
+	 * 		RVA    -> 0x006C2C00
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_TeamState
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -2601,7 +2618,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF3E0
+	 * 		RVA    -> 0x006C2B80
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_TeamNum
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -2624,7 +2641,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF3C0
+	 * 		RVA    -> 0x006C2B60
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_ReplicatedStance
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -2644,7 +2661,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF340
+	 * 		RVA    -> 0x006C2AE0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_ReplicatedLeanAmount
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -2667,7 +2684,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF320
+	 * 		RVA    -> 0x006C2AC0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_LastTakeHitInfo
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -2687,7 +2704,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF2A0
+	 * 		RVA    -> 0x006C2A40
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_ItemEnabledMode
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -2710,7 +2727,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF280
+	 * 		RVA    -> 0x006C2A20
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_IsProne
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -2730,7 +2747,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF200
+	 * 		RVA    -> 0x006C29A0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_Health
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -2753,7 +2770,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF180
+	 * 		RVA    -> 0x006C2920
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_EquippedItem
 	 * 		Flags  -> (Final, Native, Protected)
 	 * Parameters:
@@ -2776,7 +2793,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF500
+	 * 		RVA    -> 0x006C2CA0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_bSprinting
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -2796,7 +2813,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF4E0
+	 * 		RVA    -> 0x006C2C80
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnRep_bAiming
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -2816,7 +2833,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BF010
+	 * 		RVA    -> 0x006C27B0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.OnDeath
 	 * 		Flags  -> (Native, Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -2845,7 +2862,15 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEF80
+	 * 		RVA    -> 0x006C2780
+	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.NextShotID
+	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
+	 */
+	
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x006C26F0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.LeaveProne
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2868,7 +2893,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEF00
+	 * 		RVA    -> 0x006C2670
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.LeanToggle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2891,7 +2916,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEE30
+	 * 		RVA    -> 0x006C25A0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.Lean
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -2916,7 +2941,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ItemEnabledModeChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -2938,7 +2963,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEE00
+	 * 		RVA    -> 0x006C2570
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.IsPrefiring
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2960,7 +2985,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEDD0
+	 * 		RVA    -> 0x006C2540
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.IsPlayer
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2982,7 +3007,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BED30
+	 * 		RVA    -> 0x006C24A0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.IsPerspectiveMesh
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3007,7 +3032,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BECD0
+	 * 		RVA    -> 0x006C2440
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.IsLeaning
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3029,7 +3054,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BECA0
+	 * 		RVA    -> 0x006C2410
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.IsFiring
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3051,7 +3076,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEC20
+	 * 		RVA    -> 0x006C2390
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.IsEquipped
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3073,7 +3098,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEBE0
+	 * 		RVA    -> 0x006C2350
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.IsAlive
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3095,7 +3120,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEB50
+	 * 		RVA    -> 0x006C22C0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GoProne
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3118,7 +3143,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEA80
+	 * 		RVA    -> 0x006C21F0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GiveLoadout
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3143,7 +3168,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BEA30
+	 * 		RVA    -> 0x006C21A0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetRelevantEquippedItem
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3165,7 +3190,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE990
+	 * 		RVA    -> 0x006C2100
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetPreviousInventoryItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3190,7 +3215,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE8F0
+	 * 		RVA    -> 0x006C2060
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetNextInventoryItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3215,7 +3240,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE840
+	 * 		RVA    -> 0x006C1FB0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetMontageToUseFromPerspectiveAnimPair
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3240,7 +3265,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE800
+	 * 		RVA    -> 0x006C1F70
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetItemEnabledMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3262,7 +3287,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE7E0
+	 * 		RVA    -> 0x006C1F50
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetItemAttachPoint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3284,7 +3309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE7C0
+	 * 		RVA    -> 0x006C1F30
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetInventory
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3306,7 +3331,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE780
+	 * 		RVA    -> 0x006C1EF0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetEquippedItem
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3328,7 +3353,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE690
+	 * 		RVA    -> 0x006C1E00
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetDamageMultiplierByBoneName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3357,7 +3382,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE5D0
+	 * 		RVA    -> 0x006C1D40
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetCharacterMeshToUse
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3382,7 +3407,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE520
+	 * 		RVA    -> 0x006C1C90
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetCharacterDeathMontageToUse
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3409,7 +3434,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE480
+	 * 		RVA    -> 0x006C1BF0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetCharacterAnimTickOptionToUse
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3434,7 +3459,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE3D0
+	 * 		RVA    -> 0x006C1B40
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetAnimToUseFromPerspectiveAnimPair
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3459,7 +3484,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE390
+	 * 		RVA    -> 0x006C1B00
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.GetAimOffsets
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3481,7 +3506,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE370
+	 * 		RVA    -> 0x006C1AE0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.EquipPreviousItem
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -3501,7 +3526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE2F0
+	 * 		RVA    -> 0x006C1A60
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.EquipNextItemByType
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3524,7 +3549,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE2D0
+	 * 		RVA    -> 0x006C1A40
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.EquipNextItem
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -3544,7 +3569,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE240
+	 * 		RVA    -> 0x006C19B0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.EquipItem
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3567,7 +3592,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE0C0
+	 * 		RVA    -> 0x006C1830
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.Die
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -3598,7 +3623,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE0A0
+	 * 		RVA    -> 0x006C1810
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.CrouchToggle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3618,7 +3643,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BDDB0
+	 * 		RVA    -> 0x006C1520
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ClientVeryShortAdjustPosition_CustomStamina
 	 * 		Flags  -> (Net, Native, Event, Public, HasDefaults, NetClient)
 	 * Parameters:
@@ -3655,7 +3680,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BD8C0
+	 * 		RVA    -> 0x006C1030
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ClientAdjustRootMotionSourcePosition_CustomStamina
 	 * 		Flags  -> (Net, Native, Event, Public, HasDefaults, NetClient)
 	 * Parameters:
@@ -3702,7 +3727,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BD590
+	 * 		RVA    -> 0x006C0D00
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ClientAdjustRootMotionPosition_CustomStamina
 	 * 		Flags  -> (Net, Native, Event, Public, HasDefaults, NetClient)
 	 * Parameters:
@@ -3745,7 +3770,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BD2E0
+	 * 		RVA    -> 0x006C0A50
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ClientAdjustPosition_CustomStamina
 	 * 		Flags  -> (Net, Native, Event, Public, HasDefaults, NetClient)
 	 * Parameters:
@@ -3784,7 +3809,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BD250
+	 * 		RVA    -> 0x006C09C0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.ClearCharacterAnimInstances
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3807,7 +3832,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BD220
+	 * 		RVA    -> 0x006C0990
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.CanVault
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3829,7 +3854,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BD1F0
+	 * 		RVA    -> 0x006C0960
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.CanSprint
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3851,7 +3876,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BD130
+	 * 		RVA    -> 0x006C08A0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.CanLean
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3876,7 +3901,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BD100
+	 * 		RVA    -> 0x006C0870
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.CanGoProne
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3898,7 +3923,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BCF80
+	 * 		RVA    -> 0x006C06F0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.CanDie
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -3929,7 +3954,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BCF50
+	 * 		RVA    -> 0x006C06C0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.CanAim
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3951,7 +3976,15 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BCF30
+	 * 		RVA    -> 0x006C0690
+	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.AllowsWeaponFire
+	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
+	 */
+	
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x006C0670
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.AimToggle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -3971,7 +4004,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BCEA0
+	 * 		RVA    -> 0x006C05E0
 	 * 		Name   -> Function DonkehFramework.DFBaseCharacter.Aim
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4008,7 +4041,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5A80
+	 * 		RVA    -> 0x006C9220
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.UpdatePlayerGameplayMuteStates
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -4031,7 +4064,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5A00
+	 * 		RVA    -> 0x006C91A0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.UnregisterSignificantActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4054,7 +4087,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C59E0
+	 * 		RVA    -> 0x006C9180
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.SwitchToNextMap
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -4074,7 +4107,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5920
+	 * 		RVA    -> 0x006C90C0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.SignificantActorEndPlay
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -4099,7 +4132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C58F0
+	 * 		RVA    -> 0x006C9090
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ShouldHibernate
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4121,7 +4154,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5820
+	 * 		RVA    -> 0x006C8FC0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ShouldGameplayMuteRemotePlayer
 	 * 		Flags  -> (Native, Event, Protected, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -4148,7 +4181,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C57F0
+	 * 		RVA    -> 0x006C8F90
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ShouldBotAutofill
 	 * 		Flags  -> (Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4170,7 +4203,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5600
+	 * 		RVA    -> 0x006C8DA0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.RemoveTeamBots
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4195,7 +4228,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C54E0
+	 * 		RVA    -> 0x006C8C80
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.RemovePlayerByAge
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4222,7 +4255,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C54B0
+	 * 		RVA    -> 0x006C8C50
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.RemoveOldestPlayer
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -4242,7 +4275,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5480
+	 * 		RVA    -> 0x006C8C20
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.RemoveOldestBot
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -4262,7 +4295,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5450
+	 * 		RVA    -> 0x006C8BF0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.RemoveNewestPlayer
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -4282,7 +4315,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5420
+	 * 		RVA    -> 0x006C8BC0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.RemoveNewestBot
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -4302,7 +4335,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5370
+	 * 		RVA    -> 0x006C8B10
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.RemoveBotByName
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4327,7 +4360,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C52D0
+	 * 		RVA    -> 0x006C8A70
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.RemoveBot
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4352,7 +4385,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C52B0
+	 * 		RVA    -> 0x006C8A50
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.RemoveAllBots
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 */
@@ -4372,7 +4405,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5230
+	 * 		RVA    -> 0x006C89D0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.RegisterSignificantActor
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4395,7 +4428,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ReceiveOnSwapAIControllers
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -4419,7 +4452,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ReceiveOnMatchIsWaitingToStart
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -4438,7 +4471,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ReceiveOnMatchHasStarted
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -4457,7 +4490,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ReceiveOnMatchHasEnded
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -4476,7 +4509,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ReceiveOnMatchAborted
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -4495,7 +4528,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ReceiveOnLeavingMap
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -4514,7 +4547,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5170
+	 * 		RVA    -> 0x006C8910
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.PlayerCanRestartGeneric
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4539,7 +4572,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C50D0
+	 * 		RVA    -> 0x006C8870
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.PlayerBotCanRestart
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -4564,7 +4597,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4D00
+	 * 		RVA    -> 0x006C84A0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.NextMap
 	 * 		Flags  -> (Final, Exec, Native, Public)
 	 */
@@ -4584,7 +4617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4B30
+	 * 		RVA    -> 0x006C82D0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ModifyDamage
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4617,7 +4650,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C49F0
+	 * 		RVA    -> 0x006C8190
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.KickPlayerByName
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4644,7 +4677,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C48D0
+	 * 		RVA    -> 0x006C8070
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.KickPlayerById
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -4671,7 +4704,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C45E0
+	 * 		RVA    -> 0x006C7D80
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.IsValidTeamId
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4696,7 +4729,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4540
+	 * 		RVA    -> 0x006C7CE0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.IsMatchWinner
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent, Const)
 	 * Parameters:
@@ -4721,7 +4754,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C44F0
+	 * 		RVA    -> 0x006C7C90
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.IsHibernating
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4743,7 +4776,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C44C0
+	 * 		RVA    -> 0x006C7C60
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.IsFriendlyFireEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4765,7 +4798,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4220
+	 * 		RVA    -> 0x006C79C0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.GetTotalNumPlayers
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4790,7 +4823,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C40C0
+	 * 		RVA    -> 0x006C7860
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.GetNumPlayersOnTeam
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -4817,7 +4850,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4040
+	 * 		RVA    -> 0x006C77E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.GetNextMapName
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4839,7 +4872,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3FC0
+	 * 		RVA    -> 0x006C7760
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.GetNextGameName
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4861,7 +4894,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3F90
+	 * 		RVA    -> 0x006C7730
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.GetAutoAssignHumanTeam
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -4883,7 +4916,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3EA0
+	 * 		RVA    -> 0x006C7640
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ForceTeamId
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4910,7 +4943,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3DB0
+	 * 		RVA    -> 0x006C7550
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ForceTeam
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -4937,7 +4970,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3C30
+	 * 		RVA    -> 0x006C73D0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.FindPlayerStartTransform
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -4968,7 +5001,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B70
+	 * 		RVA    -> 0x006C7310
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.DumpActiveRulesets
 	 * 		Flags  -> (Final, Exec, Native, Public, BlueprintCallable)
 	 */
@@ -4988,7 +5021,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B50
+	 * 		RVA    -> 0x006C72F0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.DetermineMatchWinner
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 */
@@ -5008,7 +5041,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3A90
+	 * 		RVA    -> 0x006C7230
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.CreateTeam
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5035,7 +5068,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C39F0
+	 * 		RVA    -> 0x006C7190
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ChooseTeam
 	 * 		Flags  -> (Native, Event, Protected, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -5060,7 +5093,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3850
+	 * 		RVA    -> 0x006C6FF0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.ChooseSpawnPointFromPlayerStart
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 	 * Parameters:
@@ -5094,7 +5127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3820
+	 * 		RVA    -> 0x006C6FC0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.CheckWinConditions
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 */
@@ -5116,7 +5149,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C37F0
+	 * 		RVA    -> 0x006C6F90
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.CheckRulesetWinConditions
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 */
@@ -5138,7 +5171,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C36F0
+	 * 		RVA    -> 0x006C6E90
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.CanRegisterSignificantActor
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent, Const)
 	 * Parameters:
@@ -5167,7 +5200,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3620
+	 * 		RVA    -> 0x006C6DC0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.CanDealDamage
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -5194,7 +5227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3510
+	 * 		RVA    -> 0x006C6CB0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.CanAddRuleset
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent, Const)
 	 * Parameters:
@@ -5224,7 +5257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3390
+	 * 		RVA    -> 0x006C6B30
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.BanPlayerByName
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5253,7 +5286,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3220
+	 * 		RVA    -> 0x006C69C0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.BanPlayerById
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5282,7 +5315,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3200
+	 * 		RVA    -> 0x006C69A0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.AutofillWithBots
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -5302,7 +5335,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3130
+	 * 		RVA    -> 0x006C68D0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.AssignTeam
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5327,7 +5360,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3060
+	 * 		RVA    -> 0x006C6800
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.AddTeamBots
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5352,7 +5385,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C2FC0
+	 * 		RVA    -> 0x006C6760
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.AddNamedBot
 	 * 		Flags  -> (Exec, Native, Public)
 	 * Parameters:
@@ -5375,7 +5408,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C2F30
+	 * 		RVA    -> 0x006C66D0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.AddBots
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5398,7 +5431,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C2E00
+	 * 		RVA    -> 0x006C65A0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameMode.AddBot
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5467,7 +5500,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5210
+	 * 		RVA    -> 0x006C89B0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.ProjectVersion
 	 * 		Flags  -> (Final, Exec, Native, Private, Const)
 	 */
@@ -5487,7 +5520,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4FB0
+	 * 		RVA    -> 0x006C8750
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.OnTravelFailure
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -5514,7 +5547,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4E70
+	 * 		RVA    -> 0x006C8610
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.OnNetworkLagStateChanged
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -5541,7 +5574,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4D20
+	 * 		RVA    -> 0x006C84C0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.OnNetworkFailure
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -5570,7 +5603,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C47E0
+	 * 		RVA    -> 0x006C7F80
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.JoinGameByIP
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5595,7 +5628,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4700
+	 * 		RVA    -> 0x006C7EA0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.JoinGame
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5620,7 +5653,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4520
+	 * 		RVA    -> 0x006C7CC0
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.IsHibernating
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -5642,7 +5675,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C42C0
+	 * 		RVA    -> 0x006C7A60
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.HostGame
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5673,7 +5706,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3F70
+	 * 		RVA    -> 0x006C7710
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.ForceUpdateSession
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 */
@@ -5693,7 +5726,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3BB0
+	 * 		RVA    -> 0x006C7350
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.FindGames
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5716,7 +5749,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B90
+	 * 		RVA    -> 0x006C7330
 	 * 		Name   -> Function DonkehFramework.DFBaseGameInstance.DumpOnlineSessionState
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 */
@@ -5750,7 +5783,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C5760
+	 * 		RVA    -> 0x006C8F00
 	 * 		Name   -> Function DonkehFramework.DFBaseGameState.SetTimerPauseState
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5773,7 +5806,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C56D0
+	 * 		RVA    -> 0x006C8E70
 	 * 		Name   -> Function DonkehFramework.DFBaseGameState.SetRemainingTime
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5796,7 +5829,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4F90
+	 * 		RVA    -> 0x006C8730
 	 * 		Name   -> Function DonkehFramework.DFBaseGameState.OnRep_ReplicatedRemainingTime
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -5816,7 +5849,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4F70
+	 * 		RVA    -> 0x006C8710
 	 * 		Name   -> Function DonkehFramework.DFBaseGameState.OnRep_NumTeams
 	 * 		Flags  -> (Final, Native, Private)
 	 */
@@ -5836,7 +5869,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4670
+	 * 		RVA    -> 0x006C7E10
 	 * 		Name   -> Function DonkehFramework.DFBaseGameState.IsValidTeamId
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -5861,7 +5894,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C4190
+	 * 		RVA    -> 0x006C7930
 	 * 		Name   -> Function DonkehFramework.DFBaseGameState.GetTeamStateById
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -5900,7 +5933,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D1350
+	 * 		RVA    -> 0x006D5410
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.StopWeaponPerspectiveAnimation
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -5923,7 +5956,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D12D0
+	 * 		RVA    -> 0x006D5390
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.StopWeaponMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -5946,27 +5979,16 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D12B0
+	 * 		RVA    -> 0x006D5300
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.StopSimulatingWeaponFire
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
+	 * Parameters:
+	 * 		bool                                               bForceStopAll                                              (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	 */
-	void ADFBaseWeapon::StopSimulatingWeaponFire()
-	{
-		static UFunction* fn = nullptr;
-		if (!fn)
-			fn = UObject::FindObject<UFunction>("Function DonkehFramework.DFBaseWeapon.StopSimulatingWeaponFire");
-		
-		ADFBaseWeapon_StopSimulatingWeaponFire_Params params {};
-		
-		auto flags = fn->FunctionFlags;
-		fn->FunctionFlags |= 0x00000400;
-		UObject::ProcessEvent(fn, &params);
-		fn->FunctionFlags = flags;
-	}
-
+	
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D10D0
+	 * 		RVA    -> 0x006D5120
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.SimulateWeaponFire
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -5986,7 +6008,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D10A0
+	 * 		RVA    -> 0x006D50F0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.ShouldSimulateWeaponFire
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6008,7 +6030,14 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x006D4EE0
+	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.ServerPreFire
+	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer)
+	 */
+	
+	/**
+	 * Function:
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.ReceiveStopSimulatingWeaponFire
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -6027,7 +6056,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.ReceiveSimulateWeaponFire
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -6046,7 +6075,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.ReceiveOnStopFiring
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -6065,7 +6094,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.ReceiveOnStartFiring
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -6084,7 +6113,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.ReceiveFire
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -6103,7 +6132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0720
+	 * 		RVA    -> 0x006D44F0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PrefireDelayElapsed
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -6126,7 +6155,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0680
+	 * 		RVA    -> 0x006D4450
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayWeaponUnEquipMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6151,7 +6180,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D05E0
+	 * 		RVA    -> 0x006D43B0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayWeaponThrowUnderhandMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6176,7 +6205,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0540
+	 * 		RVA    -> 0x006D4310
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayWeaponThrowOverhandMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6201,7 +6230,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0490
+	 * 		RVA    -> 0x006D4260
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayWeaponSound
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6226,7 +6255,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D03E0
+	 * 		RVA    -> 0x006D41B0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayWeaponPerspectiveAnimation
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -6251,7 +6280,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0310
+	 * 		RVA    -> 0x006D40E0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayWeaponMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6278,7 +6307,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0200
+	 * 		RVA    -> 0x006D3FD0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayWeaponFireMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6307,7 +6336,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0160
+	 * 		RVA    -> 0x006D3F30
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayWeaponEquipMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6332,7 +6361,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D00C0
+	 * 		RVA    -> 0x006D3E90
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayWeaponCockMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6357,7 +6386,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0020
+	 * 		RVA    -> 0x006D3DF0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayWeaponActionMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6382,7 +6411,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFF40
+	 * 		RVA    -> 0x006D3D10
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayThrowAnimations
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6409,7 +6438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFEA0
+	 * 		RVA    -> 0x006D3C70
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayCockAnimations
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6434,7 +6463,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFE10
+	 * 		RVA    -> 0x006D3BE0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.PlayActionAnimations
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6457,7 +6486,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFCE0
+	 * 		RVA    -> 0x006D3AB0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.OnStopFiring
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -6477,7 +6506,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFCC0
+	 * 		RVA    -> 0x006D3A90
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.OnStartFiring
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -6497,7 +6526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF890
+	 * 		RVA    -> 0x006D3660
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.OnRep_FireCounter
 	 * 		Flags  -> (Final, Native, Protected, HasOutParms)
 	 * Parameters:
@@ -6520,7 +6549,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFCA0
+	 * 		RVA    -> 0x006D3A70
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.OnRep_bPrefiring
 	 * 		Flags  -> (Final, Native, Protected)
 	 */
@@ -6540,7 +6569,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF860
+	 * 		RVA    -> 0x006D3630
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.IsFiring
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6562,7 +6591,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF6F0
+	 * 		RVA    -> 0x006D34C0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.HandleFire
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -6582,7 +6611,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF650
+	 * 		RVA    -> 0x006D3420
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.GetWeaponMeshToUse
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6607,7 +6636,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF610
+	 * 		RVA    -> 0x006D33E0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.GetWeaponMesh1P
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6629,7 +6658,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF630
+	 * 		RVA    -> 0x006D3400
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.GetWeaponMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6651,7 +6680,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF490
+	 * 		RVA    -> 0x006D3260
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.GetMontageToUseFromPerspectiveAnimPair
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6676,7 +6705,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF3E0
+	 * 		RVA    -> 0x006D31B0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.GetMontagePlayLengthToUseFromPerspectiveAnimPair
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6701,7 +6730,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF290
+	 * 		RVA    -> 0x006D3060
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.GetAnimToUseFromPerspectiveAnimPair
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6726,7 +6755,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF1E0
+	 * 		RVA    -> 0x006D2FB0
 	 * 		Name   -> Function DonkehFramework.DFBaseWeapon.GetAnimPlayLengthToUseFromPerspectiveAnimPair
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -6765,7 +6794,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C86C0
+	 * 		RVA    -> 0x006CBFB0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.UnloadCurrentAmmoClip
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 */
@@ -6785,7 +6814,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C86A0
+	 * 		RVA    -> 0x006CBF90
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.StopSimulatingGunReload
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -6805,7 +6834,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C8610
+	 * 		RVA    -> 0x006CBF00
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.StartReload
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6828,7 +6857,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C85F0
+	 * 		RVA    -> 0x006CBEE0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.SimulateGunReload
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -6848,7 +6877,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C85C0
+	 * 		RVA    -> 0x006CBEB0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.ShouldUseRecoil
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6870,7 +6899,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C8590
+	 * 		RVA    -> 0x006CBE80
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.ShouldSimulateGunReload
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -6892,7 +6921,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C8510
+	 * 		RVA    -> 0x006CBE00
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.SetReloadState
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -6915,7 +6944,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C8490
+	 * 		RVA    -> 0x006CBD80
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.SetFireModeBP
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -6938,7 +6967,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C8380
+	 * 		RVA    -> 0x006CBC70
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.SetFireMode
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -6967,7 +6996,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C8330
+	 * 		RVA    -> 0x006CBC20
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.ServerStartReload
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 */
@@ -6987,7 +7016,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C8280
+	 * 		RVA    -> 0x006CBB70
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.ServerSetFireMode
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -7010,7 +7039,23 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
+	 * 		Name   -> Function DonkehFramework.DFBaseGun.ReceiveReloadStarted
+	 * 		Flags  -> (Event, Public, BlueprintEvent)
+	 */
+
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x00EC54E0
+	 * 		Name   -> Function DonkehFramework.DFBaseGun.ReceiveReloadFinished
+	 * 		Flags  -> (Event, Public, BlueprintEvent)
+	 */
+	
+
+	/**
+	 * Function:
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.ReceiveFireModeChanged
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -7036,7 +7081,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.ReceiveAmmoExhausted
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -7055,7 +7100,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7F00
+	 * 		RVA    -> 0x006CB830
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.PlayWeaponStartReloadMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7082,7 +7127,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7E60
+	 * 		RVA    -> 0x006CB790
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.PlayWeaponReloadMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7107,7 +7152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7D90
+	 * 		RVA    -> 0x006CB6C0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.PlayWeaponEndReloadMontage
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7134,7 +7179,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7CB0
+	 * 		RVA    -> 0x006CB5E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.PlayReloadTransitionAnimations
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7161,7 +7206,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7BD0
+	 * 		RVA    -> 0x006CB500
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.PlayReloadAnimations
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7188,7 +7233,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7B50
+	 * 		RVA    -> 0x006CB480
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.OnRep_SelectedFireMode
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -7211,7 +7256,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7AD0
+	 * 		RVA    -> 0x006CB400
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.OnRep_PendingReloadState
 	 * 		Flags  -> (Native, Public)
 	 * Parameters:
@@ -7234,7 +7279,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7A40
+	 * 		RVA    -> 0x006CB370
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.OnRep_CurrentAmmoClip
 	 * 		Flags  -> (Native, Public)
 	 * Parameters:
@@ -7257,7 +7302,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C79B0
+	 * 		RVA    -> 0x006CB2E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.OnReload
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7280,7 +7325,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7990
+	 * 		RVA    -> 0x006CB2C0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.LoadPreviousAmmoClip
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 */
@@ -7300,7 +7345,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7970
+	 * 		RVA    -> 0x006CB2A0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.LoadNextAmmoClip
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 */
@@ -7320,7 +7365,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C78E0
+	 * 		RVA    -> 0x006CB210
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.LoadAmmoClip
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -7343,7 +7388,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C78B0
+	 * 		RVA    -> 0x006CB1E0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.IsReloading
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7365,7 +7410,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7870
+	 * 		RVA    -> 0x006CB1A0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.IsDryReloading
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7387,7 +7432,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7840
+	 * 		RVA    -> 0x006CB170
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.HasExhaustedAllAmmo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7409,7 +7454,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7810
+	 * 		RVA    -> 0x006CB140
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.HasAmmoClip
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7431,7 +7476,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7780
+	 * 		RVA    -> 0x006CB0B0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetTotalAmmo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7456,7 +7501,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7760
+	 * 		RVA    -> 0x006CB090
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetSupportedFireModes
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7478,7 +7523,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7740
+	 * 		RVA    -> 0x006CB070
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetShellEjectAttachPoint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7500,7 +7545,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7720
+	 * 		RVA    -> 0x006CB050
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetSelectedFireMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7522,7 +7567,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7700
+	 * 		RVA    -> 0x006CB030
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetReloadState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7544,7 +7589,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C76E0
+	 * 		RVA    -> 0x006CB010
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetPreviousReloadState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7566,7 +7611,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7600
+	 * 		RVA    -> 0x006CAF30
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetNumFreeAmmoClips
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7593,7 +7638,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7550
+	 * 		RVA    -> 0x006CAE80
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetMuzzleLocation
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7618,7 +7663,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C74A0
+	 * 		RVA    -> 0x006CADD0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetMuzzleDirection
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7643,7 +7688,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7480
+	 * 		RVA    -> 0x006CADB0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetMuzzleAttachPoint
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7665,7 +7710,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C73E0
+	 * 		RVA    -> 0x006CAD10
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetMuzzleAttachComponent
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7690,7 +7735,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7290
+	 * 		RVA    -> 0x006CABC0
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.GetClipAmmo
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7712,7 +7757,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C6F30
+	 * 		RVA    -> 0x006CA860
 	 * 		Name   -> Function DonkehFramework.DFBaseGun.CanReload
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -7748,80 +7793,30 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C81C0
+	 * 		RVA    -> 0x006CBA60
 	 * 		Name   -> Function DonkehFramework.DFBaseGun_Projectile.ServerNotifyCSHitPredicted
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 * Parameters:
 	 * 		struct FCSHitInfo                                  HitInfo                                                    (ConstParm, Parm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+	 * 		int32_t                                            ShotID                                                     (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	 */
-	void ADFBaseGun_Projectile::ServerNotifyCSHitPredicted(const struct FCSHitInfo& HitInfo)
-	{
-		static UFunction* fn = nullptr;
-		if (!fn)
-			fn = UObject::FindObject<UFunction>("Function DonkehFramework.DFBaseGun_Projectile.ServerNotifyCSHitPredicted");
-		
-		ADFBaseGun_Projectile_ServerNotifyCSHitPredicted_Params params {};
-		params.HitInfo = HitInfo;
-		
-		auto flags = fn->FunctionFlags;
-		fn->FunctionFlags |= 0x00000400;
-		UObject::ProcessEvent(fn, &params);
-		fn->FunctionFlags = flags;
-	}
+	
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C80C0
+	 * 		RVA    -> 0x006CB900
 	 * 		Name   -> Function DonkehFramework.DFBaseGun_Projectile.ServerNotifyCSHit
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 * Parameters:
 	 * 		class ADFBaseProjectile*                           HitProj                                                    (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	 * 		struct FCSHitInfo                                  HitInfo                                                    (ConstParm, Parm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+	 * 		int32_t                                            ShotID                                                     (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	 */
-	void ADFBaseGun_Projectile::ServerNotifyCSHit(class ADFBaseProjectile* HitProj, const struct FCSHitInfo& HitInfo)
-	{
-		static UFunction* fn = nullptr;
-		if (!fn)
-			fn = UObject::FindObject<UFunction>("Function DonkehFramework.DFBaseGun_Projectile.ServerNotifyCSHit");
-		
-		ADFBaseGun_Projectile_ServerNotifyCSHit_Params params {};
-		params.HitProj = HitProj;
-		params.HitInfo = HitInfo;
-		
-		auto flags = fn->FunctionFlags;
-		fn->FunctionFlags |= 0x00000400;
-		UObject::ProcessEvent(fn, &params);
-		fn->FunctionFlags = flags;
-	}
+	
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7FD0
-	 * 		Name   -> Function DonkehFramework.DFBaseGun_Projectile.ServerFireProjectile
-	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, HasDefaults, NetValidate)
-	 * Parameters:
-	 * 		struct FVector                                     Origin                                                     (ConstParm, Parm, ZeroConstructor, ReferenceParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	 * 		struct FVector_NetQuantizeNormal                   ShootDir                                                   (ConstParm, Parm, ReferenceParm, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	 */
-	void ADFBaseGun_Projectile::ServerFireProjectile(const struct FVector& Origin, const struct FVector_NetQuantizeNormal& ShootDir)
-	{
-		static UFunction* fn = nullptr;
-		if (!fn)
-			fn = UObject::FindObject<UFunction>("Function DonkehFramework.DFBaseGun_Projectile.ServerFireProjectile");
-		
-		ADFBaseGun_Projectile_ServerFireProjectile_Params params {};
-		params.Origin = Origin;
-		params.ShootDir = ShootDir;
-		
-		auto flags = fn->FunctionFlags;
-		fn->FunctionFlags |= 0x00000400;
-		UObject::ProcessEvent(fn, &params);
-		fn->FunctionFlags = flags;
-	}
-
-	/**
-	 * Function:
-	 * 		RVA    -> 0x006C7110
+	 * 		RVA    -> 0x006CAA40
 	 * 		Name   -> Function DonkehFramework.DFBaseGun_Projectile.ClientProjDebugInfo
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, HasDefaults, NetClient)
 	 * Parameters:
@@ -7852,7 +7847,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7010
+	 * 		RVA    -> 0x006CA940
 	 * 		Name   -> Function DonkehFramework.DFBaseGun_Projectile.ClientProjDebugImpactInfo
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, HasDefaults, NetClient)
 	 * Parameters:
@@ -7879,7 +7874,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C6F60
+	 * 		RVA    -> 0x006CA890
 	 * 		Name   -> Function DonkehFramework.DFBaseGun_Projectile.ClientDrawDebugFireCone
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, HasDefaults, NetClient)
 	 * Parameters:
@@ -7904,6 +7899,16 @@ namespace CG
 
 	/**
 	 * Function:
+	 * 		RVA    -> 0x006CA770
+	 * 		Name   -> Function DonkehFramework.DFBaseGun_Projectile.CalcShotVector
+	 * 		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
+	 * Parameters:
+	 * 		struct FVector                                     OutProjOrigin                                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	 * 		struct FVector                                     OutProjDir                                                 (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	 */
+	
+	/**
+	 * Function:
 	 * 		RVA    -> 0x00000000
 	 * 		Name   -> PredefinedFunction ADFBaseGun_Projectile.StaticClass
 	 * 		Flags  -> (Predefined, Static)
@@ -7918,7 +7923,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C7350
+	 * 		RVA    -> 0x006CAC80
 	 * 		Name   -> Function DonkehFramework.DFBaseImpactEffect.GetImpactSound
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7943,7 +7948,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C72C0
+	 * 		RVA    -> 0x006CABF0
 	 * 		Name   -> Function DonkehFramework.DFBaseImpactEffect.GetImpactFX
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -7982,7 +7987,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CCAA0
+	 * 		RVA    -> 0x006D0730
 	 * 		Name   -> Function DonkehFramework.DFBasePickup.UpdatePickupState
 	 * 		Flags  -> (Native, Event, Protected, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -8005,7 +8010,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC130
+	 * 		RVA    -> 0x006CFBF0
 	 * 		Name   -> Function DonkehFramework.DFBasePickup.RespawnPickup
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -8025,7 +8030,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBF30
+	 * 		RVA    -> 0x006CF9F0
 	 * 		Name   -> Function DonkehFramework.DFBasePickup.OnRespawn
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 */
@@ -8045,7 +8050,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBE90
+	 * 		RVA    -> 0x006CF950
 	 * 		Name   -> Function DonkehFramework.DFBasePickup.OnRep_Active
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -8065,7 +8070,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBE70
+	 * 		RVA    -> 0x006CF930
 	 * 		Name   -> Function DonkehFramework.DFBasePickup.OnPickup
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 */
@@ -8085,7 +8090,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00643A60
+	 * 		RVA    -> 0x00643C50
 	 * 		Name   -> Function DonkehFramework.DFBasePickup.InitializePickup
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 */
@@ -8105,7 +8110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB730
+	 * 		RVA    -> 0x006CF1C0
 	 * 		Name   -> Function DonkehFramework.DFBasePickup.GivePickupTo
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -8128,7 +8133,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB140
+	 * 		RVA    -> 0x006CEB50
 	 * 		Name   -> Function DonkehFramework.DFBasePickup.CanBePickedUp
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -8195,7 +8200,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CCB30
+	 * 		RVA    -> 0x006D07C0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.Use
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -8215,7 +8220,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CCA20
+	 * 		RVA    -> 0x006D06B0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.TurnAtRate
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -8238,7 +8243,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC960
+	 * 		RVA    -> 0x006D05F0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.SwitchFireMode
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -8258,7 +8263,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC820
+	 * 		RVA    -> 0x006D04B0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.SetMeshVisibility
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -8281,7 +8286,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC740
+	 * 		RVA    -> 0x006D03D0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.ServerUse
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 */
@@ -8301,7 +8306,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC460
+	 * 		RVA    -> 0x006CFF70
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.ServerOnToggleFirstPerson
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -8324,7 +8329,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.ReceiveGetDefaultPawnMesh1P
 	 * 		Flags  -> (Event, Protected, BlueprintEvent, Const)
 	 */
@@ -8345,7 +8350,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBF50
+	 * 		RVA    -> 0x006CFA10
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.OnToggleFirstPerson
 	 * 		Flags  -> (Final, Native, Protected)
 	 * Parameters:
@@ -8368,7 +8373,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBDA0
+	 * 		RVA    -> 0x006CF860
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.OnFireReleased
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -8388,7 +8393,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBD60
+	 * 		RVA    -> 0x006CF820
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.OnFirePressed
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -8408,7 +8413,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBB80
+	 * 		RVA    -> 0x006CF640
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.MoveUp
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -8431,7 +8436,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBB00
+	 * 		RVA    -> 0x006CF5C0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.MoveRight
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -8454,7 +8459,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBA80
+	 * 		RVA    -> 0x006CF540
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.MoveForward
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -8477,7 +8482,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBA00
+	 * 		RVA    -> 0x006CF4C0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.LookUpAtRate
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -8500,7 +8505,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB9E0
+	 * 		RVA    -> 0x006CF4A0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.JumpVaultPressed
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -8520,7 +8525,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB9B0
+	 * 		RVA    -> 0x006CF470
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.IsUsingFirstPersonMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8542,7 +8547,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB950
+	 * 		RVA    -> 0x006CF410
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.IsTrueFirstPerson
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8564,7 +8569,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB8B0
+	 * 		RVA    -> 0x006CF340
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.IsLocalFirstPerson
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8586,7 +8591,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB850
+	 * 		RVA    -> 0x006CF2E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.IsFirstPerson
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8608,7 +8613,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB480
+	 * 		RVA    -> 0x006CEF10
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.GetMesh1P
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8630,7 +8635,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB360
+	 * 		RVA    -> 0x006CEDF0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.GetItemAttachPoint1P
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8652,7 +8657,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB330
+	 * 		RVA    -> 0x006CEDC0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.GetDefaultPawnMesh1P
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8674,7 +8679,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB310
+	 * 		RVA    -> 0x006CEDA0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.GetCameraBoom
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8696,7 +8701,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB2D0
+	 * 		RVA    -> 0x006CED60
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.GetCamera1P
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8718,7 +8723,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB2F0
+	 * 		RVA    -> 0x006CED80
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerCharacter.GetCamera
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -8754,7 +8759,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC980
+	 * 		RVA    -> 0x006D0610
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.TeamSay
 	 * 		Flags  -> (Final, Exec, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -8777,7 +8782,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC680
+	 * 		RVA    -> 0x006D0310
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ServerTeamSay
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -8800,7 +8805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC520
+	 * 		RVA    -> 0x006D0030
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ServerSay
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -8823,34 +8828,20 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC300
+	 * 		RVA    -> 0x006CFDC0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ServerNotifyProjCSHit
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 * Parameters:
 	 * 		class ADFBaseProjectile*                           HitProj                                                    (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	 * 		class APawn*                                       HitProjDamageInstigator                                    (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	 * 		struct FCSHitInfo                                  HitInfo                                                    (ConstParm, Parm, ReferenceParm, IsPlainOldData, NoDestructor, ContainsInstancedReference, NativeAccessSpecifierPublic)
+	 * 		int32_t                                            ShotID                                                     (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	 */
-	void ADFBasePlayerController::ServerNotifyProjCSHit(class ADFBaseProjectile* HitProj, class APawn* HitProjDamageInstigator, const struct FCSHitInfo& HitInfo)
-	{
-		static UFunction* fn = nullptr;
-		if (!fn)
-			fn = UObject::FindObject<UFunction>("Function DonkehFramework.DFBasePlayerController.ServerNotifyProjCSHit");
-		
-		ADFBasePlayerController_ServerNotifyProjCSHit_Params params {};
-		params.HitProj = HitProj;
-		params.HitProjDamageInstigator = HitProjDamageInstigator;
-		params.HitInfo = HitInfo;
-		
-		auto flags = fn->FunctionFlags;
-		fn->FunctionFlags |= 0x00000400;
-		UObject::ProcessEvent(fn, &params);
-		fn->FunctionFlags = flags;
-	}
+	
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC2B0
+	 * 		RVA    -> 0x006CFD70
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ServerEnableCheats
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 */
@@ -8870,7 +8861,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC1F0
+	 * 		RVA    -> 0x006CFCB0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ServerAdmin
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -8893,7 +8884,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CC150
+	 * 		RVA    -> 0x006CFC10
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.Say
 	 * 		Flags  -> (Final, Exec, Native, Private, BlueprintCallable)
 	 * Parameters:
@@ -8916,7 +8907,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ReceiveUnpossessPawn
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -8938,7 +8929,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ReceivePreClientTravel
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -8962,7 +8953,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ReceivePossessPawn
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -8984,7 +8975,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ReceivePlayerTeamStateUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9010,7 +9001,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ReceivePlayerTeamNumUpdated
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9034,7 +9025,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ReceiveOnRepPlayerState
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -9053,7 +9044,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ReceiveNewChatMsg
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -9075,7 +9066,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ReceiveGameHasEnded
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9099,7 +9090,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBDC0
+	 * 		RVA    -> 0x006CF880
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.OnFireReleased
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -9119,7 +9110,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBD80
+	 * 		RVA    -> 0x006CF840
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.OnFirePressed
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -9139,7 +9130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB920
+	 * 		RVA    -> 0x006CF3E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.IsServerAdministrator
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9161,7 +9152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB880
+	 * 		RVA    -> 0x006CF310
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.IsGameInputAllowed
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -9183,7 +9174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB710
+	 * 		RVA    -> 0x006CF1A0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.GetUnFreezeTimerHandle
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9205,7 +9196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB270
+	 * 		RVA    -> 0x006CECE0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.ClientEnableCheats
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 */
@@ -9225,7 +9216,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CB070
+	 * 		RVA    -> 0x006CEA80
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerController.Admin
 	 * 		Flags  -> (Final, Exec, Native, Public)
 	 * Parameters:
@@ -9262,7 +9253,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0FD0
+	 * 		RVA    -> 0x006D5020
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.SetTeam
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9287,7 +9278,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0720
+	 * 		RVA    -> 0x006D4F00
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.SetAdminStatus
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9310,7 +9301,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0E70
+	 * 		RVA    -> 0x006D4C40
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.ScorePoints
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Protected, BlueprintCallable)
 	 * Parameters:
@@ -9335,7 +9326,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0DA0
+	 * 		RVA    -> 0x006D4B70
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.ScoreKillPlayer
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9360,7 +9351,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0CD0
+	 * 		RVA    -> 0x006D4AA0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.ScoreDeath
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9385,7 +9376,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0BD0
+	 * 		RVA    -> 0x006D49A0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.ScoreAssistPlayer
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9412,7 +9403,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.ReceiveOnRepPlayerName
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -9431,7 +9422,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFD80
+	 * 		RVA    -> 0x006D3B50
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.OnTeamStateUpdated
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9454,7 +9445,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFD00
+	 * 		RVA    -> 0x006D3AD0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.OnTeamNumUpdated
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -9477,7 +9468,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFB60
+	 * 		RVA    -> 0x006D3930
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.OnRep_TeamState
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -9500,7 +9491,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFAE0
+	 * 		RVA    -> 0x006D38B0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.OnRep_TeamNum
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -9523,7 +9514,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFA50
+	 * 		RVA    -> 0x006D3820
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.OnRep_NumKills
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -9546,7 +9537,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF9C0
+	 * 		RVA    -> 0x006D3790
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.OnRep_NumDeaths
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -9569,7 +9560,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF930
+	 * 		RVA    -> 0x006D3700
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.OnRep_NumAssists
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -9592,7 +9583,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFBF0
+	 * 		RVA    -> 0x006D39C0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.OnRep_bAdmin
 	 * 		Flags  -> (Native, Protected)
 	 * Parameters:
@@ -9615,7 +9606,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF5F0
+	 * 		RVA    -> 0x006D33C0
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.GetTeam
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9637,7 +9628,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF570
+	 * 		RVA    -> 0x006D3340
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.GetPreviousTeam
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9659,7 +9650,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF3C0
+	 * 		RVA    -> 0x006D3190
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.GetKills
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9681,7 +9672,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF360
+	 * 		RVA    -> 0x006D3130
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.GetDeaths
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9703,7 +9694,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF340
+	 * 		RVA    -> 0x006D3110
 	 * 		Name   -> Function DonkehFramework.DFBasePlayerState.GetAssists
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9739,7 +9730,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D13F0
+	 * 		RVA    -> 0x006D54B0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.TriggerPayload
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -9764,7 +9755,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D10F0
+	 * 		RVA    -> 0x006D5140
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.SpawnImpactFX
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -9787,7 +9778,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0F40
+	 * 		RVA    -> 0x006D4F90
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.SetProjectileUpdatedComponent
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9810,7 +9801,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.ReceivePayloadActivated
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -9832,7 +9823,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0A10
+	 * 		RVA    -> 0x006D47E0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.ProjectileStop
 	 * 		Flags  -> (Native, Protected, HasOutParms)
 	 * Parameters:
@@ -9855,7 +9846,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D07B0
+	 * 		RVA    -> 0x006D4580
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.ProjectileBounce
 	 * 		Flags  -> (Native, Protected, HasOutParms, HasDefaults)
 	 * Parameters:
@@ -9880,7 +9871,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.K2_ShouldIgnoreHit
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent, Const)
 	 * Parameters:
@@ -9908,7 +9899,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.K2_PostProcessValidHit
 	 * 		Flags  -> (Event, Protected, HasOutParms, HasDefaults, BlueprintEvent)
 	 * Parameters:
@@ -9940,7 +9931,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF790
+	 * 		RVA    -> 0x006D3560
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.IgnoreInstigatorWhenMoving
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -9965,7 +9956,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF710
+	 * 		RVA    -> 0x006D34E0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.HasValidPredictedClientProjectile
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -9987,7 +9978,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF5C0
+	 * 		RVA    -> 0x006D3390
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.GetProjectileUpdatedPrimitive
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10009,7 +10000,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF590
+	 * 		RVA    -> 0x006D3360
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.GetProjectileUpdatedComponent
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10031,7 +10022,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF540
+	 * 		RVA    -> 0x006D3310
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.GetOwningWeapon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10053,7 +10044,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF380
+	 * 		RVA    -> 0x006D3150
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.GetImpactFXClass
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10075,7 +10066,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF0F0
+	 * 		RVA    -> 0x006D2EC0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.GetAdjustedDamageParams
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -10102,7 +10093,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBE90
+	 * 		RVA    -> 0x006CF950
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.DisableAndDeferDestroy
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -10122,7 +10113,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CEEF0
+	 * 		RVA    -> 0x006D2CC0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectile.ApplyDamageToImpactedActor
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -10169,7 +10160,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D1520
+	 * 		RVA    -> 0x006D55E0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.TriggerPayload
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10192,7 +10183,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBFE0
+	 * 		RVA    -> 0x006CFAA0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.StopSimulatingPayloadActivation
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -10212,7 +10203,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D11D0
+	 * 		RVA    -> 0x006D5220
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.SpawnImpactFX
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10235,7 +10226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CBE90
+	 * 		RVA    -> 0x006CF950
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.SimulatePayloadActivation
 	 * 		Flags  -> (Native, Protected, BlueprintCallable)
 	 */
@@ -10255,7 +10246,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.ReceiveStopSimulatingPayloadActivation
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -10274,7 +10265,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.ReceiveSimulatePayloadActivation
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -10293,7 +10284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.ReceivePayloadActivated
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -10315,7 +10306,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D0AF0
+	 * 		RVA    -> 0x006D48C0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.ProjectileStop
 	 * 		Flags  -> (Native, Protected, HasOutParms)
 	 * Parameters:
@@ -10338,7 +10329,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D08E0
+	 * 		RVA    -> 0x006D46B0
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.ProjectileBounce
 	 * 		Flags  -> (Native, Protected, HasOutParms, HasDefaults)
 	 * Parameters:
@@ -10363,7 +10354,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00643A80
+	 * 		RVA    -> 0x00643C70
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.PayloadDelayElapsed
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -10383,7 +10374,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CFC80
+	 * 		RVA    -> 0x006D3A50
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.OnRep_bPayloadTriggered
 	 * 		Flags  -> (Native, Protected)
 	 */
@@ -10403,7 +10394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006CF540
+	 * 		RVA    -> 0x006D3310
 	 * 		Name   -> Function DonkehFramework.DFBaseProjectileLegacy.GetOwningWeapon
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -10439,7 +10430,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D8270
+	 * 		RVA    -> 0x006DC330
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.WasShotFired
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10466,7 +10457,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D8170
+	 * 		RVA    -> 0x006DC230
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.TransferInventoryItems
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10493,7 +10484,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D80A0
+	 * 		RVA    -> 0x006DC160
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.TextIsEmptyOrWhitespace
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10518,7 +10509,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7F30
+	 * 		RVA    -> 0x006DBFF0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.SpawnImpactFXFromHitResult
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10547,7 +10538,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7D20
+	 * 		RVA    -> 0x006DBDE0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.SpawnImpactFXFromDamageEvent
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -10584,7 +10575,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7C70
+	 * 		RVA    -> 0x006DBD30
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.SetTeamNum
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10609,7 +10600,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7BC0
+	 * 		RVA    -> 0x006DBC80
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.SetStartSpot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10634,7 +10625,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7B50
+	 * 		RVA    -> 0x006DBC10
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.SetNetAddressable
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10657,7 +10648,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7AE0
+	 * 		RVA    -> 0x006DBBA0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.ResetPlayerVoiceTalker
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10680,7 +10671,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7AC0
+	 * 		RVA    -> 0x006DBB80
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.ResetAllPlayerVoiceTalkers
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 */
@@ -10700,7 +10691,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7920
+	 * 		RVA    -> 0x006DB9E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.PrintTextToLog
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10729,7 +10720,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D77D0
+	 * 		RVA    -> 0x006DB890
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.PrintStringToLog
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10758,7 +10749,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7670
+	 * 		RVA    -> 0x006DB730
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.IsVOIPTalkerStillAlive
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -10783,7 +10774,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D76F0
+	 * 		RVA    -> 0x006DB7B0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.IsValidActor
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10808,7 +10799,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D74B0
+	 * 		RVA    -> 0x006DB570
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.IsPlayInEditor
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10833,7 +10824,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D75F0
+	 * 		RVA    -> 0x006DB6B0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.IsPlayerTalking
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10858,7 +10849,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7530
+	 * 		RVA    -> 0x006DB5F0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.IsPlayerMuted
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10885,7 +10876,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D73D0
+	 * 		RVA    -> 0x006DB490
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.IsPendingKillPending
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10910,7 +10901,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7350
+	 * 		RVA    -> 0x006DB410
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.IsLocallyPlayerControlled
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10935,7 +10926,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D72B0
+	 * 		RVA    -> 0x006DB370
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.IsEmptyOrWhitespace
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10960,7 +10951,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D70F0
+	 * 		RVA    -> 0x006DB1B0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.HasOptions
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -10989,7 +10980,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D7050
+	 * 		RVA    -> 0x006DB110
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.HasFiringStopped
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11014,7 +11005,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6FD0
+	 * 		RVA    -> 0x006DB090
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetWorldSettings
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11039,7 +11030,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6ED0
+	 * 		RVA    -> 0x006DAF90
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetVOIPTalkerForPlayer
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -11064,7 +11055,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6F50
+	 * 		RVA    -> 0x006DB010
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetVisibilityDefault
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11089,7 +11080,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6E10
+	 * 		RVA    -> 0x006DAED0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetTeamStateFromTeamId
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11116,7 +11107,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6D90
+	 * 		RVA    -> 0x006DAE50
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetTeamNum
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11141,7 +11132,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6C90
+	 * 		RVA    -> 0x006DAD50
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetTargetLocation
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11168,7 +11159,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6C10
+	 * 		RVA    -> 0x006DACD0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetSurfaceName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11193,7 +11184,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6B90
+	 * 		RVA    -> 0x006DAC50
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetStartSpot
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11218,7 +11209,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6B00
+	 * 		RVA    -> 0x006DABC0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetShotCounterBPCompat
 	 * 		Flags  -> (Final, Native, Static, Protected, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11243,7 +11234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6A20
+	 * 		RVA    -> 0x006DAAE0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetPluginFriendlyName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11268,7 +11259,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6900
+	 * 		RVA    -> 0x006DA9C0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetNumShotsFiredBPCompat
 	 * 		Flags  -> (Final, Native, Static, Protected, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11295,7 +11286,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6820
+	 * 		RVA    -> 0x006DA8E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapNameForDisplay
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11320,7 +11311,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6750
+	 * 		RVA    -> 0x006DA810
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11345,7 +11336,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6650
+	 * 		RVA    -> 0x006DA710
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetVisibleInMapSelectUI
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11374,7 +11365,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D64F0
+	 * 		RVA    -> 0x006DA5B0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetSupportedGameModes
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11399,7 +11390,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D63D0
+	 * 		RVA    -> 0x006DA490
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetPreviewImg
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11424,7 +11415,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D62B0
+	 * 		RVA    -> 0x006DA370
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetPreviewBannerImg
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11449,7 +11440,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D61C0
+	 * 		RVA    -> 0x006DA280
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetNameForDisplay
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11474,7 +11465,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D6060
+	 * 		RVA    -> 0x006DA120
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetGameRulesetClasses
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11499,7 +11490,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D5F50
+	 * 		RVA    -> 0x006DA010
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetDescription
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11528,7 +11519,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D5E30
+	 * 		RVA    -> 0x006D9EF0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetDefaultGameMode
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11553,7 +11544,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D5A90
+	 * 		RVA    -> 0x006D9B50
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetDataSupportedGameModes
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11578,7 +11569,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D57C0
+	 * 		RVA    -> 0x006D9880
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetDataPreviewImg
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11603,7 +11594,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D54F0
+	 * 		RVA    -> 0x006D95B0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetDataPreviewBannerImg
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11628,7 +11619,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D5300
+	 * 		RVA    -> 0x006D93C0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetDataNameForDisplay
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11653,7 +11644,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D4F60
+	 * 		RVA    -> 0x006D9020
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetDataGameRulesetClasses
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11678,7 +11669,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D4DC0
+	 * 		RVA    -> 0x006D8E80
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetDataDisplayName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11707,7 +11698,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D4C50
+	 * 		RVA    -> 0x006D8D10
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetDataDescription
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11736,7 +11727,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D49C0
+	 * 		RVA    -> 0x006D8A80
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetMapAssetDataDefaultGameMode
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11761,7 +11752,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D4940
+	 * 		RVA    -> 0x006D8A00
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetGlobalDefaultGameMode
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -11783,7 +11774,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D48C0
+	 * 		RVA    -> 0x006D8980
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetGameVersion
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -11805,7 +11796,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D47E0
+	 * 		RVA    -> 0x006D88A0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetGameNameForDisplay
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11830,7 +11821,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D4700
+	 * 		RVA    -> 0x006D87C0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetGameModeForName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11855,7 +11846,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D4620
+	 * 		RVA    -> 0x006D86E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetGameModeForMapName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11880,7 +11871,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D45A0
+	 * 		RVA    -> 0x006D8660
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetGameDefaultMap
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -11902,7 +11893,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D4520
+	 * 		RVA    -> 0x006D85E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetGameBuildInfo
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -11924,7 +11915,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D4460
+	 * 		RVA    -> 0x006D8520
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetFocalPoint
 	 * 		Flags  -> (Final, Native, Static, Public, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11949,7 +11940,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D4340
+	 * 		RVA    -> 0x006D8400
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetDefaultBoundingCylinder
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -11979,7 +11970,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D42C0
+	 * 		RVA    -> 0x006D8380
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetCopyrightNotice
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -12001,7 +11992,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3FD0
+	 * 		RVA    -> 0x006D8090
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GetAllMapNames
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -12023,7 +12014,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3ED0
+	 * 		RVA    -> 0x006D7F90
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.GameHasEnded
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -12050,7 +12041,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3E60
+	 * 		RVA    -> 0x006D7F20
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.FlushPressedKeys
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -12073,7 +12064,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3D00
+	 * 		RVA    -> 0x006D7DC0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.FindMapIdByDisplayName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12100,7 +12091,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3AD0
+	 * 		RVA    -> 0x006D7B90
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.EqualEqual_WeaponSoundCollection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12127,7 +12118,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3820
+	 * 		RVA    -> 0x006D78E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.EqualEqual_WeaponAnimSequence
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12154,7 +12145,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3820
+	 * 		RVA    -> 0x006D78E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.EqualEqual_WeaponAnimMontage
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12181,7 +12172,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3930
+	 * 		RVA    -> 0x006D79F0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.EqualEqual_WeaponAnimCollection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12208,7 +12199,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3820
+	 * 		RVA    -> 0x006D78E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.EqualEqual_WeaponAnim
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12235,7 +12226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3820
+	 * 		RVA    -> 0x006D78E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.EqualEqual_PerspectiveSound
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12262,7 +12253,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3820
+	 * 		RVA    -> 0x006D78E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.EqualEqual_PerspectiveAnimSequence
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12289,7 +12280,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3820
+	 * 		RVA    -> 0x006D78E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.EqualEqual_PerspectiveAnim
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12316,7 +12307,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3820
+	 * 		RVA    -> 0x006D78E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.EqualEqual_CharacterSoundCollection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12343,7 +12334,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3620
+	 * 		RVA    -> 0x006D76E0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.EqualEqual_CharacterAnimCollection
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12370,7 +12361,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3530
+	 * 		RVA    -> 0x006D75F0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.DoesMapIDSupportGMDefinition
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12397,7 +12388,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3440
+	 * 		RVA    -> 0x006D7500
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.CharacterVariationIsValid
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12422,7 +12413,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D32C0
+	 * 		RVA    -> 0x006D7380
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.CharacterVariationGetData
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12447,7 +12438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3160
+	 * 		RVA    -> 0x006D7220
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.CharacterVariationDataFromTableRow
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -12474,7 +12465,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D3070
+	 * 		RVA    -> 0x006D7130
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.Array_UInt8Sort
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12501,7 +12492,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D2F30
+	 * 		RVA    -> 0x006D6FF0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.Array_TextSort
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12528,7 +12519,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D2E20
+	 * 		RVA    -> 0x006D6EE0
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.Array_StringSort
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12555,7 +12546,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D2D80
+	 * 		RVA    -> 0x006D6E40
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.Array_Reverse
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12578,7 +12569,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D2C90
+	 * 		RVA    -> 0x006D6D50
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.Array_NameSort
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12605,7 +12596,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D2BA0
+	 * 		RVA    -> 0x006D6C60
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.Array_Int64Sort
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12632,7 +12623,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D2AB0
+	 * 		RVA    -> 0x006D6B70
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.Array_Int32Sort
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12659,7 +12650,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D29C0
+	 * 		RVA    -> 0x006D6A80
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.Array_FloatSort
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12686,7 +12677,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006D2840
+	 * 		RVA    -> 0x006D6900
 	 * 		Name   -> Function DonkehFramework.DFBlueprintFunctions.Array_AssetDescriptorSort
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -12729,7 +12720,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC570
+	 * 		RVA    -> 0x006E0610
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.UpdateLeanDirection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -12752,7 +12743,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.ReceiveTick
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -12774,7 +12765,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.ReceiveReset
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -12793,7 +12784,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBA80
+	 * 		RVA    -> 0x006DFB20
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.IsMoving
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12815,7 +12806,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBA20
+	 * 		RVA    -> 0x006DFAC0
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.IsLeaning
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12837,7 +12828,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB8F0
+	 * 		RVA    -> 0x006DF990
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.GetStance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12859,7 +12850,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB880
+	 * 		RVA    -> 0x006DF920
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.GetPreviousStance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12881,7 +12872,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB850
+	 * 		RVA    -> 0x006DF8F0
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.GetOwningCharacterMovement
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12903,7 +12894,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB820
+	 * 		RVA    -> 0x006DF8C0
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.GetOwningCharacter
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -12925,7 +12916,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB710
+	 * 		RVA    -> 0x006DF7B0
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.GetMaxLeanXOffset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -12954,7 +12945,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB680
+	 * 		RVA    -> 0x006DF720
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.GetLeanYOffset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -12979,7 +12970,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB5F0
+	 * 		RVA    -> 0x006DF690
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.GetLeanXOffset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -13004,7 +12995,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB560
+	 * 		RVA    -> 0x006DF600
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.GetLeanRollRot
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -13029,7 +13020,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB3C0
+	 * 		RVA    -> 0x006DF460
 	 * 		Name   -> Function DonkehFramework.DFCharacterLeanHandler.DetermineLeanTargetAmount
 	 * 		Flags  -> (Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -13070,7 +13061,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC5F0
+	 * 		RVA    -> 0x006E0690
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.VaultTrace
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13092,7 +13083,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBCD0
+	 * 		RVA    -> 0x006DFD70
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsVaulting
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13114,7 +13105,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBC40
+	 * 		RVA    -> 0x006DFCE0
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsStrafing
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -13139,7 +13130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBC10
+	 * 		RVA    -> 0x006DFCB0
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsStanding
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13161,7 +13152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBBE0
+	 * 		RVA    -> 0x006DFC80
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsSprinting
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13183,7 +13174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBBB0
+	 * 		RVA    -> 0x006DFC50
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsReloading
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13205,7 +13196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBB80
+	 * 		RVA    -> 0x006DFC20
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsProne
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13227,7 +13218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBB50
+	 * 		RVA    -> 0x006DFBF0
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsMovingForward
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13249,7 +13240,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBAB0
+	 * 		RVA    -> 0x006DFB50
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsMoving
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -13274,7 +13265,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBA50
+	 * 		RVA    -> 0x006DFAF0
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsLeaning
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13296,7 +13287,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB9F0
+	 * 		RVA    -> 0x006DFA90
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsCrawling
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13318,7 +13309,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB9C0
+	 * 		RVA    -> 0x006DFA60
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsAlive
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13340,7 +13331,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB990
+	 * 		RVA    -> 0x006DFA30
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.IsAiming
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13362,7 +13353,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB920
+	 * 		RVA    -> 0x006DF9C0
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.GetStance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13384,7 +13375,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB8B0
+	 * 		RVA    -> 0x006DF950
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.GetPreviousStance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13406,7 +13397,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB530
+	 * 		RVA    -> 0x006DF5D0
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.GetLeanDirection
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13428,7 +13419,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB4F0
+	 * 		RVA    -> 0x006DF590
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.GetLeanAmount
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13450,7 +13441,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006BE780
+	 * 		RVA    -> 0x006C1EF0
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.GetDFCharacterOwner
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -13472,7 +13463,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB2C0
+	 * 		RVA    -> 0x006DF360
 	 * 		Name   -> Function DonkehFramework.DFCharacterMovementComponent.ClampSpeedMultiplier
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -13511,7 +13502,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC550
+	 * 		RVA    -> 0x006E05F0
 	 * 		Name   -> Function DonkehFramework.DFCheatManager.ToggleItemDebug
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 */
@@ -13531,7 +13522,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC530
+	 * 		RVA    -> 0x006E05D0
 	 * 		Name   -> Function DonkehFramework.DFCheatManager.ToggleGunRecoil
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 */
@@ -13551,7 +13542,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC510
+	 * 		RVA    -> 0x006E05B0
 	 * 		Name   -> Function DonkehFramework.DFCheatManager.ToggleGunInfiniteClipAmmo
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 */
@@ -13571,7 +13562,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC4F0
+	 * 		RVA    -> 0x006E0590
 	 * 		Name   -> Function DonkehFramework.DFCheatManager.ToggleGunInfiniteAmmo
 	 * 		Flags  -> (Exec, Native, Public, BlueprintCallable)
 	 */
@@ -13647,7 +13638,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC3F0
+	 * 		RVA    -> 0x006E0490
 	 * 		Name   -> Function DonkehFramework.DFFunctionLibrary.SetEnableAutoBlendOutForActiveMontage
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -13674,7 +13665,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB350
+	 * 		RVA    -> 0x006DF3F0
 	 * 		Name   -> Function DonkehFramework.DFFunctionLibrary.ClearMeshAnimInstance
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -13739,7 +13730,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.UnregisterActor
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -13761,7 +13752,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.RegisterActor
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -13783,7 +13774,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.ReceiveTick
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -13805,7 +13796,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC260
+	 * 		RVA    -> 0x006E0300
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.PlayerWounded
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -13836,7 +13827,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC1D0
+	 * 		RVA    -> 0x006E0270
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.PlayerSuicide
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -13859,7 +13850,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC100
+	 * 		RVA    -> 0x006E01A0
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.PlayerSpawn
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -13884,7 +13875,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC070
+	 * 		RVA    -> 0x006E0110
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.PlayerPostLogout
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -13907,7 +13898,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBFE0
+	 * 		RVA    -> 0x006E0080
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.PlayerPostLogin
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -13930,7 +13921,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBF10
+	 * 		RVA    -> 0x006DFFB0
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.PlayerKilled
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -13955,7 +13946,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBE40
+	 * 		RVA    -> 0x006DFEE0
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.PlayerJoinedTeam
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -13980,7 +13971,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBDB0
+	 * 		RVA    -> 0x006DFE50
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.PlayerJoined
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -14003,7 +13994,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBD20
+	 * 		RVA    -> 0x006DFDC0
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.PlayerDied
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -14026,7 +14017,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBD00
+	 * 		RVA    -> 0x006DFDA0
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.MatchHasEnded
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -14046,7 +14037,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.Init
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -14065,7 +14056,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB4C0
+	 * 		RVA    -> 0x006DF560
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.GetGameState
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14087,7 +14078,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB490
+	 * 		RVA    -> 0x006DF530
 	 * 		Name   -> Function DonkehFramework.DFGameRulesetBase.GetGameMode
 	 * 		Flags  -> (Final, Native, Protected, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14137,7 +14128,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9260
+	 * 		RVA    -> 0x006ED2F0
 	 * 		Name   -> Function DonkehFramework.DFGunRecoilHandler.OnWeaponStopFire
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -14157,7 +14148,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9240
+	 * 		RVA    -> 0x006ED2D0
 	 * 		Name   -> Function DonkehFramework.DFGunRecoilHandler.OnWeaponStartFire
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -14177,7 +14168,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9220
+	 * 		RVA    -> 0x006ED2B0
 	 * 		Name   -> Function DonkehFramework.DFGunRecoilHandler.OnWeaponFire
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -14197,7 +14188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E91A0
+	 * 		RVA    -> 0x006ED230
 	 * 		Name   -> Function DonkehFramework.DFGunRecoilHandler.OnTick
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -14220,7 +14211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9010
+	 * 		RVA    -> 0x006ED0A0
 	 * 		Name   -> Function DonkehFramework.DFGunRecoilHandler.IsFiring
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14242,7 +14233,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8E70
+	 * 		RVA    -> 0x006ECF00
 	 * 		Name   -> Function DonkehFramework.DFGunRecoilHandler.GetOwningPawn
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14264,7 +14255,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DB820
+	 * 		RVA    -> 0x006DF8C0
 	 * 		Name   -> Function DonkehFramework.DFGunRecoilHandler.GetOwningGun
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14286,7 +14277,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8BF0
+	 * 		RVA    -> 0x006ECC80
 	 * 		Name   -> Function DonkehFramework.DFGunRecoilHandler.GetConeOfFireOffset
 	 * 		Flags  -> (Native, Event, Public, HasDefaults, BlueprintEvent)
 	 */
@@ -14322,7 +14313,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFHandlerInterface.EventUpdate
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -14346,7 +14337,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFHandlerInterface.EventShouldUpdateThisFrame
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -14372,7 +14363,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFHandlerInterface.EventRespawn
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -14391,7 +14382,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFHandlerInterface.EventReset
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -14410,7 +14401,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFHandlerInterface.EventOnNewPawn
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -14434,7 +14425,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFHandlerInterface.EventInit
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -14481,7 +14472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9280
+	 * 		RVA    -> 0x006ED310
 	 * 		Name   -> Function DonkehFramework.DFIntrinsicCharAnimInstInterface.PlayDeathMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -14520,7 +14511,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9670
+	 * 		RVA    -> 0x006ED700
 	 * 		Name   -> Function DonkehFramework.DFIntrinsicWeapAnimInstInterface.PlayUnEquipMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -14545,7 +14536,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9320
+	 * 		RVA    -> 0x006ED3B0
 	 * 		Name   -> Function DonkehFramework.DFIntrinsicWeapAnimInstInterface.PlayReloadMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -14572,7 +14563,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9490
+	 * 		RVA    -> 0x006ED520
 	 * 		Name   -> Function DonkehFramework.DFIntrinsicWeapAnimInstInterface.PlayFireMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -14601,7 +14592,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E93F0
+	 * 		RVA    -> 0x006ED480
 	 * 		Name   -> Function DonkehFramework.DFIntrinsicWeapAnimInstInterface.PlayEquipMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -14640,7 +14631,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9900
+	 * 		RVA    -> 0x006ED990
 	 * 		Name   -> Function DonkehFramework.DFInventoryComponent.Size
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -14662,7 +14653,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E97E0
+	 * 		RVA    -> 0x006ED870
 	 * 		Name   -> Function DonkehFramework.DFInventoryComponent.RemoveItemAt
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -14693,7 +14684,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9710
+	 * 		RVA    -> 0x006ED7A0
 	 * 		Name   -> Function DonkehFramework.DFInventoryComponent.Remove
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14720,7 +14711,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9100
+	 * 		RVA    -> 0x006ED190
 	 * 		Name   -> Function DonkehFramework.DFInventoryComponent.IsValidIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -14745,7 +14736,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8D50
+	 * 		RVA    -> 0x006ECDE0
 	 * 		Name   -> Function DonkehFramework.DFInventoryComponent.GetItem
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -14774,7 +14765,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E89B0
+	 * 		RVA    -> 0x006ECA40
 	 * 		Name   -> Function DonkehFramework.DFInventoryComponent.FindItemByClass
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -14803,7 +14794,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E88D0
+	 * 		RVA    -> 0x006EC960
 	 * 		Name   -> Function DonkehFramework.DFInventoryComponent.Find
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -14832,7 +14823,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8840
+	 * 		RVA    -> 0x006EC8D0
 	 * 		Name   -> Function DonkehFramework.DFInventoryComponent.Clear
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14855,7 +14846,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC530
+	 * 		RVA    -> 0x006E05D0
 	 * 		Name   -> Function DonkehFramework.DFInventoryComponent.AddDefaultInventoryItems
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 */
@@ -14875,7 +14866,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8770
+	 * 		RVA    -> 0x006EC800
 	 * 		Name   -> Function DonkehFramework.DFInventoryComponent.Add
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -14970,7 +14961,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction DonkehFramework.DFNetworkEventSubsystem.OnGameStateEventDynamic__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate)
 	 * Parameters:
@@ -14992,7 +14983,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8AB0
+	 * 		RVA    -> 0x006ECB40
 	 * 		Name   -> Function DonkehFramework.DFNetworkEventSubsystem.Get
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -15087,7 +15078,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC510
+	 * 		RVA    -> 0x006E05B0
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.RestartPlayer
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -15107,7 +15098,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.ReceiveSeamlessTravelToCommon
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -15131,7 +15122,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.ReceiveSeamlessTravelFromCommon
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -15155,7 +15146,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.ReceivePawnLeavingGame
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -15174,7 +15165,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.ReceiveGameHasEnded
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -15198,7 +15189,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9040
+	 * 		RVA    -> 0x006ED0D0
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.IsPendingRestart
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -15220,7 +15211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8FE0
+	 * 		RVA    -> 0x006ED070
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.GetTeamState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -15242,7 +15233,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8EE0
+	 * 		RVA    -> 0x006ECF70
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.GetPlayerState
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -15264,7 +15255,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8EA0
+	 * 		RVA    -> 0x006ECF30
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.GetPawnOwner
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -15286,7 +15277,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8E30
+	 * 		RVA    -> 0x006ECEC0
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.GetMinRestartDelay
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -15308,7 +15299,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8810
+	 * 		RVA    -> 0x006EC8A0
 	 * 		Name   -> Function DonkehFramework.DFPlayerComponent.CanRestartPlayer
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -15345,16 +15336,10 @@ namespace CG
 	/**
 	 * Function:
 	 * 		RVA    -> 0x00000000
-	 * 		Name   -> PredefinedFunction UDFProjectileGISubsystem.StaticClass
+	 * 		Name   -> PredefinedFunction UDFProjectileSubsystem.StaticClass
 	 * 		Flags  -> (Predefined, Static)
 	 */
-	UClass* UDFProjectileGISubsystem::StaticClass()
-	{
-		static UClass* ptr = nullptr;
-		if (!ptr)
-			ptr = UObject::FindClass("Class DonkehFramework.DFProjectileGISubsystem");
-		return ptr;
-	}
+	
 
 	/**
 	 * Function:
@@ -15400,7 +15385,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9280
+	 * 		RVA    -> 0x006ED310
 	 * 		Name   -> Function DonkehFramework.DFSingleActionWeapAnimInstInterface.PlayActionMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -15439,7 +15424,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E95A0
+	 * 		RVA    -> 0x006ED630
 	 * 		Name   -> Function DonkehFramework.DFSingleLoadWeapAnimInstInterface.PlayStartReloadMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -15466,7 +15451,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9320
+	 * 		RVA    -> 0x006ED3B0
 	 * 		Name   -> Function DonkehFramework.DFSingleLoadWeapAnimInstInterface.PlayEndReloadMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -15507,7 +15492,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8F20
+	 * 		RVA    -> 0x006ECFB0
 	 * 		Name   -> Function DonkehFramework.DFTableLibrary.GetRowInvFromIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15534,7 +15519,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8F20
+	 * 		RVA    -> 0x006ECFB0
 	 * 		Name   -> Function DonkehFramework.DFTableLibrary.GetRowFromIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15561,7 +15546,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8C60
+	 * 		RVA    -> 0x006ECCF0
 	 * 		Name   -> Function DonkehFramework.DFTableLibrary.GetIndexFromRowColumnPair
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15590,7 +15575,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8C60
+	 * 		RVA    -> 0x006ECCF0
 	 * 		Name   -> Function DonkehFramework.DFTableLibrary.GetIndexFromColumnRowPair
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15619,7 +15604,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8B30
+	 * 		RVA    -> 0x006ECBC0
 	 * 		Name   -> Function DonkehFramework.DFTableLibrary.GetColumnInvFromIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15646,7 +15631,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8B30
+	 * 		RVA    -> 0x006ECBC0
 	 * 		Name   -> Function DonkehFramework.DFTableLibrary.GetColumnFromIndex
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -15687,7 +15672,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFTeamAgentInterface.EventSetTeamNum
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -15709,7 +15694,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFTeamAgentInterface.EventGetTeamNum
 	 * 		Flags  -> (Event, Public, BlueprintEvent, Const)
 	 */
@@ -15758,7 +15743,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFTeamState.ReceivePostInitTeam
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -15777,7 +15762,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFTeamState.ReceiveInitTeam
 	 * 		Flags  -> (BlueprintAuthorityOnly, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -15799,7 +15784,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9070
+	 * 		RVA    -> 0x006ED100
 	 * 		Name   -> Function DonkehFramework.DFTeamState.IsReadyToInitialize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -15821,7 +15806,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.DFTeamState.IsPendingSetupBP
 	 * 		Flags  -> (Event, Protected, BlueprintEvent, Const)
 	 */
@@ -15842,7 +15827,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E8C30
+	 * 		RVA    -> 0x006ECCC0
 	 * 		Name   -> Function DonkehFramework.DFTeamState.GetFactionInfo
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -15878,7 +15863,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9280
+	 * 		RVA    -> 0x006ED310
 	 * 		Name   -> Function DonkehFramework.DFThrowableWeapAnimInstInterface.PlayThrowUnderhandMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -15903,7 +15888,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EE410
+	 * 		RVA    -> 0x006F24A0
 	 * 		Name   -> Function DonkehFramework.DFThrowableWeapAnimInstInterface.PlayThrowOverhandMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -15928,7 +15913,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9670
+	 * 		RVA    -> 0x006ED700
 	 * 		Name   -> Function DonkehFramework.DFThrowableWeapAnimInstInterface.PlayCockMontage
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -15995,7 +15980,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EE4B0
+	 * 		RVA    -> 0x006F2540
 	 * 		Name   -> Function DonkehFramework.GameSessionBlueprintLibrary.RemoveAdmin
 	 * 		Flags  -> (BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -16020,7 +16005,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EE390
+	 * 		RVA    -> 0x006F2420
 	 * 		Name   -> Function DonkehFramework.GameSessionBlueprintLibrary.GetMinPlayers
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16045,7 +16030,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EE310
+	 * 		RVA    -> 0x006F23A0
 	 * 		Name   -> Function DonkehFramework.GameSessionBlueprintLibrary.GetMaxSpectators
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16070,7 +16055,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EE290
+	 * 		RVA    -> 0x006F2320
 	 * 		Name   -> Function DonkehFramework.GameSessionBlueprintLibrary.GetMaxPlayers
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16095,7 +16080,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EE1E0
+	 * 		RVA    -> 0x006F2270
 	 * 		Name   -> Function DonkehFramework.GameSessionBlueprintLibrary.AddAdmin
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -16134,7 +16119,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.SpawnPointProviderInterface.GetSpawnPointCollisionHandlingOverrideBP
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent, Const)
 	 * Parameters:
@@ -16162,7 +16147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.SpawnPointProviderInterface.GetAllSpawnPointsBP
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent, Const)
 	 * Parameters:
@@ -16188,7 +16173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.SpawnPointProviderInterface.FindSpawnPointBP
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent, Const)
 	 * Parameters:
@@ -16216,7 +16201,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.SpawnPointProviderInterface.CanSpawnActorFromSpawnPointBP
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent, Const)
 	 * Parameters:
@@ -16242,7 +16227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.SpawnPointProviderInterface.CanRestartPlayerFromSpawnPointBP
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent, Const)
 	 * Parameters:
@@ -16284,7 +16269,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EFB90
+	 * 		RVA    -> 0x006F3C20
 	 * 		Name   -> Function DonkehFramework.SpawnPointStatics.SpawnPointExists
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16311,7 +16296,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EFA40
+	 * 		RVA    -> 0x006F3AD0
 	 * 		Name   -> Function DonkehFramework.SpawnPointStatics.GetSpawnPointCollisionHandlingOverride
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16342,7 +16327,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EF860
+	 * 		RVA    -> 0x006F38F0
 	 * 		Name   -> Function DonkehFramework.SpawnPointStatics.GetAllSpawnPointTransforms
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16371,7 +16356,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EF950
+	 * 		RVA    -> 0x006F39E0
 	 * 		Name   -> Function DonkehFramework.SpawnPointStatics.GetAllSpawnPoints
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16400,7 +16385,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EF720
+	 * 		RVA    -> 0x006F37B0
 	 * 		Name   -> Function DonkehFramework.SpawnPointStatics.FindSpawnPoint
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16431,7 +16416,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EF5D0
+	 * 		RVA    -> 0x006F3660
 	 * 		Name   -> Function DonkehFramework.SpawnPointStatics.CanSpawnActorFromSpawnPoint
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16460,7 +16445,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EF500
+	 * 		RVA    -> 0x006F3590
 	 * 		Name   -> Function DonkehFramework.SpawnPointStatics.CanSpawnActorFromAnySpawnPoint
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16487,7 +16472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EF370
+	 * 		RVA    -> 0x006F3400
 	 * 		Name   -> Function DonkehFramework.SpawnPointStatics.CanRestartPlayerFromSpawnPoint
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16518,7 +16503,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EF270
+	 * 		RVA    -> 0x006F3300
 	 * 		Name   -> Function DonkehFramework.SpawnPointStatics.CanRestartPlayerFromAnySpawnPoint
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -16561,7 +16546,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006EFC50
+	 * 		RVA    -> 0x006F3CE0
 	 * 		Name   -> Function DonkehFramework.UseableInterface.Used
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -16598,7 +16583,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFramework.VisibilityInterface.EventGetFocalPoint
 	 * 		Flags  -> (Event, Protected, HasDefaults, BlueprintEvent, Const)
 	 */

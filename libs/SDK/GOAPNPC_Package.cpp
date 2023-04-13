@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00802360
+	 * 		RVA    -> 0x008066F0
 	 * 		Name   -> Function GOAPNPC.GOAPAction.Validate
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -37,7 +37,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function GOAPNPC.GOAPAction.ReceiveIsActionInvalid
 	 * 		Flags  -> (Event, Protected, BlueprintEvent, Const)
 	 * Parameters:
@@ -61,7 +61,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801D10
+	 * 		RVA    -> 0x008060A0
 	 * 		Name   -> Function GOAPNPC.GOAPAction.HasCompleted
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -86,7 +86,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801C30
+	 * 		RVA    -> 0x00805FC0
 	 * 		Name   -> Function GOAPNPC.GOAPAction.GetTargetsList
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -111,7 +111,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DC070
+	 * 		RVA    -> 0x006E0110
 	 * 		Name   -> Function GOAPNPC.GOAPAction.EndAction
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -134,7 +134,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801710
+	 * 		RVA    -> 0x00805AA0
 	 * 		Name   -> Function GOAPNPC.GOAPAction.DoAction
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -163,7 +163,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008015E0
+	 * 		RVA    -> 0x00805970
 	 * 		Name   -> Function GOAPNPC.GOAPAction.CheckProceduralPrecondition
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent, BlueprintPure, Const)
 	 * Parameters:
@@ -190,7 +190,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBFE0
+	 * 		RVA    -> 0x006E0080
 	 * 		Name   -> Function GOAPNPC.GOAPAction.BeginAction
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -227,7 +227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00802210
+	 * 		RVA    -> 0x008065A0
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.UpdateCurrentWorld
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -250,7 +250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00802110
+	 * 		RVA    -> 0x008064A0
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.SetGoal
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -273,7 +273,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00802040
+	 * 		RVA    -> 0x008063D0
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.SetCurrentWorld
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -296,7 +296,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801F50
+	 * 		RVA    -> 0x008062E0
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.Reset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -316,7 +316,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.ReceiveOnReset
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 */
@@ -335,7 +335,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801E60
+	 * 		RVA    -> 0x008061F0
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.IsPlanValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -357,7 +357,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801E20
+	 * 		RVA    -> 0x008061B0
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.InvalidatePlan
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -377,7 +377,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801DE0
+	 * 		RVA    -> 0x00806170
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.InvalidateGoalSelection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -397,7 +397,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801DB0
+	 * 		RVA    -> 0x00806140
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.HasPlan
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -419,7 +419,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801B70
+	 * 		RVA    -> 0x00805F00
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.GetPlanSnapshot
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -441,7 +441,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801AC0
+	 * 		RVA    -> 0x00805E50
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.GetDesiredWorldStateAtoms
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -463,7 +463,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801A40
+	 * 		RVA    -> 0x00805DD0
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.GetCurrentWorldStateAtoms
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -485,7 +485,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801990
+	 * 		RVA    -> 0x00805D20
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.GeneratePlan
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -507,7 +507,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801810
+	 * 		RVA    -> 0x00805BA0
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.ExecuteGOAP
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -534,7 +534,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008016D0
+	 * 		RVA    -> 0x00805A60
 	 * 		Name   -> Function GOAPNPC.GOAPComponent.ClearPlan
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -568,7 +568,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008022E0
+	 * 		RVA    -> 0x00806670
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.UpdateGoalSet
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -591,7 +591,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00802190
+	 * 		RVA    -> 0x00806520
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.SetGoalSet
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -614,7 +614,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801F70
+	 * 		RVA    -> 0x00806300
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.SetCurrentGoal
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -639,7 +639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801E90
+	 * 		RVA    -> 0x00806220
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.RemoveGoal
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -662,7 +662,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801E40
+	 * 		RVA    -> 0x008061D0
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.InvalidatePlan
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -682,7 +682,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801E00
+	 * 		RVA    -> 0x00806190
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.InvalidateGoalSelection
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -702,7 +702,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801B40
+	 * 		RVA    -> 0x00805ED0
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.GetOuterGOAPComp
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -724,7 +724,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008019C0
+	 * 		RVA    -> 0x00805D50
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.GetCurrentGoalAtoms
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -746,7 +746,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008018F0
+	 * 		RVA    -> 0x00805C80
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.FindGoal
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -771,7 +771,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008016B0
+	 * 		RVA    -> 0x00805A40
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.ClearGoals
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -791,7 +791,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801520
+	 * 		RVA    -> 0x008058B0
 	 * 		Name   -> Function GOAPNPC.GOAPGoalManager.AddGoal
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -830,7 +830,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801F20
+	 * 		RVA    -> 0x008062B0
 	 * 		Name   -> Function GOAPNPC.GOAPGoal.RequiresNewPlan
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -852,7 +852,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801B40
+	 * 		RVA    -> 0x00805ED0
 	 * 		Name   -> Function GOAPNPC.GOAPGoal.GetOuterGoalManager
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -874,7 +874,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D9810
+	 * 		RVA    -> 0x007DDBA0
 	 * 		Name   -> Function GOAPNPC.GOAPGoal.GeneratePlanFailure
 	 * 		Flags  -> (Native, Event, Protected, BlueprintEvent)
 	 */
@@ -894,7 +894,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9240
+	 * 		RVA    -> 0x006ED2D0
 	 * 		Name   -> Function GOAPNPC.GOAPGoal.Deactivate
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -914,7 +914,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008016F0
+	 * 		RVA    -> 0x00805A80
 	 * 		Name   -> Function GOAPNPC.GOAPGoal.ClearRelevance
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -934,7 +934,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008015C0
+	 * 		RVA    -> 0x00805950
 	 * 		Name   -> Function GOAPNPC.GOAPGoal.CalculateRelevance
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */
@@ -954,7 +954,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9220
+	 * 		RVA    -> 0x006ED2B0
 	 * 		Name   -> Function GOAPNPC.GOAPGoal.Activate
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 */

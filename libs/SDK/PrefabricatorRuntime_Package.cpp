@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00838100
+	 * 		RVA    -> 0x0083C320
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabActor.SavePrefab
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -32,7 +32,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00838030
+	 * 		RVA    -> 0x0083C250
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabActor.RandomizeSeed
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -57,7 +57,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00837E40
+	 * 		RVA    -> 0x0083C060
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabActor.LoadPrefab
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -77,7 +77,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00837E10
+	 * 		RVA    -> 0x0083C030
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabActor.IsPrefabOutdated
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -99,7 +99,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00837DE0
+	 * 		RVA    -> 0x0083C000
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabActor.GetPrefabAsset
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -177,7 +177,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00837EF0
+	 * 		RVA    -> 0x0083C110
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabRandomizer.Randomize
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -228,7 +228,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00837E60
+	 * 		RVA    -> 0x0083C080
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabricatorEventListener.PostSpawn
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -321,7 +321,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008383C0
+	 * 		RVA    -> 0x0083C5E0
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabricatorBlueprintLibrary.UnlinkPrefab
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -344,7 +344,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00838220
+	 * 		RVA    -> 0x0083C440
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabricatorBlueprintLibrary.SpawnPrefab
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -375,7 +375,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00838120
+	 * 		RVA    -> 0x0083C340
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabricatorBlueprintLibrary.SetPrefabAsset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -402,7 +402,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00837F70
+	 * 		RVA    -> 0x0083C190
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabricatorBlueprintLibrary.RandomizePrefab
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -427,7 +427,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00837D00
+	 * 		RVA    -> 0x0083BF20
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabricatorBlueprintLibrary.GetAllAttachedActors
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -454,7 +454,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00837C80
+	 * 		RVA    -> 0x0083BEA0
 	 * 		Name   -> Function PrefabricatorRuntime.PrefabricatorBlueprintLibrary.FindTopMostPrefabActor
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:

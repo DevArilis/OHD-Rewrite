@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727760
+	 * 		RVA    -> 0x0072B7F0
 	 * 		Name   -> Function DonkehFrameworkComms.CreateCommChannelCallbackProxy.CreateCommChannelFor
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729BA0
+	 * 		RVA    -> 0x0072DC30
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannel.SetChannelState
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -78,7 +78,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728690
+	 * 		RVA    -> 0x0072C720
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannel.IsReady
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -100,7 +100,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007282F0
+	 * 		RVA    -> 0x0072C380
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannel.HasFormat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -125,7 +125,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727F80
+	 * 		RVA    -> 0x0072C010
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannel.GetChannelNameStr
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -147,7 +147,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727F40
+	 * 		RVA    -> 0x0072BFD0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannel.GetChannelName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -169,7 +169,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727F00
+	 * 		RVA    -> 0x0072BF90
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannel.GetChannelGroupNameIfValid
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -191,7 +191,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727E60
+	 * 		RVA    -> 0x0072BEF0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannel.GetChannelDisplayName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -227,7 +227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728400
+	 * 		RVA    -> 0x0072C490
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannelDefinition.InstancesChannelWithGroup
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -263,7 +263,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannelStateInterface.BP_OnSetupState
 	 * 		Flags  -> (Event, Protected, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -299,7 +299,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007286C0
+	 * 		RVA    -> 0x0072C750
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannelStateLibrary.NotifyChannelOfPreparedState
 	 * 		Flags  -> (Final, Native, Static, Private, BlueprintCallable)
 	 */
@@ -319,7 +319,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728430
+	 * 		RVA    -> 0x0072C4C0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannelStateLibrary.IsChannelStatePrepared
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -341,7 +341,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728000
+	 * 		RVA    -> 0x0072C090
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommChannelStateLibrary.GetOwningCommChannel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -391,7 +391,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728230
+	 * 		RVA    -> 0x0072C2C0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommsFormatBase.HasAccessToChannel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -418,7 +418,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726B00
+	 * 		RVA    -> 0x0072AB90
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommsFormatBase.CanWriteToChannel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -443,7 +443,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726580
+	 * 		RVA    -> 0x0072A610
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommsFormatBase.CanReadFromChannel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -482,7 +482,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729D10
+	 * 		RVA    -> 0x0072DDA0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.UpdateExclusiveChannelForFormatByName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -509,7 +509,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729C20
+	 * 		RVA    -> 0x0072DCB0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.UpdateExclusiveChannelForFormat
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -536,7 +536,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729040
+	 * 		RVA    -> 0x0072D0D0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.SendCommsViaChannelByName
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -569,7 +569,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728E60
+	 * 		RVA    -> 0x0072CEF0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.SendCommsViaChannel
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -602,7 +602,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728890
+	 * 		RVA    -> 0x0072C920
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.PlayerHasCommChannelByName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -629,7 +629,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007287D0
+	 * 		RVA    -> 0x0072C860
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.PlayerHasCommChannel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -656,7 +656,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007279F0
+	 * 		RVA    -> 0x0072BA80
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.FindCommsComponentByPlayer
 	 * 		Flags  -> (Final, Native, Static, Public, HasOutParms, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -685,7 +685,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007274C0
+	 * 		RVA    -> 0x0072B550
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.CommsFormatUsesChannelByName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -714,7 +714,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007273D0
+	 * 		RVA    -> 0x0072B460
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.CommsFormatUsesChannel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -743,7 +743,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727310
+	 * 		RVA    -> 0x0072B3A0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.CommsFormatHasExclusiveChannelByName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -770,7 +770,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727290
+	 * 		RVA    -> 0x0072B320
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.CommsFormatHasExclusiveChannel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -795,7 +795,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007271D0
+	 * 		RVA    -> 0x0072B260
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.CommsFormatGetExclusiveChannelByName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -822,7 +822,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727150
+	 * 		RVA    -> 0x0072B1E0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.CommsFormatGetExclusiveChannel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -847,7 +847,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726D50
+	 * 		RVA    -> 0x0072ADE0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.ClearCurrentExclusiveChannelForFormatByName
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -872,7 +872,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726CA0
+	 * 		RVA    -> 0x0072AD30
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommStatics.ClearCurrentExclusiveChannelForFormat
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -911,7 +911,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728950
+	 * 		RVA    -> 0x0072C9E0
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommWorldSubsystem.PostSeamlessTravelPCDestroyed
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -934,7 +934,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728380
+	 * 		RVA    -> 0x0072C410
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommWorldSubsystem.InitPlayerComms
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Static, Public, BlueprintCallable)
 	 * Parameters:
@@ -959,7 +959,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727DA0
+	 * 		RVA    -> 0x0072BE30
 	 * 		Name   -> Function DonkehFrameworkComms.DFCommWorldSubsystem.GameModePostLogin
 	 * 		Flags  -> (Final, Native, Private)
 	 * Parameters:
@@ -998,7 +998,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729EC0
+	 * 		RVA    -> 0x0072DF50
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.UpdateExclusiveChannelToUseForCommsFormatByName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1023,7 +1023,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729E00
+	 * 		RVA    -> 0x0072DE90
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.UpdateExclusiveChannelToUseForCommsFormat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1048,7 +1048,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729B10
+	 * 		RVA    -> 0x0072DBA0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ServerVerifyCommMsg
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer)
 	 * Parameters:
@@ -1071,7 +1071,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729A40
+	 * 		RVA    -> 0x0072DAD0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ServerUpdateExclusiveChannelToUseForCommsFormat
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer)
 	 * Parameters:
@@ -1096,7 +1096,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007296C0
+	 * 		RVA    -> 0x0072D750
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ServerSendCommMsgViaExclChannel
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -1123,7 +1123,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729340
+	 * 		RVA    -> 0x0072D3D0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ServerSendCommMsgViaChannel
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer, NetValidate)
 	 * Parameters:
@@ -1150,7 +1150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007292B0
+	 * 		RVA    -> 0x0072D340
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ServerRequestExclusiveChannelUsedForCommsFormat
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, BlueprintCallable)
 	 * Parameters:
@@ -1173,7 +1173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729220
+	 * 		RVA    -> 0x0072D2B0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ServerClearCurrentExclusiveChannelForCommsFormat
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetServer)
 	 * Parameters:
@@ -1196,7 +1196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728C80
+	 * 		RVA    -> 0x0072CD10
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.SendCommMsgViaChannelByName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1227,7 +1227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728AD0
+	 * 		RVA    -> 0x0072CB60
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.SendCommMsgViaChannel
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1258,7 +1258,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728A50
+	 * 		RVA    -> 0x0072CAE0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.RemoveCommChannelByName
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1281,7 +1281,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007289D0
+	 * 		RVA    -> 0x0072CA60
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.RemoveCommChannel
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1304,7 +1304,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B70
+	 * 		RVA    -> 0x006C7310
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.RemoveAllCommChannels
 	 * 		Flags  -> (Final, BlueprintAuthorityOnly, Native, Public, BlueprintCallable)
 	 */
@@ -1324,7 +1324,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ReceiveCommChannelPreRemoved
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -1346,7 +1346,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ReceiveCommChannelAdded
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -1368,7 +1368,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727CB0
+	 * 		RVA    -> 0x0072BD40
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.FormatUsesChannelByName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1395,7 +1395,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727BF0
+	 * 		RVA    -> 0x0072BC80
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.FormatUsesChannel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1422,7 +1422,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727B50
+	 * 		RVA    -> 0x0072BBE0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.FormatHasExclusiveChannelByName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1447,7 +1447,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727AC0
+	 * 		RVA    -> 0x0072BB50
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.FormatHasExclusiveChannel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1472,7 +1472,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727920
+	 * 		RVA    -> 0x0072B9B0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.FindCommChannel
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1501,7 +1501,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727850
+	 * 		RVA    -> 0x0072B8E0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.FindAssociatedCommsFormat
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1530,7 +1530,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007276D0
+	 * 		RVA    -> 0x0072B760
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ContainsCommChannelByName
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1555,7 +1555,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00727640
+	 * 		RVA    -> 0x0072B6D0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ContainsCommChannel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1580,7 +1580,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007275B0
+	 * 		RVA    -> 0x0072B640
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ContainsAssociatedCommsFormat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1605,7 +1605,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007270C0
+	 * 		RVA    -> 0x0072B150
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ClientVerifyCommMsgFailed
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 * Parameters:
@@ -1628,7 +1628,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726FF0
+	 * 		RVA    -> 0x0072B080
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ClientUpdateExclusiveChannelToUseForCommsFormat
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 * Parameters:
@@ -1653,7 +1653,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726E90
+	 * 		RVA    -> 0x0072AF20
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ClientRecvCommMsgFromChannel
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 * Parameters:
@@ -1680,7 +1680,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726E00
+	 * 		RVA    -> 0x0072AE90
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ClientClearCurrentExclusiveChannelForCommsFormat
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Protected, NetClient)
 	 * Parameters:
@@ -1703,7 +1703,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726C10
+	 * 		RVA    -> 0x0072ACA0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ClearCurrentExclusiveChannelForCommsFormatByName
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -1726,7 +1726,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726B90
+	 * 		RVA    -> 0x0072AC20
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.ClearCurrentExclusiveChannelForCommsFormat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1749,7 +1749,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726950
+	 * 		RVA    -> 0x0072A9E0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.CanSendCommMsgViaChannel
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1780,7 +1780,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007267B0
+	 * 		RVA    -> 0x0072A840
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.CanSendAndRecvCommMsgViaChannel
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1809,7 +1809,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00726610
+	 * 		RVA    -> 0x0072A6A0
 	 * 		Name   -> Function DonkehFrameworkComms.DFPlayerCommsComponent.CanRecvCommMsgViaChannel
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -1866,7 +1866,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728750
+	 * 		RVA    -> 0x0072C7E0
 	 * 		Name   -> Function DonkehFrameworkComms.DFVOIPCommsFormat.OnTalkerPSDestroyed
 	 * 		Flags  -> (Final, Native, Protected)
 	 * Parameters:
@@ -1903,7 +1903,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00729FA0
+	 * 		RVA    -> 0x0072E030
 	 * 		Name   -> Function DonkehFrameworkComms.DFVOIPCommStatics.WasPlayerTalking
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1928,7 +1928,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007285D0
+	 * 		RVA    -> 0x0072C660
 	 * 		Name   -> Function DonkehFrameworkComms.DFVOIPCommStatics.IsPlayerTalkingOverChannel
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1955,7 +1955,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728550
+	 * 		RVA    -> 0x0072C5E0
 	 * 		Name   -> Function DonkehFrameworkComms.DFVOIPCommStatics.IsPlayerTalking
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -1980,7 +1980,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007284D0
+	 * 		RVA    -> 0x0072C560
 	 * 		Name   -> Function DonkehFrameworkComms.DFVOIPCommStatics.IsPlayerTalkerPendingReset
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2005,7 +2005,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007281B0
+	 * 		RVA    -> 0x0072C240
 	 * 		Name   -> Function DonkehFrameworkComms.DFVOIPCommStatics.GetVoiceSynthOwnerOfAudioComponent
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2030,7 +2030,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00728130
+	 * 		RVA    -> 0x0072C1C0
 	 * 		Name   -> Function DonkehFrameworkComms.DFVOIPCommStatics.GetVoiceSynthComponentForVOIPTalker
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2055,7 +2055,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007280A0
+	 * 		RVA    -> 0x0072C130
 	 * 		Name   -> Function DonkehFrameworkComms.DFVOIPCommStatics.GetValidVoiceEntryForPlayer
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -2080,7 +2080,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007264D0
+	 * 		RVA    -> 0x0072A560
 	 * 		Name   -> Function DonkehFrameworkComms.DFVOIPCommStatics.ApplyVOIPTalkerSettingsForPlayer
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable)
 	 * Parameters:

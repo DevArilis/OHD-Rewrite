@@ -50,24 +50,11 @@ namespace DX11_Base {
 		float ESPColor[3] = { 1.f, 1.f, 1.f };
 		float ESPVisibleColor[3] = { 0.98f, .90f, .01f };
 		
-		// Weapon Config
-		bool InfiniteAmmo = false;
-		bool FullAuto = false;
-		bool NoRecoil = false;
-		bool FireRate = false;
-		int ShotsPerBurst = 3;
-		bool infAmmoCheck = false;
-		bool AutoNuke = false;
-		bool NukerTargetTeam = false;
-		bool NukerVisibleOnly = false;
-		int NukerKey = 86;
-		
 		// Player Config
 		bool Desync = false;
 		bool ResetFly = false;
 		bool Noclip = false;
 		float CameraFOV = 90;
-		float Speed = 1.f;
 		bool Fly = false;
 		
 

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F99D0
+	 * 		RVA    -> 0x007FDD60
 	 * 		Name   -> Function ArcVehicles.ArcVehiclePlayerSeatComponent.ServerPrintDebug_Request
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 */
@@ -32,7 +32,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F96E0
+	 * 		RVA    -> 0x007FDA70
 	 * 		Name   -> Function ArcVehicles.ArcVehiclePlayerSeatComponent.OnSeatChangeEvent
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F8D40
+	 * 		RVA    -> 0x007FD0D0
 	 * 		Name   -> Function ArcVehicles.ArcVehiclePlayerSeatComponent.OnRep_StoredPlayerState
 	 * 		Flags  -> (Native, Public)
 	 * Parameters:
@@ -78,7 +78,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B70
+	 * 		RVA    -> 0x006C7310
 	 * 		Name   -> Function ArcVehicles.ArcVehiclePlayerSeatComponent.OnRep_ServerDebugStrings
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -98,7 +98,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F95C0
+	 * 		RVA    -> 0x007FD950
 	 * 		Name   -> Function ArcVehicles.ArcVehiclePlayerSeatComponent.OnRep_SeatConfig
 	 * 		Flags  -> (Native, Public, HasOutParms)
 	 * Parameters:
@@ -121,7 +121,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ArcVehicles.ArcVehiclePlayerSeatComponent.BP_OnRep_StoredPlayerState
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -157,7 +157,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9480
+	 * 		RVA    -> 0x007FD810
 	 * 		Name   -> Function ArcVehicles.ArcVehiclePawn.NotifyPlayerSeatChangeEvent
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -186,7 +186,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F8FF0
+	 * 		RVA    -> 0x007FD380
 	 * 		Name   -> Function ArcVehicles.ArcVehiclePawn.GetSeatConfig
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -208,7 +208,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F8FC0
+	 * 		RVA    -> 0x007FD350
 	 * 		Name   -> Function ArcVehicles.ArcVehiclePawn.GetOwningVehicle
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -244,7 +244,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9AF0
+	 * 		RVA    -> 0x007FDE80
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.SetupSeat
 	 * 		Flags  -> (Native, Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -267,7 +267,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9980
+	 * 		RVA    -> 0x007FDD10
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.ServerPrintDebug_Request
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, NetValidate)
 	 */
@@ -287,7 +287,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F98F0
+	 * 		RVA    -> 0x007FDC80
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.RequestLeaveVehicle
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -310,7 +310,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F97F0
+	 * 		RVA    -> 0x007FDB80
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.RequestEnterSeat
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -337,7 +337,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9760
+	 * 		RVA    -> 0x007FDAF0
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.RequestEnterAnySeat
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -360,7 +360,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006C3B70
+	 * 		RVA    -> 0x006C7310
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.OnRep_ServerDebugStrings
 	 * 		Flags  -> (Final, Native, Public)
 	 */
@@ -380,7 +380,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F93F0
+	 * 		RVA    -> 0x007FD780
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.IsValidSeatIndex
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -405,7 +405,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9020
+	 * 		RVA    -> 0x007FD3B0
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.GetSortedExitPoints
 	 * 		Flags  -> (Native, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -432,7 +432,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F8EB0
+	 * 		RVA    -> 0x007FD240
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.GetNearestExitTransform
 	 * 		Flags  -> (Native, Event, Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 	 * Parameters:
@@ -457,7 +457,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F8E80
+	 * 		RVA    -> 0x007FD210
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.GetDriverSeat
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure)
 	 */
@@ -479,7 +479,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F8DD0
+	 * 		RVA    -> 0x007FD160
 	 * 		Name   -> Function ArcVehicles.ArcBaseVehicle.GetAllSeats
 	 * 		Flags  -> (Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:
@@ -518,7 +518,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9350
+	 * 		RVA    -> 0x007FD6E0
 	 * 		Name   -> Function ArcVehicles.ArcVehicleBPFunctionLibrary.IsSeatRefValid
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -543,7 +543,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9250
+	 * 		RVA    -> 0x007FD5E0
 	 * 		Name   -> Function ArcVehicles.ArcVehicleBPFunctionLibrary.GetVehicleSeatConfigFromRef
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -568,7 +568,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9180
+	 * 		RVA    -> 0x007FD510
 	 * 		Name   -> Function ArcVehicles.ArcVehicleBPFunctionLibrary.GetVehicleFromSeatConfig
 	 * 		Flags  -> (Final, Native, Static, Public, BlueprintCallable, BlueprintPure)
 	 * Parameters:
@@ -677,7 +677,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9BA0
+	 * 		RVA    -> 0x007FDF30
 	 * 		Name   -> Function ArcVehicles.ArcVehicleSeatConfig.UnAttachPlayerFromSeat
 	 * 		Flags  -> (Native, Public)
 	 * Parameters:
@@ -700,7 +700,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9B80
+	 * 		RVA    -> 0x007FDF10
 	 * 		Name   -> Function ArcVehicles.ArcVehicleSeatConfig.SetupSeatAttachment
 	 * 		Flags  -> (Native, Event, Public, BlueprintCallable, BlueprintEvent)
 	 */
@@ -720,7 +720,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9320
+	 * 		RVA    -> 0x007FD6B0
 	 * 		Name   -> Function ArcVehicles.ArcVehicleSeatConfig.IsOpenSeat
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -742,7 +742,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F92F0
+	 * 		RVA    -> 0x007FD680
 	 * 		Name   -> Function ArcVehicles.ArcVehicleSeatConfig.IsDriverSeat
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -764,7 +764,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9220
+	 * 		RVA    -> 0x007FD5B0
 	 * 		Name   -> Function ArcVehicles.ArcVehicleSeatConfig.GetVehicleOwner
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -786,7 +786,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ArcVehicles.ArcVehicleSeatConfig.BP_UnAttachPlayerFromSeat
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -808,7 +808,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function ArcVehicles.ArcVehicleSeatConfig.BP_AttachPlayerToSeat
 	 * 		Flags  -> (Event, Public, BlueprintEvent)
 	 * Parameters:
@@ -830,7 +830,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F8D40
+	 * 		RVA    -> 0x007FD0D0
 	 * 		Name   -> Function ArcVehicles.ArcVehicleSeatConfig.AttachPlayerToSeat
 	 * 		Flags  -> (Native, Public)
 	 * Parameters:
@@ -881,7 +881,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9660
+	 * 		RVA    -> 0x007FD9F0
 	 * 		Name   -> Function ArcVehicles.ArcVehicleSeatConfig_SeatPawn.OnRep_SeatPawn
 	 * 		Flags  -> (Final, Native, Public)
 	 * Parameters:
@@ -918,7 +918,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007F9A20
+	 * 		RVA    -> 0x007FDDB0
 	 * 		Name   -> Function ArcVehicles.ArcVehicleTurretMovementComp.Server_ServerMove
 	 * 		Flags  -> (Net, NetReliable, Native, Event, Public, NetServer, HasDefaults, NetValidate)
 	 * Parameters:

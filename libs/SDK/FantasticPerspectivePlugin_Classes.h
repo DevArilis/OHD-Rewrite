@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -21,10 +21,10 @@ namespace CG
 	class AFantasticPerspectiveActor : public AActor
 	{
 	public:
-		unsigned char                                              UnknownData_E9PD[0x60];                                  // 0x0220(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_D9H9[0x60];                                  // 0x0220(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FFantasticPerspectiveSettings                       Settings;                                                // 0x0280(0x00E4) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       Cache;                                                   // 0x0364(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_NP7K[0x3];                                   // 0x0365(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_61OM[0x3];                                   // 0x0365(0x0003) MISSED OFFSET (PADDING)
 
 	public:
 		bool Apply(class APlayerController* PlayerController, EFantasticPerspectiveStereoscopicPass StereoPass, const struct FVector& ViewOrigin, const struct FMatrix& ViewRotationMatrix, const struct FMatrix& ProjectionMatrix, struct FVector* OutViewOrigin, struct FMatrix* OutViewRotationMatrix, struct FMatrix* OutProjectionMatrix);
@@ -38,10 +38,10 @@ namespace CG
 	class UFantasticPerspectiveComponent : public UActorComponent
 	{
 	public:
-		unsigned char                                              UnknownData_B54Q[0x60];                                  // 0x00B0(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_P046[0x60];                                  // 0x00B0(0x0060) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FFantasticPerspectiveSettings                       Settings;                                                // 0x0110(0x00E4) Edit, BlueprintVisible, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       Cache;                                                   // 0x01F4(0x0001) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_P8IJ[0x3];                                   // 0x01F5(0x0003) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_T16P[0x3];                                   // 0x01F5(0x0003) MISSED OFFSET (PADDING)
 
 	public:
 		bool Apply(class APlayerController* PlayerController, EFantasticPerspectiveStereoscopicPass StereoPass, const struct FVector& ViewOrigin, const struct FMatrix& ViewRotationMatrix, const struct FMatrix& ProjectionMatrix, struct FVector* OutViewOrigin, struct FMatrix* OutViewRotationMatrix, struct FMatrix* OutProjectionMatrix);

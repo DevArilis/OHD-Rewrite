@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -47,7 +47,7 @@ namespace CG
 	class UAnimSequencerInstance : public UAnimInstance
 	{
 	public:
-		unsigned char                                              UnknownData_8AV1[0x8];                                   // 0x0268(0x0008) Fix Super Size
+		unsigned char                                              UnknownData_FW9L[0x8];                                   // 0x0268(0x0008) Fix Super Size
 
 	public:
 		static UClass* StaticClass();
@@ -85,7 +85,7 @@ namespace CG
 		class FScriptMulticastDelegate                             OnInterrupted;                                           // 0x0048(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnNotifyBegin;                                           // 0x0058(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
 		class FScriptMulticastDelegate                             OnNotifyEnd;                                             // 0x0068(0x0010) ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_2JWO[0x30];                                  // 0x0078(0x0030) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_BMHO[0x30];                                  // 0x0078(0x0030) MISSED OFFSET (PADDING)
 
 	public:
 		void OnNotifyEndReceived(const class FName& NotifyName, const struct FBranchingPointNotifyPayload& BranchingPointNotifyPayload);

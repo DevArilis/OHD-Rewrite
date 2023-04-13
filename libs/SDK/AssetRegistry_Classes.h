@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UAssetRegistryImpl : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_JAVN[0x750];                                 // 0x0028(0x0750) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_TAII[0x750];                                 // 0x0028(0x0750) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

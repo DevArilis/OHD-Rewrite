@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -21,7 +21,7 @@ namespace CG
 	class UConstructionSystemTool : public UObject
 	{
 	public:
-		unsigned char                                              UnknownData_BIZW[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_I0SI[0x8];                                   // 0x0028(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -38,7 +38,7 @@ namespace CG
 		float                                                      CursorRotationStepAngle;                                 // 0x0034(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UConstructionSystemCursor*                           Cursor;                                                  // 0x0038(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class UPrefabricatorAssetInterface*                        ActivePrefabAsset;                                       // 0x0040(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_NOVF[0x120];                                 // 0x0048(0x0120) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_Z8Z8[0x120];                                 // 0x0048(0x0120) MISSED OFFSET (PADDING)
 
 	public:
 		void SetActivePrefab(class UPrefabricatorAssetInterface* InActivePrefabAsset);
@@ -67,9 +67,9 @@ namespace CG
 		class UConstructionSystemUIAsset*                          BuildMenuData;                                           // 0x00E0(0x0008) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UUserWidget*                                         BuildMenuUIInstance;                                     // 0x00E8(0x0008) ExportObject, ZeroConstructor, Transient, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		EConstructionSystemToolType                                ActiveToolType;                                          // 0x00F0(0x0001) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4Q3Z[0x7];                                   // 0x00F1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_2HTK[0x7];                                   // 0x00F1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<EConstructionSystemToolType, class UConstructionSystemTool*> Tools;                                                   // 0x00F8(0x0050) Transient, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_G5XL[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_0M0I[0x8];                                   // 0x0148(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void ToggleConstructionSystem();
@@ -92,7 +92,7 @@ namespace CG
 	{
 	public:
 		int32_t                                                    Seed;                                                    // 0x0028(0x0004) Edit, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZV39[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_XF25[0x4];                                   // 0x002C(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -107,12 +107,12 @@ namespace CG
 	public:
 		class APrefabActor*                                        CursorGhostActor;                                        // 0x0028(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		int32_t                                                    CursorSeed;                                              // 0x0030(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_VW1H[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_JBUP[0x4];                                   // 0x0034(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class UMaterialInterface*                                  CursorMaterial;                                          // 0x0038(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		class UMaterialInterface*                                  CursorInvalidMaterial;                                   // 0x0040(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		TArray<class UPrefabricatorConstructionSnapComponent*>     SnapComponents;                                          // 0x0048(0x0010) ExportObject, ZeroConstructor, Transient, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPrivate
 		int32_t                                                    ActiveSnapComponentIndex;                                // 0x0058(0x0004) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_48DP[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_1PN7[0x4];                                   // 0x005C(0x0004) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -127,7 +127,7 @@ namespace CG
 	public:
 		float                                                      TraceDistance;                                           // 0x0030(0x0004) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		TWeakObjectPtr<class APrefabActor>                         FocusedActor;                                            // 0x0034(0x0008) ZeroConstructor, Transient, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_6FHI[0x54];                                  // 0x003C(0x0054) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_84GB[0x54];                                  // 0x003C(0x0054) MISSED OFFSET (PADDING)
 
 	public:
 		void HandleInput_RemoveAtCursor();
@@ -143,7 +143,7 @@ namespace CG
 	public:
 		class FString                                              SaveSlotName;                                            // 0x0028(0x0010) Edit, ZeroConstructor, EditConst, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		uint32_t                                                   UserIndex;                                               // 0x0038(0x0004) Edit, ZeroConstructor, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_AE64[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_KXV0[0x4];                                   // 0x003C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		struct FConstructionSystemSavePlayerInfo                   PlayerInfo;                                              // 0x0040(0x0050) Edit, EditConst, NoDestructor, NativeAccessSpecifierPublic
 		TArray<struct FConstructionSystemSaveConstructedItem>      ConstructedItems;                                        // 0x0090(0x0010) ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
@@ -176,9 +176,9 @@ namespace CG
 		struct FPCSnapConstraintWall                               WallConstraint;                                          // 0x0437(0x0004) Edit, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bAlignToGroundSlope;                                     // 0x043B(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bUseMaxGroundSlopeConstraint;                            // 0x043C(0x0001) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_4ZPK[0x3];                                   // 0x043D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_9QRL[0x3];                                   // 0x043D(0x0003) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		float                                                      MaxGroundPlacementSlope;                                 // 0x0440(0x0004) Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_UAY6[0xC];                                   // 0x0444(0x000C) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_2CC2[0xC];                                   // 0x0444(0x000C) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();

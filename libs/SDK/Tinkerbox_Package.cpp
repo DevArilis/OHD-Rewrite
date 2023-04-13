@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D3780
+	 * 		RVA    -> 0x007D7B10
 	 * 		Name   -> Function Tinkerbox.TBGameInstance.UnloadMainMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -32,7 +32,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF990
+	 * 		RVA    -> 0x007D3D20
 	 * 		Name   -> Function Tinkerbox.TBGameInstance.LoadMainMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF510
+	 * 		RVA    -> 0x007D38A0
 	 * 		Name   -> Function Tinkerbox.TBGameInstance.HandleGoToMainMenu
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -75,7 +75,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF4F0
+	 * 		RVA    -> 0x007D3880
 	 * 		Name   -> Function Tinkerbox.TBGameInstance.GoToMainMenu
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -95,7 +95,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE020
+	 * 		RVA    -> 0x007D23B0
 	 * 		Name   -> Function Tinkerbox.TBGameInstance.GetGameBuildInfo
 	 * 		Flags  -> (Final, Exec, Native, Private)
 	 */
@@ -115,7 +115,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDCA0
+	 * 		RVA    -> 0x007D2030
 	 * 		Name   -> Function Tinkerbox.TBGameInstance.GetCurrentSessionHostAddressStr
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -188,7 +188,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D3670
+	 * 		RVA    -> 0x007D7A00
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetWeaponSlot9KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -211,7 +211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D3560
+	 * 		RVA    -> 0x007D78F0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetWeaponSlot8KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -234,7 +234,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D3450
+	 * 		RVA    -> 0x007D77E0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetWeaponSlot7KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -257,7 +257,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D3340
+	 * 		RVA    -> 0x007D76D0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetWeaponSlot6KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -280,7 +280,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D3230
+	 * 		RVA    -> 0x007D75C0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetWeaponSlot5KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -303,7 +303,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D3120
+	 * 		RVA    -> 0x007D74B0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetWeaponSlot4KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -326,7 +326,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D3010
+	 * 		RVA    -> 0x007D73A0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetWeaponSlot3KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -349,7 +349,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2F00
+	 * 		RVA    -> 0x007D7290
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetWeaponSlot2KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -372,7 +372,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2DF0
+	 * 		RVA    -> 0x007D7180
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetWeaponSlot1KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -395,7 +395,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2CE0
+	 * 		RVA    -> 0x007D7070
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetWeaponSlot0KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -418,7 +418,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2C60
+	 * 		RVA    -> 0x007D6FF0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetVoiceVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -441,7 +441,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2BE0
+	 * 		RVA    -> 0x007D6F70
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetVoiceVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -464,7 +464,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2AD0
+	 * 		RVA    -> 0x007D6E60
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetVaultKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -487,7 +487,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D29C0
+	 * 		RVA    -> 0x007D6D50
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetUseKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -510,7 +510,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2930
+	 * 		RVA    -> 0x007D6CC0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSwitchFireModeOnReselect
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -533,7 +533,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2820
+	 * 		RVA    -> 0x007D6BB0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSwitchFireModeKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -556,7 +556,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2710
+	 * 		RVA    -> 0x007D6AA0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSprintToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -579,7 +579,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2600
+	 * 		RVA    -> 0x007D6990
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSprintKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -602,7 +602,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2580
+	 * 		RVA    -> 0x007D6910
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSoundEffectsVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -625,7 +625,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2500
+	 * 		RVA    -> 0x007D6890
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSoundEffectsVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -648,7 +648,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D2470
+	 * 		RVA    -> 0x007D6800
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSmoothMouseEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -671,7 +671,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D23E0
+	 * 		RVA    -> 0x007D6770
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSmoothFrameRateEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -694,7 +694,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D22D0
+	 * 		RVA    -> 0x007D6660
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetShowScoreboardKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -717,7 +717,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D21C0
+	 * 		RVA    -> 0x007D6550
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSayTeamKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -740,7 +740,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D20B0
+	 * 		RVA    -> 0x007D6440
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSaySquadKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -763,7 +763,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1FA0
+	 * 		RVA    -> 0x007D6330
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetSayAllKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -786,7 +786,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1E90
+	 * 		RVA    -> 0x007D6220
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetReloadKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -809,7 +809,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1D80
+	 * 		RVA    -> 0x007D6110
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetRadialMenuKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -832,7 +832,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1C70
+	 * 		RVA    -> 0x007D6000
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetPushToTalkSquadKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -855,7 +855,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1B60
+	 * 		RVA    -> 0x007D5EF0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetPushToTalkLocalKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -878,7 +878,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1A50
+	 * 		RVA    -> 0x007D5DE0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetPushToTalkCommandKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -901,7 +901,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1940
+	 * 		RVA    -> 0x007D5CD0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetProneKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -924,7 +924,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1830
+	 * 		RVA    -> 0x007D5BC0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetPreviousItemKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -947,7 +947,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1720
+	 * 		RVA    -> 0x007D5AB0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetPointAimToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -970,7 +970,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1690
+	 * 		RVA    -> 0x007D5A20
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetPlayerIsChangingKeyBindings
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -993,7 +993,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1580
+	 * 		RVA    -> 0x007D5910
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetNextItemKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1016,7 +1016,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1500
+	 * 		RVA    -> 0x007D5890
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMusicVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1039,7 +1039,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1480
+	 * 		RVA    -> 0x007D5810
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMusicVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1062,7 +1062,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1370
+	 * 		RVA    -> 0x007D5700
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMoveRightKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1085,7 +1085,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1260
+	 * 		RVA    -> 0x007D55F0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMoveLeftKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1108,7 +1108,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1150
+	 * 		RVA    -> 0x007D54E0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMoveForwardKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1131,7 +1131,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D1040
+	 * 		RVA    -> 0x007D53D0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMoveBackwardKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1154,7 +1154,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0F80
+	 * 		RVA    -> 0x007D5310
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMouseSensitivityNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1179,7 +1179,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0EC0
+	 * 		RVA    -> 0x007D5250
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMouseSensitivity
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1204,7 +1204,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0E30
+	 * 		RVA    -> 0x007D51C0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMotionBlurEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1227,7 +1227,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0DB0
+	 * 		RVA    -> 0x007D5140
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMasterVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1250,7 +1250,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0D30
+	 * 		RVA    -> 0x007D50C0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetMasterVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1273,7 +1273,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0C20
+	 * 		RVA    -> 0x007D4FB0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetLeanRightToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1296,7 +1296,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0B10
+	 * 		RVA    -> 0x007D4EA0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetLeanRightKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1319,7 +1319,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0A00
+	 * 		RVA    -> 0x007D4D90
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetLeanLeftToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1342,7 +1342,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D08F0
+	 * 		RVA    -> 0x007D4C80
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetLeanLeftKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1365,7 +1365,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D07E0
+	 * 		RVA    -> 0x007D4B70
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetJumpVaultKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1388,7 +1388,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D06D0
+	 * 		RVA    -> 0x007D4A60
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetJumpKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1411,7 +1411,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0640
+	 * 		RVA    -> 0x007D49D0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetInvertMousePitch
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1434,7 +1434,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0530
+	 * 		RVA    -> 0x007D48C0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetFireKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1457,7 +1457,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D04B0
+	 * 		RVA    -> 0x007D4840
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetFieldOfView
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1480,7 +1480,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0430
+	 * 		RVA    -> 0x007D47C0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetDisplayGamma
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1503,7 +1503,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D03B0
+	 * 		RVA    -> 0x007D4740
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetDialogueVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1526,7 +1526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0330
+	 * 		RVA    -> 0x007D46C0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetDialogueVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1549,7 +1549,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0220
+	 * 		RVA    -> 0x007D45B0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetDeployMenuKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1572,7 +1572,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0110
+	 * 		RVA    -> 0x007D44A0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetCycleWeaponSightsKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1595,7 +1595,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D0000
+	 * 		RVA    -> 0x007D4390
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetCrouchToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1618,7 +1618,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CFEF0
+	 * 		RVA    -> 0x007D4280
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetCrouchKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1641,7 +1641,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CFDE0
+	 * 		RVA    -> 0x007D4170
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetConsoleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1664,7 +1664,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CFCD0
+	 * 		RVA    -> 0x007D4060
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetCameraToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1687,7 +1687,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CFC40
+	 * 		RVA    -> 0x007D3FD0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetAllowSoundInBackground
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1710,7 +1710,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CFB30
+	 * 		RVA    -> 0x007D3EC0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetAimDownSightsToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1733,7 +1733,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CFA20
+	 * 		RVA    -> 0x007D3DB0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.SetAimDownSightsKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -1756,7 +1756,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF960
+	 * 		RVA    -> 0x007D3CF0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsVoiceVolumeLevelDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1778,7 +1778,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF930
+	 * 		RVA    -> 0x007D3CC0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsSwitchFireModeOnReselectDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1800,7 +1800,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF910
+	 * 		RVA    -> 0x007D3CA0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsSoundInBackgroundAllowed
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1822,7 +1822,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF8E0
+	 * 		RVA    -> 0x007D3C70
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsSoundEffectsVolumeLevelDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1844,7 +1844,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF8B0
+	 * 		RVA    -> 0x007D3C40
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsSmoothMouseEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1866,7 +1866,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF880
+	 * 		RVA    -> 0x007D3C10
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsSmoothMouseDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1888,7 +1888,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF850
+	 * 		RVA    -> 0x007D3BE0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsSmoothFrameRateEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1910,7 +1910,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF820
+	 * 		RVA    -> 0x007D3BB0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsSmoothFrameRateDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1932,7 +1932,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF7F0
+	 * 		RVA    -> 0x007D3B80
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsPlayerChangingKeyBindings
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -1954,7 +1954,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF7C0
+	 * 		RVA    -> 0x007D3B50
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsMusicVolumeLevelDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1976,7 +1976,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF790
+	 * 		RVA    -> 0x007D3B20
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsMouseSensitivityDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -1998,7 +1998,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF760
+	 * 		RVA    -> 0x007D3AF0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsMotionBlurEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2020,7 +2020,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF730
+	 * 		RVA    -> 0x007D3AC0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsMotionBlurDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2042,7 +2042,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF700
+	 * 		RVA    -> 0x007D3A90
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsMasterVolumeLevelDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2064,7 +2064,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF6D0
+	 * 		RVA    -> 0x007D3A60
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsInvertMouseDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2086,7 +2086,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF6B0
+	 * 		RVA    -> 0x007D3A40
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsHeadphoneModeEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2108,7 +2108,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF680
+	 * 		RVA    -> 0x007D3A10
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsHeadphoneModeDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2130,7 +2130,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF650
+	 * 		RVA    -> 0x007D39E0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsFrameRateLimitDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2152,7 +2152,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF620
+	 * 		RVA    -> 0x007D39B0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsFieldOfViewDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2174,7 +2174,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF5F0
+	 * 		RVA    -> 0x007D3980
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsDisplayGammaDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2196,7 +2196,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF5C0
+	 * 		RVA    -> 0x007D3950
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsDialogueVolumeLevelDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2218,7 +2218,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF590
+	 * 		RVA    -> 0x007D3920
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsAudioQualityDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2240,7 +2240,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF560
+	 * 		RVA    -> 0x007D38F0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsAnyInputKeyBindingDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2262,7 +2262,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF530
+	 * 		RVA    -> 0x007D38C0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.IsAllowSoundInBackgroundDirty
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2284,7 +2284,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF480
+	 * 		RVA    -> 0x007D3810
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetWeaponSlot9KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2306,7 +2306,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF410
+	 * 		RVA    -> 0x007D37A0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetWeaponSlot8KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2328,7 +2328,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF3A0
+	 * 		RVA    -> 0x007D3730
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetWeaponSlot7KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2350,7 +2350,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF330
+	 * 		RVA    -> 0x007D36C0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetWeaponSlot6KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2372,7 +2372,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF2C0
+	 * 		RVA    -> 0x007D3650
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetWeaponSlot5KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2394,7 +2394,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF250
+	 * 		RVA    -> 0x007D35E0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetWeaponSlot4KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2416,7 +2416,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF1E0
+	 * 		RVA    -> 0x007D3570
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetWeaponSlot3KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2438,7 +2438,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF170
+	 * 		RVA    -> 0x007D3500
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetWeaponSlot2KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2460,7 +2460,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF100
+	 * 		RVA    -> 0x007D3490
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetWeaponSlot1KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2482,7 +2482,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF090
+	 * 		RVA    -> 0x007D3420
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetWeaponSlot0KeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2504,7 +2504,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF060
+	 * 		RVA    -> 0x007D33F0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetVoiceVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2526,7 +2526,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CF030
+	 * 		RVA    -> 0x007D33C0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetVoiceVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2548,7 +2548,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEFC0
+	 * 		RVA    -> 0x007D3350
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetVaultKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2570,7 +2570,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEF50
+	 * 		RVA    -> 0x007D32E0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetUseKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2592,7 +2592,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEEC0
+	 * 		RVA    -> 0x007D3250
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetSwitchFireModeOnReselect
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 * Parameters:
@@ -2617,7 +2617,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEE50
+	 * 		RVA    -> 0x007D31E0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetSwitchFireModeKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2639,7 +2639,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEDE0
+	 * 		RVA    -> 0x007D3170
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetSprintToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2661,7 +2661,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CED70
+	 * 		RVA    -> 0x007D3100
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetSprintKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2683,7 +2683,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CED40
+	 * 		RVA    -> 0x007D30D0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetSoundEffectsVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2705,7 +2705,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CED10
+	 * 		RVA    -> 0x007D30A0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetSoundEffectsVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2727,7 +2727,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CECA0
+	 * 		RVA    -> 0x007D3030
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetShowScoreboardKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2749,7 +2749,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEC30
+	 * 		RVA    -> 0x007D2FC0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetSayTeamKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2771,7 +2771,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEBC0
+	 * 		RVA    -> 0x007D2F50
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetSaySquadKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2793,7 +2793,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEB50
+	 * 		RVA    -> 0x007D2EE0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetSayAllKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2815,7 +2815,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEAE0
+	 * 		RVA    -> 0x007D2E70
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetReloadKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2837,7 +2837,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEA70
+	 * 		RVA    -> 0x007D2E00
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetRadialMenuKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2859,7 +2859,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CEA00
+	 * 		RVA    -> 0x007D2D90
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetPushToTalkSquadKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2881,7 +2881,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE990
+	 * 		RVA    -> 0x007D2D20
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetPushToTalkLocalKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2903,7 +2903,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE920
+	 * 		RVA    -> 0x007D2CB0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetPushToTalkCommandKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2925,7 +2925,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE8B0
+	 * 		RVA    -> 0x007D2C40
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetProneKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2947,7 +2947,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE840
+	 * 		RVA    -> 0x007D2BD0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetPreviousItemKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2969,7 +2969,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE7D0
+	 * 		RVA    -> 0x007D2B60
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetPointAimToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -2991,7 +2991,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE760
+	 * 		RVA    -> 0x007D2AF0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetNextItemKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3013,7 +3013,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE730
+	 * 		RVA    -> 0x007D2AC0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMusicVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3035,7 +3035,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE700
+	 * 		RVA    -> 0x007D2A90
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMusicVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3057,7 +3057,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE690
+	 * 		RVA    -> 0x007D2A20
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMoveRightKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3079,7 +3079,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE620
+	 * 		RVA    -> 0x007D29B0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMoveLeftKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3101,7 +3101,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE5B0
+	 * 		RVA    -> 0x007D2940
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMoveForwardKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3123,7 +3123,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE540
+	 * 		RVA    -> 0x007D28D0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMoveBackwardKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3145,7 +3145,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE510
+	 * 		RVA    -> 0x007D28A0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMouseSensitivityYNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3167,7 +3167,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE4E0
+	 * 		RVA    -> 0x007D2870
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMouseSensitivityY
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3189,7 +3189,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE4B0
+	 * 		RVA    -> 0x007D2840
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMouseSensitivityXNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3211,7 +3211,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE480
+	 * 		RVA    -> 0x007D2810
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMouseSensitivityX
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3233,7 +3233,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE450
+	 * 		RVA    -> 0x007D27E0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMasterVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3255,7 +3255,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE420
+	 * 		RVA    -> 0x007D27B0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetMasterVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3277,7 +3277,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE370
+	 * 		RVA    -> 0x007D2700
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetLocalPlayerControllerBP
 	 * 		Flags  -> (Final, Native, Private, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3299,7 +3299,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE300
+	 * 		RVA    -> 0x007D2690
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetLeanRightKeyToggleBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3321,7 +3321,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE290
+	 * 		RVA    -> 0x007D2620
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetLeanRightKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3343,7 +3343,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE220
+	 * 		RVA    -> 0x007D25B0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetLeanLeftToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3365,7 +3365,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE1B0
+	 * 		RVA    -> 0x007D2540
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetLeanLeftKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3387,7 +3387,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE180
+	 * 		RVA    -> 0x007D2510
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetLastConfirmedMasterVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3409,7 +3409,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE150
+	 * 		RVA    -> 0x007D24E0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetLastConfirmedMasterVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3431,7 +3431,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE0E0
+	 * 		RVA    -> 0x007D2470
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetJumpVaultKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3453,7 +3453,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE070
+	 * 		RVA    -> 0x007D2400
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetJumpKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3475,7 +3475,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CE040
+	 * 		RVA    -> 0x007D23D0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetInvertMousePitch
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3497,7 +3497,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDFF0
+	 * 		RVA    -> 0x007D2380
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetFrameRateLimitCurrent
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3519,7 +3519,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDF80
+	 * 		RVA    -> 0x007D2310
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetFireKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3541,7 +3541,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDF50
+	 * 		RVA    -> 0x007D22E0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetFieldOfView
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3563,7 +3563,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDF20
+	 * 		RVA    -> 0x007D22B0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetDisplayGamma
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3585,7 +3585,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDEF0
+	 * 		RVA    -> 0x007D2280
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetDialogueVolumeLevelNormalized
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3607,7 +3607,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDEC0
+	 * 		RVA    -> 0x007D2250
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetDialogueVolumeLevel
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3629,7 +3629,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDE50
+	 * 		RVA    -> 0x007D21E0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetDeployMenuKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3651,7 +3651,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDDE0
+	 * 		RVA    -> 0x007D2170
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetCycleWeaponSightsKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3673,7 +3673,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDC30
+	 * 		RVA    -> 0x007D1FC0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetCrouchToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3695,7 +3695,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDBC0
+	 * 		RVA    -> 0x007D1F50
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetCrouchKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3717,7 +3717,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDB50
+	 * 		RVA    -> 0x007D1EE0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetConsoleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3739,7 +3739,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDAE0
+	 * 		RVA    -> 0x007D1E70
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetCameraToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3761,7 +3761,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDA70
+	 * 		RVA    -> 0x007D1E00
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetAimDownSightsToggleKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3783,7 +3783,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CDA00
+	 * 		RVA    -> 0x007D1D90
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.GetAimDownSightsKeyBinding
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -3805,7 +3805,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CD8F0
+	 * 		RVA    -> 0x007D1C80
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.FirstRunHardwareBenchmark
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3834,7 +3834,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007CD860
+	 * 		RVA    -> 0x007D1BF0
 	 * 		Name   -> Function Tinkerbox.TBGameUserSettings.EnableHeadphoneMode
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -3885,7 +3885,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function Tinkerbox.TBVoiceIndicator.ActiveVoiceRemoved
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -3909,7 +3909,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> Function Tinkerbox.TBVoiceIndicator.ActiveVoiceAdded
 	 * 		Flags  -> (Event, Protected, BlueprintEvent)
 	 * Parameters:
@@ -3947,7 +3947,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D4030
+	 * 		RVA    -> 0x007D83C0
 	 * 		Name   -> Function Tinkerbox.TBVoiceIndicatorListing.Init
 	 * 		Flags  -> (Final, Native, Public, HasOutParms, BlueprintCallable)
 	 * Parameters:

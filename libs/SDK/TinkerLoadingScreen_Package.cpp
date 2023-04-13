@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -26,7 +26,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00809BD0
+	 * 		RVA    -> 0x0080DEE0
 	 * 		Name   -> Function TinkerLoadingScreen.LoadingScreenWidgetInterface.SetLoadingScreenDescription
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:
@@ -49,7 +49,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00809AB0
+	 * 		RVA    -> 0x0080DDC0
 	 * 		Name   -> Function TinkerLoadingScreen.LoadingScreenWidgetInterface.SetLevelLoadData
 	 * 		Flags  -> (Native, Event, Public, HasOutParms, BlueprintEvent)
 	 * Parameters:

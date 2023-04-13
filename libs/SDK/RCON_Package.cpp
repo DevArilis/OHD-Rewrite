@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9220
+	 * 		RVA    -> 0x006ED2B0
 	 * 		Name   -> Function RCON.RCONServerSystem.Shutdown
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -32,7 +32,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D9810
+	 * 		RVA    -> 0x007DDBA0
 	 * 		Name   -> Function RCON.RCONServerSystem.Init
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */

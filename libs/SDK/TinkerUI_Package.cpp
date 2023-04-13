@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00811C60
+	 * 		RVA    -> 0x00815F70
 	 * 		Name   -> Function TinkerUI.TBButton.StopDoubleClickPropagation
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -32,7 +32,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00811AC0
+	 * 		RVA    -> 0x00815DD0
 	 * 		Name   -> Function TinkerUI.TBButton.SetIsInteractionEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -55,7 +55,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00811A30
+	 * 		RVA    -> 0x00815D40
 	 * 		Name   -> Function TinkerUI.TBButton.SetIsFocusable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -78,7 +78,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00811A00
+	 * 		RVA    -> 0x00815D10
 	 * 		Name   -> Function TinkerUI.TBButton.IsInteractionEnabled
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -100,7 +100,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x008119D0
+	 * 		RVA    -> 0x00815CE0
 	 * 		Name   -> Function TinkerUI.TBButton.GetIsFocusable
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -150,7 +150,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00811BE0
+	 * 		RVA    -> 0x00815EF0
 	 * 		Name   -> Function TinkerUI.TBSlider.SetSliderFgBarColor
 	 * 		Flags  -> (Final, Native, Public, HasDefaults, BlueprintCallable)
 	 * Parameters:
@@ -173,7 +173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00811B50
+	 * 		RVA    -> 0x00815E60
 	 * 		Name   -> Function TinkerUI.TBSlider.SetMouseUsesStep
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:

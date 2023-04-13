@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -16,7 +16,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * BlueprintGeneratedClass BP_Proj_DefaultWeap.BP_Proj_DefaultWeap_C
-	 * Size -> 0x0000 (FullSize[0x0370] - InheritedSize[0x0370])
+	 * Size -> 0x0000 (FullSize[0x0380] - InheritedSize[0x0380])
 	 */
 	class ABP_Proj_DefaultWeap_C : public ADFBaseProjectile
 	{

@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -12,7 +12,7 @@ namespace CG
 	// --------------------------------------------------
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9220
+	 * 		RVA    -> 0x006ED2B0
 	 * 		Name   -> Function MRMesh.MeshReconstructorBase.StopReconstruction
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -32,7 +32,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x007D9810
+	 * 		RVA    -> 0x007DDBA0
 	 * 		Name   -> Function MRMesh.MeshReconstructorBase.StartReconstruction
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -52,7 +52,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006E9240
+	 * 		RVA    -> 0x006ED2D0
 	 * 		Name   -> Function MRMesh.MeshReconstructorBase.PauseReconstruction
 	 * 		Flags  -> (Native, Public, BlueprintCallable)
 	 */
@@ -72,7 +72,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00801F20
+	 * 		RVA    -> 0x008062B0
 	 * 		Name   -> Function MRMesh.MeshReconstructorBase.IsReconstructionStarted
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -94,7 +94,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00792F90
+	 * 		RVA    -> 0x00797460
 	 * 		Name   -> Function MRMesh.MeshReconstructorBase.IsReconstructionPaused
 	 * 		Flags  -> (Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -116,7 +116,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0197F0E0
+	 * 		RVA    -> 0x01983460
 	 * 		Name   -> Function MRMesh.MeshReconstructorBase.DisconnectMRMesh
 	 * 		Flags  -> (Native, Public)
 	 */
@@ -136,7 +136,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x006DBDB0
+	 * 		RVA    -> 0x006DFE50
 	 * 		Name   -> Function MRMesh.MeshReconstructorBase.ConnectMRMesh
 	 * 		Flags  -> (Native, Public)
 	 * Parameters:
@@ -173,7 +173,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x00EC1160
+	 * 		RVA    -> 0x00EC54E0
 	 * 		Name   -> DelegateFunction MRMesh.MockDataMeshTrackerComponent.OnMockDataMeshTrackerUpdated__DelegateSignature
 	 * 		Flags  -> (MulticastDelegate, Public, Delegate, HasOutParms)
 	 * Parameters:
@@ -203,7 +203,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0197F100
+	 * 		RVA    -> 0x01983480
 	 * 		Name   -> Function MRMesh.MockDataMeshTrackerComponent.DisconnectMRMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -226,7 +226,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0197F060
+	 * 		RVA    -> 0x019833E0
 	 * 		Name   -> Function MRMesh.MockDataMeshTrackerComponent.ConnectMRMesh
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 * Parameters:
@@ -263,7 +263,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0197F1A0
+	 * 		RVA    -> 0x01983520
 	 * 		Name   -> Function MRMesh.MRMeshComponent.IsConnected
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable, BlueprintPure, Const)
 	 */
@@ -285,7 +285,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0197F180
+	 * 		RVA    -> 0x01983500
 	 * 		Name   -> Function MRMesh.MRMeshComponent.ForceNavMeshUpdate
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */
@@ -305,7 +305,7 @@ namespace CG
 
 	/**
 	 * Function:
-	 * 		RVA    -> 0x0197F030
+	 * 		RVA    -> 0x019833B0
 	 * 		Name   -> Function MRMesh.MRMeshComponent.Clear
 	 * 		Flags  -> (Final, Native, Public, BlueprintCallable)
 	 */

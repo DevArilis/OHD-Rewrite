@@ -2,7 +2,7 @@
 
 /**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #ifdef _MSC_VER
@@ -24,9 +24,9 @@ namespace CG
 		struct FArcVehicleSeatReference                            CurrentSeatConfig;                                       // 0x00B0(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, Net, DisableEditOnInstance, EditConst, RepNotify, NoDestructor, NativeAccessSpecifierPublic
 		struct FArcVehicleSeatReference                            PreviousSeatConfig;                                      // 0x00C0(0x0010) Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance, EditConst, NoDestructor, NativeAccessSpecifierPublic
 		class APlayerState*                                        StoredPlayerState;                                       // 0x00D0(0x0008) Edit, BlueprintVisible, BlueprintReadOnly, Net, ZeroConstructor, DisableEditOnInstance, EditConst, IsPlainOldData, RepNotify, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_SXH8[0x58];                                  // 0x00D8(0x0058) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_4PPV[0x58];                                  // 0x00D8(0x0058) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TArray<class FString>                                      ServerDebugStrings;                                      // 0x0130(0x0010) Net, ZeroConstructor, RepNotify, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_U61Q[0x8];                                   // 0x0140(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_H9LP[0x8];                                   // 0x0140(0x0008) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		TMap<class UPrimitiveComponent*, ECollisionResponse>       PreviousVehicleCollisionResponses;                       // 0x0148(0x0050) ContainsInstancedReference, Protected, NativeAccessSpecifierProtected
 
 	public:
@@ -114,7 +114,7 @@ namespace CG
 	class UArcVehicleEngineSubsystem : public UEngineSubsystem
 	{
 	public:
-		unsigned char                                              UnknownData_4B58[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_FXHO[0x10];                                  // 0x0030(0x0010) MISSED OFFSET (PADDING)
 
 	public:
 		static UClass* StaticClass();
@@ -167,7 +167,7 @@ namespace CG
 		class APlayerState*                                        PlayerInSeat;                                            // 0x00C0(0x0008) Edit, ZeroConstructor, DisableEditOnTemplate, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		class UArcVehiclePlayerSeatComponent*                      PlayerSeatComponent;                                     // 0x00C8(0x0008) ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bPlayerVisible;                                          // 0x00D0(0x0001) Edit, BlueprintVisible, Net, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_9KR3[0x7];                                   // 0x00D1(0x0007) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_14JZ[0x7];                                   // 0x00D1(0x0007) MISSED OFFSET (PADDING)
 
 	public:
 		void UnAttachPlayerFromSeat(class APlayerState* Player);
@@ -201,7 +201,7 @@ namespace CG
 		class UClass*                                              SeatPawnClass;                                           // 0x00D8(0x0008) Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FArcOwnerAttachmentReference                        PlayerCharacterAttachToComponent;                        // 0x00E0(0x0010) Edit, BlueprintVisible, Net, DisableEditOnInstance, NoDestructor, NativeAccessSpecifierPublic
 		bool                                                       bResetControlRotationOnEnter;                            // 0x00F0(0x0001) Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_BF57[0x7];                                   // 0x00F1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_U20G[0x7];                                   // 0x00F1(0x0007) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class AArcVehiclePawn*                                     SeatPawn;                                                // 0x00F8(0x0008) Net, ZeroConstructor, IsPlainOldData, RepNotify, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 
 	public:
@@ -220,13 +220,13 @@ namespace CG
 		bool                                                       bIgnorePitch;                                            // 0x0139(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIgnoreYaw;                                              // 0x013A(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		bool                                                       bIgnoreRoll;                                             // 0x013B(0x0001) Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_ZXIQ[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_VLUF[0x4];                                   // 0x013C(0x0004) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USceneComponent*                                     UpdatedPitchComponent;                                   // 0x0140(0x0008) Edit, BlueprintVisible, ExportObject, ZeroConstructor, DisableEditOnTemplate, Transient, EditConst, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic
 		struct FRotator                                            RotationRate;                                            // 0x0148(0x000C) Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic
-		unsigned char                                              UnknownData_GZ3G[0x2C];                                  // 0x0154(0x002C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
+		unsigned char                                              UnknownData_BLGE[0x2C];                                  // 0x0154(0x002C) MISSED OFFSET (FIX SPACE BETWEEN PREVIOUS PROPERTY)
 		class USceneComponent*                                     CurrentBase;                                             // 0x0180(0x0008) ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected
 		struct FArcVehicleTurretMovementPostPhysicsTickFunction    PostPhysicsTickFunction;                                 // 0x0188(0x0030) NativeAccessSpecifierPrivate
-		unsigned char                                              UnknownData_EGUS[0x8];                                   // 0x01B8(0x0008) MISSED OFFSET (PADDING)
+		unsigned char                                              UnknownData_YNRS[0x8];                                   // 0x01B8(0x0008) MISSED OFFSET (PADDING)
 
 	public:
 		void Server_ServerMove(const struct FRotator& FullRotation);

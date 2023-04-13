@@ -1,6 +1,6 @@
 ﻿/**
  * Name: Operation__Harsh_Doorstop
- * Version: 4.25.4
+ * Version: 4.25.4_v0.12.0.0
  */
 
 #include "pch.h"
@@ -36,7 +36,7 @@ namespace CG
 	 */
 	bool InitSdk()
 	{
-		return InitSdk(L"HarshDoorstop-Win64-Shipping.exe", 0x41E4D88, 0x41CC340, 0x4327088);
+		return InitSdk(L"HarshDoorstop-Win64-Shipping.exe", 0x41EA188, 0x41D1740, 0x432C488);
 	}
 
 	// --------------------------------------------------
